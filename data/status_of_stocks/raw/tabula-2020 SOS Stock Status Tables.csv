@@ -1,0 +1,775 @@
+Jurisdiction,FMP,Stock,"Overfishing?(Is FishingMortalityaboveThreshold?)","Overfished?(Is Biomass               belowThreshold?)","A  p  p   r o  a  c  h  i n  gOverfished","ManagementActionRequired","RebuildingProgramProgress",B/BMSY,Points
+Atlantic HMS,"Consolidated Atlantic HighlyMigratory Species","Atlantic sharpnose shark -Atlantic",No,No,No,NA,NA,2.08,4
+Atlantic HMS,"Consolidated Atlantic HighlyMigratory Species","Atlantic sharpnose shark -Gulf of Mexico",No,No,No,NA,NA,1.02,4
+Atlantic HMS,"Consolidated Atlantic HighlyMigratory Species",Blacknose shark - Atlantic,Yes,Yes,NA,"ReduceMortality,ContinueRebuilding","Year 8 of 30-year plan",0.43-0.64,1
+Atlantic HMS,"Consolidated Atlantic HighlyMigratory Species",Blacktip shark - Atlantic,Unknown,Unknown,Unknown,NA,NA,"notestimated",0
+Atlantic HMS,"Consolidated Atlantic HighlyMigratory Species","Blacktip shark - Gulf ofMexico",No,No,No,NA,NA,2.62,4
+Atlantic HMS,"Consolidated Atlantic HighlyMigratory Species","Finetooth shark - Atlanticand Gulf of Mexico",No,No,No,NA,NA,1.30,4
+Atlantic HMS,"Consolidated Atlantic HighlyMigratory Species","Great hammerhead - Atlanticand Gulf of Mexico",Unknown,Unknown,Unknown,NA,NA,"notestimated",0
+Atlantic HMS,"Consolidated Atlantic HighlyMigratory Species","Lemon shark - Atlantic andGulf of Mexico",Unknown,Unknown,Unknown,NA,NA,"notestimated",0
+Atlantic HMS,"Consolidated Atlantic HighlyMigratory Species","Sandbar shark - Atlantic andGulf of Mexico",No,Yes,NA,"ContinueRebuilding","Year 16 of 66year plan",0.77,2
+Atlantic HMS,"Consolidated Atlantic HighlyMigratory Species","Scalloped hammerhead -Atlantic and Gulf of Mexico",Yes,Yes,NA,"ReduceMortality,ContinueRebuilding","Year 8 of 10-year plan",0.45,1
+Atlantic HMS,"Consolidated Atlantic HighlyMigratory Species",Smooth dogfish - Atlantic,No,No,No,NA,NA,2.29,4
+Atlantic HMS,"Consolidated Atlantic HighlyMigratory Species","Smooth hammerhead -Atlantic and Gulf of Mexico",Unknown,Unknown,Unknown,NA,NA,"notestimated",0
+Jurisdiction,FMP,Stock,"Overfishing?(Is FishingMortalityaboveThreshold?)","Overfished?(Is Biomass               belowThreshold?)","A  p  p   r o  a  c  h  i n  gOverfished","ManagementActionRequired","RebuildingProgramProgress",B/BMSY,Points
+CFMC,"Spiny Lobster Fishery ofPuerto Rico and the U.S.Virgin Islands","Caribbean spiny lobster - St.Croix",No,No,No,NA,NA,1.96,4
+CFMC,"Spiny Lobster Fishery ofPuerto Rico and the U.S.Virgin Islands","Caribbean spiny lobster - St.Thomas / St. John",No,No,No,NA,NA,1.55,4
+GMFMC,"Reef Fish Resources of theGulf of Mexico",Gag - Gulf of Mexico,No,No,No,NA,NA,1.78,4
+GMFMC,"Reef Fish Resources of theGulf of Mexico","Gray snapper - Gulf ofMexico",No,No,No,NA,NA,0.70,3
+GMFMC,"Reef Fish Resources of theGulf of Mexico","Gray triggerfish - Gulf ofMexico *",No,"No -Rebuilding",No,"ContinueRebuilding","Year 3 of 8-year plan",0.58,3
+GMFMC,"Reef Fish Resources of theGulf of Mexico","Greater amberjack - Gulf ofMexico *",No,Yes,NA,"ContinueRebuilding","Year 3 of 10-year plan",0.29,2
+GMFMC,"Reef Fish Resources of theGulf of Mexico","Hogfish - Eastern Gulf ofMexico",No,No,No,NA,NA,2.36,4
+GMFMC,"Reef Fish Resources of theGulf of Mexico","Lane snapper - Gulf ofMexico",Yes,Unknown,Unknown,"Reducemortality",NA,"notestimated",0.5
+GMFMC,"Reef Fish Resources of theGulf of Mexico","Red grouper - Gulf ofMexico",No,No,No,NA,NA,0.82,4
+GMFMC,"Reef Fish Resources of theGulf of Mexico","Red snapper - Gulf ofMexico *",No,"No -Rebuilding",No,"ContinueRebuilding","Year 16 of 28year plan",0.70,3
+GMFMC,"Reef Fish Resources of theGulf of Mexico",Tilefish - Gulf of Mexico *,No,No,Unknown,NA,NA,2.30,4
+GMFMC,"Reef Fish Resources of theGulf of Mexico","Vermilion snapper - Gulf ofMexico",No,No,No,NA,NA,1.75,4
+GMFMC,"Reef Fish Resources of theGulf of Mexico","Yellowedge grouper - Gulf ofMexico *",No,No,No,NA,NA,1.11,4
+GMFMC,"Shrimp Fishery of the Gulfof Mexico","Brown shrimp - Gulf ofMexico",No,No,No,NA,NA,4.39,4
+Jurisdiction,FMP,Stock,"Overfishing?(Is FishingMortalityaboveThreshold?)","Overfished?(Is Biomass               belowThreshold?)","A  p  p   r o  a  c  h  i n  gOverfished","ManagementActionRequired","RebuildingProgramProgress",B/BMSY,Points
+GMFMC,"Shrimp Fishery of the Gulfof Mexico","Royal red shrimp - Gulf ofMexico",No,Unknown,Unknown,NA,NA,"notestimated",1.5
+GMFMC,"Shrimp Fishery of the Gulfof Mexico","White shrimp - Gulf ofMexico",No,No,No,NA,NA,1.76,4
+MAFMC,"Mackerel, Squid andButterfish","Atlantic mackerel - Gulf ofMaine / Cape Hatteras",Yes,Yes,NA,"ReduceMortality,ContinueRebuilding","Year 2 of 5-year plan",0.22,1
+MAFMC,"Mackerel, Squid andButterfish","Butterfish - Gulf of Maine /Cape Hatteras",No,No,No,NA,NA,1.41,4
+MAFMC,"Mackerel, Squid andButterfish","Longfin inshore squid -Georges Bank / CapeHatteras",Unknown,No,No,NA,NA,1.74,2.5
+MAFMC,"Mackerel, Squid andButterfish","Northern shortfin squid -Northwestern Atlantic Coast*",No,Unknown,Unknown,NA,NA,"notestimated",1.5
+MAFMC,"Atlantic Surfclam and OceanQuahog","Atlantic surfclam - Mid-Atlantic Coast",No,No,No,NA,NA,2.54,4
+MAFMC,"Atlantic Surfclam and OceanQuahog","Ocean quahog - AtlanticCoast",No,No,No,NA,NA,1.63,4
+MAFMC,Bluefish,Bluefish - Atlantic Coast *,No,Yes,NA,"RebuildingProgram",NA,0.46,2
+MAFMC,"Summer Flounder, Scup andBlack Sea Bass","Black sea bass - Mid-AtlanticCoast",No,No,No,NA,NA,2.37,4
+MAFMC,"Summer Flounder, Scup andBlack Sea Bass",Scup - Atlantic Coast,No,No,No,NA,NA,1.98,4
+MAFMC,"Summer Flounder, Scup andBlack Sea Bass","Summer flounder - Mid-Atlantic Coast",No,No,No,NA,NA,0.78,3
+MAFMC,Tilefish,Tilefish - Mid-Atlantic Coast,No,No,No,NA,NA,0.89,4
+Jurisdiction,FMP,Stock,"Overfishing?(Is FishingMortalityaboveThreshold?)","Overfished?(Is Biomass               belowThreshold?)","A  p  p   r o  a  c  h  i n  gOverfished","ManagementActionRequired","RebuildingProgramProgress",B/BMSY,Points
+NEFMC,Atlantic Sea Scallop,"Sea scallop - NorthwesternAtlantic Coast",No,No,No,NA,NA,2.72,4
+NEFMC,Northeast Multispecies,"Acadian redfish - Gulf ofMaine / Georges Bank",No,No,No,NA,NA,1.54,4
+NEFMC,Northeast Multispecies,"American plaice - Gulf ofMaine / Georges Bank",No,No,No,NA,NA,1.16,4
+NEFMC,Northeast Multispecies,Atlantic cod - Georges Bank*,Yes,Yes,NA,"ReduceMortality,ContinueRebuilding","Year 17 of 23year plan",0.07,1
+NEFMC,Northeast Multispecies,Atlantic cod - Gulf of Maine*,Yes,Yes,NA,"ReduceMortality,ContinueRebuilding","Year 7 of 10-year plan",0.06-0.09,1
+NEFMC,Northeast Multispecies,"Atlantic halibut -Northwestern Atlantic Coast*",No,Yes,NA,"ContinueRebuilding","Year 17 of 52year plan",0.03,2
+NEFMC,Northeast Multispecies,Haddock - Georges Bank,No,No,No,NA,NA,3.65,4
+NEFMC,Northeast Multispecies,Haddock - Gulf of Maine,No,No,No,NA,NA,10.35,4
+NEFMC,Northeast Multispecies,"Pollock - Gulf of Maine /Georges Bank",No,No,No,NA,NA,1.70,4
+NEFMC,Northeast Multispecies,"Red hake - Southern GeorgesBank / Mid-Atlantic *",Yes,Yes,NA,"ReduceMortality,RebuildingProgram",NA,0.37,1
+NEFMC,Northeast Multispecies,"Silver hake - Gulf of Maine /Northern Georges Bank",No,No,No,NA,NA,3.10,4
+NEFMC,Northeast Multispecies,"Silver hake - SouthernGeorges Bank / Mid-Atlantic",No,No,No,NA,NA,0.64,3
+Jurisdiction,FMP,Stock,"Overfishing?(Is FishingMortalityaboveThreshold?)","Overfished?(Is Biomass               belowThreshold?)","A  p  p   r o  a  c  h  i n  gOverfished","ManagementActionRequired","RebuildingProgramProgress",B/BMSY,Points
+NEFMC,Northeast Multispecies,"Winter flounder - GeorgesBank *",No,Yes,NA,"ContinueRebuilding","Year 2 of 10-year plan",0.24,2
+NEFMC,Northeast Multispecies,"Winter flounder - Gulf ofMaine",No,Unknown,Unknown,NA,NA,"notestimated",1.5
+NEFMC,Northeast Multispecies,"Winter flounder - SouthernNew England / Mid-Atlantic*",No,Yes,NA,"ContinueRebuilding","Year 8 of 10-year plan",0.18,2
+NEFMC,Northeast Multispecies,"Witch flounder -Northwestern Atlantic Coast*",Unknown,Yes,NA,"ContinueRebuilding","Year 2 of 23-year plan",<<1,0.5
+NEFMC,Northeast Multispecies,"Yellowtail flounder - CapeCod / Gulf of Maine",No,"No -Rebuilding",No,"ContinueRebuilding","Year 17 of 19year plan",0.62,3
+NEFMC,Northeast Multispecies,"Yellowtail flounder -Southern New England /Mid-Atlantic *",No,Yes,NA,"ContinueRebuilding","Year 2 of 10-year plan",0.05,2
+NEFMC,Northeast Skate Complex,"Little skate - Georges Bank /Southern New England",No,No,No,NA,NA,0.87,4
+NEFMC,Northeast Skate Complex,"Winter skate - Georges Bank/ Southern New England",No,No,No,NA,NA,1.52,4
+"NEFMC /MAFMC",Monkfish,"Goosefish - Gulf of Maine /Northern Georges Bank *",No,No,No,NA,NA,1.31,4
+"NEFMC /MAFMC",Monkfish,"Goosefish - SouthernGeorges Bank / Mid-Atlantic*",No,No,No,NA,NA,1.55,4
+"NEFMC /MAFMC",Spiny Dogfish,Spiny dogfish - Atlantic Coast,No,No,No,NA,NA,0.67,3
+NPFMC,"Bering Sea/Aleutian IslandsKing and Tanner Crabs","Golden king crab - AleutianIslands *",No,No,No,NA,NA,"1.551.11",4
+Jurisdiction,FMP,Stock,"Overfishing?(Is FishingMortalityaboveThreshold?)","Overfished?(Is Biomass               belowThreshold?)","A  p  p   r o  a  c  h  i n  gOverfished","ManagementActionRequired","RebuildingProgramProgress",B/BMSY,Points
+NPFMC,"Bering Sea/Aleutian IslandsKing and Tanner Crabs","Red king crab - NortonSound",No,No,No,NA,NA,0.80,4
+NPFMC,"Bering Sea/Aleutian IslandsKing and Tanner Crabs",Snow crab - Bering Sea,No,No,No,NA,NA,1.33,4
+NPFMC,"Bering Sea/Aleutian IslandsKing and Tanner Crabs","Southern Tanner crab -Bering Sea",No,No,No,NA,NA,0.96,4
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area","Alaska plaice - Bering Sea /Aleutian Islands",No,No,No,NA,NA,1.84,4
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area","Arrowtooth flounder - BeringSea / Aleutian Islands",No,No,No,NA,NA,2.35,4
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area","Atka mackerel - Bering Sea /Aleutian Islands",No,No,No,NA,NA,1.24,4
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area","Bering Sea / Aleutian IslandsFlathead Sole Complex *",No,No,No,NA,NA,2.08,4
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area","Bering Sea / Aleutian IslandsRock Sole Complex*",No,No,No,NA,NA,2.47,4
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area","Bering Sea / Aleutian IslandsSkate Complex *",No,No,No,NA,NA,1.70,4
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area","Greenland halibut - BeringSea / Aleutian Islands",No,No,No,NA,NA,1.59,4
+Jurisdiction,FMP,Stock,"Overfishing?(Is FishingMortalityaboveThreshold?)","Overfished?(Is Biomass               belowThreshold?)","A  p  p   r o  a  c  h  i n  gOverfished","ManagementActionRequired","RebuildingProgramProgress",B/BMSY,Points
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area","Northern rockfish - BeringSea / Aleutian Islands",No,No,No,NA,NA,1.89,4
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area",Pacific cod - Aleutian Islands,No,Unknown,Unknown,NA,NA,"notestimated",1.5
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area",Pacific cod - Bering Sea,No,No,No,NA,NA,1.32,4
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area","Pacific ocean perch - BeringSea / Aleutian Islands",No,No,No,NA,NA,1.81,4
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area","Walleye pollock - AleutianIslands",No,No,No,NA,NA,1.26,4
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area",Walleye pollock - Bogoslof,No,Unknown,Unknown,NA,NA,"notestimated",1.5
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area","Walleye pollock - EasternBering Sea",No,No,No,NA,NA,1.56,4
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area","Yellowfin sole - Bering Sea /Aleutian Islands",No,No,No,NA,NA,1.86,4
+NPFMC,"Groundfish of the BeringSea and Aleutian IslandsManagement Area /Groundfish of the Gulf ofAlaska","Sablefish - Eastern BeringSea / Aleutian Islands / Gulfof Alaska *",No,No,No,NA,NA,0.93,4
+NPFMC,"Groundfish of the Gulf ofAlaska","Arrowtooth flounder - Gulfof Alaska",No,No,No,NA,NA,2.85,4
+Jurisdiction,FMP,Stock,"Overfishing?(Is FishingMortalityaboveThreshold?)","Overfished?(Is Biomass               belowThreshold?)","A  p  p   r o  a  c  h  i n  gOverfished","ManagementActionRequired","RebuildingProgramProgress",B/BMSY,Points
+NPFMC,"Groundfish of the Gulf ofAlaska","Flathead sole - Gulf ofAlaska",No,No,No,NA,NA,2.60,4
+NPFMC,"Groundfish of the Gulf ofAlaska","Gulf of Alaska Blackspottedand Rougheye RockfishComplex *",No,No,No,NA,NA,1.96,4
+NPFMC,"Groundfish of the Gulf ofAlaska","Gulf of Alaska DemersalShelf Rockfish Complex *",No,Unknown,Unknown,NA,NA,"notestimated",1.5
+NPFMC,"Groundfish of the Gulf ofAlaska","Gulf of Alaska Shallow WaterFlatfish Complex *",No,No,No,NA,NA,2.32,4
+NPFMC,"Groundfish of the Gulf ofAlaska","Gulf of Alaska ThornyheadRockfish Complex *",No,Unknown,Unknown,NA,NA,"notestimated",1.5
+NPFMC,"Groundfish of the Gulf ofAlaska","Northern rockfish - Western/ Central Gulf of Alaska",No,No,No,NA,NA,1.49,4
+NPFMC,"Groundfish of the Gulf ofAlaska",Pacific cod - Gulf of Alaska,No,No,No,NA,NA,0.66,3
+NPFMC,"Groundfish of the Gulf ofAlaska","Pacific ocean perch - Gulf ofAlaska",No,No,No,NA,NA,1.75,4
+NPFMC,"Groundfish of the Gulf ofAlaska",Rex sole - Gulf of Alaska,No,No,No,NA,NA,2.36,4
+NPFMC,"Groundfish of the Gulf ofAlaska","Shortraker rockfish - Gulf ofAlaska",No,Unknown,Unknown,NA,NA,"notestimated",1.5
+NPFMC,"Groundfish of the Gulf ofAlaska","Walleye pollock - Western /Central / West Yakutat Gulfof Alaska",No,No,No,NA,NA,1.68,4
+PFMC,Coastal Pelagic Species,"Northern anchovy - SouthernPacific Coast",No,Unknown,Unknown,NA,NA,"notestimated",1.5
+PFMC,Coastal Pelagic Species,"Pacific chub mackerel -Pacific Coast *",No,No,No,NA,NA,"notestimated",4
+PFMC,Coastal Pelagic Species,"Pacific sardine - NorthernSubpopulation *",No,Yes,NA,"RebuildingProgram",NA,"notestimated",2
+Jurisdiction,FMP,Stock,"Overfishing?(Is FishingMortalityaboveThreshold?)","Overfished?(Is Biomass               belowThreshold?)","A  p  p   r o  a  c  h  i n  gOverfished","ManagementActionRequired","RebuildingProgramProgress",B/BMSY,Points
+PFMC,Pacific Coast Groundfish,"Aurora rockfish - PacificCoast",Unknown,No,No,NA,NA,1.59,2.5
+PFMC,Pacific Coast Groundfish,Big skate - Pacific Coast,No,No,No,NA,NA,1.98,4
+PFMC,Pacific Coast Groundfish,Black rockfish - California,No,No,No,NA,NA,0.83,4
+PFMC,Pacific Coast Groundfish,Black rockfish - Oregon,No,No,No,NA,NA,1.51,4
+PFMC,Pacific Coast Groundfish,"Blackgill rockfish - SouthernCalifornia",Unknown,No,No,NA,NA,0.98,2.5
+PFMC,Pacific Coast Groundfish,"Bocaccio - Southern PacificCoast",No,No,No,NA,NA,1.22,4
+PFMC,Pacific Coast Groundfish,"Brown rockfish - PacificCoast",Unknown,No,No,NA,NA,1.06,2.5
+PFMC,Pacific Coast Groundfish,Cabezon - California,No,No,No,NA,NA,"1.631.23",4
+PFMC,Pacific Coast Groundfish,Cabezon - Oregon,No,No,No,NA,NA,1.32,4
+PFMC,Pacific Coast Groundfish,"California Blue and DeaconRockfish Complex *",Unknown,No,No,NA,NA,0.93,2.5
+PFMC,Pacific Coast Groundfish,"California scorpionfish -Southern California",No,No,No,NA,NA,1.36,4
+PFMC,Pacific Coast Groundfish,"Canary rockfish - PacificCoast",No,No,No,NA,NA,1.39,4
+PFMC,Pacific Coast Groundfish,"Chilipepper - SouthernPacific Coast",No,No,No,NA,NA,1.73,4
+PFMC,Pacific Coast Groundfish,"Cowcod - SouthernCalifornia",No,No,No,NA,NA,2.86,4
+PFMC,Pacific Coast Groundfish,"Darkblotched rockfish -Pacific Coast",No,No,No,NA,NA,1.00,4
+PFMC,Pacific Coast Groundfish,Dover sole - Pacific Coast,No,No,No,NA,NA,3.35,4
+PFMC,Pacific Coast Groundfish,English sole - Pacific Coast,No,No,No,NA,NA,3.52,4
+PFMC,Pacific Coast Groundfish,"Gopher rockfish - NorthernCalifornia",Unknown,No,Unknown,NA,NA,2.42,2.5
+Jurisdiction,FMP,Stock,"Overfishing?(Is FishingMortalityaboveThreshold?)","Overfished?(Is Biomass               belowThreshold?)","A  p  p   r o  a  c  h  i n  gOverfished","ManagementActionRequired","RebuildingProgramProgress",B/BMSY,Points
+PFMC,Pacific Coast Groundfish,"Lingcod - Northern PacificCoast",No,No,No,NA,NA,1.45,4
+PFMC,Pacific Coast Groundfish,"Lingcod - Southern PacificCoast",No,No,No,NA,NA,0.82,4
+PFMC,Pacific Coast Groundfish,"Longnose skate - PacificCoast",No,No,No,NA,NA,2.83,4
+PFMC,Pacific Coast Groundfish,"Longspine thornyhead -Pacific Coast",No,No,No,NA,NA,1.88,4
+PFMC,Pacific Coast Groundfish,"Oregon Blue and DeaconRockfish Complex *",Unknown,No,No,NA,NA,1.71,2.5
+PFMC,Pacific Coast Groundfish,"Pacific ocean perch - PacificCoast",No,No,No,NA,NA,1.92,4
+PFMC,Pacific Coast Groundfish,"Pacific sanddab - PacificCoast",Unknown,No,No,NA,NA,>1,2.5
+PFMC,Pacific Coast Groundfish,Petrale sole - Pacific Coast,No,No,No,NA,NA,1.23,4
+PFMC,Pacific Coast Groundfish,Rex sole - Pacific Coast,Unknown,No,No,NA,NA,3.20,2.5
+PFMC,Pacific Coast Groundfish,Sablefish - Pacific Coast,No,No,No,NA,NA,0.97,4
+PFMC,Pacific Coast Groundfish,"Sharpchin rockfish - PacificCoast",Unknown,No,No,NA,NA,1.70,2.5
+PFMC,Pacific Coast Groundfish,"Shortbelly rockfish - PacificCoast",No,No,No,NA,NA,1.67,4
+PFMC,Pacific Coast Groundfish,"Shortspine thornyhead -Pacific Coast",No,No,No,NA,NA,1.85,4
+PFMC,Pacific Coast Groundfish,Spiny dogfish - Pacific Coast,No,No,No,NA,NA,1.58,4
+PFMC,Pacific Coast Groundfish,"Stripetail rockfish - PacificCoast",Unknown,No,No,NA,NA,"notestimated",2.5
+PFMC,Pacific Coast Groundfish,"Vermilion rockfish -California",Unknown,Unknown,Unknown,NA,NA,"notestimated",0
+PFMC,Pacific Coast Groundfish,"Widow rockfish - PacificCoast",No,No,No,NA,NA,2.30,4
+Jurisdiction,FMP,Stock,"Overfishing?(Is FishingMortalityaboveThreshold?)","Overfished?(Is Biomass               belowThreshold?)","A  p  p   r o  a  c  h  i n  gOverfished","ManagementActionRequired","RebuildingProgramProgress",B/BMSY,Points
+PFMC,Pacific Coast Salmon,"Chinook salmon - CaliforniaCentral Valley: SacramentoRiver Fall *",No,Yes,NA,"ContinueRebuilding","Year 2 of 3-year plan",0.74,2
+PFMC,Pacific Coast Salmon,"Chinook salmon - NorthernCalifornia Coast: KlamathRiver Fall *",No,Yes,NA,"ContinueRebuilding","Year 2 of 2-year plan",0.48,2
+SAFMC,"Dolphin and Wahoo Fisheryof the Atlantic","Dolphinfish - SouthernAtlantic Coast",No,No,No,NA,NA,1.56,4
+SAFMC,"Shrimp Fishery of the SouthAtlantic Region","Brown rock shrimp -Southern Atlantic Coast",No,Unknown,Unknown,NA,NA,"notestimated",1.5
+SAFMC,"Shrimp Fishery of the SouthAtlantic Region","Brown shrimp - SouthernAtlantic Coast",No,No,No,NA,NA,6.65,4
+SAFMC,"Shrimp Fishery of the SouthAtlantic Region","Pink shrimp - SouthernAtlantic Coast",No,No,No,NA,NA,5.39,4
+SAFMC,"Shrimp Fishery of the SouthAtlantic Region","White shrimp - SouthernAtlantic Coast",No,No,No,NA,NA,8.33,4
+SAFMC,"Snapper-Grouper Fishery ofthe South Atlantic Region","Black sea bass - SouthernAtlantic Coast",No,No,No,NA,NA,0.71,3
+SAFMC,"Snapper-Grouper Fishery ofthe South Atlantic Region","Blueline tilefish - SouthernAtlantic Coast *",No,No,No,NA,NA,1.06,4
+SAFMC,"Snapper-Grouper Fishery ofthe South Atlantic Region","Gag - Southern AtlanticCoast",No,No,No,NA,NA,0.97,4
+SAFMC,"Snapper-Grouper Fishery ofthe South Atlantic Region","Gray triggerfish - SouthernAtlantic Coast *",No,Unknown,Unknown,NA,NA,"notestimated",1.5
+Jurisdiction,FMP,Stock,"Overfishing?(Is FishingMortalityaboveThreshold?)","Overfished?(Is Biomass               belowThreshold?)","A  p  p   r o  a  c  h  i n  gOverfished","ManagementActionRequired","RebuildingProgramProgress",B/BMSY,Points
+SAFMC,"Snapper-Grouper Fishery ofthe South Atlantic Region","Red grouper - SouthernAtlantic Coast",No,Yes,NA,"ContinueRebuilding","Year 9 of 9-year plan",0.29,2
+SAFMC,"Snapper-Grouper Fishery ofthe South Atlantic Region","Red porgy - SouthernAtlantic Coast *",Yes,Yes,No,"ReduceMortality,ContinueRebuilding","Year 22 of 19year plan",0.27,1
+SAFMC,"Snapper-Grouper Fishery ofthe South Atlantic Region","Red snapper - SouthernAtlantic Coast",Yes,Yes,NA,"ReduceMortality,ContinueRebuilding","Year 11 of 35year plan",0.16,1
+SAFMC,"Snapper-Grouper Fishery ofthe South Atlantic Region","Scamp - Southern AtlanticCoast",No,Unknown,Unknown,NA,NA,"notestimated",1.5
+SAFMC,"Snapper-Grouper Fishery ofthe South Atlantic Region","Snowy grouper - SouthernAtlantic Coast",No,Yes,NA,"ContinueRebuilding","Year 15 of 34year plan",0.49,2
+SAFMC,"Snapper-Grouper Fishery ofthe South Atlantic Region","Tilefish - Southern AtlanticCoast",Yes,No,No,"ReduceMortality",NA,0.85,3
+SAFMC,"Snapper-Grouper Fishery ofthe South Atlantic Region","Vermilion snapper - SouthernAtlantic Coast",No,No,No,NA,NA,1.13,4
+"SAFMC /GMFMC","Coastal Migratory PelagicResources of the Gulf ofMexico and South Atlantic",Cobia - Gulf of Mexico,Yes,No,No,"ReduceMortality",NA,0.69,2
+"SAFMC /GMFMC","Coastal Migratory PelagicResources of the Gulf ofMexico and South Atlantic","King mackerel - Gulf ofMexico",No,No,No,NA,NA,0.92,4
+Jurisdiction,FMP,Stock,"Overfishing?(Is FishingMortalityaboveThreshold?)","Overfished?(Is Biomass               belowThreshold?)","A  p  p   r o  a  c  h  i n  gOverfished","ManagementActionRequired","RebuildingProgramProgress",B/BMSY,Points
+"SAFMC /GMFMC","Coastal Migratory PelagicResources of the Gulf ofMexico and South Atlantic","Spanish mackerel - Gulf ofMexico",No,No,No,NA,NA,1.84,4
+"SAFMC /GMFMC","Coastal Migratory PelagicResources of the Gulf ofMexico and South Atlantic","Spanish mackerel - SouthernAtlantic Coast",No,No,No,NA,NA,1.49,4
+"SAFMC /GMFMC","Snapper-Grouper Fishery ofthe South Atlantic Region /Reef Fish Resources of theGulf of Mexico","Black grouper - SouthernAtlantic Coast / Gulf ofMexico",No,No,No,NA,NA,1.40,4
+"SAFMC /GMFMC","Snapper-Grouper Fishery ofthe South Atlantic Region /Reef Fish Resources of theGulf of Mexico","Mutton snapper - SouthernAtlantic Coast / Gulf ofMexico",No,No,No,NA,NA,1.13,4
+"SAFMC /GMFMC","Snapper-Grouper Fishery ofthe South Atlantic Region /Reef Fish Resources of theGulf of Mexico","Yellowtail snapper - SouthernAtlantic Coast / Gulf ofMexico",No,No,No,NA,NA,1.42,4
+WPFMC,"American SamoaArchipelago Ecosystem","American Samoa BottomfishMulti-species Complex *",Yes,Yes,NA,"ReduceMortality,RebuildingProgram",NA,0.38,1
+WPFMC,"Hawaii ArchipelagoEcosystem","Green jobfish - MainHawaiian Islands *",No,No,No,NA,NA,2.45,4
+WPFMC,"Hawaii ArchipelagoEcosystem","Main Hawaiian Islands Deep7 Bottomfish Multi-speciesComplex *",No,No,No,NA,NA,"1.311.27",4
+Jurisdiction,FMP,Stock,"Overfishing?(Is FishingMortalityaboveThreshold?)","Overfished?(Is Biomass               belowThreshold?)","A  p  p   r o  a  c  h  i n  gOverfished","ManagementActionRequired","RebuildingProgramProgress",B/BMSY,Points
+WPFMC,"Mariana ArchipelagoEcosystem","Guam Bottomfish Multi-species Complex *",No,Yes,NA,"RebuildingProgram",NA,0.58,2
+Jurisdiction,Stock,Endnotes
+GMFMC,"Gray triggerfish - Gulf ofMexico","This is the second rebuilding plan. The first plan was implemented in 2008 and the stock was targeted to rebuild by 2013 (6-yearplan). In 2012, the plan was extended by 5 years with a target rebuild date of 2017, but the stock failed to rebuild. A new 9-year planwas approved in 2017, but wasn't implemented until 2018 with a target year of 2025 to rebuild, so it is regarded as an 8-year plan."
+GMFMC,"Greater amberjack - Gulfof Mexico","This is the third rebuilding plan. The first rebuilding plan was implemented in 2003 and the stock was targeted to rebuild by 2009 (7-year plan). This plan was later extended by 3 years to rebuild by 2012 (10-year plan), but the stock failed to rebuild. A new rebuildingplan was adopted in 2015 (but not implemented until 2016) with a target rebuild date of 2018 (3-year plan). A 2016 assessmentshowed the stock would not rebuild by this date, so a new 10-year plan was developed in 2017 with a target rebuild date of 2027.This plan was implemented in 2018."
+GMFMC,"Red snapper - Gulf ofMexico","This is the second rebuilding plan. The first rebuilding plan was implemented in 1990 and the stock was targeted to rebuild by 2000(10-year plan). In 1991 the plan was extended to rebuild by 2007 (17-year plan). In 1993, it was extended again to rebuild by 2009(19-year plan) and in 1996, extended to rebuild by 2019 (29-year plan), but the stock failed to rebuild. A new 31-year rebuilding planwas scheduled for implementation in 2001 with a target rebuild date of 2032. This plan was not implemented until 2005 so isregarded as a 28-year rebuilding plan."
+GMFMC,Tilefish - Gulf of Mexico,"The most recent assessment for tilefish - Gulf of Mexico (2011) used overfished criteria that have been determined to be the BestScientific Information Available (BSIA), but have not yet been formally implemented in the fishery management plan.  Anupcoming amendment to the fishery management plan will formally establish the criteria for tilefish and other data poor stocks."
+GMFMC,"Yellowedge grouper -Gulf of Mexico","The most recent assessment for yellowedge grouper - Gulf of Mexico (2010) used overfished criteria that have been determined tobe the Best Scientific Information Available (BSIA), but have not yet been formally implemented in the fishery management plan.Amendment 44 will formally establish the criteria for yellowedge grouper and other data poor stocks."
+MAFMC,Bluefish - Atlantic Coast,"The Mid-Atlantic Fishery Management Council (MAFMC) was notified on November 11, 2019 that this stock is overfished. TheMAFMC has two years from this date to implement a rebuilding plan for bluefish."
+MAFMC,"Northern shortfin squid -Northwestern AtlanticCoast","Although Northern shortfin squid is currently listed as not subject to overfishing, the most recent stock assessment (2006) was notable to precisely determine current exploitation rates or stock biomass.  Nevertheless, the overfishing status of this stock remainsunchanged, based on the results of an earlier assessment (2005)."
+NEFMC,"Atlantic herring -Northwestern AtlanticCoast","The New England Fishery Management Council (NEFMC) was notified on October 13, 2020 that this stock is overfished. TheNEFMC has two years from this date to implement a rebuilding plan for Atlantic herring."
+NEFMC,"Atlantic cod - GeorgesBank","The status of Georges Bank cod is based on the results of the stock assessment completed in 2013. The stock assessment conductedin 2015 was rejected, but indicators continued to support the determination that the stock is overfished; overfishing status is lessclear. Plan B assessments were conducted in 2017 and 2019, but were not used to support overfishing or overfished stock statusdeterminations."
+Jurisdiction,Stock,Endnotes
+NEFMC,"Atlantic halibut -Northwestern AtlanticCoast","The status of Atlantic halibut is based on the results of the stock assessment completed in 2012. Although the stock assessmentconducted in 2015 was rejected, reviewers felt confident that the stock remains overfished. Frst and second derivative assessmentswere conducted in 2018, 2019, and 2020 but were not used to support overfishing or overfished stock status determinations."
+NEFMC,"Red hake - SouthernGeorges Bank / Mid-Atlantic","The New England Fishery Management Council (NEFMC) was notified on January 9, 2018 that this stock is overfished.  TheNEFMC has two years from this date to implement a rebuilding plan for red hake."
+NEFMC,"White hake - Gulf ofMaine / Georges Bank","This stock is making progress towards rebuilding, but did not rebuild by the target end date of 2012. Rebuilding measures willremain in place until the stock rebuilds."
+NEFMC,"Winter flounder - GeorgesBank","The status of Georges Bank winter flounder is based on the results of the stock assessment completed in 2019.  A stock assessmentwas conducted in 2020 and results will be used to support stock status when Framework Adjustment 61 is approved.  Therebuilding plan for Georges Bank winter flounder was implemented in 2010 and the stock was targeted to rebuild by 2017. In 2017,the stock was determined to be no longer overfished (still rebuilding), but projections indicated the stock was approaching anoverfished condition because the stock was projected to decrease in the next two years. As a proactive measure, the rebuilding planwas revised and the stock is expected to rebuild by 2029."
+NEFMC,"Winter flounder -Southern New England /Mid-Atlantic","The status of Georges Bank winter flounder is based on the results of the stock assessment completed in 2019.  A stock assessmentwas conducted in 2020 and results will be used to support stock status when Framework Adjustment 61 is approved.  The firstrebuilding plan for Southern New England /Mid-Atlantic winter flounder was implemented in 2004 and the stock was targeted torebuild by 2014 (10-year rebuilding plan).  A new 10-year plan was implemented in 2013 and the stock is targeted to rebuild by 2023."
+NEFMC,"Witch flounder -Northwestern AtlanticCoast","This is the second rebuilding plan. The first rebuilding plan was implemented in 2010 and targeted to rebuild by 2017, but the stockfailed to rebuild under the first plan. A new benchmark assessment finalized in 2017 rejected the model previously used to supportstock status (VPA model), as well as a new model that was attempted (ASAP model). As a result, there were unreliable indicators torecommend overfishing status so the overfishing status is now unknown. There are no reliable numerical estimates of stock size, butthe conclusion that the stock is at historically low levels and other indicators support maintaining the stock as overfished. Updateassessments finalized in late 2017 and 2019 support the same results as the benchmark assessment finalized in early 2017."
+NEFMC,"Yellowtail flounder -Southern New England /Mid-Atlantic","Southern New England / Mid-Atlantic yellowtail flounder was previously rebuilt in 2012 under a rebuilding plan.  This stock wasdeclared overfished again in 2017 and a new 10-year rebuilding plan was implemented in 2019."
+"NEFMC /MAFMC","Goosefish - Gulf of Maine/ Northern Georges Bank","The status of Gulf of Maine/Northern Georges Bank goosefish is based on the 2013 stock assessment.  A Plan B Smoothassessment was conducted in 2016 and 2019 to support catch advice, but was not used to support stock status."
+Jurisdiction Stock Endnotes
+Golden king crab - NPFMC The status of this stock is based on the assessment of two stocks - Eastern and Western Aleutian Islands golden king crab stocks.Aleutian Islands
+Bering Sea / Aleutian Islands Flathead Sole Complex consists of Flathead Sole and Bering Flounder.  Flathead Sole accounts for the Bering Sea / Aleutian
+overwhelming majority of the biomass and is regarded as the indicator species for the complex.  The overfished determination is NPFMC Islands Flathead Sole
+"based on the combined abundance estimates for the two species; the overfishing determination is based on the OFL, which is Complex"
+computed from the combined abundance estimates for the two species.
+"Rock Sole Complex consists of Northern Rock Sole and Rock Sole (NOTE: These are two distinct species, not two separate stocks Bering Sea / Aleutian"
+of the same species).  Northern Rock Sole accounts for the overwhelming majority of the biomass and is regarded as the indicator NPFMC Islands Rock Sole
+species for the complex.  The overfished determination is based on the combined abundance estimates for the two species; the Complex
+"overfishing determination is based on the OFL, which is computed from the combined abundance estimates for the two species."
+"The Skate Complex consists of Alaska Skate, Aleutian Skate, Bering Skate, Big Skate, Butterfly Skate, Commander Skate, Deepsea Bering Sea / Aleutian NPFMC Skate, Mud Skate, Okhotsk Skate, Roughshoulder Skate, Roughtail Skate, Whiteblotched Skate, and Whitebrow Skate.  Alaska skate Islands Skate Complex"
+is assessed and is the indicator species for this complex.
+"Although Sablefish is managed separately in the Gulf of Alaska, Bering Sea, and Aleutian Islands, with separate overfishing levels, Sablefish - Eastern Bering"
+"ABCs, and TACs based on the proportion of biomass in each respective region, separate assessments are not conducted for each of NPFMC Sea / Aleutian Islands /"
+"these three regions; the assessment is based on aggregated data from the Gulf of Alaska, Bering Sea, and Aleutian Islands regions.  Gulf of Alaska"
+"Therefore, it is not appropriate to list separate status determinations for these three regions."
+Gulf of Alaska
+Blackspotted and Rougheye Rockfish consists of Blackspotted Rockfish and Rougheye Rockfish.  An assessment of the combined NPFMC Blackspotted and
+"Rougheye Rockfish species provides the overfished determination, and the OFL is based on the combined-species assessment."
+Complex
+"The Demersal Shelf Rockfish Complex consists of the following stocks: Canary Rockfish, China Rockfish, Copper Rockfish,"
+"Quillback Rockfish, Rosethorn Rockfish, Tiger Rockfish, and Yelloweye Rockfish in the Southeast Outside district only. The NPFMC Gulf of Alaska Demersal"
+"Shelf Rockfish Complex overfishing determination is based on the OFL, which is computed by using estimates of Yelloweye Rockfish and then increased by"
+10% to account for the remaining members of the complex.
+"The Shallow Water Flatfish Complex consists of the following stocks: Alaska Plaice, Butter Sole, C-O Sole, Curlfin Sole, English"
+"Sole, Northern Rock Sole, Pacific Sanddab, Petrale Sole, Sand Sole, Slender Sole, Rock Sole, Speckled Sanddab, Starry Flounder,"
+and Yellowfin Sole. Northern Rock Sole and Rock Sole are the indicator species for this complex. The overfishing determination is NPFMC Gulf of Alaska Shallow
+"Water Flatfish Complex based on the OFL, which is computed by using abundance estimates of the complex. A single, assemblage-wide OFL is specified,"
+"but overfishing was not defined for the ""other"" shallow-water flatfish stocks per se, because they are part of the overall shallow-"
+water flatfish assemblage.
+Gulf of Alaska
+The Thornyhead Rockfish Complex consists of the following stocks: Longspine Thornyhead and Shortspine Thornyhead.  The NPFMC Thornyhead Rockfish
+"overfishing determination is based on the OFL, which is computed using abundance estimates of Shortspine Thornyhead.Complex"
+Jurisdiction,Stock,Endnotes
+PFMC,"Pacific chub mackerel -Pacific Coast","The assessment for Pacific chub mackerel does not provide an estimate of Bmsy because stock size is largely driven byenvironmental factors; however, if stock size is at least 3 times the minimum stock size threshold (MSST), harvest is allowed and thestock size is regarded as well above target levels. The most recent stock assessment indicates chub mackerel is currently at least 3times the MSST."
+PFMC,"Pacific sardine - NorthernSubpopulation","The fishery for Pacific sardine has been closed since 2015.  Although Bmsy is not estimated, the stock is below the minimum stocksize threshold (overfished threshold)."
+PFMC,"California Blue andDeacon RockfishComplex",The stock assessment includes a combined assessment of both blue rockfish and deacon rockfish.
+PFMC,"Oregon Blue and DeaconRockfish Complex",The stock assessment includes a combined assessment of both blue rockfish and deacon rockfish.
+PFMC,"Chinook salmon -California Central Valley:Sacramento River Fall","Sacramento River Fall Chinook was declared overfished in June 2018.  Although the effective date of the rebuilding plan wasDecember 28, 2020, status quo management measures were determined to satisfy the requirements of a rebuilding plan so the firstyear of the rebuilding plan is regarded as June 2019."
+PFMC,"Chinook salmon -Northern CaliforniaCoast: Klamath River Fall","Klamath River Fall Chinook was declared overfished in June 2018.  Although the effective date of the rebuilding plan wasDecember 28, 2020, status quo management measures were determined to satisfy the requirements of a rebuilding plan so the firstyear of the rebuilding plan is regarded as June 2019."
+SAFMC,"Blueline tilefish - SouthernAtlantic Coast","The most recent stock assessment (2017) provided information on stock status from Key West, FL to Cape Hatteras, NC.  Thestock assessment did not provide overfishing and overfished stock status information on the portion of the stock between CapeHatteras and the NC/VA border and the status of this portion is unknown. The South Atlantic Fishery Management Council hasmanagement authority over this stock from Key West to the NC/VA border."
+SAFMC,"Gray triggerfish -Southern Atlantic Coast","This stock was assessed in 2016, but the results were too uncertain to be used for recommending overfishing or overfished stockstatus determinations."
+SAFMC,"Red porgy - SouthernAtlantic Coast","Although the rebuilding target date has passed, rebuilding measures are still in place until a new rebuilding plan is developed."
+WPFMC,"American SamoaBottomfish Multi-speciesComplex","This complex contains 11 species including one emperor: spotcheek emperor; one grouper: yellow-edged lyretail; one jack: blackjack; and eight snappers: common bluestripe snapper, crimson jobfish, golden eye jobfish, green jobfish, flame snapper, oblique-banded snapper, ruby snapper, and rusty jobfish. The Western Pacific Fishery Management Council (WPFMC) was notified onFebruary 10, 2020 that this stock complex is overfished. The WPFMC has two years from this date to implement a rebuilding planfor the American Samoa Bottomfish Multi-Species Complex."
+Jurisdiction Stock Endnotes
+This complex contains 13 species including one emperor: spotcheek emperor; one grouper: yellow-edged lyretail; two jacks: black
+"jack and giant trevally; and nine snappers: common bluestripe snapper, crimson jobfish, flame snapper, golden eye jobfish, goldflag Guam Bottomfish Multi-WPFMC jobfish, lavender jobfish, oblique-banded snapper, ruby snapper, and rusty jobfish.  The Western Pacific Fishery Management species Complex"
+"Council (WPFMC) was notified on February 10, 2020 that this stock complex is overfished. The WPFMC has two years from this"
+date to implement a rebuilding plan for the Guam Bottomfish Multi-Species Complex.
+Northern Mariana Islands This complex contains 13 species including one emperor: spotcheek emperor; one grouper: yellow-edged lyretail; two jacks: black
+"WPFMC Bottomfish Multi-species jack and giant trevally; and nine snappers: common bluestripe snapper, crimson jobfish, flame snapper, golden eye jobfish, goldflag"
+"Complex jobfish, lavender jobfish, oblique-banded snapper, ruby snapper, and rusty jobfish."
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Albacore - North Atlantic *,No,No,No,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Bigeye tuna - Atlantic,Yes,Yes,NA,"ReduceMortality,ContinueRebuilding","Year 22 ofplan"
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Blacknose shark - Gulf of Mexico,Unknown,Unknown,Unknown,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Blue marlin - Atlantic *,Yes,Yes,NA,"ReduceMortality,ContinueRebuilding","Year 20 of28-year plan"
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Blue shark - North Atlantic,No,No,No,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Bluefin tuna - Western Atlantic *,No,Unknown,NA,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Bonnethead - Atlantic,Unknown,Unknown,Unknown,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Bonnethead - Gulf of Mexico,Unknown,Unknown,Unknown,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies","Bull shark - Atlantic and Gulf ofMexico",Unknown,Unknown,Unknown,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies","Dusky shark - Atlantic and Gulf ofMexico",Yes,Yes,NA,"ReduceMortality,ContinueRebuilding","Year 13 of100-yearplan"
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Gulf Smoothhound Complex *,No,No,No,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Longbill spearfish - Western Atlantic,Unknown,Unknown,Unknown,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies","Nurse shark - Atlantic and Gulf ofMexico",Unknown,Unknown,Unknown,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Porbeagle - Northwestern Atlantic,No,Yes,NA,"ContinueRebuilding","Year 13 of100-yearplan"
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Prohibited Species *,Unknown,Unknown,Unknown,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Roundscale spearfish - Atlantic,Unknown,Unknown,Unknown,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Sailfish - Western Atlantic *,No,"No -Rebuilding",No,"ContinueRebuilding","Year 22 ofplan"
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Shortfin mako - North Atlantic *,Yes,Yes,NA,"ReduceMortality,ContinueRebuilding","Year 2 ofplan"
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies","Silky shark - Atlantic and Gulf ofMexico",Unknown,Unknown,Unknown,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Skipjack tuna - Western Atlantic,No,No,No,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies","Spinner shark - Atlantic and Gulf ofMexico",Unknown,Unknown,Unknown,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Swordfish - North Atlantic,No,No,NA,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies","Thresher shark - Atlantic and Gulf ofMexico",Unknown,Unknown,Unknown,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies","Tiger shark - Atlantic and Gulf ofMexico",Unknown,Unknown,Unknown,NA,NA
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",White marlin - Atlantic *,No,Yes,No,"ContinueRebuilding","Year 20 ofplan"
+"AtlanticHMS","Consolidated Atlantic Highly MigratorySpecies",Yellowfin tuna - Atlantic *,No,No,No,NA,NA
+CFMC,"Corals and Reef Associated Plants andInvertebrates of Puerto Rico and theUnited States Virgin Islands","Caribbean Aquarium Trade Plants andInvertebrates Species Complex *",No,Unknown,Unknown,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands","Caribbean Aquarium Trade Reef FishSpecies Complex *",No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",Caribbean Groupers *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",Caribbean Parrotfishes Complex *,No,No,Yes,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",Caribbean Snappers *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",Caribbean Tilefishes Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",Goliath grouper - Caribbean,No,Yes,NA,"ContinueRebuilding","Year 16 of30-year plan"
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",Nassau grouper - Caribbean,No,Yes,NA,"ContinueRebuilding","Year 16 of25-year plan"
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",Puerto Rico Angelfishes Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",Puerto Rico Boxfishes Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",Puerto Rico Goatfishes Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",Puerto Rico Grunts Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",Puerto Rico Jacks Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands","Puerto Rico Scups and PorgiesComplex *",No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",Puerto Rico Squirrelfishes Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",Puerto Rico Surgeonfishes Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands","Puerto Rico Triggerfishes andFilefishes Complex *",No,Unknown,Unknown,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",St. Croix Angelfishes Complex *,Unknown,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",St. Croix Boxfishes Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",St. Croix Goatfishes Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",St. Croix Grunts Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",St. Croix Jacks Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",St. Croix Scups and Porgies Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",St. Croix Squirrelfishes Complex *,Unknown,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",St. Croix Surgeonfishes Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands","St. Croix Triggerfishes and FilefishesComplex *",No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",St. Croix Wrasses Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands","St. Thomas / St. John AngelfishesComplex *",Unknown,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands","St. Thomas / St. John BoxfishesComplex *",No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands","St. Thomas / St. John GoatfishesComplex *",No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands","St. Thomas / St. John Grunts Complex*",No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands",St. Thomas / St. John Jacks Complex *,No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands","St. Thomas / St. John Scups andPorgies Complex *",No,Unknown,Unknown,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands","St. Thomas / St. John SurgeonfishesComplex *",No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands","St. Thomas / St. John Triggerfishesand Filefishes Complex *",No,Unknown,Unknown,NA,NA
+CFMC,"Reef Fish Fishery of Puerto Rico andthe U.S. Virgin Islands","St. Thomas / St. John WrassesComplex *",Unknown,Unknown,Unknown,NA,NA
+GMFMC,"Coral and Coral Reefs of the Gulf ofMexico","Black corals (Antipatharia) - Gulf ofMexico *",No,Unknown,Unknown,NA,NA
+GMFMC,"Coral and Coral Reefs of the Gulf ofMexico","Fire corals (Milleporidae) - Gulf ofMexico *",No,Unknown,Unknown,NA,NA
+GMFMC,"Coral and Coral Reefs of the Gulf ofMexico","Hydrocorals (Stylasteridae) - Gulf ofMexico *",No,Unknown,Unknown,NA,NA
+GMFMC,"Coral and Coral Reefs of the Gulf ofMexico","Sea fans (Gorgonia spp.) - Gulf ofMexico *",No,Unknown,Unknown,NA,NA
+GMFMC,"Coral and Coral Reefs of the Gulf ofMexico","Stony corals (Scleractinia) - Gulf ofMexico *",No,Unknown,Unknown,NA,NA
+GMFMC,"Red Drum Fishery of the Gulf ofMexico",Red drum - Gulf of Mexico,No,Unknown,Unknown,NA,NA
+GMFMC,"Reef Fish Resources of the Gulf ofMexico",Cubera snapper - Gulf of Mexico,No,Unknown,Unknown,NA,NA
+GMFMC,"Reef Fish Resources of the Gulf ofMexico","Gulf of Mexico Deep Water GrouperComplex",No,Unknown,Unknown,NA,NA
+GMFMC,"Reef Fish Resources of the Gulf ofMexico",Gulf of Mexico Jacks Complex *,Yes,Unknown,Unknown,"ReduceMortality",NA
+GMFMC,"Reef Fish Resources of the Gulf ofMexico","Gulf of Mexico Mid-Water SnapperComplex *",No,Unknown,Unknown,NA,NA
+GMFMC,"Reef Fish Resources of the Gulf ofMexico","Gulf of Mexico Shallow WaterGrouper Complex",Unknown,Unknown,Unknown,NA,NA
+GMFMC,"Reef Fish Resources of the Gulf ofMexico",Gulf of Mexico Tilefishes Complex,No,Unknown,Unknown,NA,NA
+MAFMC,"Mackerel, Squid and Butterfish","Atlantic chub mackerel - Mid-AtlanticCoast",Unknown,Unknown,Unknown,NA,NA
+MAFMC,Tilefish,Blueline tilefish - Mid-Atlantic Coast,Unknown,Unknown,Unknown,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+NEFMC,Deep-Sea Red Crab,"Red deepsea crab - NorthwesternAtlantic *",No,Unknown,Unknown,NA,NA
+NEFMC,Northeast Multispecies,"Atlantic wolffish - Gulf of Maine /Georges Bank *",No,Yes,NA,"ContinueRebuilding","Year 11 ofplan"
+NEFMC,Northeast Multispecies,"Ocean pout - Northwestern AtlanticCoast *",No,Yes,NA,"ContinueRebuilding","Year 2 of 10year plan"
+NEFMC,Northeast Multispecies,"Offshore hake - Northwestern AtlanticCoast",Unknown,Unknown,Unknown,NA,NA
+NEFMC,Northeast Multispecies,"Red hake - Gulf of Maine / NorthernGeorges Bank *",No,No,No,NA,NA
+NEFMC,Northeast Multispecies,"Windowpane - Gulf of Maine /Georges Bank *",No,Yes,NA,"ContinueRebuilding","Year 2 of 10year plan"
+NEFMC,Northeast Multispecies,"Windowpane - Southern New England/ Mid-Atlantic",No,No,No,NA,NA
+NEFMC,Northeast Multispecies,Yellowtail flounder - Georges Bank *,Yes,Yes,NA,"ReduceMortality,ContinueRebuilding","Year 15 of26-year plan"
+NEFMC,Northeast Skate Complex,"Barndoor skate - Georges Bank /Southern New England",No,No,No,NA,NA
+NEFMC,Northeast Skate Complex,"Clearnose skate - Southern NewEngland / Mid-Atlantic",No,No,No,NA,NA
+NEFMC,Northeast Skate Complex,"Rosette skate - Southern New England/ Mid-Atlantic",No,No,No,NA,NA
+NEFMC,Northeast Skate Complex,Smooth skate - Gulf of Maine,No,No,No,NA,NA
+NEFMC,Northeast Skate Complex,Thorny skate - Gulf of Maine,No,Yes,NA,"ContinueRebuilding","Year 18 of25-year plan"
+NPFMC,"Bering Sea/Aleutian Islands King andTanner Crabs",Blue king crab - Pribilof Islands *,No,Yes,NA,"ContinueRebuilding","Year 6 ofplan"
+NPFMC,"Bering Sea/Aleutian Islands King andTanner Crabs",Blue king crab - Saint Matthew Island *,No,Yes,NA,"ContinueRebuilding","Year 1 of 26year plan"
+NPFMC,"Bering Sea/Aleutian Islands King andTanner Crabs",Golden king crab - Pribilof Islands,No,Unknown,Unknown,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+NPFMC,"Bering Sea/Aleutian Islands King andTanner Crabs","Red king crab - Western AleutianIslands",No,Unknown,Unknown,NA,NA
+NPFMC,"Fish Resources of the ArcticManagement Area",Arctic cod - Arctic Management Area *,No,Unknown,Unknown,NA,NA
+NPFMC,"Fish Resources of the ArcticManagement Area","Saffron cod - Arctic Management Area*",No,Unknown,Unknown,NA,NA
+NPFMC,"Fish Resources of the ArcticManagement Area",Snow crab - Arctic Management Area *,No,Unknown,Unknown,NA,NA
+NPFMC,"Groundfish of the Bering Sea andAleutian Islands Management Area","Bering Sea / Aleutian IslandsBlackspotted and Rougheye RockfishComplex *",No,No,No,NA,NA
+NPFMC,"Groundfish of the Bering Sea andAleutian Islands Management Area","Bering Sea / Aleutian Islands OctopusComplex *",No,Unknown,Unknown,NA,NA
+NPFMC,"Groundfish of the Bering Sea andAleutian Islands Management Area","Bering Sea / Aleutian Islands OtherFlatfish Complex *",No,Unknown,Unknown,NA,NA
+NPFMC,"Groundfish of the Bering Sea andAleutian Islands Management Area","Bering Sea / Aleutian Islands OtherRockfish Complex *",No,Unknown,Unknown,NA,NA
+NPFMC,"Groundfish of the Bering Sea andAleutian Islands Management Area","Bering Sea / Aleutian Islands SharkComplex *",No,Unknown,Unknown,NA,NA
+NPFMC,"Groundfish of the Bering Sea andAleutian Islands Management Area","Shortraker rockfish - Bering Sea /Aleutian Islands",No,Unknown,Unknown,NA,NA
+NPFMC,Groundfish of the Gulf of Alaska,Atka mackerel - Gulf of Alaska,No,Unknown,Unknown,NA,NA
+NPFMC,Groundfish of the Gulf of Alaska,Big skate - Gulf of Alaska,No,Unknown,Unknown,NA,NA
+NPFMC,Groundfish of the Gulf of Alaska,"Gulf of Alaska Deepwater FlatfishComplex *",No,No,No,NA,NA
+NPFMC,Groundfish of the Gulf of Alaska,Gulf of Alaska Octopus Complex *,No,Unknown,Unknown,NA,NA
+NPFMC,Groundfish of the Gulf of Alaska,"Gulf of Alaska Other RockfishComplex *",No,Unknown,Unknown,NA,NA
+NPFMC,Groundfish of the Gulf of Alaska,Gulf of Alaska Shark Complex *,No,Unknown,Unknown,NA,NA
+NPFMC,Groundfish of the Gulf of Alaska,Gulf of Alaska Skate Complex *,No,Unknown,No,NA,NA
+NPFMC,Groundfish of the Gulf of Alaska,Longnose skate - Gulf of Alaska,No,Unknown,Unknown,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+NPFMC,"Salmon Fisheries in the EEZ off theCoast of Alaska",Alaska Coho Salmon Assemblage *,No,No,No,NA,NA
+NPFMC,"Salmon Fisheries in the EEZ off theCoast of Alaska","Chinook salmon - Eastern NorthPacific Far North Migrating",No,No,No,NA,NA
+NPFMC,Scallop Fishery off Alaska,Weathervane scallop - Alaska,No,Unknown,Unknown,NA,NA
+PFMC,Coastal Pelagic Species,Jack mackerel - Pacific Coast,No,Unknown,Unknown,NA,NA
+PFMC,Coastal Pelagic Species,Krill (Euphausiacea) - Pacific Coast,Unknown,Unknown,Unknown,NA,NA
+PFMC,Coastal Pelagic Species,"Northern anchovy - Northern PacificCoast",No,Unknown,Unknown,NA,NA
+PFMC,Coastal Pelagic Species,"Opalescent inshore squid - PacificCoast",Unknown,Unknown,Unknown,NA,NA
+PFMC,Pacific Coast Groundfish,Black rockfish - Washington,No,No,No,NA,NA
+PFMC,Pacific Coast Groundfish,China rockfish - Central Pacific Coast,Unknown,No,No,NA,NA
+PFMC,Pacific Coast Groundfish,"China rockfish - Northern PacificCoast",Unknown,No,No,NA,NA
+PFMC,Pacific Coast Groundfish,China rockfish - Southern Pacific Coast,Unknown,No,No,NA,NA
+PFMC,Pacific Coast Groundfish,Copper rockfish - Pacific Coast,Unknown,No,No,NA,NA
+PFMC,Pacific Coast Groundfish,Greenspotted rockfish - Pacific Coast,Unknown,No,No,NA,NA
+PFMC,Pacific Coast Groundfish,Greenstriped rockfish - Pacific Coast,Unknown,No,No,NA,NA
+PFMC,Pacific Coast Groundfish,Minor Nearshore Rockfish North *,No,Unknown,Unknown,NA,NA
+PFMC,Pacific Coast Groundfish,Minor Nearshore Rockfish South *,No,Unknown,Unknown,NA,NA
+PFMC,Pacific Coast Groundfish,Minor Shelf Rockfish North *,No,Unknown,Unknown,NA,NA
+PFMC,Pacific Coast Groundfish,Minor Shelf Rockfish South *,No,Unknown,Unknown,NA,NA
+PFMC,Pacific Coast Groundfish,Minor Slope Rockfish North *,No,Unknown,Unknown,NA,NA
+PFMC,Pacific Coast Groundfish,Minor Slope Rockfish South *,No,Unknown,Unknown,NA,NA
+PFMC,Pacific Coast Groundfish,Other Fish *,No,Unknown,Unknown,NA,NA
+PFMC,Pacific Coast Groundfish,Other Flatfish *,No,Unknown,Unknown,NA,NA
+PFMC,Pacific Coast Groundfish,"Pacific Coast Blackspotted andRougheye Rockfish Complex *",Unknown,No,No,NA,NA
+PFMC,Pacific Coast Groundfish,Pacific cod - Pacific Coast,No,Unknown,Unknown,NA,NA
+PFMC,Pacific Coast Groundfish,Pacific hake - Pacific Coast,No,No,No,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+PFMC,Pacific Coast Groundfish,Starry flounder - Pacific Coast,No,No,Unknown,NA,NA
+PFMC,Pacific Coast Groundfish,Yelloweye rockfish - Pacific Coast,No,"No -Rebuilding",No,"ContinueRebuilding","Year 17 of25-year plan"
+PFMC,Pacific Coast Salmon,"Chinook salmon - California CentralValley: Sacramento River Spring","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - California CentralValley: Sacramento River Winter","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Columbia RiverBasin: Lower River Hatchery Fall","NA Exception1",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Columbia RiverBasin: Lower River Hatchery Spring","NA Exception1",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Columbia RiverBasin: Mid-River Bright Hatchery Fall","NA Exception1",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Columbia RiverBasin: North Lewis River Fall","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Columbia RiverBasin: Snake River Fall","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Columbia RiverBasin: Snake River Spring/Summer","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Columbia RiverBasin: Spring Creek Hatchery Fall","NA Exception1",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Columbia RiverBasin: Upper River Bright Fall",No,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Columbia RiverBasin: Upper River Spring","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Columbia RiverBasin: Upper River Summer",No,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Columbia RiverBasin: Upper Willamette Spring","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Northern CaliforniaCoast: California Coastal","NA Exception2",NA,NA,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+PFMC,Pacific Coast Salmon,"Chinook salmon - Northern CaliforniaCoast: Smith River",Unknown,Unknown,Unknown,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Oregon Coast:Central and Northern Oregon",No,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Oregon Coast:Southern Oregon",Unknown,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Puget Sound: CedarRiver Summer/Fall","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Puget Sound:Eastern Strait of Juan de FucaSummer/Fall","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Puget Sound: GreenRiver Summer/Fall","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Puget Sound: MidHood Canal Summer/Fall","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Puget Sound:Nisqually River Summer/Fall","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Puget Sound:Nooksack Spring Early","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Puget Sound:Puyallup Summer/Fall","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Puget Sound: SkagitSpring","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Puget Sound: SkagitSummer/Fall","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Puget Sound:Skokomish Summer/Fall","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Puget Sound:Snohomish Summer/Fall","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Puget Sound:Stillaguamish Summer/Fall","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Puget Sound: WhiteRiver Spring","NA Exception2",NA,NA,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+PFMC,Pacific Coast Salmon,"Chinook salmon - Washington Coast:Grays Harbor Spring",Unknown,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Washington Coast:Hoh Fall",No,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Washington Coast:Hoh Spring/Summer",Unknown,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Washington Coast:Hoko Summer/Fall",No,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Washington Coast:Queets Fall",No,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Washington Coast:Queets Spring/Summer",Unknown,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Washington Coast:Quillayute Fall",No,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Washington Coast:Quillayute Spring/Summer",Unknown,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Washington Coast:Quinault Fall Hatchery","NA Exception1",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Washington Coast:Willapa Bay Fall Hatchery","NA Exception1",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Chinook salmon - Washington Coast:Willapa Bay Fall Natural",No,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Oregon ProductionIndex Area: Central California Coast","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Oregon ProductionIndex Area: Columbia River EarlyHatchery","NA Exception1",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Oregon ProductionIndex Area: Columbia River LateHatchery","NA Exception1",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Oregon ProductionIndex Area: Lower Columbia Natural *","NA Exception2",NA,NA,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+PFMC,Pacific Coast Salmon,"Coho salmon - Oregon ProductionIndex Area: Oregon Coast Natural *","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Oregon ProductionIndex Area: SouthernOregon/Northern California Coast","NA Exception2",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Puget Sound: HoodCanal",No,No,No,NA,NA
+PFMC,Pacific Coast Salmon,Coho salmon - Puget Sound: Skagit,No,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Puget Sound:Snohomish *",No,"No -Rebuilding",NA,"RebuildingProgram",NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Puget Sound: SouthPuget Sound Hatchery","NA Exception1",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Puget Sound:Stillaguamish",No,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Washington Coast:Grays Harbor",No,No,No,NA,NA
+PFMC,Pacific Coast Salmon,Coho salmon - Washington Coast: Hoh,No,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Washington Coast:Queets *",No,Yes,NA,"RebuildingProgram",NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Washington Coast:Quillayute Fall",No,No,No,NA,NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Washington Coast:Quillayute Summer Hatchery","NA Exception1",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Washington Coast:Quinault Hatchery","NA Exception1",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Washington Coast:Strait of Juan de Fuca *",No,Yes,NA,"RebuildingProgram",NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Washington Coast:Willapa Bay Hatchery","NA Exception1",NA,NA,NA,NA
+PFMC,Pacific Coast Salmon,"Coho salmon - Washington Coast:Willapa Bay Natural",No,No,No,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem",Albacore - North Pacific,No,No,No,NA,NA
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem",Bigeye thresher - Pacific,Unknown,Unknown,Unknown,NA,NA
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem",Bigeye tuna - Eastern Pacific,No,No,No,NA,NA
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem","Bigeye tuna - Western and CentralPacific",No,No,No,NA,NA
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem",Blue shark - North Pacific,No,No,No,NA,NA
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem",Dolphinfish - Pacific,Unknown,Unknown,Unknown,NA,NA
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem",Pacific bluefin tuna - Pacific *,Yes,Yes,No,"ReduceMortality,ContinueRebuilding",NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem",Shortfin mako - North Pacific,No,No,No,NA,NA
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem",Skipjack tuna - Eastern Pacific,No,No,No,NA,NA
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem","Skipjack tuna - Western and CentralPacific",No,No,No,NA,NA
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem",Striped marlin - Eastern Pacific,No,No,No,NA,NA
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem","Striped marlin - Western and CentralNorth Pacific *",Yes,Yes,NA,"ReduceMortality,ContinueRebuilding",NA
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem",Swordfish - Eastern Pacific,Yes,No,No,"ReduceMortality",NA
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem","Swordfish - Western and Central NorthPacific",No,No,No,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem",Yellowfin tuna - Eastern Pacific,Yes,No,No,"ReduceMortality",NA
+"PFMC /WPFMC","U.S. West Coast Fisheries for HighlyMigratory Species / Pacific PelagicFisheries of the Western Pacific RegionEcosystem","Yellowfin tuna - Western and CentralPacific",No,No,No,NA,NA
+SAFMC,"Coral, Coral Reefs and Live/HardBottom Habitats of the South AtlanticRegion","Black corals (Antipatharia) - SouthernAtlantic Coast *",No,Unknown,Unknown,NA,NA
+SAFMC,"Coral, Coral Reefs and Live/HardBottom Habitats of the South AtlanticRegion","Fire corals (Milleporidae) - SouthernAtlantic Coast *",No,Unknown,Unknown,NA,NA
+SAFMC,"Coral, Coral Reefs and Live/HardBottom Habitats of the South AtlanticRegion","Hydrocorals (Stylasteridae) - SouthernAtlantic Coast *",No,Unknown,Unknown,NA,NA
+SAFMC,"Coral, Coral Reefs and Live/HardBottom Habitats of the South AtlanticRegion","Soft corals (Octocorallia) - SouthernAtlantic Coast *",No,Unknown,Unknown,NA,NA
+SAFMC,"Coral, Coral Reefs and Live/HardBottom Habitats of the South AtlanticRegion","Stony corals (Scleractinia) - SouthernAtlantic Coast *",No,Unknown,Unknown,NA,NA
+SAFMC,"Dolphin and Wahoo Fishery of theAtlantic",Wahoo - Southern Atlantic Coast,Unknown,Unknown,Unknown,NA,NA
+SAFMC,"Golden Crab Fishery of the SouthAtlantic Region","Golden deepsea crab - SouthernAtlantic Coast",Unknown,Unknown,Unknown,NA,NA
+SAFMC,"Pelagic Sargassum Habitat of the SouthAtlantic Region",Sargassum - Southern Atlantic Coast *,No,No,Unknown,NA,NA
+SAFMC,"Snapper-Grouper Fishery of the SouthAtlantic Region","Atlantic spadefish - Southern AtlanticCoast",Unknown,Unknown,Unknown,NA,NA
+SAFMC,"Snapper-Grouper Fishery of the SouthAtlantic Region",Bar jack - Southern Atlantic Coast,Unknown,Unknown,Unknown,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+SAFMC,"Snapper-Grouper Fishery of the SouthAtlantic Region",Hogfish - Southeast Florida,No,Yes,NA,"ContinueRebuilding","Year 4 of 10year plan"
+SAFMC,"Snapper-Grouper Fishery of the SouthAtlantic Region","Nassau grouper - Southern AtlanticCoast / Gulf of Mexico *",No,Unknown,Unknown,NA,NA
+SAFMC,"Snapper-Grouper Fishery of the SouthAtlantic Region","South Atlantic Deepwater Snapper-Grouper Complex *",Unknown,Unknown,Unknown,NA,NA
+SAFMC,"Snapper-Grouper Fishery of the SouthAtlantic Region",South Atlantic Grunts Complex *,Unknown,Unknown,Unknown,NA,NA
+SAFMC,"Snapper-Grouper Fishery of the SouthAtlantic Region",South Atlantic Jacks Complex *,Unknown,Unknown,Unknown,NA,NA
+SAFMC,"Snapper-Grouper Fishery of the SouthAtlantic Region",South Atlantic Porgy Complex *,Unknown,Unknown,Unknown,NA,NA
+SAFMC,"Snapper-Grouper Fishery of the SouthAtlantic Region","South Atlantic Shallow Water Snapper-Grouper Complex *",Unknown,Unknown,Unknown,NA,NA
+SAFMC,"Snapper-Grouper Fishery of the SouthAtlantic Region",South Atlantic Snappers Complex *,Unknown,Unknown,Unknown,NA,NA
+SAFMC,"Snapper-Grouper Fishery of the SouthAtlantic Region","Speckled hind - Southern AtlanticCoast",Yes,Unknown,Unknown,"ReduceMortality",NA
+SAFMC,"Snapper-Grouper Fishery of the SouthAtlantic Region","Warsaw grouper - Southern AtlanticCoast",Yes,Unknown,Unknown,"ReduceMortality",NA
+SAFMC,"Snapper-Grouper Fishery of the SouthAtlantic Region",Wreckfish - Southern Atlantic Coast,No,No,No,NA,NA
+"SAFMC /GMFMC","Snapper-Grouper Fishery of the SouthAtlantic Region / Reef Fish Resourcesof the Gulf of Mexico","Goliath grouper - Southern AtlanticCoast / Gulf of Mexico *",No,Unknown,Unknown,NA,NA
+"SAFMC /GMFMC","Spiny Lobster in the Gulf of Mexico andSouth Atlantic","Caribbean spiny lobster - SouthernAtlantic Coast / Gulf of Mexico",No,Unknown,Unknown,NA,NA
+WPFMC,Hawaii Archipelago Ecosystem,"180 Fathom Bank Precious CoralComplex *",Unknown,Unknown,Unknown,NA,NA
+WPFMC,Hawaii Archipelago Ecosystem,Au'Au Bed Black Coral Complex *,Unknown,Unknown,Unknown,NA,NA
+WPFMC,Hawaii Archipelago Ecosystem,"Brooks Bank Precious Coral Complex*",Unknown,Unknown,Unknown,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+WPFMC,Hawaii Archipelago Ecosystem,"Hancock Seamount GroundfishComplex *",Unknown,Yes,NA,"ContinueRebuilding","Year 35 ofplan"
+WPFMC,Hawaii Archipelago Ecosystem,"Hawaiian Archipelago ExploratoryArea Precious Coral Complex *",Unknown,Unknown,Unknown,NA,NA
+WPFMC,Hawaii Archipelago Ecosystem,"Kaena Point Bed Precious CoralComplex *",Unknown,Unknown,Unknown,NA,NA
+WPFMC,Hawaii Archipelago Ecosystem,Keahole Bed Precious Coral Complex *,Unknown,Unknown,Unknown,NA,NA
+WPFMC,Hawaii Archipelago Ecosystem,"Makapu'u Bed Precious Corals Multi-species Complex *",No,Unknown,Unknown,NA,NA
+WPFMC,Hawaii Archipelago Ecosystem,"Northwestern Hawaiian IslandsBottomfish Multi-species Complex *",Unknown,Unknown,Unknown,NA,NA
+WPFMC,Hawaii Archipelago Ecosystem,"Northwestern Hawaiian IslandsCrustacean Complex *",No,Unknown,Unknown,NA,NA
+WPFMC,Hawaii Archipelago Ecosystem,"Westpac Bed Refugium- PreciousCorals Complex *",Unknown,Unknown,Unknown,NA,NA
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem",Albacore - South Pacific,No,No,No,NA,NA
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem",Black marlin - Pacific,Unknown,Unknown,Unknown,NA,NA
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem",Blue marlin - Pacific,No,No,No,NA,NA
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem",Kawakawa - Pacific,Unknown,Unknown,Unknown,NA,NA
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem",Longfin mako - North Pacific,Unknown,Unknown,Unknown,NA,NA
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem","Oceanic whitetip shark - Western andCentral Pacific *",Yes,Yes,NA,"ReduceMortality,ContinueRebuilding",NA
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem",Opah - Pacific,Unknown,Unknown,Unknown,NA,NA
+Jurisdiction,FMP,Stock,Overfishing,Overfished,"ApproachingOverfished","ManagementActionRequired","RebuildingProgramProgress"
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem",Pomfrets (Bramidae) - Pacific,Unknown,Unknown,Unknown,NA,NA
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem",Sailfish - Pacific,Unknown,Unknown,Unknown,NA,NA
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem",Salmon shark - North Pacific,Unknown,Unknown,Unknown,NA,NA
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem",Shortbill spearfish - Pacific,Unknown,Unknown,Unknown,NA,NA
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem","Silky shark - Western and CentralPacific",Yes,No,Unknown,"ReduceMortality",NA
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem",Snake mackerels (Gempylidae) - Pacific,Unknown,Unknown,Unknown,NA,NA
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem",Wahoo - Pacific,Unknown,Unknown,Unknown,NA,NA
+WPFMC,"Pacific Pelagic Fisheries of the WesternPacific Region Ecosystem",Western Pacific Squid Complex *,Unknown,Unknown,Unknown,NA,NA
+WPFMC,Pacific Remote Island Areas Ecosystem,"Pacific Remote Island Areas BlackPrecious Coral Complex *",Unknown,Unknown,Unknown,NA,NA
+WPFMC,Pacific Remote Island Areas Ecosystem,"Pacific Remote Island AreasBottomfish Complex *",Unknown,Unknown,Unknown,NA,NA
+WPFMC,Pacific Remote Island Areas Ecosystem,"Pacific Remote Island Areas Coral ReefEcosystem Multi-species Complex *",Unknown,Unknown,Unknown,NA,NA
+WPFMC,Pacific Remote Island Areas Ecosystem,"Pacific Remote Island AreasCrustacean Complex *",Unknown,Unknown,No,NA,NA
+Jurisdiction Stock,Endnotes
+"",A domestic rebuilding plan is in place for this stock.  The United States continues to work with the International Commission for
+the Conservation of Atlantic Tunas to develop and implement an international rebuilding plan to rebuild the stock throughout its Atlantic HMS Bigeye tuna - Atlantic,
+"",range. The United States catches only a small portion of total catches for this stock.  There is currently not enough information to
+"",project when this stock is expected to rebuild.
+"","Blue marlin has been in a domestic rebuilding plan since 2001.  Prior to 2019, there was no projected timeline to rebuild.  In 2019, a"
+Atlantic HMS Blue marlin - Atlantic,rebuilding timeline was added and this stock is now projected to rebuild by 2028.  There is now an international rebuilding plan
+"",(developed through ICCAT) in place for this stock.
+"","For the most recent assessment, completed in 2017, the previously-used approach of basing stock status information on two widely"
+"","divergent stock recruitment scenarios was abandoned, given the lack of evidence to support one scenario over the other, and the"
+"",inability to calculate biomass-based reference points apart from knowledge (or assumptions) about how future recruitment potential
+"relates to spawning stock biomass. Instead, a fishing mortality rate-based approach was used to provide management advice.  For Atlantic HMS Bluefin tuna - Western",
+Atlantic,"2018-2020, the stock will be managed under an interim conservation and management plan (including an annual Total Allowable"
+"","Catch), which is responsive to the scientific advice while recognizing the need for a transition between the 20-year rebuilding"
+"","program adopted in 1998 and a future approach to managing the stock that relies on management procedures, which ICCAT has"
+"",recommended for bluefin tuna and other priority stocks to manage fisheries more effectively in the face of identified uncertainties.
+"Gulf Smoothhound Atlantic HMS The species contained in this complex are smooth dogfish, Florida smoothhound, and Gulf smoothhound.Complex",
+A domestic rebuilding plan is in place for this stock.  The United States continues to work with the International Commission for Porbeagle - Northwestern Atlantic HMS the Conservation of Atlantic Tunas to implement and monitor an international rebuilding plan to rebuild the stock throughout its Atlantic,
+"",range.
+"","Stocks that cannot be retained in commercial or recreational fisheries include Atlantic Angel Shark, Basking Shark, Bigeye Sand"
+"Tiger, Shark Bigeye Sixgill Shark, Bigeye Thresher Shark, Bignose Shark, Caribbean Reef Shark, Caribbean Sharpnose Shark, Atlantic HMS Prohibited Species",
+"","Galapagos Shark, Longfin Mako Shark, Narrowtooth Shark, Night Shark, Sand Tiger Shark, Sevengill Shark, Sixgill Shark, Smalltail"
+"","Shark, Whale Shark, and White Shark."
+"",A domestic rebuilding plan is in place for this stock.  The United States continues to work with the International Commission for
+the Conservation of Atlantic Tunas to develop and implement an international rebuilding plan to rebuild the stock throughout its Atlantic HMS Sailfish - Western Atlantic,
+"",range. The United States catches only a small portion of total catches for this stock.  There is currently not enough information to
+"",project when this stock is expected to rebuild.
+"",A domestic rebuilding plan is in place for this stock.  The United States continues to work with the International Commission for
+the Conservation of Atlantic Tunas to develop and implement an international rebuilding plan to rebuild the stock throughout its Atlantic HMS Shortfin mako - North,
+Atlantic,range. The United States catches only a small portion of total catches for this stock.  There is currently not enough information to
+"",project when this stock is expected to rebuild.
+"","White marlin has been in a domestic rebuilding plan since 2001.  In 2019, an international rebuilding plan developed through the"
+International Commission for the Conservation of Atlantic Tunas was put in place for this stock.  The United States catches only a Atlantic HMS White marlin - Atlantic,
+"",small portion of total catches for this stock.  There is currently not enough information to project when this stock is expected to
+"",rebuild.
+Jurisdiction Stock,Endnotes
+"",Caribbean Aquarium Trade Plants and Invertebrates Species Complex contains the following potentially harvested species: Sponges:
+"","Erect rope sponge, chicken liver sponge, Cynachirella alloclada , potato sponge, finger sponge, Myriastra spp., pink vase sponge,"
+"","lavender rope sponge, Spinosella policifera , S. vaginalis, Tethya crypta ; Coelenterates: Pale anemone, corkscrew anemone, giant"
+"","pink-tipped anemone, knobby anemone, Lebrunia spp. staghorn anemone, sun anemone, Zoanthus spp. sea mat, Diacosoma spp."
+"","false coral, Florida false coral; Annelid Worms: Sabellastarte spp. tube worms, magnificent duster, Christmas tree worm; Mollusks:"
+Caribbean Aquarium,"Lettuce sea slug, netted olive, flamingo tongue, Lima spp., fileclams, rough fileclam, Atlantic thorny oyster, Octopus spp. (except the"
+"Common octopus, O. vulgaris); Arthropods: Snapping shrimp, Paguristes spp. hermit crabs, red reef hermit, nimble spray crab, CFMC Trade Plants and",
+Invertebrates Species,"Lysmata spp. peppermint shrimp, anemone shrimp, Mithrax spp. clinging crabs, banded clinging crabs, green clinging crabs,"
+Complex,"yellowline arrow crabs, Periclimenes spp. cleaner shrimp, Gonodactylus spp., Lysiosquilla spp., banded shrimp, golden shrimp;"
+"","Echinoderms: Swimming crinoid, Davidaster spp., Crinoids, Nemaster spp. Crinoids, Astropecten spp. sand stars, common comet"
+"","star, comet star, cushion sea star, giant basket star, Ophiocoma spp. brittlestars, Ophioderma spp. brittlestars, ruby brittlestar, long-"
+"","spined urchin, Echinometra spp. purple urchin, pencil urchin, Lytechinus spp. pin cushion urchin, sea egg, Holothuria spp. sea"
+"","cucumbers, Tunicates-Subphylum Urochordata."
+"","Caribbean Aquarium Trade Species Complex contains the following species: Creole wrasse, yellowhead wrasse, yellowcheek wrasse,"
+"","clown wrasse, bluehead wrasse, peppermint basslet, fairy basslet, yellowtail damselfish, dusky damselfish, bicolor damselfish,"
+"threespot damselfish, beaugregory, foureye butterflyfish, longsnout butterflyfish, spotfin butterflyfish, banded butterflyfish, lantern Caribbean Aquarium",
+"bass, orangeback bass, tobaccofish, harlequin bass, chalk bass, yellowhead jawfish, dusky jawfish, pearly razorfish, green razorfish, CFMC Trade Reef Fish Species",
+"chain moray, green moray, goldentail moray, neon goby, rusty goby, jackknife-fish, spotted drum, blue chromis, sunshinefish, Complex",
+"","sergeant major, conchfish, flamefish, redspotted hawkfish, frogfish, peacock flounder, Atlantic spadefish, sharpnose puffer,"
+"","cherubfish, porcupinefish, flying gurnard, glasseye snapper, butter hamlet, rock beauty, goldspotted eel, redlip blenny, high-hat,"
+"","greater soapfish, sand diver, Caribbean tonguefish, Seahorses, Pipefishes, Batfish, and Scorpionfish."
+"","Caribbean Groupers is composed of black grouper, misty grouper, red grouper, tiger grouper, yellowedge grouper, and yellowfin"
+"","grouper; and coney, graysby, red hind, and rock hind. There is no indicator species for this unit.  Grouper unit 4 had previously"
+"been listed as overfished, but all grouper stocks are now consolidated into Caribbean Groupers, except goliath grouper and Nassau CFMC Caribbean Groupers",
+"",grouper.  The consolidation was the result of amendments to implement required Annual Catch Limit (ACL) provisions. The
+"",overfished status of the new grouper complex is unknown and these stocks have not yet been assessed.  They remain under catch
+"",limits to prevent overfishing.
+"Caribbean Parrotfishes is composed of blue parrotfish, midnight parrotfish, princess parrotfish, queen parrotfish, rainbow Caribbean Parrotfishes CFMC parrotfish, striped parrotfish, redband parrotfish, redtail parrotfish, redfin parrotfish, and stoplight parrotfish. There is no indicator Complex",
+"",species for this unit.
+"","Caribbean Snappers is composed of black snapper, blackfin snapper, cardinal snapper, dog snapper, gray snapper, lane snapper,"
+CFMC Caribbean Snappers,"mahogany snapper, mutton snapper, Queen snapper, silk snapper, vermilion snapper, and yellowtail snapper; and schoolmaster and"
+"",wenchman. There is no indicator species for this unit.
+Caribbean Tilefishes Complex is part of the Caribbean Reef Fish FMU and is composed of blackline tilefish and sand tilefish.  There CFMC Caribbean Tilefishes,
+Complex,is no indicator species for this unit.
+Jurisdiction,Stock,Endnotes
+CFMC,"Puerto Rico AngelfishesComplex","Puerto Rico Angelfishes Complex is composed of queen angelfish, gray angelfish, and French angelfish.  There is no indicatorspecies for this unit."
+CFMC,"Puerto Rico BoxfishesComplex","Puerto Rico Boxfishes Complex is composed of honeycombed cowfish and scrawled cowfish; trunkfish, spotted trunkfish, andsmooth trunkfish.  There is no indicator species for this unit."
+CFMC,"Puerto Rico GoatfishesComplex",Puerto Rico Goatfishes Complex is composed of spotted goatfish and yellow goatfish.   There is no indicator species for this unit.
+CFMC,"Puerto Rico GruntsComplex","Puerto Rico Grunts Complex is composed of white grunt, tomtate, blue striped grunt, French grunt, margate, and porkfish. There isno indicator species for this unit."
+CFMC,"Puerto Rico JacksComplex","Puerto Rico Jacks Complex is composed of blue runner, greater amberjack, horse-eye jack, black jack, almaco jack, bar jack, andyellow jack. There is no indicator species for this unit."
+CFMC,"Puerto Rico Scups andPorgies Complex","Puerto Rico Porgies Complex is composed of jolthead porgy, sea bream, sheepshead porgy, and pluma.  There is no indicatorspecies for this unit."
+CFMC,"Puerto Rico SquirrelfishesComplex","Puerto Rico Squirrelfishes Complex is composed of black bar soldierfish, longspine squirrelfish, bigeye (Priacanthus arenatus), andsquirrelfish.  There is no indicator species for this unit."
+CFMC,"Puerto Rico SurgeonfishesComplex","Puerto Rico Surgeonfish Complex is composed of doctorfish, blue tang, and ocean surgeonfish. There is no indicator species forthis unit."
+CFMC,"Puerto Rico Triggerfishesand Filefishes Complex","Puerto Rico Triggerfishes and Filefishes Complex is composed of ocean triggerfish, queen triggerfish, Sargassum triggerfish,scrawled filefish, whitespotted filefish, and black durgon.  There is no indicator species for this unit."
+CFMC,"Puerto Rico WrassesComplex","Puerto Rico Hogfish/Wrasses Complex is composed of hogfish, Spanish hogfish, and puddingwife. There is no indicator species forthis unit."
+CFMC,"St. Croix AngelfishesComplex","St. Croix Angelfishes Complex is composed of queen angelfish, gray angelfish, and French angelfish.  There is no indicator speciesfor this unit."
+CFMC,"St. Croix BoxfishesComplex","St. Croix Boxfishes Complex is composed of honeycombed cowfish and scrawled cowfish; trunkfish, spotted trunkfish, and smoothtrunkfish.  There is no indicator species for this unit."
+CFMC,"St. Croix GoatfishesComplex",St. Croix Goatfishes Complex is composed of spotted goatfish and yellow goatfish.   There is no indicator species for this unit.
+CFMC,St. Croix Grunts Complex,"St. Croix Grunts Complex is composed of white grunt, tomtate, blue striped grunt, French grunt, margate, and porkfish. There is noindicator species for this unit."
+CFMC,St. Croix Jacks Complex,"St. Croix Jacks Complex is composed of blue runner, greater amberjack, horse-eye jack, black jack, almaco jack, bar jack, and yellowjack. There is no indicator species for this unit."
+CFMC,"St. Croix Scups andPorgies Complex","St. Croix Porgies Complex is composed of jolthead porgy, sea bream, sheepshead porgy, and pluma.  There is no indicator speciesfor this unit."
+CFMC,"St. Croix SquirrelfishesComplex","St. Croix Squirrelfishes Complex is composed of black bar soldierfish, longspine squirrelfish, bigeye (Priacanthus arenatus), andsquirrelfish.  There is no indicator species for this unit."
+Jurisdiction,Stock,Endnotes
+CFMC,"St. Croix Triggerfishesand Filefishes Complex","St. Croix Triggerfishes and Filefishes Complex is composed of ocean triggerfish, queen triggerfish, Sargassum triggerfish, scrawledfilefish, whitespotted filefish, and black durgon.  There is no indicator species for this unit."
+CFMC,"St. Croix WrassesComplex","St. Croix Hogfish/Wrasses Complex is composed of hogfish, Spanish hogfish, and puddingwife. There is no indicator species forthis unit."
+CFMC,"St. Thomas / St. JohnAngelfishes Complex","St. Thomas/St. John Angelfishes Complex is composed of queen angelfish, gray angelfish, and French angelfish.  There is noindicator species for this unit."
+CFMC,"St. Thomas / St. JohnBoxfishes Complex","St. Thomas/St. John Boxfishes Complex is composed of honeycombed cowfish and scrawled cowfish; trunkfish, spotted trunkfish,and smooth trunkfish.  There is no indicator species for this unit."
+CFMC,"St. Thomas / St. JohnGoatfishes Complex","St. Thomas/St. John Goatfishes Complex is composed of spotted goatfish and yellow goatfish.   There is no indicator species forthis unit."
+CFMC,"St. Thomas / St. JohnGrunts Complex","St. Thomas/St. John Grunts Complex is composed of white grunt, tomtate, blue striped grunt, French grunt, margate, and porkfish.There is no indicator species for this unit."
+CFMC,"St. Thomas / St. JohnJacks Complex","St. Thomas/St. John Jacks Complex is composed of blue runner, greater amberjack, horse-eye jack, black jack, almaco jack, bar jack,and yellow jack. There is no indicator species for this unit."
+CFMC,"St. Thomas / St. JohnScups and PorgiesComplex","St. Thomas/St. John Porgies Complex is composed of jolthead porgy, sea bream, sheepshead porgy, and pluma.  There is noindicator species for this unit."
+CFMC,"St. Thomas / St. JohnSquirrelfishes Complex","St. Thomas/St. John Squirrelfishes Complex is composed of black bar soldierfish, longspine squirrelfish, bigeye (Priacanthusarenatus), and squirrelfish.  There is no indicator species for this unit."
+CFMC,"St. Thomas / St. JohnSurgeonfishes Complex","St. Thomas/St. John Surgeonfish Complex is composed of doctorfish, blue tang, and ocean surgeonfish. There is no indicatorspecies for this unit."
+CFMC,"St. Thomas / St. JohnTriggerfishes andFilefishes Complex","St. Thomas/St. John Triggerfishes and Filefishes Complex is composed of ocean triggerfish, queen triggerfish, Sargassumtriggerfish, scrawled filefish, whitespotted filefish, and black durgon.  There is no indicator species for this unit."
+CFMC,"St. Thomas / St. JohnWrasses Complex","St. Thomas/St. John Hogfish/Wrasses Complex is composed of hogfish, Spanish hogfish, and puddingwife. There is no indicatorspecies for this unit."
+GMFMC,"Black corals (Antipatharia)- Gulf of Mexico","Fishery in the EEZ and state waters is closed; therefore, fishing mortality is very low."
+GMFMC,"Fire corals (Milleporidae) -Gulf of Mexico","Fishery in the EEZ and state waters is closed; therefore, fishing mortality is very low."
+GMFMC,"Hydrocorals(Stylasteridae) - Gulf ofMexico","Fishery in the EEZ and state waters is closed; therefore, fishing mortality is very low."
+Jurisdiction,Stock,Endnotes
+GMFMC,"Stony corals (Scleractinia)Gulf of Mexico","Fishery in the EEZ and state waters is closed; therefore, fishing mortality is very low."
+GMFMC,"Gulf of Mexico DeepWater Grouper Complex","The Deep Water Grouper Complex contains snowy grouper, speckled hind, Warsaw grouper, and yellowedge grouper."
+GMFMC,"Gulf of Mexico JacksComplex","The Jacks Complex contains Almaco jack, banded rudderfish, and lesser amberjack."
+GMFMC,"Gulf of Mexico Mid-Water Snapper Complex","The Mid-Water Snapper Complex contains blackfin snapper, Queen snapper, silk snapper, and wenchman."
+GMFMC,"Gulf of Mexico ShallowWater Grouper Complex","The Shallow Water Grouper Complex contains scamp, black grouper, yellowfin grouper, and yellowmouth grouper."
+GMFMC,"Gulf of Mexico TilefishesComplex","The Gulf of Mexico Tilefishes Complex contains tilefish, blueline tilefish, and goldface tilefish."
+NEFMC,"Atlantic salmon - Gulf ofMaine","Rebuilding of Atlantic salmon is being pursued under the Endangered Species Act. Atlantic salmon was listed as endangered underthe ESA in December 2000."
+NEFMC,"Red deepsea crab -Northwestern Atlantic","In the most recent stock assessments (NEFSC 2006) the current MSY and BMSY estimates for red crabs were judged unreliable.The assessment results supported a determination of not subject to overfishing,, but could not provide adequate information tosupport an overfished determination."
+NEFMC,"Atlantic wolffish - Gulf ofMaine / Georges Bank","Because the life history of Atlantic wolffish is not well understood, there is considerable uncertainty in the evaluation of stockprojections and a rebuilding period or a rebuilding F for this species at this time."
+NEFMC,"Ocean pout -Northwestern AtlanticCoast","This is the second rebuilding plan.  The first rebuilding plan was implemented in 2004 and targeted to rebuild by 2014, but the stockfailed to rebuild under the first plan."
+NEFMC,"Red hake - Gulf of Maine/ Northern Georges Bank","The status of Gulf of Maine / Northern Georges Bank red hake is based on the results of the stock assessment completed in 2017.An Area Swept Biomass assessment was conducted in 2020, but was not used to support overfishing or overfished stock statusdeterminations."
+NEFMC,"Windowpane - Gulf ofMaine / Georges Bank","The status of Gulf of Maine / Georges Bank windowpane is based on the results of the stock assessment completed in 2019. AnArea Swept Biomass assessment was conducted in 2020, but was not used to support overfishing or overfished stock statusdeterminations.  The rebuilding plan for Gulf of Maine / Georges Bank windowpane was implemented in 2010 and the stock wastargeted to rebuild by 2017, but the stock failed to rebuild.  The rebuilding plan was revised and the new start date is July 18, 2019and the stock is expected to rebuild by 2029 (10-year rebuilding plan)."
+Jurisdiction,Stock,Endnotes
+NPFMC,"Blue king crab - PribilofIslands","Pribilof Islands blue king crab was previously in a rebuilding plan that started in 2004 and had a target end date of 2014.  The newplan implemented January 1, 2015 does not specify a target rebuilding date because it is not known when the stock is expected torebuild.  The Pribilof Islands Habitat Conservation Zone (PIHCZ) has been closed to groundfish trawling since 1995 and beginningin 2015, there is a prohibition on directed cod pot fishing in the PIHCZ.  The causes of the stock decline are thought to bepredominantly due to environmental changes that inhibit blue king crab reproduction. For this stock to rebuild, the stock wouldlikely require multiple years of above average recruitment and/or a change in environmental conditions to increase larvalproductivity around the Pribilof Islands."
+NPFMC,"Arctic cod - ArcticManagement Area","There is no commercial fishing for this stock, including Alaska state waters and international fishing, so fishing mortality is expectedto be zero."
+NPFMC,"Saffron cod - ArcticManagement Area","There is no commercial fishing for this stock, including Alaska state waters and international fishing, so fishing mortality is expectedto be zero."
+NPFMC,"Snow crab - ArcticManagement Area","There is no commercial fishing for this stock, including Alaska state waters and international fishing, so fishing mortality is expectedto be zero."
+NPFMC,"Bering Sea / AleutianIslands Blackspotted andRougheye RockfishComplex","Blackspotted and Rougheye Rockfish consists of Blackspotted Rockfish and Rougheye Rockfish.  An assessment of the combinedspecies provides the overfished determination, and the OFL is based on the combined-species assessment."
+NPFMC,"Bering Sea / AleutianIslands Octopus Complex","The Octopus Complex consists of Giant Pacific Octopus, Flapjack Devilfish, Pelagic Octopus, Smoothskin Octopus, OctopusBenthoctopus oregonensis, Octopus Graneledone boreopacifica, and Octopus Bathypolypus arcticus.  The Giant Octopus isregarded as the indicator species for this complex."
+NPFMC,"Bering Sea / AleutianIslands Other FlatfishComplex","The Other Flatfish Complex consists of the following stocks: Arctic Flounder, Butter Sole, Curlfin Sole, Deepsea Sole, Dover Sole,English Sole, Longhead Dab, Pacific Sanddab, Petrale Sole, Rex Sole, Roughscale Sole, Sakhalin Sole, Sand Sole, Slender Sole, andStarry Flounder.  The overfishing determination is based on the OFL, which is computed by using abundance estimates of thecomplex."
+NPFMC,"Bering Sea / AleutianIslands Other RockfishComplex","The Other Rockfish Complex consists of the following stocks: Dusky Rockfish, Harlequin Rockfish, Redbanded Rockfish,Redstripe Rockfish, Sharpchin Rockfish, Shortspine Thornyhead, and Yelloweye Rockfish.  The overfishing determination is basedon the OFL, which is computed by using abundance estimates of the complex."
+NPFMC,"Bering Sea / AleutianIslands Shark Complex","The Shark Complex consists of Pacific Sleeper Shark, Salmon Shark, and Spiny Dogfish."
+NPFMC,"Gulf of Alaska DeepwaterFlatfish Complex","The Deep Water Flatfish Complex consists of the following stocks: Deepsea Sole, Dover Sole, and Greenland Turbot. Dover sole isthe indicator species for determining the status of this stock complex."
+Jurisdiction,Stock,Endnotes
+NPFMC,"Gulf of Alaska OtherRockfish Complex","The Other Rockfish Complex consists of the following stocks: Canary Rockfish, China Rockfish, Copper Rockfish, QuillbackRockfish, Rosethorn Rockfish, Tiger Rockfish, and Yelloweye Rockfish (demersal shelf rockfish); and Blackgill Rockfish, Bocaccio,Chilipepper, Darkblotched Rockfish, Greenstriped Rockfish, Harlequin Rockfish, Northern Rockfish, Pygmy Rockfish, RedbandedRockfish, Redstripe Rockfish, Sharpchin Rockfish, Silvergray Rockfish, Splitnose Rockfish, Stripetail Rockfish, Vermilion Rockfish,Widow Rockfish, Yelloweye Rockfish, and Yellowmouth Rockfish in various districts in the Gulf of Alaska."
+NPFMC,"Gulf of Alaska SharkComplex","The Shark Complex consists of Pacific Sleeper Shark, Salmon Shark, and Spiny Dogfish."
+NPFMC,"Gulf of Alaska SkateComplex","The Skate Complex consists of the following stocks: Alaska Skate, Aleutian Skate, Bering Skate, Deepsea Skate, RoughshoulderSkate, Routhtail Skate, and Whiteblotched Skate. The overfishing determination is based on the combined abundance estimates ofthese species."
+NPFMC,"Alaska Coho SalmonAssemblage","The Alaska Coho Salmon Assemblage consists of coho salmon, sockeye salmon, pink salmon, and chum salmon throughoutsoutheast Alaska.  There are 3 indicator stocks of coho salmon that are used to determine the status of the assemblage; theseindicator stocks are Auke Creek, Berners River, and Hugh Smith Lake."
+PFMC,"Minor NearshoreRockfish North","Minor Nearshore Rockfish North contains the following stocks: black-and-yellow rockfish, blue rockfish, brown rockfish, calicorockfish, China rockfish, copper rockfish, gopher rockfish, grass rockfish, kelp rockfish, olive rockfish, quillback rockfish, andtreefish.  The management unit is North of 40°10 N lat."
+PFMC,"Minor NearshoreRockfish South","Minor Nearshore Rockfish South contains the following stocks: Black-and-yellow rockfish, gopher rockfish, grass rockfish, kelprockfish, blue rockfish, brown rockfish, calico rockfish, olive rockfish, quillback rockfish, and treefish.  The management unit isSouth of 40°10 N lat."
+PFMC,"Minor Shelf RockfishNorth","Minor Shelf Rockfish North contains the following stocks: bronzespotted rockfish, chameleon rockfish, chilipepper rockfish, duskyrockfish, dwarf-red rockfish, flag rockfish, freckled rockfish, greenblotched rockfish, greenspotted rockfish, greenstriped rockfish,halfbanded rockfish, harlequin rockfish, honeycomb rockfish, Mexican rockfish, pink rockfish, pinkrose rockfish, pygmy rockfish,redstripe rockfish, rosethorn rockfish, rosy rockfish, silvergray rockfish, speckled rockfish, squarespot rockfish, starry rockfish,stripetail rockfish, swordspine rockfish, tiger rockfish, vermilion rockfish, bocaccio, and cowcod. The management unit is North of40°10 N lat."
+PFMC,"Minor Shelf RockfishSouth","Minor Shelf Rockfish South contains the following stocks: Bronzespotted rockfish, chameleon rockfish, dusky rockfish, dwarf-redrockfish, flag rockfish, freckled rockfish, greenblotched rockfish, greenspotted rockfish, greenstriped rockfish, halfbanded rockfish,harlequin rockfish, honeycomb rockfish, Mexican rockfish, pink rockfish, pinkrose rockfish, pygmy rockfish, redstripe rockfish,rosethorn rockfish, rosy rockfish, silvergray rockfish, speckled rockfish, squarespot rockfish, starry rockfish, stripetail rockfish,swordspine rockfish, tiger rockfish, vermilion rockfish, and yellowtail rockfish.  The management unit is South of 40°10 N lat."
+Jurisdiction,Stock,Endnotes
+PFMC,"Minor Slope RockfishSouth","Minor Slope Rockfish South contains the following stocks: Aurora rockfish, bank rockfish, blackgill rockfish, redbanded rockfish,rougheye rockfish, sharpchin rockfish, shortraker rockfish, yellowmouth rockfish, and Pacific ocean perch.  The management unit isSouth of 40°10 N lat."
+PFMC,Other Fish,Other Fish contains the following stocks: Kelp greenling and leopard shark.
+PFMC,Other Flatfish,"Other Flatfish contains the following stocks: Butter sole, curlfin sole, flathead sole, rex sole, rock sole, sand sole, and Pacificsanddab."
+PFMC,"Pacific Coast Blackspottedand Rougheye RockfishComplex",Rougheye rockfish and blackspotted rockfish were assessed together to support the status of the combined stock complex.
+PFMC,"Pacific Coast Salmon -ESA and Hatchery Stocks","The Salmon FMP contains two exceptions to the application of overfishing and overfished criteria and subsequent Council actionsfor stocks or stock complexes with conservation objectives: (1) hatchery stocks, and (2) stocks listed under the ESA."
+PFMC,"Coho salmon - OregonProduction Index Area:Lower Columbia Natural","Oregon Coastal Natural (OCN) coho are managed subject to the provisions of Amendment 13 to the Salmon FMP. The southernstock complex is listed as a threatened species under the ESA as part of the Southern Oregon / Northern California Coasts CohoESU (May 6, 1997), and the northern components, Oregon Coast coho, are also listed as threatened. The OCN stocks have mettheir management objectives in recent years."
+PFMC,"Coho salmon - OregonProduction Index Area:Oregon Coast Natural","Oregon Coastal Natural (OCN) coho are managed subject to the provisions of Amendment 13 to the Salmon FMP.  The southernstock complex is listed as a threatened species under the ESA as part of the Southern Oregon / Northern California Coasts CohoESU (May 6, 1997), and the northern components, Oregon Coast coho, are also listed as threatened.  The OCN stocks have mettheir management objectives in recent years."
+PFMC,"Coho salmon - PugetSound: Snohomish","The final rule implementing the rebuilding plan for this stock was effective March 15, 2021. Because measures already in place infishing year 2018 were later approved as measures that would help rebuild the stock, 2018 is considered the first year of therebuilding plan."
+PFMC,"Coho salmon -Washington Coast: Queets","The final rule implementing the rebuilding plan for this stock was effective March 15, 2021. Because measures already in place infishing year 2018 were later approved as measures that would help rebuild the stock, 2018 is considered the first year of therebuilding plan."
+PFMC,"Coho salmon -Washington Coast: Straitof Juan de Fuca","The final rule implementing the rebuilding plan for this stock was effective March 15, 2021. Because measures already in place infishing year 2018 were later approved as measures that would help rebuild the stock, 2018 is considered the first year of therebuilding plan."
+Jurisdiction Stock,Endnotes
+"","The PFMC and WPFMC were first notified on April 8, 2013 that this stock is overfished.  Under section 304(i) of the Magnuson-"
+"","Stevens Act, a domestic rebuilding plan will not be developed for this stock because the overfishing and overfished status is due to"
+"",excessive international fishing pressure and current international measures in place will not end overfishing or rebuild the stock.
+"However, NMFS and the Councils maintain domestic regulations that address the impact of U.S. fishing vessels, and are working PFMC / Pacific bluefin tuna -",
+"with the State Department to reduce fishing and rebuild this stock. Internationally, the Western and Central Pacific Fisheries WPFMC Pacific",
+"",Commission (WCPFC) and the Inter-American Tropical Tuna Commission (IATTC) manage this stock.  The most recent stock
+"","assessment was completed in 2016, but did not incorporate data from years in which more stringent catch restrictions have been in"
+"",place for both U.S. commercial and recreational fisheries as well as for foreign fisheries. The next stock assessment is expected to be
+"","completed in 2018 and include data from 2015 and 2016, when more stringent catch restrictions were in place."
+"",NMFS first notified the PFMC and the WPFMC that the Western and Central North Pacific stock of striped marlin to be subject to
+"","overfishing and overfished on December 5, 2013. On June 1, 2016, NMFS determined the stock continues to be subject to"
+"","overfishing and overfished. Internationally, the Western and Central Pacific Fisheries Commission (WCPFC) and the Inter-"
+PFMC / Striped marlin - Western,"American Tropical Tuna Commission (IATTC) manage this stock. Under section 304(i) of the Magnuson-Stevens Act, a domestic"
+WPFMC and Central North Pacific,rebuilding plan will not be developed for this stock because the overfishing and overfished status is due to excessive international
+"",fishing pressure and current international measures in place will not end overfishing or rebuild the stock. In lieu of a formal
+"","domestic rebuilding plan, NMFS will continue to work with the WPFMC and PFMC, and the State Department to determine if"
+"",more effective management measures should be proposed to the WCPFC and IATTC for 2016 and beyond.
+"Fishery in the EEZ and state waters is closed; therefore, fishing mortality is very low.Black corals (Antipatharia) SAFMC",
+"- Southern Atlantic Coast",
+"Fire corals (Milleporidae) - SAFMC Fishery in the EEZ and state waters is closed; therefore, fishing mortality is very low.Southern Atlantic Coast",
+Hydrocorals,
+SAFMC (Stylasteridae) - Southern,"Fishery in the EEZ and state waters is closed; therefore, fishing mortality is very low."
+Atlantic Coast,
+"Soft corals (Octocorallia) - SAFMC Fishery in the EEZ and state waters is closed; therefore, fishing mortality is very low.Southern Atlantic Coast",
+"Stony corals (Scleractinia) - SAFMC Fishery in the EEZ and state waters is closed; therefore, fishing mortality is very low.Southern Atlantic Coast",
+Jurisdiction,Stock,Endnotes
+SAFMC,"Sargassum - SouthernAtlantic Coast","On July 11, 2003, NMFS partially approved the FMP for this stock.  Although one of the disapproved provisions included theMFMT, a component of the overfishing definition, an examination of the rate of harvest (currently zero), relative to the approvedMSY level (100,000 mt), indicates that overfishing is not occurring.  In addition, no directed fishery for this stock currently exists.This species has the capacity to increase its biomass through vegetative growth by as much as 10 percent per day, thus doubling itsbiomass every two weeks.  Therefore, it is unlikely that this stock is overfished."
+SAFMC,"Nassau grouper -Southern Atlantic Coast /Gulf of Mexico","Fishery in the EEZ and state waters is closed; therefore, fishing mortality is very low."
+SAFMC,"South Atlantic DeepwaterSnapper-GrouperComplex","The Deepwater Snapper-Grouper Complex contains blackfin snapper, misty grouper, yellowedge grouper, Queen snapper, sandtilefish, and silk snapper."
+SAFMC,"South Atlantic GruntsComplex","The Grunts Complex contains margate, sailor's choice, tomtate, and white grunt."
+SAFMC,"South Atlantic JacksComplex","The Jacks Complex contains Almaco jack, banded rudderfish, and lesser amberjack."
+SAFMC,"South Atlantic PorgyComplex","The Porgy Complex contains jolthead porgy, knobbed porgy, saucereye porgy, scup, and whitebone porgy."
+SAFMC,"South Atlantic ShallowWater Snapper-GrouperComplex","The Shallow Water Snapper-Grouper contains coney, graysby, red hind, rock hind, yellowfin grouper, and yellowmouth grouper."
+SAFMC,"South Atlantic SnappersComplex","The Snappers Complex contains Cubera snapper, gray snapper, and lane snapper."
+"SAFMC /GMFMC","Goliath grouper -Southern Atlantic Coast /Gulf of Mexico","Fishery in the EEZ and state waters is closed; therefore, fishing mortality is approaching zero."
+WPFMC,"180 Fathom BankPrecious Coral Complex","The 180 Fathom Bank Coral Complex contains: pink coral (Pleurocorallium secundum), red coral (Hemicorallium laauense), goldcoral (Kulamanamana haumeaae), and bamboo coral (Acanella sp.)."
+WPFMC,"Au'Au Bed Black CoralComplex","The Au'au Bed Black Coral Complex contains Antipathes grandis, Antipathes griggi, and Myriopathes ulex."
+WPFMC,"Brooks Bank PreciousCoral Complex","The Brooks Bank Precious Coral Complex contains: pink coral (Pleurocorallium secundum), red coral (Hemicorallium laauense),gold coral (Kulamanamana haumeaae), and bamboo coral (Acanella sp.)."
+Jurisdiction,Stock,Endnotes
+WPFMC,"Hancock SeamountGroundfish Complex","This stock complex uses pelagic armorhead as the indicator species of a three-species seamount groundfish complex that includesraftfish and alfonsin. Overfishing and overfished status determination criteria were approved in 2003 for the seamount groundfishstock complex.  Due to the data poor nature of this stock complex, the overfished status determination was made using a data-poormethod prior to 2003 and there is currently not enough information to conduct a stock assessment using the criteria approved in2003. This stock complex does not have a formal rebuilding plan or time period for rebuilding because it cannot be predicted whenthe stock will rebuild. The fishery in the U.S. EEZ has been closed under sequential 6-year moratoria since the inception of theFMP in 1986. Effective Dec 2010, fishing for bottomfish and seamount groundfish at the Hancock Seamounts is prohibited untilthe stock is rebuilt - these measures are considered as a de facto rebuilding plan."
+WPFMC,"Hawaiian ArchipelagoExploratory Area PreciousCoral Complex","The Hawaii Archipelago Exploratory Area Precious Coral Complex contains: pink coral (Pleurocorallium secundum), red coral(Hemicorallium laauense), gold coral (Kulamanamana haumeaae), and bamboo coral (Acanella sp.)."
+WPFMC,"Kaena Point Bed PreciousCoral Complex","The Kaena Point Bed Coral Complex contains: pink coral (Pleurocorallium secundum), red coral (Hemicorallium laauense), goldcoral (Kulamanamana haumeaae), and bamboo coral (Acanella sp.)."
+WPFMC,"Keahole Bed PreciousCoral Complex","The Keahole Bed Precious Coral Complex contains: pink coral (Pleurocorallium secundum), red coral (Hemicorallium laauense),gold coral (Kulamanamana haumeaae), and bamboo coral (Acanella sp.)."
+WPFMC,"Makapu'u Bed PreciousCorals Multi-speciesComplex","Makapu'u Bed Precious Corals Multi-species Complex contains: pink coral (Pleurocorallium secundum), red coral (Hemicoralliumlaauense), gold coral (Kulamanamana haumeaae), and bamboo coral (Acanella sp.)."
+WPFMC,"Northwestern HawaiianIslands Bottomfish Multi-species Complex","This complex contains 8 species including one grouper: Hawaiian grouper and six snappers: crimson jobfish, flame snapper, greenjobfish, oblique-banded snapper, lavender jobfish, ruby snapper, and rusty jobfish."
+WPFMC,"Northwestern HawaiianIslands CrustaceanComplex","The Northwestern Hawaiian Islands Crustacean Complex include: Ranina ranina (spanner crab), and Heterocarpus spp. (deepwatershrimp and nylon shrimp). Harvest quota for lobster is set at zero for the commercial lobster fishery in Northwest Hawaiian IslandsMarine National Monument."
+Jurisdiction Stock Endnotes
+"NMFS notified the WPFMC (Council) on May 1, 2020 that this stock is subject to overfishing and is overfished. In addition to"
+"management efforts by NMFS and the Council, management of the oceanic whitetip shark in the WCPO is shared with the Western"
+and Central Pacific Fisheries Commission. This stock meets the requirements under section 304(i) of the Magnuson-Stevens Act so
+a domestic rebuilding plan will not be developed for this stock because: (1) the overfishing and overfished status is due to excessive
+international fishing pressure; and (2) because it has not been determined that management measures adopted by the WCPFC will
+"Oceanic whitetip shark - end overfishing and rebuild the stock. Consistent with Magnuson-Stevens Act section 304(i), the Council is required to: (1) Within"
+"WPFMC Western and Central one year, develop and submit recommendations to the Secretary of Commerce for domestic regulations to address the relative"
+"Pacific impact of fishing vessels of the United States on the WCPO oceanic whitetip shark stock, and (2) Develop and submit"
+recommendations to the Secretary of State and to Congress for international actions that will end overfishing and rebuild the
+"WCPO oceanic whitetip shark stock, taking into account the relative impact of vessels of other nations and vessels of the United"
+States on the stock.
+"Pacific Other Tuna WPFMC The management unit includes Auxis spp. (frigate mackerels), Allothunnus spp. (slender tunas), and Scomber spp. (mackerels).Relatives Complex"
+"The Squid Complex contains Ommastrephes bartamii (neon flying squid), Thysanoteuthis rhombus (diamondback squid), and WPFMC Western Pacific Squid"
+Complex Sthenoteuthis oualaniensis (purple flying squid.)
+Pacific Remote Island
+"The Pacific Remote Islands Areas Black Precious Coral Complex contains  Antipathes dichotoma, Antipathes grandis and WPFMC Areas Black Precious"
+Antipathes ulex.Coral Complex
+Pacific Remote Island
+"The Pacific Remote Island Areas Bottomfish Complex contains an assemblage of 12 species, including jacks, snappers, emperors WPFMC Areas Bottomfish"
+and groupers.Complex
+"The Pacific Island Remote Areas Coral Reef Ecosystem Multi-species Complex contains 54 ""currently harvested coral reef taxa"" and"
+"Pacific Remote Island innumerable ""potentially harvested coral reef taxa.""  The Pacific remote island areas (PRIA) are U.S. island possessions in the Pacific"
+"Ocean that include Palmyra Atoll, Kingman Reef, Jarvis Island, Baker Island, Howland Island, Johnston Atoll, Wake Island, and WPFMC Areas Coral Reef"
+"Ecosystem Multi-species Midway Atoll.  All reefs of the PRIA except Wake Island, which is under the jurisdiction of the Department of Defense, are"
+"Complex National Wildlife Refuges.  Fishing for coral reef-associated species is prohibited in all these areas except Palmyra Atoll, Johnston"
+"Atoll, Wake Island, and Midway Atoll."
+Pacific Remote Island
+"The Pacific Remote Island Areas Crustaceans include Panulirus marginatus (spiny lobster), Panulirus penicillatus (spiny lobster), WPFMC Areas Crustacean"
+"Family Scyllaridae (slipper lobster), Ranina ranina (Kona crab), and Heterocarpus spp. (deepwater shrimp).  Complex"
+Pacific Remote Island
+"The Pacific Remote Island Areas Exploratory Area Precious Coral Complex contains pink coral (Corallium spp.), gold coral WPFMC Areas Exploratory Area"
+"(Gerardia spp. and Narella spp.) and bamboo coral (Acanella spp., Calyptropora spp. and Lepidis olapa).Precious Coral Complex"
+Jurisdiction,FMP,Species contained in Ecosystem Component Group
+MAFMC,"Atlantic Mackerel, Squid and Butterfish;Atlantic Surfclam and Ocean Quahog;Bluefish; Summer Flounder, Scup andBlack Sea Bass; and Tilefish","Anchovies, Argentines, Greeneyes, Halfbeaks, Herrings and Sardines, Lanternfishes, Pearlsides, Sand lances,Silversides, Cusk-eels, Atlantic Saury, Pelagic Mollusks, Copepods, Krill, Amphipods, and other species under one inchas adults."
+PFMC,"Coastal Pelagic Species, Pacific CoastGroundfish, U.S. West Coast Fisheries forHighly Migratory Species, and PacificCoast Salmon","Shared EC species include: round herring, thread herring, Mesopelagic fishes including families: Myctophidae,Bathylagidae, Paralepididae, and Gonostomatidae, Pacific sand lance, Pacific saury, silversides, smelts, and pelagicsquids including families: Cranchiidae, Gonatidae, Histioteuthidae, Octopoteuthidae, Ommastrephidae exceptHumboldt squid (Dosidicus gigas), Onychoteuthidae, and Thysanoteuthidae."
+PFMC,Pacific Coast Groundfish,"Aleutian skate, Bering skate, California skate, roughtail skate, all other endemic skates in the family Arhynchobatidae,Pacific grenadier, giant grenadier, all other endemic grenadiers in the family Arhynchobatidae, finescale codling, ratfish,and tope (soupfin shark)."
+PFMC,"U.S. West Coast Fisheries for HighlyMigratory Species","Bigeye thresher, common mola mola, escolar, lancetfishes, louvar, pelagic sting ray, pelagic thresher shark, and wahoo.Prohibited species include Great white shark, Basking shark, mega mouth shark, Pacific halibut, Pink salmon, Chinooksalmon, Chum salmon, Sockeye salmon, and Coho salmon."
+PFMC,Coastal Pelagic Species,Pacific herring and jacksmelt
+NPFMC,"Fish Resources of the Arctic ManagementArea","All finfish other than Arctic cod and saffron cod; all marine invertebrates other than snow crab (C. opilio); all otherforms of marine animals and plant life."
+NPFMC,Scallop Fishery off Alaska,Rock scallops and the Chlamys species
+NPFMC,"Groundfish of the Bering Sea andAleutian Islands Management Area andGroundfish of the Gulf of Alaska","Prohibited Species: Pacific halibut, Pacific herring, Pacific salmon, Steelhead trout, King crab, and Tanner crab.  ForageFish Species: Osmeridae family (eulachon, capelin, and other smelts), Myctophidae family (lanternfishes), Bathylagidaefamily (deep-sea smelts), Ammodytidae family (Pacific sand lance), Trichodontidae family (Pacific sand fish), Pholidaefamily (gunnels), Stichaeidae family (pricklebacks, warbonnets, eelblennys, cockscombs, and shannys), Gonostomatidaefamily (bristlemouths, lightfishes, and anglemouths), and Order Euphausiacea (krill).  Grenadiers: Pacific grenadier,Popeye grenadier, Giant grenadier. Squids: Chirotuthidae family, Cranchiidae family (glass squid), Gonatidae family(armhook squid), Onychoteuthidae family (hooked squid), and  Order Sepioidea (North Pacific bobtail squid).Sculpins: Cottidae family, Hemitripteridae family, Psychrolutidae family, and Rhamphocottidae family."
+SAFMC,"Snapper-Grouper Fishery of the SouthAtlantic Region","Bank sea bass, cottonwick, longspine porgy, ocean triggerfish,and  rock sea bass"
+WPFMC,American Samoa Archipelago Ecosystem,"Black Precious Coral Complex, Coral Reef Ecosystem Multi-species Complex, Exploratory Area Precious CoralComplex, deepwater shrimps (Heterocarpus spp.), slipper lobsters (Scyllaridae), spanner crab, and spiny lobsters(Panulirus spp.)"
+Jurisdiction,FMP,Species contained in Ecosystem Component Group
+WPFMC,Mariana Archipelago Ecosystem,"Deepwater shrimps (Heterocarpus spp.) - Guam and NMI, Black Precious Coral Complex - Guam and NMI, CoralReef Ecosystem Multi-species Complex - Guam and NMI, Exploratory Area Precious Coral Complex - Guam andNMI, pronghorn spiny lobster - Guam and NMI, slipper lobsters (Scyllaridae) - Guam and NMI, and spanner crab -Guam and NMI."
+Jurisdiction,FMP,Species contained in Data Collection Only Complex,
+CFMC,"Corals and Reef Associated Plants andInvertebrates of Puerto Rico and theUnited States Virgin Islands","Invertebrates Data Collection Species Complex - fire corals, rose lace corals, encrusting gorgonian, deepwater sea fan,corky sea finger, Carijoa riisei , Telesto  spp., sea whips, Venus sea fan, wide-mesh sea fan, common sea fan, sea plme, P.albatrossae , slimy sea plume, bipinnate plume, P. rigida , angular sea whip, yellow sea whip, warty sea rod, E. clavigera ,doughnut sea rod, E. knighti, E. laciniata, E. laxispica , swollen-knob, shelf-knob sea rod, E. touneforti, Muricea atlantica ,orange spiny rod, delicate spiny rod, spiny sea fan, long spine sea fan, Muriceopsis spp., rough sea plume, M. sulphurea ,bent sea rod, black sea rod, slit-pore sea rod, P. fusifera, P. grandiflora, P. grisea , giant slit-pore, Pseudoplexaura crucis, P.glagellosa , porous sea rod, P. wagenaari , staghorn coral, elkhorn coral, fused staghorn, lettuce leaf coral, fragile saucer,Lamarck's sheet, thin leaf lettuce, sunray lettuce, blushing star, flower coral, cup coral, tube coral, boulder coral, knobbybrain coral, grooved brain, symmetrical brain, golfball coral, rose coral, Tortugas rose coral, boulder star coral, greatstar coral, smooth star coral, pillar coral, pancake star, elliptical star, maze coral, rough star coral, sinuous cactus, largeflower coral, thin fungus coral, fat fungus coral, grooved fungus, fungus coral, artichoke coral, solitary disk, ivory bushcoral, ten-ray star coral, yellow pencil, mustard hill coral, blue crust coral, small finger coral, finger coral, dwarf cupcoral, hidden cup coral, lesser starlet, massive starlet, bushy black coral, and wire coral.",
+Jurisdiction,FMP,Stock
