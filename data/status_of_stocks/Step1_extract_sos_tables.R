@@ -10,10 +10,15 @@ options(dplyr.summarise.inform=F)
 library(tidyverse)
 
 # Directories
-plotdir <- "figures"
 tabledir <- "tables"
+plotdir <- "data/status_of_stocks/figures"
 inputdir <- "data/status_of_stocks/raw"
 outputdir <- "data/status_of_stocks/processed"
+
+# Read FMP key
+fmp_key_orig <- readxl::read_excel(file.path(tabledir, "TableS2_fmps.xlsx")) %>%
+  janitor::clean_names("snake") %>%
+  rename(fmp_short=fmp_short_name)
 
 
 # Table A
@@ -119,36 +124,65 @@ data <- bind_rows(table_a, table_b) %>%
   # Arrange
   select(type, everything()) %>%
   # Remove asterisk from stock name (denotes endnote)
-  mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.),
-         stock=gsub(" - ", " - ", stock)) %>%
+  mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+  # Fix bizarre spaces
+  mutate(stock=gsub("\r", " ", stock)) %>%
+  # Flag stock complexes
+  mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+  # Recode stock complexes
+  mutate(stock_orig=stock,
+         stock=gsub("Bering Sea / Aleutian Islands ", "Bering Sea / Aleutian Islands - ", stock),
+         stock=gsub("Gulf of Alaska ", "Gulf of Alaska - ", stock),
+         stock=gsub("Caribbean ", "Caribbean - ", stock),
+         stock=gsub("Puerto Rico ", "Puerto Rico - ", stock),
+         stock=gsub("St. Croix ", "St. Croix - ", stock),
+         stock=gsub("St. Thomas / St. John ", "St. Thomas / St. John - ", stock),
+         stock=gsub("Gulf of Mexico ", "Gulf of Mexico - ", stock),
+         stock=gsub("South Atlantic ", "South Atlantic - ", stock),
+         stock=gsub("Northwestern Hawaiian Islands ", "Northwestern Hawaiian Islands - ", stock),
+         stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock)) %>%
   # Split stock area and species
-  tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F)
+  tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+  # Add FMP short code
+  left_join(fmp_key_orig %>% select(fmp, fmp_short), by="fmp") %>%
+  # Arrange
+  select(type, council, fmp, fmp_short, stock_orig, stock, stock_type, comm_name, area, everything())
+
+# Stocks without areas
+data$stock_orig[is.na(data$area)]
 
 # Inspect
+freeR::complete(data)
 table(data$type)
 table(data$council)
 table(data$fmp)
-table(data$)
 
 # Build FMP key
 fmp_key <- data %>%
-  group_by(council, fmp) %>%
+  group_by(council, fmp, fmp_short) %>%
   summarize(nstocks=n())
+
+# Export FMP key
+write.csv(fmp_key, file=file.path(tabledir, "TableS2_fmps.csv"), row.names=F)
+
+# Export dats
+write.csv(data, file=file.path(outputdir, "NOAA_SOS_data.csv"), row.names=F)
+
 
 # Plot data
 ################################################################################
 
 # Sample size
-stats <- table_a %>%
+stats <- data %>%
   # Count
-  group_by(council, fmp) %>%
+  group_by(council, fmp_short) %>%
   summarize(nstocks=n()) %>%
   ungroup() %>%
   # Arrange
   arrange(council, nstocks)
 
 # Plot
-ggplot(stats, aes(x=nstocks, y=factor(fmp, levels=fmp))) +
+ggplot(stats, aes(x=nstocks, y=fmp_short)) +
   facet_grid(council~., scales="free_y", space="free_y") +
   geom_bar(stat="identity") +
   # Labels

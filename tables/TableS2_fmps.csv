@@ -1,45 +1,45 @@
-"council","fmp","nstocks"
-"Atlantic HMS","Consolidated Atlantic Highly Migratory Species",38
-"CFMC","Corals and Reef Associated Plants and Invertebrates of Puerto Rico and the United States Virgin Islands",1
-"CFMC","Reef Fish Fishery of Puerto Rico and the U.S. Virgin Islands",35
-"CFMC","Spiny Lobster Fishery of Puerto Rico and the U.S. Virgin Islands",2
-"GMFMC","Coral and Coral Reefs of the Gulf of Mexico",5
-"GMFMC","Red Drum Fishery of the Gulf of Mexico",1
-"GMFMC","Reef Fish Resources of the Gulf of Mexico",17
-"GMFMC","Shrimp Fishery of the Gulf of Mexico",3
-"MAFMC","Atlantic Surfclam and Ocean Quahog",2
-"MAFMC","Bluefish",1
-"MAFMC","Mackerel, Squid and Butterfish",5
-"MAFMC","Summer Flounder, Scup and Black Sea Bass",3
-"MAFMC","Tilefish",2
-"NEFMC","Atlantic Sea Scallop",1
-"NEFMC","Deep-Sea Red Crab",1
-"NEFMC","Northeast Multispecies",24
-"NEFMC","Northeast Skate Complex",7
-"NEFMC/MAFMC","Monkfish",2
-"NEFMC/MAFMC","Spiny Dogfish",1
-"NPFMC","Bering Sea/Aleutian Islands King and Tanner Crabs",8
-"NPFMC","Fish Resources of the Arctic Management Area",3
-"NPFMC","Groundfish of the Bering Sea and Aleutian Islands Management Area",21
-"NPFMC","Groundfish of the Bering Sea and Aleutian Islands Management Area / Groundfish of the Gulf of Alaska",1
-"NPFMC","Groundfish of the Gulf of Alaska",20
-"NPFMC","Salmon Fisheries in the EEZ off the Coast of Alaska",2
-"NPFMC","Scallop Fishery off Alaska",1
-"PFMC","Coastal Pelagic Species",7
-"PFMC","Pacific Coast Groundfish",55
-"PFMC","Pacific Coast Salmon",63
-"PFMC/WPFMC","U.S. West Coast Fisheries for Highly Migratory Species / Pacific Pelagic Fisheries of the Western Pacific Region Ecosystem",16
-"SAFMC","Coral, Coral Reefs and Live/Hard Bottom Habitats of the South Atlantic Region",5
-"SAFMC","Dolphin and Wahoo Fishery of the Atlantic",2
-"SAFMC","Golden Crab Fishery of the South Atlantic Region",1
-"SAFMC","Pelagic Sargassum Habitat of the South Atlantic Region",1
-"SAFMC","Shrimp Fishery of the South Atlantic Region",4
-"SAFMC","Snapper-Grouper Fishery of the South Atlantic Region",24
-"SAFMC/GMFMC","Coastal Migratory Pelagic Resources of the Gulf of Mexico and South Atlantic",4
-"SAFMC/GMFMC","Snapper-Grouper Fishery of the South Atlantic Region / Reef Fish Resources of the Gulf of Mexico",4
-"SAFMC/GMFMC","Spiny Lobster in the Gulf of Mexico and South Atlantic",1
-"WPFMC","American Samoa Archipelago Ecosystem",1
-"WPFMC","Hawaii Archipelago Ecosystem",13
-"WPFMC","Mariana Archipelago Ecosystem",1
-"WPFMC","Pacific Pelagic Fisheries of the Western Pacific Region Ecosystem",15
-"WPFMC","Pacific Remote Island Areas Ecosystem",4
+"council","fmp","fmp_short","nstocks"
+"Atlantic HMS","Consolidated Atlantic Highly Migratory Species","Highly Migratory Species",38
+"CFMC","Corals and Reef Associated Plants and Invertebrates of Puerto Rico and the United States Virgin Islands","Corals",1
+"CFMC","Reef Fish Fishery of Puerto Rico and the U.S. Virgin Islands","Reef Fish",35
+"CFMC","Spiny Lobster Fishery of Puerto Rico and the U.S. Virgin Islands","Spiny Lobster",2
+"GMFMC","Coral and Coral Reefs of the Gulf of Mexico","Corals",5
+"GMFMC","Red Drum Fishery of the Gulf of Mexico","Red Drum",1
+"GMFMC","Reef Fish Resources of the Gulf of Mexico","Reef Fish",17
+"GMFMC","Shrimp Fishery of the Gulf of Mexico","Shrimp",3
+"MAFMC","Atlantic Surfclam and Ocean Quahog","Atlantic Surfclam and Ocean Quahog",2
+"MAFMC","Bluefish","Bluefish",1
+"MAFMC","Mackerel, Squid and Butterfish","Mackerel, Squid and Butterfish",5
+"MAFMC","Summer Flounder, Scup and Black Sea Bass","Summer Flounder, Scup and Black Sea Bass",3
+"MAFMC","Tilefish","Tilefish",2
+"NEFMC","Atlantic Sea Scallop","Atlantic Sea Scallop",1
+"NEFMC","Deep-Sea Red Crab","Deep-Sea Red Crab",1
+"NEFMC","Northeast Multispecies","Multispecies",24
+"NEFMC","Northeast Skate Complex","Skate Complex",7
+"NEFMC/MAFMC","Monkfish","Monkfish",2
+"NEFMC/MAFMC","Spiny Dogfish","Spiny Dogfish",1
+"NPFMC","Bering Sea/Aleutian Islands King and Tanner Crabs","King and Tanner Crabs",8
+"NPFMC","Fish Resources of the Arctic Management Area","Arctic Fish",3
+"NPFMC","Groundfish of the Bering Sea and Aleutian Islands Management Area","BSAI Groundfish",21
+"NPFMC","Groundfish of the Bering Sea and Aleutian Islands Management Area / Groundfish of the Gulf of Alaska",NA,1
+"NPFMC","Groundfish of the Gulf of Alaska","GOA Groundfish",20
+"NPFMC","Salmon Fisheries in the EEZ off the Coast of Alaska","Salmon",2
+"NPFMC","Scallop Fishery off Alaska","Scallop",1
+"PFMC","Coastal Pelagic Species","Coastal Pelagic Species",7
+"PFMC","Pacific Coast Groundfish","Groundfish",55
+"PFMC","Pacific Coast Salmon","Salmon",63
+"PFMC/WPFMC","U.S. West Coast Fisheries for Highly Migratory Species / Pacific Pelagic Fisheries of the Western Pacific Region Ecosystem",NA,16
+"SAFMC","Coral, Coral Reefs and Live/Hard Bottom Habitats of the South Atlantic Region","Corals",5
+"SAFMC","Dolphin and Wahoo Fishery of the Atlantic","Dolphin and Wahoo",2
+"SAFMC","Golden Crab Fishery of the South Atlantic Region","Golden Crab",1
+"SAFMC","Pelagic Sargassum Habitat of the South Atlantic Region","Sargassum",1
+"SAFMC","Shrimp Fishery of the South Atlantic Region","Shrimp",4
+"SAFMC","Snapper-Grouper Fishery of the South Atlantic Region","Snapper-Grouper",24
+"SAFMC/GMFMC","Coastal Migratory Pelagic Resources of the Gulf of Mexico and South Atlantic","Coastal Migratory Pelagics",4
+"SAFMC/GMFMC","Snapper-Grouper Fishery of the South Atlantic Region / Reef Fish Resources of the Gulf of Mexico",NA,4
+"SAFMC/GMFMC","Spiny Lobster in the Gulf of Mexico and South Atlantic","Spiny Lobster",1
+"WPFMC","American Samoa Archipelago Ecosystem","American Samoa Archipelago Ecosystem",1
+"WPFMC","Hawaii Archipelago Ecosystem","Hawaii Archipelago Ecosystem",13
+"WPFMC","Mariana Archipelago Ecosystem","Mariana Archipelago Ecosystem",1
+"WPFMC","Pacific Pelagic Fisheries of the Western Pacific Region Ecosystem","Pelagic Fisheries",15
+"WPFMC","Pacific Remote Island Areas Ecosystem","Remote Island Areas Ecosystem",4

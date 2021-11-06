@@ -1,0 +1,512 @@
+stock=gsub("–|-", "-", stock),
+stock=gsub(" - ", " - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock, comm_name, area, everything())
+# Inspect
+table(data$type)
+table(data$council)
+table(data$fmp)
+# Write
+write.csv(data, file=file.path(tabledir, "TableS3_stocks.csv"), row.names=F)
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" / ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock, comm_name, area, everything())
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.),
+stock=gsub("–|-", "/", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" / ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock, comm_name, area, everything())
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.),
+stock=gsub(" - ", " - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock, comm_name, area, everything())
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.),
+stock=gsub(" ", "0", stock) %>%
+stock=gsub(" - ", " - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock, comm_name, area, everything())
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.),
+stock=gsub(" ", "0", stock),
+stock=gsub(" - ", " - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock, comm_name, area, everything())
+sort(unique(data$stock))
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.),
+stock=gsub("\r", " ", stock),
+stock=gsub(" - ", " - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock, comm_name, area, everything())
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+rename(stock_orig=stock) %>%
+mutate(stock=recode(stock,
+"Oregon Blue and Deacon Rockfish Complex"="Blue and Deacon Rockfish Complex - Oregon")) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock"))
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+rename(stock_orig=stock)
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+rename(stock_orig=stock) %>%
+mutate(stock=recode(stock,
+"Oregon Blue and Deacon Rockfish Complex"="Blue and Deacon Rockfish Complex - Oregon"))
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+rename(stock_orig=stock) %>%
+mutate(stock=recode(stock_orig,
+"Oregon Blue and Deacon Rockfish Complex"="Blue and Deacon Rockfish Complex - Oregon")) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+#
+data$stock_orig[is.na(data$area)]
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+#
+data$stock_orig[is.na(data$area)]
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+rename(stock=stock_orig) %>%
+mutate(stock=gsub("Pacific Remote Island Areas"="Pacific Remote Island Areas -")) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+rename(stock=stock_orig) %>%
+mutate(stock=gsub("Pacific Remote Island Areas", "Pacific Remote Island Areas -", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+rename(stock_orig=stock) %>%
+mutate(stock=gsub("Pacific Remote Island Areas", "Pacific Remote Island Areas -", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+mutate(stock_orig=stock,
+stock=gsub("Pacific Remote Island Areas", "Pacific Remote Island Areas -", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+#
+data$stock_orig[is.na(data$area)]
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+mutate(stock_orig=stock,
+stock=gsub("Bering Sea / Aleutian Islands ", "Bering Sea / Aleutian Islands - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+#
+data$stock_orig[is.na(data$area)]
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+mutate(stock_orig=stock,
+stock=gsub("Bering Sea / Aleutian Islands ", "Bering Sea / Aleutian Islands - ", stock),
+stock=gsub("Gulf of Alaska ", "Gulf of Alaska - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+#
+data$stock_orig[is.na(data$area)]
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+mutate(stock_orig=stock,
+stock=gsub("Bering Sea / Aleutian Islands ", "Bering Sea / Aleutian Islands - ", stock),
+stock=gsub("Gulf of Alaska ", "Gulf of Alaska - ", stock),
+stock=gsub("Caribbean ", "Caribbean - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+#
+data$stock_orig[is.na(data$area)]
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+mutate(stock_orig=stock,
+stock=gsub("Bering Sea / Aleutian Islands ", "Bering Sea / Aleutian Islands - ", stock),
+stock=gsub("Gulf of Alaska ", "Gulf of Alaska - ", stock),
+stock=gsub("Caribbean ", "Caribbean - ", stock),
+stock=gsub("Puerto Rico ", "Puerto Rico - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+#
+data$stock_orig[is.na(data$area)]
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+mutate(stock_orig=stock,
+stock=gsub("Bering Sea / Aleutian Islands ", "Bering Sea / Aleutian Islands - ", stock),
+stock=gsub("Gulf of Alaska ", "Gulf of Alaska - ", stock),
+stock=gsub("Caribbean ", "Caribbean - ", stock),
+stock=gsub("Puerto Rico ", "Puerto Rico - ", stock),
+stock=gsub("St. Croix ", "St. Croix - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+#
+data$stock_orig[is.na(data$area)]
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+mutate(stock_orig=stock,
+stock=gsub("Bering Sea / Aleutian Islands ", "Bering Sea / Aleutian Islands - ", stock),
+stock=gsub("Gulf of Alaska ", "Gulf of Alaska - ", stock),
+stock=gsub("Caribbean ", "Caribbean - ", stock),
+stock=gsub("Puerto Rico ", "Puerto Rico - ", stock),
+stock=gsub("St. Croix ", "St. Croix - ", stock),
+stock=gsub("St. Thomas / St. John ", "St. Thomas / St. John - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+#
+data$stock_orig[is.na(data$area)]
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+mutate(stock_orig=stock,
+stock=gsub("Bering Sea / Aleutian Islands ", "Bering Sea / Aleutian Islands - ", stock),
+stock=gsub("Gulf of Alaska ", "Gulf of Alaska - ", stock),
+stock=gsub("Caribbean ", "Caribbean - ", stock),
+stock=gsub("Puerto Rico ", "Puerto Rico - ", stock),
+stock=gsub("St. Croix ", "St. Croix - ", stock),
+stock=gsub("St. Thomas / St. John ", "St. Thomas / St. John - ", stock),
+stock=gsub("Gulf of Mexico ", "Gulf of Mexico - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+#
+data$stock_orig[is.na(data$area)]
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+mutate(stock_orig=stock,
+stock=gsub("Bering Sea / Aleutian Islands ", "Bering Sea / Aleutian Islands - ", stock),
+stock=gsub("Gulf of Alaska ", "Gulf of Alaska - ", stock),
+stock=gsub("Caribbean ", "Caribbean - ", stock),
+stock=gsub("Puerto Rico ", "Puerto Rico - ", stock),
+stock=gsub("St. Croix ", "St. Croix - ", stock),
+stock=gsub("St. Thomas / St. John ", "St. Thomas / St. John - ", stock),
+stock=gsub("Gulf of Mexico ", "Gulf of Mexico - ", stock),
+stock=gsub("South Atlantic ", "South Atlantic - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+#
+data$stock_orig[is.na(data$area)]
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+mutate(stock_orig=stock,
+stock=gsub("Bering Sea / Aleutian Islands ", "Bering Sea / Aleutian Islands - ", stock),
+stock=gsub("Gulf of Alaska ", "Gulf of Alaska - ", stock),
+stock=gsub("Caribbean ", "Caribbean - ", stock),
+stock=gsub("Puerto Rico ", "Puerto Rico - ", stock),
+stock=gsub("St. Croix ", "St. Croix - ", stock),
+stock=gsub("St. Thomas / St. John ", "St. Thomas / St. John - ", stock),
+stock=gsub("Gulf of Mexico ", "Gulf of Mexico - ", stock),
+stock=gsub("South Atlantic ", "South Atlantic - ", stock),
+stock=gsub("Northwestern Hawaiian Islands ", "Northwestern Hawaiian Islands - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, comm_name, area, everything())
+#
+data$stock_orig[is.na(data$area)]
+# Merge data
+data <- bind_rows(table_a, table_b) %>%
+# Arrange
+select(type, everything()) %>%
+# Remove asterisk from stock name (denotes endnote)
+mutate(stock=gsub("\\*", "", stock) %>% stringr::str_trim(.)) %>%
+# Fix bizarre spaces
+mutate(stock=gsub("\r", " ", stock)) %>%
+# Flag stock complexes
+mutate(stock_type=ifelse(grepl("Complex", stock), "stock complex", "stock")) %>%
+# Recode stock complexes
+mutate(stock_orig=stock,
+stock=gsub("Bering Sea / Aleutian Islands ", "Bering Sea / Aleutian Islands - ", stock),
+stock=gsub("Gulf of Alaska ", "Gulf of Alaska - ", stock),
+stock=gsub("Caribbean ", "Caribbean - ", stock),
+stock=gsub("Puerto Rico ", "Puerto Rico - ", stock),
+stock=gsub("St. Croix ", "St. Croix - ", stock),
+stock=gsub("St. Thomas / St. John ", "St. Thomas / St. John - ", stock),
+stock=gsub("Gulf of Mexico ", "Gulf of Mexico - ", stock),
+stock=gsub("South Atlantic ", "South Atlantic - ", stock),
+stock=gsub("Northwestern Hawaiian Islands ", "Northwestern Hawaiian Islands - ", stock),
+stock=gsub("Pacific Remote Island Areas ", "Pacific Remote Island Areas - ", stock)) %>%
+# Split stock area and species
+tidyr::separate(stock, into=c("comm_name", "area"), sep=" - ", remove=F) %>%
+# Arrange
+select(type, council, fmp, stock_orig, stock, stock_type, comm_name, area, everything())
+View(data)
