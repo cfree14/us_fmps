@@ -45,6 +45,10 @@ f_ofl <- -log(1 - u_ofl)
 f_abc <- -log(1 - u_abc)
 
 
+# F = -log(1 - U)
+# U = 1 - exp(-F)
+
+
 # Catch-based harvest control rule
 ################################################################################
 
@@ -146,7 +150,7 @@ g3 <- ggplot(data, aes(x=biomass, y=f, color=value)) +
   scale_x_continuous(breaks=c(0, b_min, b_lim, k),
                      labels=c("0", expression("B"["min"]), expression("B"["lim"]), expression("B"["0"]))) +
   # Labels
-  labs(x="Biomass", y="Instanteous mortality rate", tag="B") +
+  labs(x="Biomass", y="Fishing mortality rate", tag="B") +
   # Legend
   scale_color_discrete(name="Limit value") +
   # Theme
@@ -155,10 +159,83 @@ g3 <- ggplot(data, aes(x=biomass, y=f, color=value)) +
 g3
 
 # Merge plots
-g <- gridExtra::grid.arrange(g1, g2, nrow=1)
+g <- gridExtra::grid.arrange(g1, g3, nrow=1)
 g
 
 # Export plot
 ggsave(g, filename=file.path(plotdir, "figure_ramped_catch_based_hcr.png"),
        width=6.5, height=2.75, units="in", dpi=600)
+
+
+
+# F-based harvest control rule
+################################################################################
+
+# Parameters
+a_bbmsy <- 0.05
+a_biomass <- a_bbmsy/2
+a_bbmsy_abc <- 0.5
+a_biomass_abc <- a_bbmsy_abc/2
+
+# Build data
+data2 <- tibble(biomass=b_vals,
+                bbmsy=b_vals/b_msy) %>%
+  # Add F OFL
+  mutate(f_ofl=ifelse(bbmsy>1, f_msy,
+                      ifelse(bbmsy<=a_bbmsy, 0, f_msy*(bbmsy-a_bbmsy)/(1-a_bbmsy)))) %>%
+  # Add F ABC
+  mutate(f_abc=f_ofl*0.9,
+         f_abc=ifelse(bbmsy<=a_bbmsy_abc, 0, f_abc)) %>%
+  # Gather
+  gather(key="value", value="f", 3:ncol(.)) %>%
+  # Format value type
+  mutate(value=recode_factor(value, "f_ofl"="OFL", "f_abc"="ABC/ACL")) %>%
+  # Calculate exploitation rate
+  mutate(u= 1 - exp(-f)) %>%
+  # Calculate catch
+  mutate(catch=u*biomass)
+
+# Plot
+g1 <- ggplot(data2, aes(x=biomass, y=f, color=value)) +
+  geom_line() +
+  # Limits
+  scale_y_continuous(lim=c(0, f_ofl*1.1),
+                     breaks=c(0, f_abc, f_ofl), labels=c("0", expression("F"["ABC"]), expression("F"["OFL"]))) +
+  scale_x_continuous(breaks=c(0, a_biomass, a_biomass_abc, b_lim, k),
+                     labels=c("0", expression("α"["1"]), expression("α"["2"]),  expression("B"["lim"]), expression("B"["0"]))) +
+  # Labels
+  labs(x="Biomass", y="Fishing mortality rate", tag="A") +
+  # Legend
+  scale_color_discrete(name="Limit value") +
+  # Theme
+  theme_bw() + my_theme
+g1
+
+# Plot
+g2 <- ggplot(data2, aes(x=biomass, y=catch, color=value)) +
+  geom_line() +
+  # Reference line
+  geom_hline(yintercept=msy, linetype="dotted") +
+  # Limits
+  scale_y_continuous(breaks=c(msy), labels=c("MSY")) +
+  scale_x_continuous(breaks=c(0, a_biomass, a_biomass_abc, b_lim, k),
+                     labels=c("0", expression("α"["1"]), expression("α"["2"]),  expression("B"["lim"]), expression("B"["0"]))) +
+  # Labels
+  labs(x="Biomass", y="Annual catch limit", tag="B") +
+  # Theme
+  theme_bw() + my_theme +
+  theme(legend.position = "none")
+g2
+
+# Merge plots
+g <- gridExtra::grid.arrange(g1, g2, nrow=1)
+g
+
+# Export plot
+ggsave(g, filename=file.path(plotdir, "figure_ramped_f_based_hcr.png"),
+       width=6.5, height=2.75, units="in", dpi=600)
+
+
+
+
 
