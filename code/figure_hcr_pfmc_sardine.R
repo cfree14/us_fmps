@@ -151,7 +151,10 @@ g3 <- ggplot(limit_df, aes(x=biomass/1e3, y=u,
 g3
 
 # Merge
+g <- gridExtra::grid.arrange(g1, g2, g3)
 
-# Export
+# Export plot
+ggsave(g, filename=file.path(plotdir, "figure_hcr_pfmc_sardine.png"),
+       width=6.5, height=6.5, units="in", dpi=600)
 
 
