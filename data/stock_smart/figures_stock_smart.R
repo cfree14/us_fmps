@@ -19,6 +19,8 @@ outputdir <- "data/stock_smart/processed"
 # Read data
 data_orig <- readRDS(file.path(outputdir, "2021_stock_smart_data.Rds"))
 
+# To-do list
+# Move a lot of formatting below to format file
 
 # Build data
 ################################################################################
@@ -38,8 +40,8 @@ data <- data_orig %>%
   mutate(fmp_short=recode(fmp_short,
                           "West Coast HMS / West Pacific Pelagic Fisheries"="Pacific HMS",
                           "Summer Flounder, Scup, and Black Sea Bass"="Summer Flounder, Scup, BSB")) %>%
-  # Mark co-managed FMPs
-  mutate(fmp_label=ifelse(council_type=="Single", fmp_short, paste0(fmp_short, "*"))) %>%
+  # Mark stocks managed between multiple FMPs (and councils)
+  mutate(n_fmps=ifelse(grepl("/", fmp_short), "multiple", "single")) %>%
   # Simplify councils
   mutate(council_label=recode(council,
                               "Atlantic HMS"="NEFMC",
@@ -58,10 +60,46 @@ data <- data_orig %>%
                                         "2"="2-Simple model",
                                         "3"="3-Production model",
                                         "4"="4-Age-structured model",
-                                        "5"="5-Includes ecosystem considerations"))
+                                        "5"="5-Includes ecosystem considerations")) %>%
+  # Arrange
+  select(council, council_type, council_label, fmp, fmp_short,  n_fmps, everything())
+
+# Inspect
+colnames(data)
+
+# Break out stocks managed by multiple FMPs
+fmp_shorts <- sort(unique(data$fmp_short))
+data_exp <- purrr::map_df(fmp_shorts, function(x){
+
+  # Get FMP short
+  fmp_short_do <- x
+  fdata <- data %>%
+    filter(fmp_short==fmp_short_do)
+
+  # Break apart, if necessary
+  break_yn <- grepl("/", fmp_short_do)
+  if(break_yn){
+
+    fmp_shorts2 <- strsplit(fmp_short_do, split="/")[[1]]
+    outdata <- purrr::map_df(fmp_shorts2, function(y){
+      fdata2 <- fdata %>%
+        mutate(fmp_short=y)
+    })
+
+  }else{
+    outdata <- fdata
+  }
+
+})
+
+# Format expanded data
+data2 <- data_exp %>%
+  # Add FMP label
+  # Mark FMPs managed between multiple councils or with with stocks managed between multiple FMPs
+  mutate(fmp_label=ifelse(council_type=="Single", fmp_short, paste0(fmp_short, "*")))
 
 # Build FMP order key
-fmp_order_key <- data %>%
+fmp_order_key <- data2 %>%
   # Calculate sample size
   group_by(council_label, council_type, fmp_label) %>%
   summarize(n=n()) %>%
@@ -73,7 +111,7 @@ fmp_order_key <- data %>%
   arrange(council_label, council_type, n)
 
 # Build stats
-stats <- data %>%
+stats <- data2 %>%
   # Count by FMP
   group_by(council_type, council_label, fmp_label, assessment_level) %>%
   summarize(n=n()) %>%

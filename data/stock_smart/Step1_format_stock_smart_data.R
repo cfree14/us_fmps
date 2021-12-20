@@ -56,12 +56,13 @@ data <- data_orig %>%
   left_join(fmp_key_orig %>% select(fmp, fmp_short), by="fmp") %>%
   mutate(fmp_short=ifelse(is.na(fmp_short), fmp, fmp_short),
          fmp_short=recode(fmp_short,
-                          "Groundfish of the Bering Sea and Aleutian Islands Management Area / Groundfish of the Gulf of Alaska"="BSAI/GOM Groundfish",
-                          "Snapper-Grouper Fishery of the South Atlantic Region / Reef Fish Resources of the Gulf of Mexico"="SA Snapper-Grouper / GOM Reef Fish",
+                          "Groundfish of the Bering Sea and Aleutian Islands Management Area / Groundfish of the Gulf of Alaska"="BSAI Groundfish/GOM Groundfish",
+                          "Snapper-Grouper Fishery of the South Atlantic Region / Reef Fish Resources of the Gulf of Mexico"="Snapper-Grouper/GOM Reef Fish",
                           "Species Managed Under International Agreement - IPHC"="IPHC Halibut",
-                          "U.S. West Coast Fisheries for Highly Migratory Species / Pacific Pelagic Fisheries of the Western Pacific Region Ecosystem"="West Coast HMS / West Pacific Pelagic Fisheries")) %>%
+                          "U.S. West Coast Fisheries for Highly Migratory Species / Pacific Pelagic Fisheries of the Western Pacific Region Ecosystem"="Pacific HMS/Pelagic Fisheries")) %>%
   # Arrange
-  select(council, council_type, fmp, fmp_short, stock_name:fssi_stock, assessment_number, everything()) %>%
+  select(council, council_type, fmp, fmp_short, stock_name:fssi_stock,
+         assessment_number, assessment_year, assessment_month, assess_date, everything()) %>%
   arrange(council, fmp, stock_name, assessment_number)
 
 # Inspect
