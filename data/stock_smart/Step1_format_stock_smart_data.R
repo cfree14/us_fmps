@@ -50,13 +50,14 @@ data <- data_orig %>%
   ungroup() %>%
   # Format council
   mutate(council=gsub(" / ", "/", council)) %>%
+  mutate(council=recode(council, "Atlantic HMS"="NEFMC/MAFMC/SAFMC/GFMC/CFMC")) %>%
   # Add council type
   mutate(council_type=ifelse(grepl("/", council) | council %in% c("IPHC", "Atlantic HMS"), "Multiple", "Single")) %>%
   # Add FMP short
   left_join(fmp_key_orig %>% select(fmp, fmp_short), by="fmp") %>%
   mutate(fmp_short=ifelse(is.na(fmp_short), fmp, fmp_short),
          fmp_short=recode(fmp_short,
-                          "Groundfish of the Bering Sea and Aleutian Islands Management Area / Groundfish of the Gulf of Alaska"="BSAI Groundfish/GOM Groundfish",
+                          "Groundfish of the Bering Sea and Aleutian Islands Management Area / Groundfish of the Gulf of Alaska"="BSAI Groundfish/GOA Groundfish",
                           "Snapper-Grouper Fishery of the South Atlantic Region / Reef Fish Resources of the Gulf of Mexico"="Snapper-Grouper/GOM Reef Fish",
                           "Species Managed Under International Agreement - IPHC"="IPHC Halibut",
                           "U.S. West Coast Fisheries for Highly Migratory Species / Pacific Pelagic Fisheries of the Western Pacific Region Ecosystem"="Pacific HMS/Pelagic Fisheries")) %>%

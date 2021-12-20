@@ -26,9 +26,17 @@ data_orig <- readRDS(file.path(outputdir, "2021_stock_smart_data.Rds"))
 ################################################################################
 
 # Missing
-add_on <- tibble(council_label=c("WPFMC", "CFMC", "CFMC", "GMFMC", "GMFMC", "NPFMC"),
-                 fmp_label=c("Remote Island Areas Ecosystem", "Corals", "Queen Conch", "GOM Corals", "Red Drum", "Arctic Fish"),
-                 council_type=c("Single"))
+add_on <- tibble(council_label=c("WPFMC",
+                                 "SAFMC", "SAFMC", "SAFMC", "SAFMC",
+                                 "CFMC", "CFMC",
+                                 "GMFMC", "GMFMC",
+                                 "NPFMC"),
+                 fmp_label=c("Remote Island Areas Ecosystem",
+                             "SA Corals", "Dolphin & Wahoo", "Golden Crab", "Sargassum",
+                             "Corals", "Queen Conch",
+                             "GOM Corals", "Red Drum",
+                             "Arctic Fish"),
+                 fmp_mgmt=c("Single"))
 
 # Format data
 data <- data_orig %>%
@@ -38,23 +46,13 @@ data <- data_orig %>%
   filter(council!="IPHC") %>%
   # Format FMP short
   mutate(fmp_short=recode(fmp_short,
-                          "West Coast HMS / West Pacific Pelagic Fisheries"="Pacific HMS",
                           "Summer Flounder, Scup, and Black Sea Bass"="Summer Flounder, Scup, BSB")) %>%
-  # Mark stocks managed between multiple FMPs (and councils)
-  mutate(n_fmps=ifelse(grepl("/", fmp_short), "multiple", "single")) %>%
-  # Simplify councils
-  mutate(council_label=recode(council,
-                              "Atlantic HMS"="NEFMC",
-                              "NEFMC/MAFMC"="NEFMC",
-                              "SAFMC/GMFMC"="SAFMC",
-                              "PFMC/WPFMC"="PFMC")) %>%
-  # Order councils
-  mutate(council_label=factor(council_label, levels=c("NEFMC", "MAFMC", "SAFMC", "GMFMC", "CFMC", "PFMC", "NPFMC", "WPFMC"))) %>%
   # Format assessment levels
   mutate(assessment_level=as.character(assessment_level),
-         assessment_level=ifelse(is.na(assessment_level), "NA", assessment_level),
+         assessment_level=ifelse(is.na(assessment_level), fssi_stock, assessment_level),
          assessment_level=recode_factor(assessment_level,
-                                        "NA"="Not provided",
+                                        "N"="Non-FSSI stock",
+                                        "Y"="Not provided",
                                         "0"="0-Catch-only",
                                         "1"="1-Survey data",
                                         "2"="2-Simple model",
@@ -62,10 +60,16 @@ data <- data_orig %>%
                                         "4"="4-Age-structured model",
                                         "5"="5-Includes ecosystem considerations")) %>%
   # Arrange
-  select(council, council_type, council_label, fmp, fmp_short,  n_fmps, everything())
+  select(-council_type) %>%
+  select(council, fmp, fmp_short, everything())
 
 # Inspect
 colnames(data)
+
+# FMP key
+fmp_key <- data %>%
+  group_by(council, fmp_short) %>%
+  summarize(n=n())
 
 # Break out stocks managed by multiple FMPs
 fmp_shorts <- sort(unique(data$fmp_short))
@@ -76,14 +80,26 @@ data_exp <- purrr::map_df(fmp_shorts, function(x){
   fdata <- data %>%
     filter(fmp_short==fmp_short_do)
 
+  # Get council
+  council_orig <- fdata$council %>% unique()
+
   # Break apart, if necessary
   break_yn <- grepl("/", fmp_short_do)
   if(break_yn){
 
+    # Split FMPs/councils
     fmp_shorts2 <- strsplit(fmp_short_do, split="/")[[1]]
-    outdata <- purrr::map_df(fmp_shorts2, function(y){
+    councils <- strsplit(council_orig, split="/")[[1]]
+    if(length(councils)==1){councils <- rep(councils, length(fmp_shorts2))}
+    fmp_council_key <- tibble(council=councils,
+                              fmp_short=fmp_shorts2)
+
+    # Overwrite FMP and council
+    outdata <- purrr::map_df(1:nrow(fmp_council_key), function(y){
       fdata2 <- fdata %>%
-        mutate(fmp_short=y)
+        mutate(fmp_short=fmp_council_key$fmp_short[y],
+               council=fmp_council_key$council[y],
+               council_label=fmp_council_key$council[y])
     })
 
   }else{
@@ -92,28 +108,49 @@ data_exp <- purrr::map_df(fmp_shorts, function(x){
 
 })
 
+# FMPs that are co-managed
+fmps_comanaged <- c("Atlantic HMS", "Monkfish", "Spiny Dogfish",
+                    "Coastal Migratory Pelagics", "GOM & S. Atlantic Spiny Lobster",
+                    "Pacific HMS")
+fmps_with_other_fmps <- c("BSAI Groundfish", "GOA Groundfish", "Pacific HMS", "Pelagic Fisheries", "Snapper-Grouper", "GOM Reef Fish")
+sort(unique(data$fmp_short))
+
 # Format expanded data
 data2 <- data_exp %>%
-  # Add FMP label
+  # Simplify councils
+  mutate(council_label=recode(council,
+                              "NEFMC/MAFMC/SAFMC/GFMC/CFMC"="NEFMC",
+                              "NEFMC/MAFMC"="NEFMC",
+                              "SAFMC/GMFMC"="SAFMC",
+                              "PFMC/WPFMC"="PFMC")) %>%
+  # Order councils
+  mutate(council_label=factor(council_label, levels=c("NEFMC", "MAFMC", "SAFMC", "GMFMC", "CFMC", "PFMC", "NPFMC", "WPFMC"))) %>%
+  # Mark FMPs managed between multiple councils
+  mutate(fmp_mgmt=ifelse(fmp_short %in% fmps_comanaged, "Multi-council", "Single council")) %>%
+  # Mark FMPs with stocks managed in other FMPs
+  mutate(fmp_n=ifelse(fmp_short %in% fmps_with_other_fmps, "multiple", "single")) %>%
   # Mark FMPs managed between multiple councils or with with stocks managed between multiple FMPs
-  mutate(fmp_label=ifelse(council_type=="Single", fmp_short, paste0(fmp_short, "*")))
+  mutate(fmp_label=ifelse(fmp_mgmt!="Multi-council", fmp_short, paste0(fmp_short, "*")),
+         fmp_label=ifelse(fmp_n!="multiple", fmp_label, paste0(fmp_label, "†"))) %>%
+  # Arrange
+  select(council, council_label, fmp, fmp_short, fmp_label, fmp_mgmt, everything())
 
 # Build FMP order key
 fmp_order_key <- data2 %>%
   # Calculate sample size
-  group_by(council_label, council_type, fmp_label) %>%
+  group_by(council_label, fmp_mgmt, fmp_label) %>%
   summarize(n=n()) %>%
   ungroup() %>%
   # Add add ons
   bind_rows(add_on) %>%
   mutate(n=ifelse(is.na(n), 0, n)) %>%
-  # ORder
-  arrange(council_label, council_type, n)
+  # Order
+  arrange(council_label, fmp_mgmt, n)
 
 # Build stats
 stats <- data2 %>%
   # Count by FMP
-  group_by(council_type, council_label, fmp_label, assessment_level) %>%
+  group_by(fmp_mgmt, council_label, fmp_label, assessment_level) %>%
   summarize(n=n()) %>%
   ungroup() %>%
   # Percent by FMP
@@ -127,7 +164,7 @@ stats <- data2 %>%
 
 # Build lines for seperating single and co-managed FMPS
 sep_lines <- stats %>%
-  filter(council_type=="Multiple") %>%
+  filter(fmp_mgmt=="Multi-council") %>%
   group_by(council_label) %>%
   summarize(n_co=n_distinct(fmp_label)) %>%
   ungroup() %>%
@@ -170,7 +207,7 @@ g1 <- ggplot(stats, aes(x=n, y=fmp_label, fill=assessment_level)) +
   # Labels
   labs(x="Number of stocks", y="") +
   # Scale
-  scale_fill_manual(name="Assessment level", values=c("grey95", RColorBrewer::brewer.pal(n_levels-1, "Blues"))) +
+  scale_fill_manual(name="Assessment level", values=c("grey50", "grey95", RColorBrewer::brewer.pal(n_levels-1, "Blues"))) +
   # Theme
   theme_bw() + my_theme +
   theme(legend.position = "none")
@@ -188,7 +225,7 @@ g2 <- ggplot(stats, aes(x=prop, y=fmp_label, fill=assessment_level)) +
   labs(x="Percent of stocks", y="") +
   # Scale
   scale_x_continuous(labels = scales::percent) +
-  scale_fill_manual(name="Assessment level", values=c("grey95", RColorBrewer::brewer.pal(n_levels-1, "Blues"))) +
+  scale_fill_manual(name="Assessment level", values=c("grey50", "grey95", RColorBrewer::brewer.pal(n_levels-1, "Blues"))) +
   # Theme
   theme_bw() + my_theme +
   theme(axis.text.y=element_blank(),
