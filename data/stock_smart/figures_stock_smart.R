@@ -47,6 +47,18 @@ data <- data_orig %>%
   # Format FMP short
   mutate(fmp_short=recode(fmp_short,
                           "Summer Flounder, Scup, and Black Sea Bass"="Summer Flounder, Scup, BSB")) %>%
+  # Format model category
+  mutate(model_category=as.character(model_category),
+         model_category=ifelse(is.na(model_category), fssi_stock, model_category),
+         model_category=recode_factor(model_category,
+                                        "N"="Non-FSSI stock",
+                                        "Y"="Not provided",
+                                        "1"="1-Data-limited",
+                                        "2"="2-Index-based",
+                                        "3"="3-Aggregate biomass dynamics",
+                                        "4"="4-Virtual population analysis",
+                                        "5"="5-Statistical catch-at-length",
+                                      "6"="6-Statistical catch-at-age")) %>%
   # Format assessment levels
   mutate(assessment_level=as.character(assessment_level),
          assessment_level=ifelse(is.na(assessment_level), fssi_stock, assessment_level),
@@ -59,6 +71,110 @@ data <- data_orig %>%
                                         "3"="3-Production model",
                                         "4"="4-Age-structured model",
                                         "5"="5-Includes ecosystem considerations")) %>%
+  # Format assessment frequency
+  mutate(assessment_frequency=as.character(assessment_frequency),
+         assessment_frequency=ifelse(is.na(assessment_frequency), fssi_stock, assessment_frequency),
+         assessment_frequency=recode_factor(assessment_frequency,
+                                        "N"="Non-FSSI stock",
+                                        "Y"="Not provided",
+                                        "0"="0-Never",
+                                        "1"="1-Infrequent",
+                                        "2"="2-Frequent/recent",
+                                        "3"="3-Annual or more")) %>%
+  # Format ecosystem linkage
+  mutate(ecosystem_linkage=as.character(ecosystem_linkage),
+         ecosystem_linkage=ifelse(is.na(ecosystem_linkage), fssi_stock, ecosystem_linkage),
+         ecosystem_linkage=recode_factor(ecosystem_linkage,
+                                  "N"="Non-FSSI stock",
+                                  "Y"="Not provided",
+                                  "0"="0-None",
+                                  "1"="1-Ecosystem-based",
+                                  "2"="2-Some form of variability",
+                                  "3"="3-Features dynamic",
+                                  "4"="4-One ecosystem",
+                                  "5"="5-Coupled/linked to model")) %>%
+  # Format life history data
+  mutate(life_history_data=as.character(life_history_data),
+         life_history_data=ifelse(is.na(life_history_data), fssi_stock, life_history_data),
+         life_history_data=recode_factor(life_history_data,
+                                        "N"="Non-FSSI stock",
+                                        "Y"="Not provided",
+                                        "0"="0-None",
+                                        "1"="1-Size composition",
+                                        "2"="2-Demographic rates",
+                                        "3"="3-Seasonal/spatial patterns",
+                                        "4"="4-Food habits info")) %>%
+  # Format abundance data
+  mutate(abundance_data=as.character(abundance_data),
+         abundance_data=ifelse(is.na(abundance_data), fssi_stock, abundance_data),
+         abundance_data=recode_factor(abundance_data,
+                                         "N"="Non-FSSI stock",
+                                         "Y"="Not provided",
+                                         "0"="0-None",
+                                         "1"="1-Relace CPUE",
+                                         "2"="2-Age composition",
+                                         "3"="3-Research surveys",
+                                         "4"="4-Habitat-specifc surveys")) %>%
+  # Format catch data
+  mutate(catch_data=as.character(catch_data),
+         catch_data=ifelse(is.na(catch_data), fssi_stock, catch_data),
+         catch_data=recode_factor(catch_data,
+                                  "N"="Non-FSSI stock",
+                                  "Y"="Not provided",
+                                  "0"="0-None",
+                                  "1"="1-Landed catch",
+                                  "2"="2-Size composition",
+                                  "3"="3-RSpatial data on catch",
+                                  "4"="4-Catch age composition",
+                                  "5"="5-Complete catch")) %>%
+  # Format catch input data
+  mutate(catch_input_data=as.character(catch_input_data),
+         catch_input_data=ifelse(is.na(catch_input_data), fssi_stock, catch_input_data),
+         catch_input_data=recode_factor(catch_input_data,
+                                  "N"="Non-FSSI stock",
+                                  "Y"="Not provided",
+                                  "0"="0-None",
+                                  "1"="1-Some",
+                                  "2"="2-Enough",
+                                  "3"="3-Generally available",
+                                  "4"="4-HNo data gaps",
+                                  "5"="5-Very complete")) %>%
+  # Format abundance input data
+  mutate(abundance_input_data=as.character(abundance_input_data),
+         abundance_input_data=ifelse(is.na(abundance_input_data), fssi_stock, abundance_input_data),
+         abundance_input_data=recode_factor(abundance_input_data,
+                                      "N"="Non-FSSI stock",
+                                      "Y"="Not provided",
+                                      "0"="0-None",
+                                      "1"="1-Fishery-dependent CPUE",
+                                      "2"="2-Fishery-dependent CPUE better",
+                                      "3"="3-Fishery-independent CPUE",
+                                      "4"="4-Fishery-independent CPUE better",
+                                      "5"="5-Fishery-independent CPUE abs abundance")) %>%
+  # Format biological input data
+  mutate(biological_input_data=as.character(biological_input_data),
+         biological_input_data=ifelse(is.na(biological_input_data), fssi_stock, biological_input_data),
+         biological_input_data=recode_factor(biological_input_data,
+                                            "N"="Non-FSSI stock",
+                                            "Y"="Not provided",
+                                            "0"="0-None",
+                                            "1"="1-Proxies/meta-analysis",
+                                            "2"="2-Some empirically derived",
+                                            "3"="3-Most empirically derived",
+                                            "4"="4-Data sufficient",
+                                            "5"="5-No major gaps")) %>%
+  # Format composition input data
+  mutate(composition_input_data=as.character(composition_input_data),
+         composition_input_data=ifelse(is.na(composition_input_data), fssi_stock, composition_input_data),
+         composition_input_data=recode_factor(composition_input_data,
+                                             "N"="Non-FSSI stock",
+                                             "Y"="Not provided",
+                                             "0"="0-None",
+                                             "1"="1-Some",
+                                             "2"="2-Enough for DLM",
+                                             "3"="3-Enough for other",
+                                             "4"="4-Even more",
+                                             "5"="5-Very complete")) %>%
   # Arrange
   select(-council_type) %>%
   select(council, fmp, fmp_short, everything())
@@ -147,105 +263,133 @@ fmp_order_key <- data2 %>%
   # Order
   arrange(council_label, fmp_mgmt, n)
 
-# Build stats
-stats <- data2 %>%
-  # Count by FMP
-  group_by(fmp_mgmt, council_label, fmp_label, assessment_level) %>%
-  summarize(n=n()) %>%
-  ungroup() %>%
-  # Percent by FMP
-  group_by(council_label, fmp_label) %>%
-  mutate(prop=n/sum(n)) %>%
-  # Add add ons
-  bind_rows(add_on ) %>%
-  # Order FMPs
-  mutate(council_label=factor(council_label, levels=c("NEFMC", "MAFMC", "SAFMC", "GMFMC", "CFMC", "PFMC", "NPFMC", "WPFMC")),
-         fmp_label=factor(fmp_label, levels=fmp_order_key$fmp_label))
-
-# Build lines for seperating single and co-managed FMPS
-sep_lines <- stats %>%
-  filter(fmp_mgmt=="Multi-council") %>%
-  group_by(council_label) %>%
-  summarize(n_co=n_distinct(fmp_label)) %>%
-  ungroup() %>%
-  filter(n_co>0)
-
-# Add on formatted
-add_on1 <- add_on %>%
-  mutate(council_label=factor(council_label, levels=levels(stats$council_label)),
-         fmp_label=factor(fmp_label, levels=levels(stats$fmp_label)))
 
 
-# Plot data
+# Plot function
 ################################################################################
 
-# Theme
-my_theme <-  theme(axis.text=element_text(size=7),
-                   axis.title=element_text(size=9),
-                   axis.title.y=element_blank(),
-                   legend.text=element_text(size=7),
-                   legend.title=element_text(size=9),
-                   strip.text=element_text(size=8),
-                   plot.title=element_blank(),
-                   # Gridlines
-                   panel.grid.major = element_blank(),
-                   panel.grid.minor = element_blank(),
-                   panel.background = element_blank(),
-                   axis.line = element_line(colour = "black"),
-                   # Legend
-                   legend.position="bottom")
-
 # Plot data
-n_levels <- nlevels(stats$assessment_level)
-g1 <- ggplot(stats, aes(x=n, y=fmp_label, fill=assessment_level)) +
-  facet_grid(council_label~., scales="free", space="free") +
-  geom_bar(stat="identity", color="grey30", lwd=0.2) +
-  # Ref lines
-  geom_hline(data=sep_lines, mapping = aes(yintercept=n_co+0.5), linetype="dashed", lwd=0.2) +
-  # Text
-  geom_text(data=add_on1, mapping=aes(y=fmp_label), inherit.aes = F, x=0, hjust=0, label="Not assessed", size=2, fontface="italic") +
-  # Labels
-  labs(x="Number of stocks", y="") +
-  # Scale
-  scale_fill_manual(name="Assessment level", values=c("grey50", "grey95", RColorBrewer::brewer.pal(n_levels-1, "Blues"))) +
+col_name <- "assessment_level"; legend_title <- "Assessment level"
+plot_data <- function(col_name, legend_title){
+
+  # Build stats
+  ##############################################
+
+  # Rename a specific colums
+  data3 <- data2
+  col_num <- which(colnames(data3)==col_name)
+  colnames(data3)[col_num] <- "plot_group"
+
+  # Build stats
+  stats <- data3 %>%
+    # Count by FMP
+    group_by(fmp_mgmt, council_label, fmp_label, plot_group) %>%
+    summarize(n=n()) %>%
+    ungroup() %>%
+    # Percent by FMP
+    group_by(council_label, fmp_label) %>%
+    mutate(prop=n/sum(n)) %>%
+    # Add add ons
+    bind_rows(add_on ) %>%
+    # Order FMPs
+    mutate(council_label=factor(council_label, levels=c("NEFMC", "MAFMC", "SAFMC", "GMFMC", "CFMC", "PFMC", "NPFMC", "WPFMC")),
+           fmp_label=factor(fmp_label, levels=fmp_order_key$fmp_label))
+
+  # Build lines for seperating single and co-managed FMPS
+  sep_lines <- stats %>%
+    filter(fmp_mgmt=="Multi-council") %>%
+    group_by(council_label) %>%
+    summarize(n_co=n_distinct(fmp_label)) %>%
+    ungroup() %>%
+    filter(n_co>0)
+
+  # Add on formatted
+  add_on1 <- add_on %>%
+    mutate(council_label=factor(council_label, levels=levels(stats$council_label)),
+           fmp_label=factor(fmp_label, levels=levels(stats$fmp_label)))
+
+
+  # Plot data
+  ##############################################
+
   # Theme
-  theme_bw() + my_theme +
-  theme(legend.position = "none")
-g1
+  my_theme <-  theme(axis.text=element_text(size=7),
+                     axis.title=element_text(size=9),
+                     axis.title.y=element_blank(),
+                     legend.text=element_text(size=7),
+                     legend.title=element_text(size=9),
+                     strip.text=element_text(size=8),
+                     plot.title=element_blank(),
+                     # Gridlines
+                     panel.grid.major = element_blank(),
+                     panel.grid.minor = element_blank(),
+                     panel.background = element_blank(),
+                     axis.line = element_line(colour = "black"),
+                     # Legend
+                     legend.position="bottom")
 
-# Plot data
-g2 <- ggplot(stats, aes(x=prop, y=fmp_label, fill=assessment_level)) +
-  facet_grid(council_label~., scales="free", space="free") +
-  geom_bar(stat="identity", color="grey30", lwd=0.2) +
-  # Ref lines
-  geom_hline(data=sep_lines, mapping = aes(yintercept=n_co+0.5), linetype="dashed", lwd=0.2) +
-  # Text
-  geom_text(data=add_on1, mapping=aes(y=fmp_label), inherit.aes = F, x=0, hjust=0, label="Not assessed", size=2, fontface="italic") +
-  # Labels
-  labs(x="Percent of stocks", y="") +
-  # Scale
-  scale_x_continuous(labels = scales::percent) +
-  scale_fill_manual(name="Assessment level", values=c("grey50", "grey95", RColorBrewer::brewer.pal(n_levels-1, "Blues"))) +
-  # Theme
-  theme_bw() + my_theme +
-  theme(axis.text.y=element_blank(),
-        legend.position = "right")
-g2
+  # Plot data
+  n_levels <- nlevels(stats$plot_group)
+  g1 <- ggplot(stats, aes(x=n, y=fmp_label, fill=plot_group)) +
+    facet_grid(council_label~., scales="free", space="free") +
+    geom_bar(stat="identity", color="grey30", lwd=0.2) +
+    # Ref lines
+    geom_hline(data=sep_lines, mapping = aes(yintercept=n_co+0.5), linetype="dashed", lwd=0.2) +
+    # Text
+    geom_text(data=add_on1, mapping=aes(y=fmp_label), inherit.aes = F, x=0, hjust=0, label="Not assessed", size=2, fontface="italic") +
+    # Labels
+    labs(x="Number of stocks", y="") +
+    # Scale
+    scale_fill_manual(name=legend_title, values=c("grey50", "grey95", RColorBrewer::brewer.pal(n_levels-1, "Blues"))) +
+    # Theme
+    theme_bw() + my_theme +
+    theme(legend.position = "none")
+  g1
 
-# Merge
-g <- gridExtra::grid.arrange(g1, g2, widths=c(0.6, 0.4))
-g
+  # Plot data
+  g2 <- ggplot(stats, aes(x=prop, y=fmp_label, fill=plot_group)) +
+    facet_grid(council_label~., scales="free", space="free") +
+    geom_bar(stat="identity", color="grey30", lwd=0.2) +
+    # Ref lines
+    geom_hline(data=sep_lines, mapping = aes(yintercept=n_co+0.5), linetype="dashed", lwd=0.2) +
+    # Text
+    geom_text(data=add_on1, mapping=aes(y=fmp_label), inherit.aes = F, x=0, hjust=0, label="Not assessed", size=2, fontface="italic") +
+    # Labels
+    labs(x="Percent of stocks", y="") +
+    # Scale
+    scale_x_continuous(labels = scales::percent) +
+    scale_fill_manual(name=legend_title, values=c("grey50", "grey95", RColorBrewer::brewer.pal(n_levels-1, "Blues"))) +
+    # Theme
+    theme_bw() + my_theme +
+    theme(axis.text.y=element_blank(),
+          legend.position = "right")
+  g2
 
-# Export figure
-ggsave(g, filename=file.path(plotdir, "stock_smart_assessment_level.png"),
-       width=9.5, height=7, units="in", dpi=600)
+  # Merge
+  g <- gridExtra::grid.arrange(g1, g2, widths=c(0.6, 0.4))
+  g
+  print(g)
+
+  # Export figure
+  outfig <- paste0("stock_smart_", tolower(legend_title) %>% gsub(" ", "_", .), ".png")
+  ggsave(g, filename=file.path(plotdir,   outfig),
+         width=9.5, height=7, units="in", dpi=600)
+
+}
 
 
-
-
-
-
-
+# Plot a bunch
+plot_data(col_name="model_category", legend_title = "Model category")
+plot_data(col_name="assessment_level", legend_title = "Assessment level")
+plot_data(col_name="assessment_frequency", legend_title = "Assessment frequency")
+plot_data(col_name="life_history_data", legend_title = "Life history data")
+plot_data(col_name="biological_input_data", legend_title = "Biological input data")
+plot_data(col_name="abundance_data", legend_title = "Abundance data")
+plot_data(col_name="abundance_input_data", legend_title = "Abundance input data")
+plot_data(col_name="catch_data", legend_title = "Catch data")
+plot_data(col_name="catch_input_data", legend_title = "Catch input data")
+plot_data(col_name="composition_input_data", legend_title = "Composition input data")
+plot_data(col_name="ecosystem_linkage", legend_title = "Ecosystem linkage")
 
 
 
