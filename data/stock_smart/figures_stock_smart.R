@@ -51,13 +51,13 @@ data <- data_orig %>%
   mutate(model_category=as.character(model_category),
          model_category=ifelse(is.na(model_category), fssi_stock, model_category),
          model_category=recode_factor(model_category,
-                                        "N"="Non-FSSI stock",
-                                        "Y"="Not provided",
-                                        "1"="1-Data-limited",
-                                        "2"="2-Index-based",
-                                        "3"="3-Aggregate biomass dynamics",
-                                        "4"="4-Virtual population analysis",
-                                        "5"="5-Statistical catch-at-length",
+                                      "N"="Non-FSSI stock",
+                                      "Y"="Not provided",
+                                      "1"="1-Data-limited",
+                                      "2"="2-Index-based",
+                                      "3"="3-Aggregate biomass dynamics",
+                                      "4"="4-Virtual population analysis",
+                                      "5"="5-Statistical catch-at-length",
                                       "6"="6-Statistical catch-at-age")) %>%
   # Format assessment levels
   mutate(assessment_level=as.character(assessment_level),
@@ -78,32 +78,44 @@ data <- data_orig %>%
                                         "N"="Non-FSSI stock",
                                         "Y"="Not provided",
                                         "0"="0-Never",
-                                        "1"="1-Infrequent",
-                                        "2"="2-Frequent/recent",
-                                        "3"="3-Annual or more")) %>%
-  # Format ecosystem linkage
-  mutate(ecosystem_linkage=as.character(ecosystem_linkage),
-         ecosystem_linkage=ifelse(is.na(ecosystem_linkage), fssi_stock, ecosystem_linkage),
-         ecosystem_linkage=recode_factor(ecosystem_linkage,
-                                  "N"="Non-FSSI stock",
-                                  "Y"="Not provided",
-                                  "0"="0-None",
-                                  "1"="1-Ecosystem-based",
-                                  "2"="2-Some form of variability",
-                                  "3"="3-Features dynamic",
-                                  "4"="4-One ecosystem",
-                                  "5"="5-Coupled/linked to model")) %>%
+                                        "1"="1-Infrequent (>3 yrs)",
+                                        "2"="2-Frequent (≤3 yrs)",
+                                        "3"="3-Annual or more (≤1 yr)")) %>%
+  # Format biological input data
+  mutate(biological_input_data=as.character(biological_input_data),
+         biological_input_data=ifelse(is.na(biological_input_data), fssi_stock, biological_input_data),
+         biological_input_data=recode_factor(biological_input_data,
+                                             "N"="Non-FSSI stock",
+                                             "Y"="Not provided",
+                                             "0"="0-None",
+                                             "1"="1-All from proxies",
+                                             "2"="2-Some empirically derived",
+                                             "3"="3-Most empirically derived",
+                                             "4"="4-Time-varying growth",
+                                             "5"="5-Time/space-varying parameters")) %>%
   # Format life history data
   mutate(life_history_data=as.character(life_history_data),
          life_history_data=ifelse(is.na(life_history_data), fssi_stock, life_history_data),
          life_history_data=recode_factor(life_history_data,
-                                        "N"="Non-FSSI stock",
-                                        "Y"="Not provided",
-                                        "0"="0-None",
-                                        "1"="1-Size composition",
-                                        "2"="2-Demographic rates",
-                                        "3"="3-Seasonal/spatial patterns",
-                                        "4"="4-Food habits info")) %>%
+                                         "N"="Non-FSSI stock",
+                                         "Y"="Not provided",
+                                         "0"="0-None",
+                                         "1"="1-Size composition",
+                                         "2"="2-Basic demographic rates",
+                                         "3"="3-Seasonal/spatial patterns",
+                                         "4"="4-Food habits information")) %>%
+  # Format composition input data
+  mutate(composition_input_data=as.character(composition_input_data),
+         composition_input_data=ifelse(is.na(composition_input_data), fssi_stock, composition_input_data),
+         composition_input_data=recode_factor(composition_input_data,
+                                              "N"="Non-FSSI stock",
+                                              "Y"="Not provided",
+                                              "0"="0-None",
+                                              "1"="1-Some but not enough for models",
+                                              "2"="2-Enough for data-limited models",
+                                              "3"="3-Enough for size-structured models",
+                                              "4"="4-Enough for age-structured models",
+                                              "5"="5-Very complete age/size data")) %>%
   # Format abundance data
   mutate(abundance_data=as.character(abundance_data),
          abundance_data=ifelse(is.na(abundance_data), fssi_stock, abundance_data),
@@ -111,10 +123,22 @@ data <- data_orig %>%
                                          "N"="Non-FSSI stock",
                                          "Y"="Not provided",
                                          "0"="0-None",
-                                         "1"="1-Relace CPUE",
-                                         "2"="2-Age composition",
-                                         "3"="3-Research surveys",
-                                         "4"="4-Habitat-specifc surveys")) %>%
+                                         "1"="1-CPUE",
+                                         "2"="2-CPUE w/ age composition",
+                                         "3"="3-Rigorous research survey",
+                                         "4"="4-Habitat-specifc research survey")) %>%
+  # Format abundance input data
+  mutate(abundance_input_data=as.character(abundance_input_data),
+         abundance_input_data=ifelse(is.na(abundance_input_data), fssi_stock, abundance_input_data),
+         abundance_input_data=recode_factor(abundance_input_data,
+                                            "N"="Non-FSSI stock",
+                                            "Y"="Not provided",
+                                            "0"="0-None",
+                                            "1"="1-Fishery-dependent CPUE (low quality)",
+                                            "2"="2-Fishery-dependent CPUE (high quality)",
+                                            "3"="3-Fishery-independent CPUE (limited)",
+                                            "4"="4-Fishery-independent CPUE (expansive)",
+                                            "5"="5-Fishery-independent CPUE (calibrated)")) %>%
   # Format catch data
   mutate(catch_data=as.character(catch_data),
          catch_data=ifelse(is.na(catch_data), fssi_stock, catch_data),
@@ -124,9 +148,9 @@ data <- data_orig %>%
                                   "0"="0-None",
                                   "1"="1-Landed catch",
                                   "2"="2-Size composition",
-                                  "3"="3-RSpatial data on catch",
-                                  "4"="4-Catch age composition",
-                                  "5"="5-Complete catch")) %>%
+                                  "3"="3-Spatial catch info",
+                                  "4"="4-Age composition",
+                                  "5"="5-Complete removals")) %>%
   # Format catch input data
   mutate(catch_input_data=as.character(catch_input_data),
          catch_input_data=ifelse(is.na(catch_input_data), fssi_stock, catch_input_data),
@@ -134,47 +158,23 @@ data <- data_orig %>%
                                   "N"="Non-FSSI stock",
                                   "Y"="Not provided",
                                   "0"="0-None",
-                                  "1"="1-Some",
-                                  "2"="2-Enough",
-                                  "3"="3-Generally available",
-                                  "4"="4-HNo data gaps",
-                                  "5"="5-Very complete")) %>%
-  # Format abundance input data
-  mutate(abundance_input_data=as.character(abundance_input_data),
-         abundance_input_data=ifelse(is.na(abundance_input_data), fssi_stock, abundance_input_data),
-         abundance_input_data=recode_factor(abundance_input_data,
-                                      "N"="Non-FSSI stock",
-                                      "Y"="Not provided",
-                                      "0"="0-None",
-                                      "1"="1-Fishery-dependent CPUE",
-                                      "2"="2-Fishery-dependent CPUE better",
-                                      "3"="3-Fishery-independent CPUE",
-                                      "4"="4-Fishery-independent CPUE better",
-                                      "5"="5-Fishery-independent CPUE abs abundance")) %>%
-  # Format biological input data
-  mutate(biological_input_data=as.character(biological_input_data),
-         biological_input_data=ifelse(is.na(biological_input_data), fssi_stock, biological_input_data),
-         biological_input_data=recode_factor(biological_input_data,
-                                            "N"="Non-FSSI stock",
-                                            "Y"="Not provided",
-                                            "0"="0-None",
-                                            "1"="1-Proxies/meta-analysis",
-                                            "2"="2-Some empirically derived",
-                                            "3"="3-Most empirically derived",
-                                            "4"="4-Data sufficient",
-                                            "5"="5-No major gaps")) %>%
-  # Format composition input data
-  mutate(composition_input_data=as.character(composition_input_data),
-         composition_input_data=ifelse(is.na(composition_input_data), fssi_stock, composition_input_data),
-         composition_input_data=recode_factor(composition_input_data,
-                                             "N"="Non-FSSI stock",
-                                             "Y"="Not provided",
-                                             "0"="0-None",
-                                             "1"="1-Some",
-                                             "2"="2-Enough for DLM",
-                                             "3"="3-Enough for other",
-                                             "4"="4-Even more",
-                                             "5"="5-Very complete")) %>%
+                                  "1"="1-Large data gaps",
+                                  "2"="2-Some data gaps",
+                                  "3"="3-Few data gaps",
+                                  "4"="4-No data gaps (but uncertainty)",
+                                  "5"="5-Very complete knowledge")) %>%
+  # Format ecosystem linkage
+  mutate(ecosystem_linkage=as.character(ecosystem_linkage),
+         ecosystem_linkage=ifelse(is.na(ecosystem_linkage), fssi_stock, ecosystem_linkage),
+         ecosystem_linkage=recode_factor(ecosystem_linkage,
+                                         "N"="Non-FSSI stock",
+                                         "Y"="Not provided",
+                                         "0"="0-None",
+                                         "1"="1-Inform structure or input processing",
+                                         "2"="2-Variability but not explicit about source",
+                                         "3"="3-≥1 dynamically-linked feature",
+                                         "4"="4-≥1 dynamic feature supported by process study",
+                                         "5"="5-Full approach dynamically-linked")) %>%
   # Arrange
   select(-council_type) %>%
   select(council, fmp, fmp_short, everything())
