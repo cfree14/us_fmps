@@ -74,11 +74,17 @@ freeR::complete(data)
 table(data$council)
 table(data$fmp_short)
 
+# Stock key
+stock_key <- data %>%
+  select(council, stock_name, stock_area, comm_name, sci_name) %>%
+  unique() %>%
+  arrange(council, comm_name)
+
 
 # Export data
 ################################################################################
 
 # Export
 saveRDS(data, file=file.path(outputdir, "2021_stock_smart_data.Rds"))
-
+write.csv(stock_key, file=file.path(outputdir, "2021_stock_smart_stock_key.csv"), row.names=F)
 
