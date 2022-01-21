@@ -10,7 +10,8 @@ options(dplyr.summarise.inform=F)
 library(tidyverse)
 
 # Directories
-plotdir <- "figures"
+plotdir <- "data/hcrs/figures"
+outdir <- "data/hcrs/raw"
 
 
 # Helper functions
@@ -99,13 +100,33 @@ limit_df <- limit_df_orig %>%
                                   "abc"="ABC",
                                   "hg"="HG")) %>%
   # Format SST label
-  mutate(sst_label=format(sst_c, nsmall=1) %>% paste0(., "°C"))
+  mutate(sst_label=format(sst_c, nsmall=1) %>% paste0(., "°C")) %>%
+  # Add FMC/FMP
+  mutate(fmc="PFMC",
+         fmp="Sardine") %>%
+  # Arrange
+  select(fmc, fmp, everything())
+
+# Export data
+write.csv(limit_df, file=file.path(outdir, "PFMC_sardine.csv"), row.names=F)
 
 unique(limit_df$sst_c)
 
 
 # Plot data
 ################################################################################
+
+# My theme
+my_theme <- theme(axis.text=element_text(size=6),
+                  axis.title=element_text(size=8),
+                  legend.text=element_text(size=6),
+                  legend.title=element_text(size=8),
+                  plot.tag=element_text(size=9),
+                  # Gridlines
+                  panel.grid.major = element_blank(),
+                  panel.grid.minor = element_blank(),
+                  panel.background = element_blank(),
+                  axis.line = element_line(colour = "black"))
 
 # Plot EMSY data
 g1 <- ggplot(emsy_df, aes(x=sst_c, y=emsy, color=emsy_type)) +
@@ -117,37 +138,37 @@ g1 <- ggplot(emsy_df, aes(x=sst_c, y=emsy, color=emsy_type)) +
   # Legend
   scale_color_discrete(name="Type") +
   # Theme
-  theme_bw()
+  theme_bw() + my_theme
 g1
 
 # Plot catch limit data
-g2 <- ggplot(limit_df, aes(x=biomass/1e3, y=catch/1e3,
+g2 <- ggplot(limit_df, aes(x=biomass/1e6, y=catch/1e3,
                            color=sst_label, linetype=limit_type)) +
   facet_wrap(~sst_label) +
   geom_line() +
   # Labels
-  labs(x="Biomass (1000s mt)", y="Catch (1000s mt)") +
+  labs(x="Biomass (millions mt)", y="Catch (1000s mt)") +
   # Legend
-  scale_color_discrete(name="SST (°C)") +
+  scale_color_discrete(name="SST (°C)", guide="none") +
   scale_linetype_manual(name="Catch limit", values=c("solid", "dashed", "dotted")) +
   # Theme
-  theme_bw()
+  theme_bw() + my_theme
 g2
 
 # Plot F limit data
-g3 <- ggplot(limit_df, aes(x=biomass/1e3, y=u,
+g3 <- ggplot(limit_df, aes(x=biomass/1e6, y=u,
                            color=sst_label, linetype=limit_type)) +
   facet_wrap(~sst_label) +
   geom_line() +
   # Limits
   lims(y=c(0,NA)) +
   # Labels
-  labs(x="Biomass (1000s mt)", y="Exploitation rate") +
+  labs(x="Biomass (millions mt)", y="Exploitation rate") +
   # Legend
   scale_color_discrete(name="SST (°C)") +
-  scale_linetype_manual(name="Catch limit", values=c("solid", "dashed", "dotted")) +
+  scale_linetype_manual(name="Catch limit", values=c("solid", "dashed", "dotted"), guide="none") +
   # Theme
-  theme_bw()
+  theme_bw() + my_theme
 g3
 
 # Merge

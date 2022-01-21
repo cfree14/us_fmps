@@ -10,10 +10,8 @@ options(dplyr.summarise.inform=F)
 library(tidyverse)
 
 # Directories
-plotdir <- "figures"
-tabledir <- "tables"
-inputdir <- "data/stock_smart/raw"
-outputdir <- "data/stock_smart/processed"
+plotdir <- "data/hcrs/figures"
+outdir <- "data/hcrs/raw"
 
 
 # Set parameters
@@ -79,7 +77,16 @@ data <- tibble(biomass=b_vals,
   # Calculate exploitation rate
   mutate(u= 1 - exp(-f)) %>%
   # Calculate catch
-  mutate(catch=u*biomass)
+  mutate(catch=u*biomass) %>%
+  # Add FMC/FMP
+  mutate(fmc="NPFMC",
+         fmp="Groundfish") %>%
+  # Arrange
+  select(fmc, fmp, everything())
+
+# Export data
+write.csv(data, file=file.path(outdir, "NPFMC_groundfish.csv"), row.names=F)
+
 
 
 # Plot data

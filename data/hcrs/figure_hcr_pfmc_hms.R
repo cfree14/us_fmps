@@ -26,16 +26,9 @@ b_msy <- k/2
 u_msy <- r/2
 msy <- b_msy*u_msy
 
-# B limits
-b_lim <- b_msy
-b_min <- 0.1
-
-# Pstar buffer
-pstar_buffer <- 0.9
-
 # U limits
 u_ofl <- u_msy
-u_abc <- u_ofl * pstar_buffer
+u_abc <- u_ofl * 0.75
 
 # F limits
 f_msy <- -log(1 - u_msy)
@@ -59,36 +52,29 @@ nvals <- length(b_vals)
 ofls <- b_vals * u_msy
 
 # ABC values
-abcs <- b_vals * u_msy * pstar_buffer
-
-# Build ACLs
-abc_at_blim <- b_lim * u_msy * pstar_buffer
-acls <- c(rep(0, sum(b_vals<b_min)),
-          seq(0, abc_at_blim, length.out = sum(b_vals>=b_min & b_vals<=b_lim)),
-          abcs[b_vals>b_lim])
+abcs <- b_vals * u_abc
 
 # Build data
 data <- tibble(biomass=b_vals,
                ofl=ofls,
-               abc=abcs,
-               acl=acls) %>%
+               abc=abcs) %>%
   # Gather
   gather(key="value", value="catch", 2:ncol(.)) %>%
   # Format value type
   mutate(value=toupper(value),
-         value=factor(value, levels=c("OFL", "ABC", "ACL"))) %>%
+         value=factor(value, levels=c("OFL", "ABC"))) %>%
   # Add exploitation rate (U)
   mutate(u=catch/biomass) %>%
   # Add fishing mortality rate (F)
   mutate(f=-log(1-u)) %>%
   # Add FMC/FMP
   mutate(fmc="PFMC",
-         fmp="Groundfish") %>%
+         fmp="HMS") %>%
   # Arrange
   select(fmc, fmp, everything())
 
 # Export data
-write.csv(data, file=file.path(outdir, "PFMC_groundfish.csv"), row.names=F)
+write.csv(data, file=file.path(outdir, "PFMC_highly_migratory_species.csv"), row.names=F)
 
 
 # Plot data
@@ -115,8 +101,8 @@ g1 <- ggplot(data, aes(x=biomass, y=catch, color=value)) +
   geom_line() +
   # Limits
   scale_y_continuous(breaks=c(msy), labels=c("MSY")) +
-  scale_x_continuous(breaks=c(0, b_min, b_lim, k),
-                     labels=c("0", expression("B"["min"]), expression("B"["lim"]), expression("B"["0"]))) +
+  scale_x_continuous(breaks=c(0, b_msy, k),
+                     labels=c("0", expression("B"["MSY"]), expression("B"["0"]))) +
   # Labels
   labs(x="Biomass", y="Annual catch limit", tag="A") +
   # Reference line
@@ -133,8 +119,8 @@ g2 <- ggplot(data, aes(x=biomass, y=u, color=value)) +
   # Limits
   scale_y_continuous(lim=c(0, u_ofl*1.1),
                      breaks=c(0, u_abc, u_ofl), labels=c("0", expression("U"["ABC"]), expression("U"["OFL"]))) +
-  scale_x_continuous(breaks=c(0, b_min, b_lim, k),
-                     labels=c("0", expression("B"["min"]), expression("B"["lim"]), expression("B"["0"]))) +
+  scale_x_continuous(breaks=c(0, b_msy, k),
+                     labels=c("0", expression("B"["MSY"]), expression("B"["0"]))) +
   # Labels
   labs(x="Biomass", y="Exploitation rate\n(catch / biomass)", tag="B") +
   # Legend
@@ -150,8 +136,8 @@ g3 <- ggplot(data, aes(x=biomass, y=f, color=value)) +
   # Limits
   scale_y_continuous(lim=c(0, f_ofl*1.1),
                      breaks=c(0, f_abc, f_ofl), labels=c("0", expression("F"["ABC"]), expression("F"["OFL"]))) +
-  scale_x_continuous(breaks=c(0, b_min, b_lim, k),
-                     labels=c("0", expression("B"["min"]), expression("B"["lim"]), expression("B"["0"]))) +
+  scale_x_continuous(breaks=c(0, b_msy, k),
+                     labels=c("0", expression("B"["MSY"]), expression("B"["0"]))) +
   # Labels
   labs(x="Biomass", y="Fishing mortality rate", tag="B") +
   # Legend
@@ -166,7 +152,7 @@ g <- gridExtra::grid.arrange(g1, g3, nrow=1)
 g
 
 # Export plot
-ggsave(g, filename=file.path(plotdir, "figure_hcr_pfmc_groundfish.png"),
+ggsave(g, filename=file.path(plotdir, "figure_hcr_pfmc_hms.png"),
        width=6.5, height=2.75, units="in", dpi=600)
 
 
