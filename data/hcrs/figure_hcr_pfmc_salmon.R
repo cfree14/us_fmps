@@ -57,6 +57,10 @@ u_thresh2 <- 0.25
 # Puget coho
 u_crit <- 0.2
 u_low <- 0.4
+f_crit <- -log(1 - u_crit)
+f_low <- -log(1 - u_low)
+a1 <- msst / (1 - u_low)
+b1 <- s_msy / (1 - u_ofl)
 
 
 # Helper functions
@@ -95,7 +99,7 @@ calc_u_acl <- function(N, msst, s_msy, u_abc){
   return(u)
 }
 
-calc_u_abc <- function(N, msst, s_msy, u_crit, u_low){
+calc_u_abc <- function(N, msst, s_msy, u_crit, u_low, u_ofl){
 
   # Derive A
   a <- msst / (1 - u_low)
@@ -104,6 +108,16 @@ calc_u_abc <- function(N, msst, s_msy, u_crit, u_low){
   b <- s_msy / (1 - u_ofl)
 
   # Derive U
+  if(N >= b){
+    u <- u_ofl # mfmt
+  }
+  if(N >= a & N < b){
+    u <- u_low
+  }
+  if(N < a){
+    u <- u_crit
+  }
+  return(u)
 
 }
 
@@ -167,37 +181,88 @@ data_klamath <- tibble(biomass=b_vals,
 data_puget_coho <- tibble(biomass=b_vals,
                        bbmsy=b_vals/b_msy) %>%
   # Add U values
-  mutate(u_ofl=u_msy,
-         u_abc=u_abc) %>%
+  mutate(u_ofl=u_msy) %>%
   rowwise() %>%
-  mutate(u_acl=calc_u_acl(N=biomass, msst=msst, s_msy=s_msy, u_abc=u_abc)) %>%
+  mutate(u_abc=calc_u_abc(N=biomass, msst=msst, s_msy=s_msy, u_crit=u_crit, u_low=u_low, u_ofl=u_ofl)) %>%
   ungroup() %>%
   # Gather
   gather(key="value", value="u", 3:ncol(.)) %>%
   # Format value type
-  mutate(value=recode_factor(value, "u_ofl"="OFL", "u_abc"="ABC", "u_acl"="ACL")) %>%
+  mutate(value=recode_factor(value, "u_ofl"="OFL", "u_abc"="ABC")) %>%
   # Calculate F
   mutate(f= -log(1 - u)) %>%
   # Calculate catch
   mutate(catch=u*biomass) %>%
-  # Calculate spawner escapement
-  mutate(escapement=biomass*(1-u)) %>%
   # Add FMC/FMP
   mutate(fmc="PFMC",
-         fmp="Klamath River/Sacramento River Fall Chinook") %>%
+         fmp="Puget Sound Coho") %>%
   # Arrange
   select(fmc, fmp, everything())
+
+# Merge data
+data <- bind_rows(data_default, data_klamath, data_puget_coho)
+
+# Export data
+write.csv(data, file.path(outdir, "pfmc_salmon.csv"), row.names=F)
 
 
 # Plot data
 ################################################################################
 
+# My theme
+my_theme <- theme(axis.text=element_text(size=6),
+                  axis.title=element_text(size=8),
+                  legend.text=element_text(size=6),
+                  legend.title=element_blank(),
+                  plot.title = element_text(size=8),
+                  plot.tag=element_text(size=9),
+                  # Gridlines
+                  panel.grid.major = element_blank(),
+                  panel.grid.minor = element_blank(),
+                  panel.background = element_blank(),
+                  axis.line = element_line(colour = "black"),
+                  # Legend
+                  legend.position = c(0.8, 0.85),
+                  legend.key.size = unit(0.3, "cm"),
+                  legend.background = element_rect(fill=alpha('blue', 0)))
 
 # Plot F
-g1 <- ggplot(data_klamath, aes(x=biomass, y=f, color=value)) +
+g1 <- ggplot(data_default, aes(x=biomass, y=f, color=value)) +
   geom_line() +
   # Labels
-  labs(x="Spawner abundance", y="Fishing mortality rate") +
+  labs(x="Spawner abundance", y="Fishing mortality rate", title="Default salmon rule") +
+  # X-axis
+  scale_x_continuous(breaks=c(0, s_msy, k),
+                     labels=c("0", expression("S"["MSY"]), expression("B"["0"]))) +
+  # Y-axis
+  scale_y_continuous(breaks=c(0, f_ofl, f_abc),
+                     labels=c("0", "MFMT", expression("F"["ABC"])),
+                     lim=c(0, f_ofl*1.5)) +
+  # Theme
+  theme_bw() + my_theme
+g1
+
+# Plot catch
+g2 <- ggplot(data_default, aes(x=biomass, y=catch, color=value)) +
+  geom_line() +
+  # Labels
+  labs(x="Spawner abundance", y="Catch limit") +
+  # X-axis
+  scale_x_continuous(breaks=c(0, s_msy, k),
+                     labels=c("0", expression("S"["MSY"]), expression("B"["0"]))) +
+  # Y-axis
+  scale_y_continuous(breaks=c(0, msy),
+                     labels=c("0", "MSY")) +
+  # Theme
+  theme_bw() + my_theme +
+  theme(legend.position = "none")
+g2
+
+# Plot F
+g3 <- ggplot(data_klamath, aes(x=biomass, y=f, color=value)) +
+  geom_line() +
+  # Labels
+  labs(x="Spawner abundance", y="Fishing mortality rate", title="Klamath/Sacramento River Fall Chinook") +
   # Y-axis
   scale_x_continuous(breaks=c(a, b, c, d, msst, s_msy, k),
                      labels=c("A", "B", "C", "D", "MSST", expression("S"["MSY"]), expression("B"["0"]))) +
@@ -206,11 +271,11 @@ g1 <- ggplot(data_klamath, aes(x=biomass, y=f, color=value)) +
                      labels=c("0", "0.1", "0.25", "MFMT", expression("F"["ABC"])),
                      lim=c(0, f_ofl*1.5)) +
   # Theme
-  theme_bw()
-g1
+  theme_bw() + my_theme
+g3
 
 # Plot catch
-g2 <- ggplot(data_klamath, aes(x=biomass, y=catch, color=value)) +
+g4 <- ggplot(data_klamath, aes(x=biomass, y=catch, color=value)) +
   geom_line() +
   # Labels
   labs(x="Spawner abundance", y="Catch limit") +
@@ -221,8 +286,51 @@ g2 <- ggplot(data_klamath, aes(x=biomass, y=catch, color=value)) +
   scale_y_continuous(breaks=c(0, msy),
                      labels=c("0", "MSY")) +
   # Theme
-  theme_bw()
-g2
+  theme_bw() + my_theme +
+  theme(legend.position = "none")
+g4
+
+# Plot F
+g5 <- ggplot(data_puget_coho, aes(x=biomass, y=f, color=value)) +
+  geom_line() +
+  # Labels
+  labs(x="Spawner abundance", y="Fishing mortality rate", title="Puget Sound Coho") +
+  # X-axis
+  scale_x_continuous(breaks=c(0, msst, s_msy, a1, b1, k*1.5),
+                     labels=c("0", "MSST", expression("S"["MSY"]), "A", "B", "B0")) +
+  # Y-axis
+  scale_y_continuous(breaks=c(0, f_crit, f_low, f_ofl ),
+                     labels=c("0", expression("F"["critical"]), expression("F"["low"]), expression("F"["OFL"])),
+                     lim=c(0, f_ofl*1.5)) +
+  # Theme
+  theme_bw() + my_theme
+g5
+
+# Plot catch
+g6 <- ggplot(data_puget_coho, aes(x=biomass, y=catch, color=value)) +
+  geom_line() +
+  # Labels
+  labs(x="Spawner abundance", y="Catch limit") +
+  # X-axis
+  scale_x_continuous(breaks=c(0, msst, s_msy, a1, b1, k*1.5),
+                     labels=c("0", "MSST", expression("S"["MSY"]), "A", "B", "B0")) +
+  # Y-axis
+  scale_y_continuous(breaks=c(0, msy),
+                     labels=c("0", "MSY")) +
+  # Theme
+  theme_bw() + my_theme +
+  theme(legend.position = "none")
+g6
+
+# Merge plots
+layout_matrix <- matrix(c(1,3,5,
+                          2,4,6), byrow=T, ncol=3)
+g <- gridExtra::grid.arrange(g1, g2, g5, g6, g3, g4, layout_matrix=layout_matrix)
+
+# Export plot
+ggsave(g, filename=file.path(plotdir, "figure_hcr_pfmc_salmon.png"),
+       width=6.5, height=4, units="in", dpi=600)
+
 
 
 

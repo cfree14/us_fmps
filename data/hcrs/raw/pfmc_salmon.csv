@@ -1,0 +1,708 @@
+"fmc","fmp","biomass","bbmsy","value","u","f","catch","escapement"
+"PFMC","Salmon (default)",0,0,"OFL",0.5,0.693147180559945,0,0
+"PFMC","Salmon (default)",0.01,0.02,"OFL",0.5,0.693147180559945,0.005,0.005
+"PFMC","Salmon (default)",0.02,0.04,"OFL",0.5,0.693147180559945,0.01,0.01
+"PFMC","Salmon (default)",0.03,0.06,"OFL",0.5,0.693147180559945,0.015,0.015
+"PFMC","Salmon (default)",0.04,0.08,"OFL",0.5,0.693147180559945,0.02,0.02
+"PFMC","Salmon (default)",0.05,0.1,"OFL",0.5,0.693147180559945,0.025,0.025
+"PFMC","Salmon (default)",0.06,0.12,"OFL",0.5,0.693147180559945,0.03,0.03
+"PFMC","Salmon (default)",0.07,0.14,"OFL",0.5,0.693147180559945,0.035,0.035
+"PFMC","Salmon (default)",0.08,0.16,"OFL",0.5,0.693147180559945,0.04,0.04
+"PFMC","Salmon (default)",0.09,0.18,"OFL",0.5,0.693147180559945,0.045,0.045
+"PFMC","Salmon (default)",0.1,0.2,"OFL",0.5,0.693147180559945,0.05,0.05
+"PFMC","Salmon (default)",0.11,0.22,"OFL",0.5,0.693147180559945,0.055,0.055
+"PFMC","Salmon (default)",0.12,0.24,"OFL",0.5,0.693147180559945,0.06,0.06
+"PFMC","Salmon (default)",0.13,0.26,"OFL",0.5,0.693147180559945,0.065,0.065
+"PFMC","Salmon (default)",0.14,0.28,"OFL",0.5,0.693147180559945,0.07,0.07
+"PFMC","Salmon (default)",0.15,0.3,"OFL",0.5,0.693147180559945,0.075,0.075
+"PFMC","Salmon (default)",0.16,0.32,"OFL",0.5,0.693147180559945,0.08,0.08
+"PFMC","Salmon (default)",0.17,0.34,"OFL",0.5,0.693147180559945,0.085,0.085
+"PFMC","Salmon (default)",0.18,0.36,"OFL",0.5,0.693147180559945,0.09,0.09
+"PFMC","Salmon (default)",0.19,0.38,"OFL",0.5,0.693147180559945,0.095,0.095
+"PFMC","Salmon (default)",0.2,0.4,"OFL",0.5,0.693147180559945,0.1,0.1
+"PFMC","Salmon (default)",0.21,0.42,"OFL",0.5,0.693147180559945,0.105,0.105
+"PFMC","Salmon (default)",0.22,0.44,"OFL",0.5,0.693147180559945,0.11,0.11
+"PFMC","Salmon (default)",0.23,0.46,"OFL",0.5,0.693147180559945,0.115,0.115
+"PFMC","Salmon (default)",0.24,0.48,"OFL",0.5,0.693147180559945,0.12,0.12
+"PFMC","Salmon (default)",0.25,0.5,"OFL",0.5,0.693147180559945,0.125,0.125
+"PFMC","Salmon (default)",0.26,0.52,"OFL",0.5,0.693147180559945,0.13,0.13
+"PFMC","Salmon (default)",0.27,0.54,"OFL",0.5,0.693147180559945,0.135,0.135
+"PFMC","Salmon (default)",0.28,0.56,"OFL",0.5,0.693147180559945,0.14,0.14
+"PFMC","Salmon (default)",0.29,0.58,"OFL",0.5,0.693147180559945,0.145,0.145
+"PFMC","Salmon (default)",0.3,0.6,"OFL",0.5,0.693147180559945,0.15,0.15
+"PFMC","Salmon (default)",0.31,0.62,"OFL",0.5,0.693147180559945,0.155,0.155
+"PFMC","Salmon (default)",0.32,0.64,"OFL",0.5,0.693147180559945,0.16,0.16
+"PFMC","Salmon (default)",0.33,0.66,"OFL",0.5,0.693147180559945,0.165,0.165
+"PFMC","Salmon (default)",0.34,0.68,"OFL",0.5,0.693147180559945,0.17,0.17
+"PFMC","Salmon (default)",0.35,0.7,"OFL",0.5,0.693147180559945,0.175,0.175
+"PFMC","Salmon (default)",0.36,0.72,"OFL",0.5,0.693147180559945,0.18,0.18
+"PFMC","Salmon (default)",0.37,0.74,"OFL",0.5,0.693147180559945,0.185,0.185
+"PFMC","Salmon (default)",0.38,0.76,"OFL",0.5,0.693147180559945,0.19,0.19
+"PFMC","Salmon (default)",0.39,0.78,"OFL",0.5,0.693147180559945,0.195,0.195
+"PFMC","Salmon (default)",0.4,0.8,"OFL",0.5,0.693147180559945,0.2,0.2
+"PFMC","Salmon (default)",0.41,0.82,"OFL",0.5,0.693147180559945,0.205,0.205
+"PFMC","Salmon (default)",0.42,0.84,"OFL",0.5,0.693147180559945,0.21,0.21
+"PFMC","Salmon (default)",0.43,0.86,"OFL",0.5,0.693147180559945,0.215,0.215
+"PFMC","Salmon (default)",0.44,0.88,"OFL",0.5,0.693147180559945,0.22,0.22
+"PFMC","Salmon (default)",0.45,0.9,"OFL",0.5,0.693147180559945,0.225,0.225
+"PFMC","Salmon (default)",0.46,0.92,"OFL",0.5,0.693147180559945,0.23,0.23
+"PFMC","Salmon (default)",0.47,0.94,"OFL",0.5,0.693147180559945,0.235,0.235
+"PFMC","Salmon (default)",0.48,0.96,"OFL",0.5,0.693147180559945,0.24,0.24
+"PFMC","Salmon (default)",0.49,0.98,"OFL",0.5,0.693147180559945,0.245,0.245
+"PFMC","Salmon (default)",0.5,1,"OFL",0.5,0.693147180559945,0.25,0.25
+"PFMC","Salmon (default)",0.51,1.02,"OFL",0.5,0.693147180559945,0.255,0.255
+"PFMC","Salmon (default)",0.52,1.04,"OFL",0.5,0.693147180559945,0.26,0.26
+"PFMC","Salmon (default)",0.53,1.06,"OFL",0.5,0.693147180559945,0.265,0.265
+"PFMC","Salmon (default)",0.54,1.08,"OFL",0.5,0.693147180559945,0.27,0.27
+"PFMC","Salmon (default)",0.55,1.1,"OFL",0.5,0.693147180559945,0.275,0.275
+"PFMC","Salmon (default)",0.56,1.12,"OFL",0.5,0.693147180559945,0.28,0.28
+"PFMC","Salmon (default)",0.57,1.14,"OFL",0.5,0.693147180559945,0.285,0.285
+"PFMC","Salmon (default)",0.58,1.16,"OFL",0.5,0.693147180559945,0.29,0.29
+"PFMC","Salmon (default)",0.59,1.18,"OFL",0.5,0.693147180559945,0.295,0.295
+"PFMC","Salmon (default)",0.6,1.2,"OFL",0.5,0.693147180559945,0.3,0.3
+"PFMC","Salmon (default)",0.61,1.22,"OFL",0.5,0.693147180559945,0.305,0.305
+"PFMC","Salmon (default)",0.62,1.24,"OFL",0.5,0.693147180559945,0.31,0.31
+"PFMC","Salmon (default)",0.63,1.26,"OFL",0.5,0.693147180559945,0.315,0.315
+"PFMC","Salmon (default)",0.64,1.28,"OFL",0.5,0.693147180559945,0.32,0.32
+"PFMC","Salmon (default)",0.65,1.3,"OFL",0.5,0.693147180559945,0.325,0.325
+"PFMC","Salmon (default)",0.66,1.32,"OFL",0.5,0.693147180559945,0.33,0.33
+"PFMC","Salmon (default)",0.67,1.34,"OFL",0.5,0.693147180559945,0.335,0.335
+"PFMC","Salmon (default)",0.68,1.36,"OFL",0.5,0.693147180559945,0.34,0.34
+"PFMC","Salmon (default)",0.69,1.38,"OFL",0.5,0.693147180559945,0.345,0.345
+"PFMC","Salmon (default)",0.7,1.4,"OFL",0.5,0.693147180559945,0.35,0.35
+"PFMC","Salmon (default)",0.71,1.42,"OFL",0.5,0.693147180559945,0.355,0.355
+"PFMC","Salmon (default)",0.72,1.44,"OFL",0.5,0.693147180559945,0.36,0.36
+"PFMC","Salmon (default)",0.73,1.46,"OFL",0.5,0.693147180559945,0.365,0.365
+"PFMC","Salmon (default)",0.74,1.48,"OFL",0.5,0.693147180559945,0.37,0.37
+"PFMC","Salmon (default)",0.75,1.5,"OFL",0.5,0.693147180559945,0.375,0.375
+"PFMC","Salmon (default)",0.76,1.52,"OFL",0.5,0.693147180559945,0.38,0.38
+"PFMC","Salmon (default)",0.77,1.54,"OFL",0.5,0.693147180559945,0.385,0.385
+"PFMC","Salmon (default)",0.78,1.56,"OFL",0.5,0.693147180559945,0.39,0.39
+"PFMC","Salmon (default)",0.79,1.58,"OFL",0.5,0.693147180559945,0.395,0.395
+"PFMC","Salmon (default)",0.8,1.6,"OFL",0.5,0.693147180559945,0.4,0.4
+"PFMC","Salmon (default)",0.81,1.62,"OFL",0.5,0.693147180559945,0.405,0.405
+"PFMC","Salmon (default)",0.82,1.64,"OFL",0.5,0.693147180559945,0.41,0.41
+"PFMC","Salmon (default)",0.83,1.66,"OFL",0.5,0.693147180559945,0.415,0.415
+"PFMC","Salmon (default)",0.84,1.68,"OFL",0.5,0.693147180559945,0.42,0.42
+"PFMC","Salmon (default)",0.85,1.7,"OFL",0.5,0.693147180559945,0.425,0.425
+"PFMC","Salmon (default)",0.86,1.72,"OFL",0.5,0.693147180559945,0.43,0.43
+"PFMC","Salmon (default)",0.87,1.74,"OFL",0.5,0.693147180559945,0.435,0.435
+"PFMC","Salmon (default)",0.88,1.76,"OFL",0.5,0.693147180559945,0.44,0.44
+"PFMC","Salmon (default)",0.89,1.78,"OFL",0.5,0.693147180559945,0.445,0.445
+"PFMC","Salmon (default)",0.9,1.8,"OFL",0.5,0.693147180559945,0.45,0.45
+"PFMC","Salmon (default)",0.91,1.82,"OFL",0.5,0.693147180559945,0.455,0.455
+"PFMC","Salmon (default)",0.92,1.84,"OFL",0.5,0.693147180559945,0.46,0.46
+"PFMC","Salmon (default)",0.93,1.86,"OFL",0.5,0.693147180559945,0.465,0.465
+"PFMC","Salmon (default)",0.94,1.88,"OFL",0.5,0.693147180559945,0.47,0.47
+"PFMC","Salmon (default)",0.95,1.9,"OFL",0.5,0.693147180559945,0.475,0.475
+"PFMC","Salmon (default)",0.96,1.92,"OFL",0.5,0.693147180559945,0.48,0.48
+"PFMC","Salmon (default)",0.97,1.94,"OFL",0.5,0.693147180559945,0.485,0.485
+"PFMC","Salmon (default)",0.98,1.96,"OFL",0.5,0.693147180559945,0.49,0.49
+"PFMC","Salmon (default)",0.99,1.98,"OFL",0.5,0.693147180559945,0.495,0.495
+"PFMC","Salmon (default)",1,2,"OFL",0.5,0.693147180559945,0.5,0.5
+"PFMC","Salmon (default)",0,0,"ABC",0.475,0.644357016390513,0,0
+"PFMC","Salmon (default)",0.01,0.02,"ABC",0.475,0.644357016390513,0.00475,0.00525
+"PFMC","Salmon (default)",0.02,0.04,"ABC",0.475,0.644357016390513,0.0095,0.0105
+"PFMC","Salmon (default)",0.03,0.06,"ABC",0.475,0.644357016390513,0.01425,0.01575
+"PFMC","Salmon (default)",0.04,0.08,"ABC",0.475,0.644357016390513,0.019,0.021
+"PFMC","Salmon (default)",0.05,0.1,"ABC",0.475,0.644357016390513,0.02375,0.02625
+"PFMC","Salmon (default)",0.06,0.12,"ABC",0.475,0.644357016390513,0.0285,0.0315
+"PFMC","Salmon (default)",0.07,0.14,"ABC",0.475,0.644357016390513,0.03325,0.03675
+"PFMC","Salmon (default)",0.08,0.16,"ABC",0.475,0.644357016390513,0.038,0.042
+"PFMC","Salmon (default)",0.09,0.18,"ABC",0.475,0.644357016390513,0.04275,0.04725
+"PFMC","Salmon (default)",0.1,0.2,"ABC",0.475,0.644357016390513,0.0475,0.0525
+"PFMC","Salmon (default)",0.11,0.22,"ABC",0.475,0.644357016390513,0.05225,0.05775
+"PFMC","Salmon (default)",0.12,0.24,"ABC",0.475,0.644357016390513,0.057,0.063
+"PFMC","Salmon (default)",0.13,0.26,"ABC",0.475,0.644357016390513,0.06175,0.06825
+"PFMC","Salmon (default)",0.14,0.28,"ABC",0.475,0.644357016390513,0.0665,0.0735
+"PFMC","Salmon (default)",0.15,0.3,"ABC",0.475,0.644357016390513,0.07125,0.07875
+"PFMC","Salmon (default)",0.16,0.32,"ABC",0.475,0.644357016390513,0.076,0.084
+"PFMC","Salmon (default)",0.17,0.34,"ABC",0.475,0.644357016390513,0.08075,0.08925
+"PFMC","Salmon (default)",0.18,0.36,"ABC",0.475,0.644357016390513,0.0855,0.0945
+"PFMC","Salmon (default)",0.19,0.38,"ABC",0.475,0.644357016390513,0.09025,0.09975
+"PFMC","Salmon (default)",0.2,0.4,"ABC",0.475,0.644357016390513,0.095,0.105
+"PFMC","Salmon (default)",0.21,0.42,"ABC",0.475,0.644357016390513,0.09975,0.11025
+"PFMC","Salmon (default)",0.22,0.44,"ABC",0.475,0.644357016390513,0.1045,0.1155
+"PFMC","Salmon (default)",0.23,0.46,"ABC",0.475,0.644357016390513,0.10925,0.12075
+"PFMC","Salmon (default)",0.24,0.48,"ABC",0.475,0.644357016390513,0.114,0.126
+"PFMC","Salmon (default)",0.25,0.5,"ABC",0.475,0.644357016390513,0.11875,0.13125
+"PFMC","Salmon (default)",0.26,0.52,"ABC",0.475,0.644357016390513,0.1235,0.1365
+"PFMC","Salmon (default)",0.27,0.54,"ABC",0.475,0.644357016390513,0.12825,0.14175
+"PFMC","Salmon (default)",0.28,0.56,"ABC",0.475,0.644357016390513,0.133,0.147
+"PFMC","Salmon (default)",0.29,0.58,"ABC",0.475,0.644357016390513,0.13775,0.15225
+"PFMC","Salmon (default)",0.3,0.6,"ABC",0.475,0.644357016390513,0.1425,0.1575
+"PFMC","Salmon (default)",0.31,0.62,"ABC",0.475,0.644357016390513,0.14725,0.16275
+"PFMC","Salmon (default)",0.32,0.64,"ABC",0.475,0.644357016390513,0.152,0.168
+"PFMC","Salmon (default)",0.33,0.66,"ABC",0.475,0.644357016390513,0.15675,0.17325
+"PFMC","Salmon (default)",0.34,0.68,"ABC",0.475,0.644357016390513,0.1615,0.1785
+"PFMC","Salmon (default)",0.35,0.7,"ABC",0.475,0.644357016390513,0.16625,0.18375
+"PFMC","Salmon (default)",0.36,0.72,"ABC",0.475,0.644357016390513,0.171,0.189
+"PFMC","Salmon (default)",0.37,0.74,"ABC",0.475,0.644357016390513,0.17575,0.19425
+"PFMC","Salmon (default)",0.38,0.76,"ABC",0.475,0.644357016390513,0.1805,0.1995
+"PFMC","Salmon (default)",0.39,0.78,"ABC",0.475,0.644357016390513,0.18525,0.20475
+"PFMC","Salmon (default)",0.4,0.8,"ABC",0.475,0.644357016390513,0.19,0.21
+"PFMC","Salmon (default)",0.41,0.82,"ABC",0.475,0.644357016390513,0.19475,0.21525
+"PFMC","Salmon (default)",0.42,0.84,"ABC",0.475,0.644357016390513,0.1995,0.2205
+"PFMC","Salmon (default)",0.43,0.86,"ABC",0.475,0.644357016390513,0.20425,0.22575
+"PFMC","Salmon (default)",0.44,0.88,"ABC",0.475,0.644357016390513,0.209,0.231
+"PFMC","Salmon (default)",0.45,0.9,"ABC",0.475,0.644357016390513,0.21375,0.23625
+"PFMC","Salmon (default)",0.46,0.92,"ABC",0.475,0.644357016390513,0.2185,0.2415
+"PFMC","Salmon (default)",0.47,0.94,"ABC",0.475,0.644357016390513,0.22325,0.24675
+"PFMC","Salmon (default)",0.48,0.96,"ABC",0.475,0.644357016390513,0.228,0.252
+"PFMC","Salmon (default)",0.49,0.98,"ABC",0.475,0.644357016390513,0.23275,0.25725
+"PFMC","Salmon (default)",0.5,1,"ABC",0.475,0.644357016390513,0.2375,0.2625
+"PFMC","Salmon (default)",0.51,1.02,"ABC",0.475,0.644357016390513,0.24225,0.26775
+"PFMC","Salmon (default)",0.52,1.04,"ABC",0.475,0.644357016390513,0.247,0.273
+"PFMC","Salmon (default)",0.53,1.06,"ABC",0.475,0.644357016390513,0.25175,0.27825
+"PFMC","Salmon (default)",0.54,1.08,"ABC",0.475,0.644357016390513,0.2565,0.2835
+"PFMC","Salmon (default)",0.55,1.1,"ABC",0.475,0.644357016390513,0.26125,0.28875
+"PFMC","Salmon (default)",0.56,1.12,"ABC",0.475,0.644357016390513,0.266,0.294
+"PFMC","Salmon (default)",0.57,1.14,"ABC",0.475,0.644357016390513,0.27075,0.29925
+"PFMC","Salmon (default)",0.58,1.16,"ABC",0.475,0.644357016390513,0.2755,0.3045
+"PFMC","Salmon (default)",0.59,1.18,"ABC",0.475,0.644357016390513,0.28025,0.30975
+"PFMC","Salmon (default)",0.6,1.2,"ABC",0.475,0.644357016390513,0.285,0.315
+"PFMC","Salmon (default)",0.61,1.22,"ABC",0.475,0.644357016390513,0.28975,0.32025
+"PFMC","Salmon (default)",0.62,1.24,"ABC",0.475,0.644357016390513,0.2945,0.3255
+"PFMC","Salmon (default)",0.63,1.26,"ABC",0.475,0.644357016390513,0.29925,0.33075
+"PFMC","Salmon (default)",0.64,1.28,"ABC",0.475,0.644357016390513,0.304,0.336
+"PFMC","Salmon (default)",0.65,1.3,"ABC",0.475,0.644357016390513,0.30875,0.34125
+"PFMC","Salmon (default)",0.66,1.32,"ABC",0.475,0.644357016390513,0.3135,0.3465
+"PFMC","Salmon (default)",0.67,1.34,"ABC",0.475,0.644357016390513,0.31825,0.35175
+"PFMC","Salmon (default)",0.68,1.36,"ABC",0.475,0.644357016390513,0.323,0.357
+"PFMC","Salmon (default)",0.69,1.38,"ABC",0.475,0.644357016390513,0.32775,0.36225
+"PFMC","Salmon (default)",0.7,1.4,"ABC",0.475,0.644357016390513,0.3325,0.3675
+"PFMC","Salmon (default)",0.71,1.42,"ABC",0.475,0.644357016390513,0.33725,0.37275
+"PFMC","Salmon (default)",0.72,1.44,"ABC",0.475,0.644357016390513,0.342,0.378
+"PFMC","Salmon (default)",0.73,1.46,"ABC",0.475,0.644357016390513,0.34675,0.38325
+"PFMC","Salmon (default)",0.74,1.48,"ABC",0.475,0.644357016390513,0.3515,0.3885
+"PFMC","Salmon (default)",0.75,1.5,"ABC",0.475,0.644357016390513,0.35625,0.39375
+"PFMC","Salmon (default)",0.76,1.52,"ABC",0.475,0.644357016390513,0.361,0.399
+"PFMC","Salmon (default)",0.77,1.54,"ABC",0.475,0.644357016390513,0.36575,0.40425
+"PFMC","Salmon (default)",0.78,1.56,"ABC",0.475,0.644357016390513,0.3705,0.4095
+"PFMC","Salmon (default)",0.79,1.58,"ABC",0.475,0.644357016390513,0.37525,0.41475
+"PFMC","Salmon (default)",0.8,1.6,"ABC",0.475,0.644357016390513,0.38,0.42
+"PFMC","Salmon (default)",0.81,1.62,"ABC",0.475,0.644357016390513,0.38475,0.42525
+"PFMC","Salmon (default)",0.82,1.64,"ABC",0.475,0.644357016390513,0.3895,0.4305
+"PFMC","Salmon (default)",0.83,1.66,"ABC",0.475,0.644357016390513,0.39425,0.43575
+"PFMC","Salmon (default)",0.84,1.68,"ABC",0.475,0.644357016390513,0.399,0.441
+"PFMC","Salmon (default)",0.85,1.7,"ABC",0.475,0.644357016390513,0.40375,0.44625
+"PFMC","Salmon (default)",0.86,1.72,"ABC",0.475,0.644357016390513,0.4085,0.4515
+"PFMC","Salmon (default)",0.87,1.74,"ABC",0.475,0.644357016390513,0.41325,0.45675
+"PFMC","Salmon (default)",0.88,1.76,"ABC",0.475,0.644357016390513,0.418,0.462
+"PFMC","Salmon (default)",0.89,1.78,"ABC",0.475,0.644357016390513,0.42275,0.46725
+"PFMC","Salmon (default)",0.9,1.8,"ABC",0.475,0.644357016390513,0.4275,0.4725
+"PFMC","Salmon (default)",0.91,1.82,"ABC",0.475,0.644357016390513,0.43225,0.47775
+"PFMC","Salmon (default)",0.92,1.84,"ABC",0.475,0.644357016390513,0.437,0.483
+"PFMC","Salmon (default)",0.93,1.86,"ABC",0.475,0.644357016390513,0.44175,0.48825
+"PFMC","Salmon (default)",0.94,1.88,"ABC",0.475,0.644357016390513,0.4465,0.4935
+"PFMC","Salmon (default)",0.95,1.9,"ABC",0.475,0.644357016390513,0.45125,0.49875
+"PFMC","Salmon (default)",0.96,1.92,"ABC",0.475,0.644357016390513,0.456,0.504
+"PFMC","Salmon (default)",0.97,1.94,"ABC",0.475,0.644357016390513,0.46075,0.50925
+"PFMC","Salmon (default)",0.98,1.96,"ABC",0.475,0.644357016390513,0.4655,0.5145
+"PFMC","Salmon (default)",0.99,1.98,"ABC",0.475,0.644357016390513,0.47025,0.51975
+"PFMC","Salmon (default)",1,2,"ABC",0.475,0.644357016390513,0.475,0.525
+"PFMC","Klamath River/Sacramento River Fall Chinook",0,0,"OFL",0.5,0.693147180559945,0,0
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.01,0.02,"OFL",0.5,0.693147180559945,0.005,0.005
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.02,0.04,"OFL",0.5,0.693147180559945,0.01,0.01
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.03,0.06,"OFL",0.5,0.693147180559945,0.015,0.015
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.04,0.08,"OFL",0.5,0.693147180559945,0.02,0.02
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.05,0.1,"OFL",0.5,0.693147180559945,0.025,0.025
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.06,0.12,"OFL",0.5,0.693147180559945,0.03,0.03
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.07,0.14,"OFL",0.5,0.693147180559945,0.035,0.035
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.08,0.16,"OFL",0.5,0.693147180559945,0.04,0.04
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.09,0.18,"OFL",0.5,0.693147180559945,0.045,0.045
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.1,0.2,"OFL",0.5,0.693147180559945,0.05,0.05
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.11,0.22,"OFL",0.5,0.693147180559945,0.055,0.055
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.12,0.24,"OFL",0.5,0.693147180559945,0.06,0.06
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.13,0.26,"OFL",0.5,0.693147180559945,0.065,0.065
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.14,0.28,"OFL",0.5,0.693147180559945,0.07,0.07
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.15,0.3,"OFL",0.5,0.693147180559945,0.075,0.075
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.16,0.32,"OFL",0.5,0.693147180559945,0.08,0.08
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.17,0.34,"OFL",0.5,0.693147180559945,0.085,0.085
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.18,0.36,"OFL",0.5,0.693147180559945,0.09,0.09
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.19,0.38,"OFL",0.5,0.693147180559945,0.095,0.095
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.2,0.4,"OFL",0.5,0.693147180559945,0.1,0.1
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.21,0.42,"OFL",0.5,0.693147180559945,0.105,0.105
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.22,0.44,"OFL",0.5,0.693147180559945,0.11,0.11
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.23,0.46,"OFL",0.5,0.693147180559945,0.115,0.115
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.24,0.48,"OFL",0.5,0.693147180559945,0.12,0.12
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.25,0.5,"OFL",0.5,0.693147180559945,0.125,0.125
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.26,0.52,"OFL",0.5,0.693147180559945,0.13,0.13
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.27,0.54,"OFL",0.5,0.693147180559945,0.135,0.135
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.28,0.56,"OFL",0.5,0.693147180559945,0.14,0.14
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.29,0.58,"OFL",0.5,0.693147180559945,0.145,0.145
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.3,0.6,"OFL",0.5,0.693147180559945,0.15,0.15
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.31,0.62,"OFL",0.5,0.693147180559945,0.155,0.155
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.32,0.64,"OFL",0.5,0.693147180559945,0.16,0.16
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.33,0.66,"OFL",0.5,0.693147180559945,0.165,0.165
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.34,0.68,"OFL",0.5,0.693147180559945,0.17,0.17
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.35,0.7,"OFL",0.5,0.693147180559945,0.175,0.175
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.36,0.72,"OFL",0.5,0.693147180559945,0.18,0.18
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.37,0.74,"OFL",0.5,0.693147180559945,0.185,0.185
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.38,0.76,"OFL",0.5,0.693147180559945,0.19,0.19
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.39,0.78,"OFL",0.5,0.693147180559945,0.195,0.195
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.4,0.8,"OFL",0.5,0.693147180559945,0.2,0.2
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.41,0.82,"OFL",0.5,0.693147180559945,0.205,0.205
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.42,0.84,"OFL",0.5,0.693147180559945,0.21,0.21
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.43,0.86,"OFL",0.5,0.693147180559945,0.215,0.215
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.44,0.88,"OFL",0.5,0.693147180559945,0.22,0.22
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.45,0.9,"OFL",0.5,0.693147180559945,0.225,0.225
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.46,0.92,"OFL",0.5,0.693147180559945,0.23,0.23
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.47,0.94,"OFL",0.5,0.693147180559945,0.235,0.235
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.48,0.96,"OFL",0.5,0.693147180559945,0.24,0.24
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.49,0.98,"OFL",0.5,0.693147180559945,0.245,0.245
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.5,1,"OFL",0.5,0.693147180559945,0.25,0.25
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.51,1.02,"OFL",0.5,0.693147180559945,0.255,0.255
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.52,1.04,"OFL",0.5,0.693147180559945,0.26,0.26
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.53,1.06,"OFL",0.5,0.693147180559945,0.265,0.265
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.54,1.08,"OFL",0.5,0.693147180559945,0.27,0.27
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.55,1.1,"OFL",0.5,0.693147180559945,0.275,0.275
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.56,1.12,"OFL",0.5,0.693147180559945,0.28,0.28
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.57,1.14,"OFL",0.5,0.693147180559945,0.285,0.285
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.58,1.16,"OFL",0.5,0.693147180559945,0.29,0.29
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.59,1.18,"OFL",0.5,0.693147180559945,0.295,0.295
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.6,1.2,"OFL",0.5,0.693147180559945,0.3,0.3
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.61,1.22,"OFL",0.5,0.693147180559945,0.305,0.305
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.62,1.24,"OFL",0.5,0.693147180559945,0.31,0.31
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.63,1.26,"OFL",0.5,0.693147180559945,0.315,0.315
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.64,1.28,"OFL",0.5,0.693147180559945,0.32,0.32
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.65,1.3,"OFL",0.5,0.693147180559945,0.325,0.325
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.66,1.32,"OFL",0.5,0.693147180559945,0.33,0.33
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.67,1.34,"OFL",0.5,0.693147180559945,0.335,0.335
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.68,1.36,"OFL",0.5,0.693147180559945,0.34,0.34
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.69,1.38,"OFL",0.5,0.693147180559945,0.345,0.345
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.7,1.4,"OFL",0.5,0.693147180559945,0.35,0.35
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.71,1.42,"OFL",0.5,0.693147180559945,0.355,0.355
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.72,1.44,"OFL",0.5,0.693147180559945,0.36,0.36
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.73,1.46,"OFL",0.5,0.693147180559945,0.365,0.365
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.74,1.48,"OFL",0.5,0.693147180559945,0.37,0.37
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.75,1.5,"OFL",0.5,0.693147180559945,0.375,0.375
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.76,1.52,"OFL",0.5,0.693147180559945,0.38,0.38
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.77,1.54,"OFL",0.5,0.693147180559945,0.385,0.385
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.78,1.56,"OFL",0.5,0.693147180559945,0.39,0.39
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.79,1.58,"OFL",0.5,0.693147180559945,0.395,0.395
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.8,1.6,"OFL",0.5,0.693147180559945,0.4,0.4
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.81,1.62,"OFL",0.5,0.693147180559945,0.405,0.405
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.82,1.64,"OFL",0.5,0.693147180559945,0.41,0.41
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.83,1.66,"OFL",0.5,0.693147180559945,0.415,0.415
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.84,1.68,"OFL",0.5,0.693147180559945,0.42,0.42
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.85,1.7,"OFL",0.5,0.693147180559945,0.425,0.425
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.86,1.72,"OFL",0.5,0.693147180559945,0.43,0.43
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.87,1.74,"OFL",0.5,0.693147180559945,0.435,0.435
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.88,1.76,"OFL",0.5,0.693147180559945,0.44,0.44
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.89,1.78,"OFL",0.5,0.693147180559945,0.445,0.445
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.9,1.8,"OFL",0.5,0.693147180559945,0.45,0.45
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.91,1.82,"OFL",0.5,0.693147180559945,0.455,0.455
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.92,1.84,"OFL",0.5,0.693147180559945,0.46,0.46
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.93,1.86,"OFL",0.5,0.693147180559945,0.465,0.465
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.94,1.88,"OFL",0.5,0.693147180559945,0.47,0.47
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.95,1.9,"OFL",0.5,0.693147180559945,0.475,0.475
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.96,1.92,"OFL",0.5,0.693147180559945,0.48,0.48
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.97,1.94,"OFL",0.5,0.693147180559945,0.485,0.485
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.98,1.96,"OFL",0.5,0.693147180559945,0.49,0.49
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.99,1.98,"OFL",0.5,0.693147180559945,0.495,0.495
+"PFMC","Klamath River/Sacramento River Fall Chinook",1,2,"OFL",0.5,0.693147180559945,0.5,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0,0,"ABC",0.475,0.644357016390513,0,0
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.01,0.02,"ABC",0.475,0.644357016390513,0.00475,0.00525
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.02,0.04,"ABC",0.475,0.644357016390513,0.0095,0.0105
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.03,0.06,"ABC",0.475,0.644357016390513,0.01425,0.01575
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.04,0.08,"ABC",0.475,0.644357016390513,0.019,0.021
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.05,0.1,"ABC",0.475,0.644357016390513,0.02375,0.02625
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.06,0.12,"ABC",0.475,0.644357016390513,0.0285,0.0315
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.07,0.14,"ABC",0.475,0.644357016390513,0.03325,0.03675
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.08,0.16,"ABC",0.475,0.644357016390513,0.038,0.042
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.09,0.18,"ABC",0.475,0.644357016390513,0.04275,0.04725
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.1,0.2,"ABC",0.475,0.644357016390513,0.0475,0.0525
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.11,0.22,"ABC",0.475,0.644357016390513,0.05225,0.05775
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.12,0.24,"ABC",0.475,0.644357016390513,0.057,0.063
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.13,0.26,"ABC",0.475,0.644357016390513,0.06175,0.06825
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.14,0.28,"ABC",0.475,0.644357016390513,0.0665,0.0735
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.15,0.3,"ABC",0.475,0.644357016390513,0.07125,0.07875
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.16,0.32,"ABC",0.475,0.644357016390513,0.076,0.084
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.17,0.34,"ABC",0.475,0.644357016390513,0.08075,0.08925
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.18,0.36,"ABC",0.475,0.644357016390513,0.0855,0.0945
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.19,0.38,"ABC",0.475,0.644357016390513,0.09025,0.09975
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.2,0.4,"ABC",0.475,0.644357016390513,0.095,0.105
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.21,0.42,"ABC",0.475,0.644357016390513,0.09975,0.11025
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.22,0.44,"ABC",0.475,0.644357016390513,0.1045,0.1155
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.23,0.46,"ABC",0.475,0.644357016390513,0.10925,0.12075
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.24,0.48,"ABC",0.475,0.644357016390513,0.114,0.126
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.25,0.5,"ABC",0.475,0.644357016390513,0.11875,0.13125
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.26,0.52,"ABC",0.475,0.644357016390513,0.1235,0.1365
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.27,0.54,"ABC",0.475,0.644357016390513,0.12825,0.14175
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.28,0.56,"ABC",0.475,0.644357016390513,0.133,0.147
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.29,0.58,"ABC",0.475,0.644357016390513,0.13775,0.15225
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.3,0.6,"ABC",0.475,0.644357016390513,0.1425,0.1575
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.31,0.62,"ABC",0.475,0.644357016390513,0.14725,0.16275
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.32,0.64,"ABC",0.475,0.644357016390513,0.152,0.168
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.33,0.66,"ABC",0.475,0.644357016390513,0.15675,0.17325
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.34,0.68,"ABC",0.475,0.644357016390513,0.1615,0.1785
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.35,0.7,"ABC",0.475,0.644357016390513,0.16625,0.18375
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.36,0.72,"ABC",0.475,0.644357016390513,0.171,0.189
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.37,0.74,"ABC",0.475,0.644357016390513,0.17575,0.19425
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.38,0.76,"ABC",0.475,0.644357016390513,0.1805,0.1995
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.39,0.78,"ABC",0.475,0.644357016390513,0.18525,0.20475
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.4,0.8,"ABC",0.475,0.644357016390513,0.19,0.21
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.41,0.82,"ABC",0.475,0.644357016390513,0.19475,0.21525
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.42,0.84,"ABC",0.475,0.644357016390513,0.1995,0.2205
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.43,0.86,"ABC",0.475,0.644357016390513,0.20425,0.22575
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.44,0.88,"ABC",0.475,0.644357016390513,0.209,0.231
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.45,0.9,"ABC",0.475,0.644357016390513,0.21375,0.23625
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.46,0.92,"ABC",0.475,0.644357016390513,0.2185,0.2415
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.47,0.94,"ABC",0.475,0.644357016390513,0.22325,0.24675
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.48,0.96,"ABC",0.475,0.644357016390513,0.228,0.252
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.49,0.98,"ABC",0.475,0.644357016390513,0.23275,0.25725
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.5,1,"ABC",0.475,0.644357016390513,0.2375,0.2625
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.51,1.02,"ABC",0.475,0.644357016390513,0.24225,0.26775
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.52,1.04,"ABC",0.475,0.644357016390513,0.247,0.273
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.53,1.06,"ABC",0.475,0.644357016390513,0.25175,0.27825
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.54,1.08,"ABC",0.475,0.644357016390513,0.2565,0.2835
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.55,1.1,"ABC",0.475,0.644357016390513,0.26125,0.28875
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.56,1.12,"ABC",0.475,0.644357016390513,0.266,0.294
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.57,1.14,"ABC",0.475,0.644357016390513,0.27075,0.29925
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.58,1.16,"ABC",0.475,0.644357016390513,0.2755,0.3045
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.59,1.18,"ABC",0.475,0.644357016390513,0.28025,0.30975
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.6,1.2,"ABC",0.475,0.644357016390513,0.285,0.315
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.61,1.22,"ABC",0.475,0.644357016390513,0.28975,0.32025
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.62,1.24,"ABC",0.475,0.644357016390513,0.2945,0.3255
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.63,1.26,"ABC",0.475,0.644357016390513,0.29925,0.33075
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.64,1.28,"ABC",0.475,0.644357016390513,0.304,0.336
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.65,1.3,"ABC",0.475,0.644357016390513,0.30875,0.34125
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.66,1.32,"ABC",0.475,0.644357016390513,0.3135,0.3465
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.67,1.34,"ABC",0.475,0.644357016390513,0.31825,0.35175
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.68,1.36,"ABC",0.475,0.644357016390513,0.323,0.357
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.69,1.38,"ABC",0.475,0.644357016390513,0.32775,0.36225
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.7,1.4,"ABC",0.475,0.644357016390513,0.3325,0.3675
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.71,1.42,"ABC",0.475,0.644357016390513,0.33725,0.37275
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.72,1.44,"ABC",0.475,0.644357016390513,0.342,0.378
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.73,1.46,"ABC",0.475,0.644357016390513,0.34675,0.38325
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.74,1.48,"ABC",0.475,0.644357016390513,0.3515,0.3885
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.75,1.5,"ABC",0.475,0.644357016390513,0.35625,0.39375
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.76,1.52,"ABC",0.475,0.644357016390513,0.361,0.399
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.77,1.54,"ABC",0.475,0.644357016390513,0.36575,0.40425
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.78,1.56,"ABC",0.475,0.644357016390513,0.3705,0.4095
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.79,1.58,"ABC",0.475,0.644357016390513,0.37525,0.41475
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.8,1.6,"ABC",0.475,0.644357016390513,0.38,0.42
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.81,1.62,"ABC",0.475,0.644357016390513,0.38475,0.42525
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.82,1.64,"ABC",0.475,0.644357016390513,0.3895,0.4305
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.83,1.66,"ABC",0.475,0.644357016390513,0.39425,0.43575
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.84,1.68,"ABC",0.475,0.644357016390513,0.399,0.441
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.85,1.7,"ABC",0.475,0.644357016390513,0.40375,0.44625
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.86,1.72,"ABC",0.475,0.644357016390513,0.4085,0.4515
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.87,1.74,"ABC",0.475,0.644357016390513,0.41325,0.45675
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.88,1.76,"ABC",0.475,0.644357016390513,0.418,0.462
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.89,1.78,"ABC",0.475,0.644357016390513,0.42275,0.46725
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.9,1.8,"ABC",0.475,0.644357016390513,0.4275,0.4725
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.91,1.82,"ABC",0.475,0.644357016390513,0.43225,0.47775
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.92,1.84,"ABC",0.475,0.644357016390513,0.437,0.483
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.93,1.86,"ABC",0.475,0.644357016390513,0.44175,0.48825
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.94,1.88,"ABC",0.475,0.644357016390513,0.4465,0.4935
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.95,1.9,"ABC",0.475,0.644357016390513,0.45125,0.49875
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.96,1.92,"ABC",0.475,0.644357016390513,0.456,0.504
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.97,1.94,"ABC",0.475,0.644357016390513,0.46075,0.50925
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.98,1.96,"ABC",0.475,0.644357016390513,0.4655,0.5145
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.99,1.98,"ABC",0.475,0.644357016390513,0.47025,0.51975
+"PFMC","Klamath River/Sacramento River Fall Chinook",1,2,"ABC",0.475,0.644357016390513,0.475,0.525
+"PFMC","Klamath River/Sacramento River Fall Chinook",0,0,"ACL",0,0,0,0
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.01,0.02,"ACL",0.008,0.00803217169726427,8e-05,0.00992
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.02,0.04,"ACL",0.016,0.0161293819298836,0.00032,0.01968
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.03,0.06,"ACL",0.024,0.0242926925690446,0.00072,0.02928
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.04,0.08,"ACL",0.032,0.0325231917055601,0.00128,0.03872
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.05,0.1,"ACL",0.04,0.0408219945202552,0.002,0.048
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.06,0.12,"ACL",0.048,0.0491902441907718,0.00288,0.05712
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.07,0.14,"ACL",0.056,0.0576291128366364,0.00392,0.06608
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.08,0.16,"ACL",0.064,0.0661398025045451,0.00512,0.07488
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.09,0.18,"ACL",0.072,0.0747235461959364,0.00648,0.08352
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.1,0.2,"ACL",0.08,0.0833816089390511,0.008,0.092
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.11,0.22,"ACL",0.088,0.0921152889078056,0.00968,0.10032
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.12,0.24,"ACL",0.096,0.100925918589961,0.01152,0.10848
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.13,0.26,"ACL",0.1,0.105360515657826,0.013,0.117
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.14,0.28,"ACL",0.1,0.105360515657826,0.014,0.126
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.15,0.3,"ACL",0.1,0.105360515657826,0.015,0.135
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.16,0.32,"ACL",0.1,0.105360515657826,0.016,0.144
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.17,0.34,"ACL",0.1,0.105360515657826,0.017,0.153
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.18,0.36,"ACL",0.1,0.105360515657826,0.018,0.162
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.19,0.38,"ACL",0.1,0.105360515657826,0.019,0.171
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.2,0.4,"ACL",0.1,0.105360515657826,0.02,0.18
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.21,0.42,"ACL",0.1,0.105360515657826,0.021,0.189
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.22,0.44,"ACL",0.1,0.105360515657826,0.022,0.198
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.23,0.46,"ACL",0.1,0.105360515657826,0.023,0.207
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.24,0.48,"ACL",0.1,0.105360515657826,0.024,0.216
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.25,0.5,"ACL",0.1,0.105360515657826,0.025,0.225
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.26,0.52,"ACL",0.112,0.118783535989967,0.02912,0.23088
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.27,0.54,"ACL",0.124,0.132389188045746,0.03348,0.23652
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.28,0.56,"ACL",0.136,0.146182510178081,0.03808,0.24192
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.29,0.58,"ACL",0.148,0.160168752152821,0.04292,0.24708
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.3,0.6,"ACL",0.16,0.174353387144778,0.048,0.252
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.31,0.62,"ACL",0.172,0.188742124596877,0.05332,0.25668
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.32,0.64,"ACL",0.184,0.20334092401803,0.05888,0.26112
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.33,0.66,"ACL",0.196,0.218156009803171,0.06468,0.26532
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.34,0.68,"ACL",0.208,0.233193887167711,0.07072,0.26928
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.35,0.7,"ACL",0.22,0.2484613592985,0.077,0.273
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.36,0.72,"ACL",0.232,0.263965545834465,0.08352,0.27648
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.37,0.74,"ACL",0.244,0.279713902802604,0.09028,0.27972
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.38,0.76,"ACL",0.25,0.287682072451781,0.095,0.285
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.39,0.78,"ACL",0.25,0.287682072451781,0.0975,0.2925
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.4,0.8,"ACL",0.25,0.287682072451781,0.1,0.3
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.41,0.82,"ACL",0.25,0.287682072451781,0.1025,0.3075
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.42,0.84,"ACL",0.25,0.287682072451781,0.105,0.315
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.43,0.86,"ACL",0.25,0.287682072451781,0.1075,0.3225
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.44,0.88,"ACL",0.25,0.287682072451781,0.11,0.33
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.45,0.9,"ACL",0.25,0.287682072451781,0.1125,0.3375
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.46,0.92,"ACL",0.25,0.287682072451781,0.115,0.345
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.47,0.94,"ACL",0.25,0.287682072451781,0.1175,0.3525
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.48,0.96,"ACL",0.25,0.287682072451781,0.12,0.36
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.49,0.98,"ACL",0.25,0.287682072451781,0.1225,0.3675
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.5,1,"ACL",0.25,0.287682072451781,0.125,0.375
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.51,1.02,"ACL",0.25,0.287682072451781,0.1275,0.3825
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.52,1.04,"ACL",0.25,0.287682072451781,0.13,0.39
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.53,1.06,"ACL",0.25,0.287682072451781,0.1325,0.3975
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.54,1.08,"ACL",0.25,0.287682072451781,0.135,0.405
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.55,1.1,"ACL",0.25,0.287682072451781,0.1375,0.4125
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.56,1.12,"ACL",0.25,0.287682072451781,0.14,0.42
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.57,1.14,"ACL",0.25,0.287682072451781,0.1425,0.4275
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.58,1.16,"ACL",0.25,0.287682072451781,0.145,0.435
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.59,1.18,"ACL",0.25,0.287682072451781,0.1475,0.4425
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.6,1.2,"ACL",0.25,0.287682072451781,0.15,0.45
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.61,1.22,"ACL",0.25,0.287682072451781,0.1525,0.4575
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.62,1.24,"ACL",0.25,0.287682072451781,0.155,0.465
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.63,1.26,"ACL",0.25,0.287682072451781,0.1575,0.4725
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.64,1.28,"ACL",0.25,0.287682072451781,0.16,0.48
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.65,1.3,"ACL",0.25,0.287682072451781,0.1625,0.4875
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.66,1.32,"ACL",0.25,0.287682072451781,0.165,0.495
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.67,1.34,"ACL",0.253731343283582,0.29266961396282,0.17,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.68,1.36,"ACL",0.264705882352941,0.307484699747961,0.18,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.69,1.38,"ACL",0.27536231884058,0.322083499169113,0.19,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.7,1.4,"ACL",0.285714285714286,0.336472236621213,0.2,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.71,1.42,"ACL",0.295774647887324,0.350656871613169,0.21,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.72,1.44,"ACL",0.305555555555556,0.364643113587909,0.22,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.73,1.46,"ACL",0.315068493150685,0.378436435720245,0.23,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.74,1.48,"ACL",0.324324324324324,0.392042087776024,0.24,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.75,1.5,"ACL",0.333333333333333,0.405465108108164,0.25,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.76,1.52,"ACL",0.342105263157895,0.418710334858185,0.26,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.77,1.54,"ACL",0.350649350649351,0.431782416425538,0.27,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.78,1.56,"ACL",0.358974358974359,0.444685821261446,0.28,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.79,1.58,"ACL",0.367088607594937,0.457424847038875,0.29,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.8,1.6,"ACL",0.375,0.470003629245736,0.3,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.81,1.62,"ACL",0.382716049382716,0.482426149244293,0.31,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.82,1.64,"ACL",0.390243902439024,0.494696241836107,0.32,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.83,1.66,"ACL",0.397590361445783,0.506817602368452,0.33,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.84,1.68,"ACL",0.404761904761905,0.518793793415168,0.34,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.85,1.7,"ACL",0.411764705882353,0.53062825106217,0.35,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.86,1.72,"ACL",0.418604651162791,0.542324290825362,0.36,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.87,1.74,"ACL",0.425287356321839,0.553885113226438,0.37,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.88,1.76,"ACL",0.431818181818182,0.565313809050061,0.38,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.89,1.78,"ACL",0.438202247191011,0.576613364303994,0.39,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.9,1.8,"ACL",0.444444444444444,0.587786664902119,0.4,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.91,1.82,"ACL",0.450549450549451,0.598836501088704,0.41,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.92,1.84,"ACL",0.456521739130435,0.609765571620894,0.42,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.93,1.86,"ACL",0.462365591397849,0.62057648772511,0.43,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.94,1.88,"ACL",0.468085106382979,0.631271776841858,0.44,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.95,1.9,"ACL",0.473684210526316,0.641853886172395,0.45,0.5
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.96,1.92,"ACL",0.475,0.644357016390513,0.456,0.504
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.97,1.94,"ACL",0.475,0.644357016390513,0.46075,0.50925
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.98,1.96,"ACL",0.475,0.644357016390513,0.4655,0.5145
+"PFMC","Klamath River/Sacramento River Fall Chinook",0.99,1.98,"ACL",0.475,0.644357016390513,0.47025,0.51975
+"PFMC","Klamath River/Sacramento River Fall Chinook",1,2,"ACL",0.475,0.644357016390513,0.475,0.525
+"PFMC","Puget Sound Coho",0,0,"OFL",0.5,0.693147180559945,0,NA
+"PFMC","Puget Sound Coho",0.01,0.02,"OFL",0.5,0.693147180559945,0.005,NA
+"PFMC","Puget Sound Coho",0.02,0.04,"OFL",0.5,0.693147180559945,0.01,NA
+"PFMC","Puget Sound Coho",0.03,0.06,"OFL",0.5,0.693147180559945,0.015,NA
+"PFMC","Puget Sound Coho",0.04,0.08,"OFL",0.5,0.693147180559945,0.02,NA
+"PFMC","Puget Sound Coho",0.05,0.1,"OFL",0.5,0.693147180559945,0.025,NA
+"PFMC","Puget Sound Coho",0.06,0.12,"OFL",0.5,0.693147180559945,0.03,NA
+"PFMC","Puget Sound Coho",0.07,0.14,"OFL",0.5,0.693147180559945,0.035,NA
+"PFMC","Puget Sound Coho",0.08,0.16,"OFL",0.5,0.693147180559945,0.04,NA
+"PFMC","Puget Sound Coho",0.09,0.18,"OFL",0.5,0.693147180559945,0.045,NA
+"PFMC","Puget Sound Coho",0.1,0.2,"OFL",0.5,0.693147180559945,0.05,NA
+"PFMC","Puget Sound Coho",0.11,0.22,"OFL",0.5,0.693147180559945,0.055,NA
+"PFMC","Puget Sound Coho",0.12,0.24,"OFL",0.5,0.693147180559945,0.06,NA
+"PFMC","Puget Sound Coho",0.13,0.26,"OFL",0.5,0.693147180559945,0.065,NA
+"PFMC","Puget Sound Coho",0.14,0.28,"OFL",0.5,0.693147180559945,0.07,NA
+"PFMC","Puget Sound Coho",0.15,0.3,"OFL",0.5,0.693147180559945,0.075,NA
+"PFMC","Puget Sound Coho",0.16,0.32,"OFL",0.5,0.693147180559945,0.08,NA
+"PFMC","Puget Sound Coho",0.17,0.34,"OFL",0.5,0.693147180559945,0.085,NA
+"PFMC","Puget Sound Coho",0.18,0.36,"OFL",0.5,0.693147180559945,0.09,NA
+"PFMC","Puget Sound Coho",0.19,0.38,"OFL",0.5,0.693147180559945,0.095,NA
+"PFMC","Puget Sound Coho",0.2,0.4,"OFL",0.5,0.693147180559945,0.1,NA
+"PFMC","Puget Sound Coho",0.21,0.42,"OFL",0.5,0.693147180559945,0.105,NA
+"PFMC","Puget Sound Coho",0.22,0.44,"OFL",0.5,0.693147180559945,0.11,NA
+"PFMC","Puget Sound Coho",0.23,0.46,"OFL",0.5,0.693147180559945,0.115,NA
+"PFMC","Puget Sound Coho",0.24,0.48,"OFL",0.5,0.693147180559945,0.12,NA
+"PFMC","Puget Sound Coho",0.25,0.5,"OFL",0.5,0.693147180559945,0.125,NA
+"PFMC","Puget Sound Coho",0.26,0.52,"OFL",0.5,0.693147180559945,0.13,NA
+"PFMC","Puget Sound Coho",0.27,0.54,"OFL",0.5,0.693147180559945,0.135,NA
+"PFMC","Puget Sound Coho",0.28,0.56,"OFL",0.5,0.693147180559945,0.14,NA
+"PFMC","Puget Sound Coho",0.29,0.58,"OFL",0.5,0.693147180559945,0.145,NA
+"PFMC","Puget Sound Coho",0.3,0.6,"OFL",0.5,0.693147180559945,0.15,NA
+"PFMC","Puget Sound Coho",0.31,0.62,"OFL",0.5,0.693147180559945,0.155,NA
+"PFMC","Puget Sound Coho",0.32,0.64,"OFL",0.5,0.693147180559945,0.16,NA
+"PFMC","Puget Sound Coho",0.33,0.66,"OFL",0.5,0.693147180559945,0.165,NA
+"PFMC","Puget Sound Coho",0.34,0.68,"OFL",0.5,0.693147180559945,0.17,NA
+"PFMC","Puget Sound Coho",0.35,0.7,"OFL",0.5,0.693147180559945,0.175,NA
+"PFMC","Puget Sound Coho",0.36,0.72,"OFL",0.5,0.693147180559945,0.18,NA
+"PFMC","Puget Sound Coho",0.37,0.74,"OFL",0.5,0.693147180559945,0.185,NA
+"PFMC","Puget Sound Coho",0.38,0.76,"OFL",0.5,0.693147180559945,0.19,NA
+"PFMC","Puget Sound Coho",0.39,0.78,"OFL",0.5,0.693147180559945,0.195,NA
+"PFMC","Puget Sound Coho",0.4,0.8,"OFL",0.5,0.693147180559945,0.2,NA
+"PFMC","Puget Sound Coho",0.41,0.82,"OFL",0.5,0.693147180559945,0.205,NA
+"PFMC","Puget Sound Coho",0.42,0.84,"OFL",0.5,0.693147180559945,0.21,NA
+"PFMC","Puget Sound Coho",0.43,0.86,"OFL",0.5,0.693147180559945,0.215,NA
+"PFMC","Puget Sound Coho",0.44,0.88,"OFL",0.5,0.693147180559945,0.22,NA
+"PFMC","Puget Sound Coho",0.45,0.9,"OFL",0.5,0.693147180559945,0.225,NA
+"PFMC","Puget Sound Coho",0.46,0.92,"OFL",0.5,0.693147180559945,0.23,NA
+"PFMC","Puget Sound Coho",0.47,0.94,"OFL",0.5,0.693147180559945,0.235,NA
+"PFMC","Puget Sound Coho",0.48,0.96,"OFL",0.5,0.693147180559945,0.24,NA
+"PFMC","Puget Sound Coho",0.49,0.98,"OFL",0.5,0.693147180559945,0.245,NA
+"PFMC","Puget Sound Coho",0.5,1,"OFL",0.5,0.693147180559945,0.25,NA
+"PFMC","Puget Sound Coho",0.51,1.02,"OFL",0.5,0.693147180559945,0.255,NA
+"PFMC","Puget Sound Coho",0.52,1.04,"OFL",0.5,0.693147180559945,0.26,NA
+"PFMC","Puget Sound Coho",0.53,1.06,"OFL",0.5,0.693147180559945,0.265,NA
+"PFMC","Puget Sound Coho",0.54,1.08,"OFL",0.5,0.693147180559945,0.27,NA
+"PFMC","Puget Sound Coho",0.55,1.1,"OFL",0.5,0.693147180559945,0.275,NA
+"PFMC","Puget Sound Coho",0.56,1.12,"OFL",0.5,0.693147180559945,0.28,NA
+"PFMC","Puget Sound Coho",0.57,1.14,"OFL",0.5,0.693147180559945,0.285,NA
+"PFMC","Puget Sound Coho",0.58,1.16,"OFL",0.5,0.693147180559945,0.29,NA
+"PFMC","Puget Sound Coho",0.59,1.18,"OFL",0.5,0.693147180559945,0.295,NA
+"PFMC","Puget Sound Coho",0.6,1.2,"OFL",0.5,0.693147180559945,0.3,NA
+"PFMC","Puget Sound Coho",0.61,1.22,"OFL",0.5,0.693147180559945,0.305,NA
+"PFMC","Puget Sound Coho",0.62,1.24,"OFL",0.5,0.693147180559945,0.31,NA
+"PFMC","Puget Sound Coho",0.63,1.26,"OFL",0.5,0.693147180559945,0.315,NA
+"PFMC","Puget Sound Coho",0.64,1.28,"OFL",0.5,0.693147180559945,0.32,NA
+"PFMC","Puget Sound Coho",0.65,1.3,"OFL",0.5,0.693147180559945,0.325,NA
+"PFMC","Puget Sound Coho",0.66,1.32,"OFL",0.5,0.693147180559945,0.33,NA
+"PFMC","Puget Sound Coho",0.67,1.34,"OFL",0.5,0.693147180559945,0.335,NA
+"PFMC","Puget Sound Coho",0.68,1.36,"OFL",0.5,0.693147180559945,0.34,NA
+"PFMC","Puget Sound Coho",0.69,1.38,"OFL",0.5,0.693147180559945,0.345,NA
+"PFMC","Puget Sound Coho",0.7,1.4,"OFL",0.5,0.693147180559945,0.35,NA
+"PFMC","Puget Sound Coho",0.71,1.42,"OFL",0.5,0.693147180559945,0.355,NA
+"PFMC","Puget Sound Coho",0.72,1.44,"OFL",0.5,0.693147180559945,0.36,NA
+"PFMC","Puget Sound Coho",0.73,1.46,"OFL",0.5,0.693147180559945,0.365,NA
+"PFMC","Puget Sound Coho",0.74,1.48,"OFL",0.5,0.693147180559945,0.37,NA
+"PFMC","Puget Sound Coho",0.75,1.5,"OFL",0.5,0.693147180559945,0.375,NA
+"PFMC","Puget Sound Coho",0.76,1.52,"OFL",0.5,0.693147180559945,0.38,NA
+"PFMC","Puget Sound Coho",0.77,1.54,"OFL",0.5,0.693147180559945,0.385,NA
+"PFMC","Puget Sound Coho",0.78,1.56,"OFL",0.5,0.693147180559945,0.39,NA
+"PFMC","Puget Sound Coho",0.79,1.58,"OFL",0.5,0.693147180559945,0.395,NA
+"PFMC","Puget Sound Coho",0.8,1.6,"OFL",0.5,0.693147180559945,0.4,NA
+"PFMC","Puget Sound Coho",0.81,1.62,"OFL",0.5,0.693147180559945,0.405,NA
+"PFMC","Puget Sound Coho",0.82,1.64,"OFL",0.5,0.693147180559945,0.41,NA
+"PFMC","Puget Sound Coho",0.83,1.66,"OFL",0.5,0.693147180559945,0.415,NA
+"PFMC","Puget Sound Coho",0.84,1.68,"OFL",0.5,0.693147180559945,0.42,NA
+"PFMC","Puget Sound Coho",0.85,1.7,"OFL",0.5,0.693147180559945,0.425,NA
+"PFMC","Puget Sound Coho",0.86,1.72,"OFL",0.5,0.693147180559945,0.43,NA
+"PFMC","Puget Sound Coho",0.87,1.74,"OFL",0.5,0.693147180559945,0.435,NA
+"PFMC","Puget Sound Coho",0.88,1.76,"OFL",0.5,0.693147180559945,0.44,NA
+"PFMC","Puget Sound Coho",0.89,1.78,"OFL",0.5,0.693147180559945,0.445,NA
+"PFMC","Puget Sound Coho",0.9,1.8,"OFL",0.5,0.693147180559945,0.45,NA
+"PFMC","Puget Sound Coho",0.91,1.82,"OFL",0.5,0.693147180559945,0.455,NA
+"PFMC","Puget Sound Coho",0.92,1.84,"OFL",0.5,0.693147180559945,0.46,NA
+"PFMC","Puget Sound Coho",0.93,1.86,"OFL",0.5,0.693147180559945,0.465,NA
+"PFMC","Puget Sound Coho",0.94,1.88,"OFL",0.5,0.693147180559945,0.47,NA
+"PFMC","Puget Sound Coho",0.95,1.9,"OFL",0.5,0.693147180559945,0.475,NA
+"PFMC","Puget Sound Coho",0.96,1.92,"OFL",0.5,0.693147180559945,0.48,NA
+"PFMC","Puget Sound Coho",0.97,1.94,"OFL",0.5,0.693147180559945,0.485,NA
+"PFMC","Puget Sound Coho",0.98,1.96,"OFL",0.5,0.693147180559945,0.49,NA
+"PFMC","Puget Sound Coho",0.99,1.98,"OFL",0.5,0.693147180559945,0.495,NA
+"PFMC","Puget Sound Coho",1,2,"OFL",0.5,0.693147180559945,0.5,NA
+"PFMC","Puget Sound Coho",0,0,"ABC",0.2,0.22314355131421,0,NA
+"PFMC","Puget Sound Coho",0.01,0.02,"ABC",0.2,0.22314355131421,0.002,NA
+"PFMC","Puget Sound Coho",0.02,0.04,"ABC",0.2,0.22314355131421,0.004,NA
+"PFMC","Puget Sound Coho",0.03,0.06,"ABC",0.2,0.22314355131421,0.006,NA
+"PFMC","Puget Sound Coho",0.04,0.08,"ABC",0.2,0.22314355131421,0.008,NA
+"PFMC","Puget Sound Coho",0.05,0.1,"ABC",0.2,0.22314355131421,0.01,NA
+"PFMC","Puget Sound Coho",0.06,0.12,"ABC",0.2,0.22314355131421,0.012,NA
+"PFMC","Puget Sound Coho",0.07,0.14,"ABC",0.2,0.22314355131421,0.014,NA
+"PFMC","Puget Sound Coho",0.08,0.16,"ABC",0.2,0.22314355131421,0.016,NA
+"PFMC","Puget Sound Coho",0.09,0.18,"ABC",0.2,0.22314355131421,0.018,NA
+"PFMC","Puget Sound Coho",0.1,0.2,"ABC",0.2,0.22314355131421,0.02,NA
+"PFMC","Puget Sound Coho",0.11,0.22,"ABC",0.2,0.22314355131421,0.022,NA
+"PFMC","Puget Sound Coho",0.12,0.24,"ABC",0.2,0.22314355131421,0.024,NA
+"PFMC","Puget Sound Coho",0.13,0.26,"ABC",0.2,0.22314355131421,0.026,NA
+"PFMC","Puget Sound Coho",0.14,0.28,"ABC",0.2,0.22314355131421,0.028,NA
+"PFMC","Puget Sound Coho",0.15,0.3,"ABC",0.2,0.22314355131421,0.03,NA
+"PFMC","Puget Sound Coho",0.16,0.32,"ABC",0.2,0.22314355131421,0.032,NA
+"PFMC","Puget Sound Coho",0.17,0.34,"ABC",0.2,0.22314355131421,0.034,NA
+"PFMC","Puget Sound Coho",0.18,0.36,"ABC",0.2,0.22314355131421,0.036,NA
+"PFMC","Puget Sound Coho",0.19,0.38,"ABC",0.2,0.22314355131421,0.038,NA
+"PFMC","Puget Sound Coho",0.2,0.4,"ABC",0.2,0.22314355131421,0.04,NA
+"PFMC","Puget Sound Coho",0.21,0.42,"ABC",0.2,0.22314355131421,0.042,NA
+"PFMC","Puget Sound Coho",0.22,0.44,"ABC",0.2,0.22314355131421,0.044,NA
+"PFMC","Puget Sound Coho",0.23,0.46,"ABC",0.2,0.22314355131421,0.046,NA
+"PFMC","Puget Sound Coho",0.24,0.48,"ABC",0.2,0.22314355131421,0.048,NA
+"PFMC","Puget Sound Coho",0.25,0.5,"ABC",0.2,0.22314355131421,0.05,NA
+"PFMC","Puget Sound Coho",0.26,0.52,"ABC",0.2,0.22314355131421,0.052,NA
+"PFMC","Puget Sound Coho",0.27,0.54,"ABC",0.2,0.22314355131421,0.054,NA
+"PFMC","Puget Sound Coho",0.28,0.56,"ABC",0.2,0.22314355131421,0.056,NA
+"PFMC","Puget Sound Coho",0.29,0.58,"ABC",0.2,0.22314355131421,0.058,NA
+"PFMC","Puget Sound Coho",0.3,0.6,"ABC",0.2,0.22314355131421,0.06,NA
+"PFMC","Puget Sound Coho",0.31,0.62,"ABC",0.2,0.22314355131421,0.062,NA
+"PFMC","Puget Sound Coho",0.32,0.64,"ABC",0.2,0.22314355131421,0.064,NA
+"PFMC","Puget Sound Coho",0.33,0.66,"ABC",0.2,0.22314355131421,0.066,NA
+"PFMC","Puget Sound Coho",0.34,0.68,"ABC",0.2,0.22314355131421,0.068,NA
+"PFMC","Puget Sound Coho",0.35,0.7,"ABC",0.2,0.22314355131421,0.07,NA
+"PFMC","Puget Sound Coho",0.36,0.72,"ABC",0.2,0.22314355131421,0.072,NA
+"PFMC","Puget Sound Coho",0.37,0.74,"ABC",0.2,0.22314355131421,0.074,NA
+"PFMC","Puget Sound Coho",0.38,0.76,"ABC",0.2,0.22314355131421,0.076,NA
+"PFMC","Puget Sound Coho",0.39,0.78,"ABC",0.2,0.22314355131421,0.078,NA
+"PFMC","Puget Sound Coho",0.4,0.8,"ABC",0.2,0.22314355131421,0.08,NA
+"PFMC","Puget Sound Coho",0.41,0.82,"ABC",0.2,0.22314355131421,0.082,NA
+"PFMC","Puget Sound Coho",0.42,0.84,"ABC",0.4,0.510825623765991,0.168,NA
+"PFMC","Puget Sound Coho",0.43,0.86,"ABC",0.4,0.510825623765991,0.172,NA
+"PFMC","Puget Sound Coho",0.44,0.88,"ABC",0.4,0.510825623765991,0.176,NA
+"PFMC","Puget Sound Coho",0.45,0.9,"ABC",0.4,0.510825623765991,0.18,NA
+"PFMC","Puget Sound Coho",0.46,0.92,"ABC",0.4,0.510825623765991,0.184,NA
+"PFMC","Puget Sound Coho",0.47,0.94,"ABC",0.4,0.510825623765991,0.188,NA
+"PFMC","Puget Sound Coho",0.48,0.96,"ABC",0.4,0.510825623765991,0.192,NA
+"PFMC","Puget Sound Coho",0.49,0.98,"ABC",0.4,0.510825623765991,0.196,NA
+"PFMC","Puget Sound Coho",0.5,1,"ABC",0.4,0.510825623765991,0.2,NA
+"PFMC","Puget Sound Coho",0.51,1.02,"ABC",0.4,0.510825623765991,0.204,NA
+"PFMC","Puget Sound Coho",0.52,1.04,"ABC",0.4,0.510825623765991,0.208,NA
+"PFMC","Puget Sound Coho",0.53,1.06,"ABC",0.4,0.510825623765991,0.212,NA
+"PFMC","Puget Sound Coho",0.54,1.08,"ABC",0.4,0.510825623765991,0.216,NA
+"PFMC","Puget Sound Coho",0.55,1.1,"ABC",0.4,0.510825623765991,0.22,NA
+"PFMC","Puget Sound Coho",0.56,1.12,"ABC",0.4,0.510825623765991,0.224,NA
+"PFMC","Puget Sound Coho",0.57,1.14,"ABC",0.4,0.510825623765991,0.228,NA
+"PFMC","Puget Sound Coho",0.58,1.16,"ABC",0.4,0.510825623765991,0.232,NA
+"PFMC","Puget Sound Coho",0.59,1.18,"ABC",0.4,0.510825623765991,0.236,NA
+"PFMC","Puget Sound Coho",0.6,1.2,"ABC",0.4,0.510825623765991,0.24,NA
+"PFMC","Puget Sound Coho",0.61,1.22,"ABC",0.4,0.510825623765991,0.244,NA
+"PFMC","Puget Sound Coho",0.62,1.24,"ABC",0.4,0.510825623765991,0.248,NA
+"PFMC","Puget Sound Coho",0.63,1.26,"ABC",0.4,0.510825623765991,0.252,NA
+"PFMC","Puget Sound Coho",0.64,1.28,"ABC",0.4,0.510825623765991,0.256,NA
+"PFMC","Puget Sound Coho",0.65,1.3,"ABC",0.4,0.510825623765991,0.26,NA
+"PFMC","Puget Sound Coho",0.66,1.32,"ABC",0.4,0.510825623765991,0.264,NA
+"PFMC","Puget Sound Coho",0.67,1.34,"ABC",0.4,0.510825623765991,0.268,NA
+"PFMC","Puget Sound Coho",0.68,1.36,"ABC",0.4,0.510825623765991,0.272,NA
+"PFMC","Puget Sound Coho",0.69,1.38,"ABC",0.4,0.510825623765991,0.276,NA
+"PFMC","Puget Sound Coho",0.7,1.4,"ABC",0.4,0.510825623765991,0.28,NA
+"PFMC","Puget Sound Coho",0.71,1.42,"ABC",0.4,0.510825623765991,0.284,NA
+"PFMC","Puget Sound Coho",0.72,1.44,"ABC",0.4,0.510825623765991,0.288,NA
+"PFMC","Puget Sound Coho",0.73,1.46,"ABC",0.4,0.510825623765991,0.292,NA
+"PFMC","Puget Sound Coho",0.74,1.48,"ABC",0.4,0.510825623765991,0.296,NA
+"PFMC","Puget Sound Coho",0.75,1.5,"ABC",0.4,0.510825623765991,0.3,NA
+"PFMC","Puget Sound Coho",0.76,1.52,"ABC",0.4,0.510825623765991,0.304,NA
+"PFMC","Puget Sound Coho",0.77,1.54,"ABC",0.4,0.510825623765991,0.308,NA
+"PFMC","Puget Sound Coho",0.78,1.56,"ABC",0.4,0.510825623765991,0.312,NA
+"PFMC","Puget Sound Coho",0.79,1.58,"ABC",0.4,0.510825623765991,0.316,NA
+"PFMC","Puget Sound Coho",0.8,1.6,"ABC",0.4,0.510825623765991,0.32,NA
+"PFMC","Puget Sound Coho",0.81,1.62,"ABC",0.4,0.510825623765991,0.324,NA
+"PFMC","Puget Sound Coho",0.82,1.64,"ABC",0.4,0.510825623765991,0.328,NA
+"PFMC","Puget Sound Coho",0.83,1.66,"ABC",0.4,0.510825623765991,0.332,NA
+"PFMC","Puget Sound Coho",0.84,1.68,"ABC",0.4,0.510825623765991,0.336,NA
+"PFMC","Puget Sound Coho",0.85,1.7,"ABC",0.4,0.510825623765991,0.34,NA
+"PFMC","Puget Sound Coho",0.86,1.72,"ABC",0.4,0.510825623765991,0.344,NA
+"PFMC","Puget Sound Coho",0.87,1.74,"ABC",0.4,0.510825623765991,0.348,NA
+"PFMC","Puget Sound Coho",0.88,1.76,"ABC",0.4,0.510825623765991,0.352,NA
+"PFMC","Puget Sound Coho",0.89,1.78,"ABC",0.4,0.510825623765991,0.356,NA
+"PFMC","Puget Sound Coho",0.9,1.8,"ABC",0.4,0.510825623765991,0.36,NA
+"PFMC","Puget Sound Coho",0.91,1.82,"ABC",0.4,0.510825623765991,0.364,NA
+"PFMC","Puget Sound Coho",0.92,1.84,"ABC",0.4,0.510825623765991,0.368,NA
+"PFMC","Puget Sound Coho",0.93,1.86,"ABC",0.4,0.510825623765991,0.372,NA
+"PFMC","Puget Sound Coho",0.94,1.88,"ABC",0.4,0.510825623765991,0.376,NA
+"PFMC","Puget Sound Coho",0.95,1.9,"ABC",0.4,0.510825623765991,0.38,NA
+"PFMC","Puget Sound Coho",0.96,1.92,"ABC",0.4,0.510825623765991,0.384,NA
+"PFMC","Puget Sound Coho",0.97,1.94,"ABC",0.4,0.510825623765991,0.388,NA
+"PFMC","Puget Sound Coho",0.98,1.96,"ABC",0.4,0.510825623765991,0.392,NA
+"PFMC","Puget Sound Coho",0.99,1.98,"ABC",0.4,0.510825623765991,0.396,NA
+"PFMC","Puget Sound Coho",1,2,"ABC",0.5,0.693147180559945,0.5,NA

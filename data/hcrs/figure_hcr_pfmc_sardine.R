@@ -68,7 +68,7 @@ emsy_df <- tibble(sst_c=ssts,
 
 # Values
 sst_vals <- c(15, 15.5, 16)
-b_vals <-seq(0, 5000, 500) * 1000
+b_vals <-seq(0, 5000, 10) * 1000
 
 # Build data
 x <- sst_vals[1]
