@@ -170,7 +170,7 @@ my_theme <-  theme(axis.text=element_text(size=6),
 
 # Tier 1
 g1 <- ggplot(ofl_posterior, aes(x=ofl, y=density)) +
-  geom_area(lwd=0.4, fill="grey30", color="black") +
+  geom_area(lwd=0.4, fill="darkgreen", color="black", alpha=0.5) +
   # Ticks
   scale_x_continuous(breaks=ofl_50, labels="OFL") +
   # Axis labels
@@ -181,7 +181,7 @@ g1
 
 # Tier 2
 g2 <- ggplot(ofl_posterior, aes(x=ofl, y=density)) +
-  geom_area(lwd=0.4, fill="grey80", color="black") +
+  geom_area(lwd=0.4, fill="darkorange", color="black", alpha=0.5) +
   # Ticks
   scale_x_continuous(breaks=ofl_50, labels="OFL") +
   # Axis labels
@@ -192,7 +192,7 @@ g2
 
 # Tier 3
 g3 <- ggplot() +
-  geom_vline(xintercept=ofl_50) +
+  geom_vline(xintercept=ofl_50, color="darkred") +
   # Ticks
   scale_x_continuous(breaks=ofl_50, labels="OFL") +
   # Axis labels
