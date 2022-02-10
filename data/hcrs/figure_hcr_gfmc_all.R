@@ -29,48 +29,9 @@ f_msy <- -log(1 - u_msy)
 u_ofl <- u_msy
 f_ofl <- -log(1 - u_ofl)
 
-# Build OFL distributions
+
+# Functions
 ################################################################################
-
-# CVs by tier 1, 2, 3
-cvs <- c(0.5, 0.75, 1)
-
-
-
-# Build P* graphic
-################################################################################
-
-# Calculate P*
-calc_pstar <- function(bbmsy){
-
-  # Y = mx + b
-  # b = Y - mx
-
-  # B/BMSY <= 0.1
-  if(bbmsy<=0.1){
-    pstar <- 0
-  }
-  # B/BMSY: 0.1-1.0
-  if(bbmsy>0.1 & bbmsy<=1){
-    slope <- (0.45-0.00) / (1.00-0.10)
-    intercept <- 0 - slope*0.1
-    pstar <- intercept + slope * bbmsy
-  }
-  # B/BMSY: 1.0-1.5
-  if(bbmsy>1.0 & bbmsy<=1.5){
-    slope <- (0.49-0.45) / (1.50-1.00)
-    intercept <- 0.49 - slope*1.5
-    pstar <- intercept + slope * bbmsy
-  }
-  # B/BMSY: >=1.5
-  if(bbmsy>=1.5){
-    pstar <- 0.49
-  }
-
-  # Return
-  return(pstar)
-
-}
 
 # Calculcate catch
 # Test: biomass <- 0.3; pstar <- 0.25; cv <- 0.5
@@ -96,34 +57,34 @@ calc_abc <- function(biomass, pstar, cv, u_ofl){
 
 }
 
+
+# Build data
+################################################################################
+
+# CVs by tier 1, 2, 3
+ofl_cv <- c(0.5, 0.75, 1)
+pstars <- c(0.3, 0.4, 0.5)
+
+
 # Biomass values
 b_inc <- 0.005
-b_vals <- seq(0, k*1.25, b_inc)
+b_vals <- seq(0, k, b_inc)
 nvals <- length(b_vals)
 
 # Build data
-data <- tibble(biomass=b_vals) %>%
+data <- expand.grid(biomass=b_vals,
+                    pstar=pstars) %>%
   # Add B/BMSY
-  mutate(bbmsy=b_vals/b_msy) %>%
-  # Add P*
-  rowwise() %>%
-  mutate(pstar=calc_pstar(bbmsy)) %>%
-  ungroup() %>%
+  mutate(bbmsy=biomass/b_msy) %>%
   # Calculate catch
   rowwise() %>%
   mutate(ofl=biomass*u_ofl,
-         abc1=calc_abc(biomass=biomass, u_ofl=u_ofl, pstar=pstar, cv=0.50),
-         abc2=calc_abc(biomass=biomass, u_ofl=u_ofl, pstar=pstar, cv=0.75),
-         abc3=calc_abc(biomass=biomass, u_ofl=u_ofl, pstar=pstar, cv=1.00)) %>%
+         abc=calc_abc(biomass=biomass, u_ofl=u_ofl, pstar=pstar, cv=0.75),
+         acl=abc*0.95) %>%
   ungroup() %>%
   # Gather
   gather(key="value", value="catch", 4:ncol(.)) %>%
-  mutate(value=toupper(value),
-         value=recode_factor(value,
-                             "OFL"="OFL",
-                             "ABC1"="ABC-Type 1",
-                             "ABC2"="ABC-Type 2",
-                             "ABC3"="ABC-Type 3")) %>%
+  mutate(value=toupper(value)) %>%
   # Calculate mortality
   mutate(u=catch/biomass,
          f=-log(1 - u))
@@ -136,7 +97,7 @@ data <- tibble(biomass=b_vals) %>%
 my_theme <- theme(axis.text=element_text(size=6),
                   axis.title=element_text(size=8),
                   legend.text=element_text(size=6),
-                  legend.title=element_blank(),
+                  legend.title=element_text(size=7),
                   plot.title = element_text(size=8),
                   plot.tag=element_text(size=9),
                   # Gridlines
@@ -145,35 +106,36 @@ my_theme <- theme(axis.text=element_text(size=6),
                   panel.background = element_blank(),
                   axis.line = element_line(colour = "black"),
                   # Legend
-                  legend.position = c(0.25, 0.85),
-                  legend.key.size = unit(0.3, "cm"),
+                  legend.position = c(0.25, 0.75),
+                  legend.key.size = unit(0.25, "cm"),
+                  legend.margin = margin(c(-0.1,0,0,0), unit="cm"),
                   legend.background = element_rect(fill=alpha('blue', 0)))
 
 # Plot P*
-g1 <- ggplot(data, aes(x=bbmsy, y=pstar)) +
+g1 <- ggplot(data, aes(x=biomass, y=pstar, color=as.character(pstar))) +
   geom_line() +
-  # Reference line
-  geom_hline(yintercept=0.5, linetype="dotted") +
   # Labels
-  labs(x=expression("B/B"["MSY"]), y="P*", tag="A") +
+  labs(x="Biomass", y="P*", tag="A") +
   # Axis
-  # scale_x_continuous(breaks=c(seq(0, 2.5, 0.5), 0.10)) +
-  # scale_y_continuous(breaks=c(seq(0, 0.5, 0.1), 0.49, 0.45)) +
+  scale_x_continuous(breaks=c(0, b_msy, k),
+                     labels=c("0", expression("B"["MSY"]), expression("B"["0"]))) +
+  scale_y_continuous(lim=c(0,0.55), breaks=c(0, 0.3, 0.4, 0.5)) +
   # Theme
-  theme_bw() + my_theme
+  theme_bw() + my_theme +
+  theme(legend.position = "none")
 g1
 
 # Plot F
-g2 <- ggplot(data, aes(x=bbmsy, y=f, color=value)) +
+g2 <- ggplot(data %>% filter(value!="OFL"), aes(x=biomass, y=f, color=as.character(pstar), linetype=value)) +
   geom_line() +
   # Labels
-  labs(x=expression("B/B"["MSY"]), y="Fishing mortality rate", tag="B") +
+  labs(x="Biomass", y="Fishing mortality rate", tag="B") +
   # Axis
-  # scale_x_continuous(breaks=c(seq(0, 2.5, 0.5), 0.10)) +
-  scale_y_continuous(breaks=c(0, f_ofl),
+  scale_x_continuous(breaks=c(0, b_msy, k),
+                     labels=c("0", expression("B"["MSY"]), expression("B"["0"]))) +
+  scale_y_continuous(lim=c(0, f_ofl*1.1),
+                     breaks=c(0, f_ofl),
                      labels=c("0", expression("F"["OFL"]))) +
-  # Legend
-  scale_color_manual(name="Catch limit", values=c("black", "darkgreen", "darkorange", "darkred")) +
   # Theme
   theme_bw() + my_theme +
   theme(legend.position = "none")
@@ -181,16 +143,18 @@ g2
 
 
 # Plot catch
-g3 <- ggplot(data, aes(x=bbmsy, y=catch, color=value)) +
+g3 <- ggplot(data %>% filter(value!="OFL"), aes(x=biomass, y=catch, color=as.character(pstar), linetype=value)) +
   geom_hline(yintercept=msy, linetype="dotted", color="grey60") +
   geom_line() +
   # Labels
-  labs(x=expression("B/B"["MSY"]), y="Catch", tag="C") +
+  labs(x="Biomass", y="Catch", tag="C") +
   # Axis
-  # scale_x_continuous(breaks=c(seq(0, 2.5, 0.5), 0.10)) +
+  scale_x_continuous(breaks=c(0, b_msy, k),
+                     labels=c("0", expression("B"["MSY"]), expression("B"["0"]))) +
   scale_y_continuous(breaks=c(0, msy), labels=c("0", "MSY")) +
   # Legend
-  scale_color_manual(name="Catch limit", values=c("black", "darkgreen", "darkorange", "darkred")) +
+  scale_linetype_discrete("Limit value") +
+  scale_color_discrete("P*") +
   # Theme
   theme_bw() + my_theme
 g3
@@ -200,6 +164,6 @@ g <- gridExtra::grid.arrange(g1, g2, g3, nrow=1)
 g
 
 # Export
-ggsave(g, filename=file.path(plotdir, "figure_hcr_mafmc_all.png"),
+ggsave(g, filename=file.path(plotdir, "figure_hcr_gfmc_all.png"),
        width=6.5, height=2.25, units="in", dpi=600)
 
