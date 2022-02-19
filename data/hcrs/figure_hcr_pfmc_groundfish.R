@@ -116,7 +116,7 @@ g1 <- ggplot(data, aes(x=biomass, y=catch, color=value)) +
   # Limits
   scale_y_continuous(breaks=c(msy), labels=c("MSY")) +
   scale_x_continuous(breaks=c(0, b_min, b_lim, k),
-                     labels=c("0", expression("B"["min"]), expression("B"["lim"]), expression("B"["0"]))) +
+                     labels=c("0", expression("B"["lim"]), expression("B"["thresh"]), expression("B"["0"]))) +
   # Labels
   labs(x="Biomass", y="Annual catch limit", tag="A") +
   # Reference line
@@ -128,30 +128,13 @@ g1 <- ggplot(data, aes(x=biomass, y=catch, color=value)) +
 g1
 
 # Plot
-g2 <- ggplot(data, aes(x=biomass, y=u, color=value)) +
-  geom_line() +
-  # Limits
-  scale_y_continuous(lim=c(0, u_ofl*1.1),
-                     breaks=c(0, u_abc, u_ofl), labels=c("0", expression("U"["ABC"]), expression("U"["OFL"]))) +
-  scale_x_continuous(breaks=c(0, b_min, b_lim, k),
-                     labels=c("0", expression("B"["min"]), expression("B"["lim"]), expression("B"["0"]))) +
-  # Labels
-  labs(x="Biomass", y="Exploitation rate\n(catch / biomass)", tag="B") +
-  # Legend
-  scale_color_discrete(name="Limit value") +
-  # Theme
-  theme_bw() + my_theme +
-  theme(legend.position = "none")
-g2
-
-# Plot
-g3 <- ggplot(data, aes(x=biomass, y=f, color=value)) +
+g2 <- ggplot(data, aes(x=biomass, y=f, color=value)) +
   geom_line() +
   # Limits
   scale_y_continuous(lim=c(0, f_ofl*1.1),
                      breaks=c(0, f_abc, f_ofl), labels=c("0", expression("F"["ABC"]), expression("F"["OFL"]))) +
   scale_x_continuous(breaks=c(0, b_min, b_lim, k),
-                     labels=c("0", expression("B"["min"]), expression("B"["lim"]), expression("B"["0"]))) +
+                     labels=c("0", expression("B"["lim"]), expression("B"["thresh"]), expression("B"["0"]))) +
   # Labels
   labs(x="Biomass", y="Fishing mortality rate", tag="B") +
   # Legend
@@ -159,10 +142,10 @@ g3 <- ggplot(data, aes(x=biomass, y=f, color=value)) +
   # Theme
   theme_bw() + my_theme +
   theme(legend.position = "none")
-g3
+g2
 
 # Merge plots
-g <- gridExtra::grid.arrange(g1, g3, nrow=1)
+g <- gridExtra::grid.arrange(g1, g2, nrow=1)
 g
 
 # Export plot
