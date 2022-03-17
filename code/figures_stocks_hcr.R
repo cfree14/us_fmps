@@ -22,60 +22,62 @@ stock_hcr <- sp_hcr %>%
   select(council, council_short, FMP_FEP, council_fmp_stock, type) %>%
   unique()
 
+## by council
+stock_hcr_summary <- stock_hcr %>%
+  mutate(type = ifelse(type == "ramped F with biomass cutoff and environmental-link", "ramped F with cutoff and environmental-link", type)) %>%
+  mutate(adj_type = ifelse(type %in% c("ramped F with cutoff and environmental-link",
+                                       "ramped F with cutoff",
+                                       "ramped/stepped F",
+                                       "stepped F"), "threshold F",
+                           ifelse(type %in% c("downward sloping", "international exception"), "exception", type))) %>%
+  group_by(council_short, adj_type) %>%
+  summarise(n = n()) %>%
+  ungroup() %>%
+  select(council = council_short, adj_type, n)
+
 ## total
-total_hcr <- stock_hcr %>%
-  group_by(type) %>%
+total_hcr <- stock_hcr_summary %>%
+  group_by(adj_type) %>%
   summarise(n = n()) %>%
   ungroup() %>%
   mutate(council = "All") %>%
-  select(council, type, n)
+  select(council, adj_type, n)
 
-## by council
-stock_hcr_summary <- stock_hcr %>%
-  group_by(council_short, type) %>%
-  summarise(n = n()) %>%
-  ungroup() %>%
-  select(council = council_short, type, n) %>%
+## bind
+stock_hcr_summary <- stock_hcr_summary %>%
   rbind(total_hcr) %>%
   group_by(council) %>%
   mutate(total = sum(n)) %>%
   ungroup() %>%
-  mutate(ratio = n / total) %>%
-  mutate(type = ifelse(type == "ramped F with biomass cutoff and environmental-link", "ramped F with cutoff and environmental-link", type))
+  mutate(ratio = n / total)
+
 
 ## factor
-stock_hcr_summary$type <- factor(stock_hcr_summary$type, levels = c("ramped F with cutoff and environmental-link",
-                                                                    "ramped F with cutoff",
-                                                                    "ramped/stepped F",
-                                                                    "stepped F",
-                                                                    "downward sloping",
-                                                                    "constant escapement",
-                                                                    "constant F",
-                                                                    "catch-based",
-                                                                    "constant catch",
-                                                                    "catch prohibited",
-                                                                    "none",
-                                                                    "international exception",
-                                                                    "NA"))
+stock_hcr_summary$adj_type <- factor(stock_hcr_summary$adj_type, levels =
+                                       c("NA",
+                                         "exception",
+                                         "none",
+                                         "catch prohibited",
+                                         "constant catch",
+                                         "catch-based",
+                                         "constant F",
+                                         "constant escapement",
+                                         "threshold F"))
 
 
-hcr_colors <- c("ramped F with cutoff and environmental-link",
-                "ramped F with cutoff",
-                "ramped/stepped F",
-                "stepped F",
-                "downward sloping",
+hcr_colors <- c("threshold F",
                 "constant escapement",
                 "constant F",
                 "catch-based",
                 "constant catch",
                 "catch prohibited",
                 "none",
-                "international exception",
+                "exception",
                 "NA")
 
 
-ggplot(stock_hcr_summary, aes(x = council, y = ratio, fill = type)) +
-  geom_bar(position = "stack", stat = "identity") +
+ggplot(stock_hcr_summary, aes(x = council, y = ratio, fill = adj_type)) +
+  geom_bar(position = "stack", stat = "identity", color = "grey30") +
   coord_flip() +
   labs(y = NULL,
        x = NULL,
