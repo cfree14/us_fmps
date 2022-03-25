@@ -61,7 +61,7 @@ stocks_n <- fmps_n %>%
   ungroup()
 
 # make changes to correct duplicates
-data <- data_orig %>%
+data_adj <- data_orig %>%
   left_join(stocks_n) %>%
   mutate(adj_type = ifelse(n == 2 & council_short %in% c("CFMC") & type == "catch prohibited", "constant catch",
                            ifelse(n == 2 & council_short %in% c("NOAA") & type == "catch prohibited", "constant F", type)),
@@ -74,7 +74,7 @@ data <- data_orig %>%
                                                                ifelse(id == "GMFMC-Gulf of Mexico Reef Fish FMP-Shallow water grouper" & common_name != "Red grouper", paste(stock, "- except Red grouper"), stock))))))))
 
 
-stocks_n_adj <- data %>%
+stocks_n_adj <- data_adj %>%
   # select unique council-stock combo
   select(council_short, FMP_FEP, adj_stock, adj_type) %>%
   unique() %>%
