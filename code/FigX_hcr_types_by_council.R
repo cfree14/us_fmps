@@ -152,7 +152,7 @@ g
 
 # Export
 ggsave(g, filename=file.path(plotdir, "FigX_hcr_types_by_council.png"),
-       width=6.5, height=2.5, units="in", dpi=600)
+       width=6.5, height=3, units="in", dpi=600)
 
 ## version with n
 g_n <- ggplot(data_all, aes(x=prop, y=council_n, fill=type)) +
