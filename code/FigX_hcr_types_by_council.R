@@ -169,7 +169,7 @@ g_n
 
 # Export
 ggsave(g_n, filename=file.path(plotdir, "FigX_hcr_types_by_council_n.png"),
-       width=6.5, height=2.5, units="in", dpi=600)
+       width=6.5, height=3, units="in", dpi=600)
 
 
 
