@@ -99,8 +99,8 @@ data <- data_orig %>%
                      "International exception"="Exempt",
                      "Stepped f"="Threshold F")) %>%
   # Order HCR types
-  mutate(type=factor(type, levels=c("Threshold F", "Constant F", "Constant escapement", "Catch-based",
-                                    "Constant catch", "Catch prohibited", "None", "Exempt", "Unknown") %>% rev())) %>%
+  mutate(type=factor(type, levels=c("Threshold F", "Constant F", "Constant escapement",
+                                    "Constant catch", "Catch-based", "Catch prohibited", "None", "Exempt", "Unknown") %>% rev())) %>%
   # select unique council-stock combo
   select(council_short, FMP_FEP, stock, type) %>%
   unique() %>%
@@ -144,7 +144,7 @@ g <- ggplot(data_all, aes(x=prop, y=council, fill=type)) +
   labs(x="Proportion of stocks", y="") +
   # Legend
   scale_fill_manual(name="HCR type",
-                    values=c("grey90", "grey60", "grey30", "black", "orange", "darkorange2", "#AF7AC5", "#138D75", "#1B4F72"),
+                    values=c("grey90", "grey60", "grey30", "black", "darkorange2", "orange", "#AF7AC5", "#138D75", "#1B4F72"),
                     guide = guide_legend(reverse = TRUE)) +
   # Theme
   theme_bw() + my_theme
@@ -161,7 +161,7 @@ g_n <- ggplot(data_all, aes(x=prop, y=council_n, fill=type)) +
   labs(x="Proportion of stocks", y="") +
   # Legend
   scale_fill_manual(name="HCR type",
-                    values=c("grey90", "grey60", "grey30", "black", "orange", "darkorange2", "#AF7AC5", "#138D75", "#1B4F72"),
+                    values=c("grey90", "grey60", "grey30", "black", "darkorange2", "orange", "#AF7AC5", "#138D75", "#1B4F72"),
                     guide = guide_legend(reverse = TRUE)) +
   # Theme
   theme_bw() + my_theme
