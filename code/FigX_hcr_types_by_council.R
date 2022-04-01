@@ -37,6 +37,53 @@ my_theme <-  theme(axis.text=element_text(size=7),
 # Format data
 ################################################################################
 
+fmps_n <- data_orig %>%
+  # filter out Fish Resource of the Arctic FMP
+  filter(FMP_FEP != 'Fish Resource of the Arctic FMP') %>%
+  # FMP vs FEP
+  mutate(plan_type = str_extract(FMP_FEP, "FMP"),
+         plan_type = ifelse(is.na(plan_type), "FEP", plan_type))
+
+plan_breakdown <- fmps_n %>%
+  select(FMP_FEP, plan_type) %>%
+  unique() %>%
+  group_by(plan_type) %>%
+  summarise(n = n()) %>%
+  ungroup()
+
+stocks_n <- fmps_n %>%
+  # select unique council-stock combo
+  select(council_short, FMP_FEP, stock, type) %>%
+  unique() %>%
+  mutate(id = paste(council_short, FMP_FEP, stock, sep = "-")) %>%
+  group_by(id) %>%
+  mutate(n = n()) %>%
+  ungroup()
+
+# make changes to correct duplicates
+data_adj <- data_orig %>%
+  left_join(stocks_n) %>%
+  mutate(adj_type = ifelse(n == 2 & council_short %in% c("CFMC") & type == "catch prohibited", "constant catch",
+                           ifelse(n == 2 & council_short %in% c("NOAA") & type == "catch prohibited", "constant F", type)),
+         adj_stock = ifelse(id == "NPFMC-GOA groundfish FMP-Deepwater flatfish" & common_name == "Dover sole", paste(stock, common_name, sep = "-"),
+                            ifelse(id == "NPFMC-GOA groundfish FMP-Deepwater flatfish" & common_name != "Dover sole", paste0(stock, "- except Dover sole"),
+                                   ifelse(id == "NPFMC-GOA groundfish FMP-Demersal shelf rockfish" & common_name == "yelloweye rockfish", paste(stock, common_name, sep = "-"),
+                                          ifelse(id == "NPFMC-GOA groundfish FMP-Demersal shelf rockfish" & common_name != "yelloweye rockfish", paste(stock, "- except yelloweye rockfish"),
+                                                 ifelse(id == "NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Skates", common_name,
+                                                        ifelse(id == "GMFMC-Gulf of Mexico Reef Fish FMP-Shallow water grouper" & common_name == "Red grouper", paste(stock, common_name, sep = "-"),
+                                                               ifelse(id == "GMFMC-Gulf of Mexico Reef Fish FMP-Shallow water grouper" & common_name != "Red grouper", paste(stock, "- except Red grouper"), stock))))))))
+
+
+stocks_n_adj <- data_adj %>%
+  # select unique council-stock combo
+  select(council_short, FMP_FEP, adj_stock, adj_type) %>%
+  unique() %>%
+  mutate(id = paste(council_short, FMP_FEP, adj_stock, sep = "-")) %>%
+  group_by(id) %>%
+  mutate(n = n()) %>%
+  ungroup()
+
+
 # Build data
 data <- data_orig %>%
   # filter out Fish Resource of the Arctic FMP
@@ -105,7 +152,7 @@ g
 
 # Export
 ggsave(g, filename=file.path(plotdir, "FigX_hcr_types_by_council.png"),
-       width=6.5, height=2.5, units="in", dpi=600)
+       width=6.5, height=3, units="in", dpi=600)
 
 ## version with n
 g_n <- ggplot(data_all, aes(x=prop, y=council_n, fill=type)) +
