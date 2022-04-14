@@ -98,9 +98,14 @@ data <- data_orig %>%
                      "Downward sloping"="Exempt",
                      "International exception"="Exempt",
                      "Stepped f"="Threshold F")) %>%
+  # change to Catch prohibited
+  mutate(type = ifelse(council_short == "SAFMC" & stock == "Goliath grouper", "Catch prohibited",
+                       ifelse(council_short == "SAFMC" & stock == "Nassau Grouper", "Catch prohibited", type))) %>%
   # Order HCR types
-  mutate(type=factor(type, levels=c("Threshold F", "Constant F", "Constant escapement", "Catch-based",
-                                    "Constant catch", "Catch prohibited", "None", "Exempt", "Unknown") %>% rev())) %>%
+  mutate(type=factor(type, levels=c("Threshold F", "Constant F", "Constant escapement",
+                                    "Constant catch", "Catch-based", "Catch prohibited", "None", "Exempt", "Unknown") %>% rev())) %>%
+  # fix typo
+  mutate(council_short = ifelse(council_short == "GMFMC/MAFMC", "GMFMC/SAFMC", council_short)) %>%
   # select unique council-stock combo
   select(council_short, FMP_FEP, stock, type) %>%
   unique() %>%
@@ -124,15 +129,15 @@ data_all <- data %>%
   rbind(data)  %>%
   mutate(council=factor(council,
                         levels=c("All councils", "NEFMC", "MAFMC", "SAFMC", "GMFMC", "CFMC", "PFMC", "NPFMC", "WPFMC",
-                                 "NOAA", "NEFMC/MAFMC", "GMFMC/MAFMC", "PFMC/WPFMC") %>% rev())) %>%
+                                 "NOAA", "NEFMC/MAFMC", "GMFMC/SAFMC", "PFMC/WPFMC") %>% rev())) %>%
   group_by(council) %>%
   mutate(total_n = sum(n)) %>%
   ungroup() %>%
   mutate(council_n = paste0(council, " (n = ", total_n, ")")) %>%
   mutate(council_n=factor(council_n,
-                          levels=c("All councils (n = 503)", "NEFMC (n = 31)", "MAFMC (n = 12)", "SAFMC (n = 37)", "GMFMC (n = 23)",
+                          levels=c("All councils (n = 503)", "NEFMC (n = 30)", "MAFMC (n = 13)", "SAFMC (n = 37)", "GMFMC (n = 23)",
                                    "CFMC (n = 51)", "PFMC (n = 228)", "NPFMC (n = 64)", "WPFMC (n = 9)",
-                                 "NOAA (n = 23)", "NEFMC/MAFMC (n = 3)", "GMFMC/MAFMC (n = 6)", "PFMC/WPFMC (n = 16)") %>% rev()))
+                                 "NOAA (n = 23)", "NEFMC/MAFMC (n = 3)", "GMFMC/SAFMC (n = 6)", "PFMC/WPFMC (n = 16)") %>% rev()))
 
 # Plot data
 ################################################################################
@@ -144,7 +149,7 @@ g <- ggplot(data_all, aes(x=prop, y=council, fill=type)) +
   labs(x="Proportion of stocks", y="") +
   # Legend
   scale_fill_manual(name="HCR type",
-                    values=c("grey90", "grey60", "grey30", "black", "orange", "darkorange2", "#AF7AC5", "#138D75", "#1B4F72"),
+                    values=c("grey90", "grey60", "grey30", "black", "darkorange2", "orange", "#AF7AC5", "#138D75", "#1B4F72"),
                     guide = guide_legend(reverse = TRUE)) +
   # Theme
   theme_bw() + my_theme
@@ -161,7 +166,7 @@ g_n <- ggplot(data_all, aes(x=prop, y=council_n, fill=type)) +
   labs(x="Proportion of stocks", y="") +
   # Legend
   scale_fill_manual(name="HCR type",
-                    values=c("grey90", "grey60", "grey30", "black", "orange", "darkorange2", "#AF7AC5", "#138D75", "#1B4F72"),
+                    values=c("grey90", "grey60", "grey30", "black", "darkorange2", "orange", "#AF7AC5", "#138D75", "#1B4F72"),
                     guide = guide_legend(reverse = TRUE)) +
   # Theme
   theme_bw() + my_theme
@@ -169,7 +174,7 @@ g_n
 
 # Export
 ggsave(g_n, filename=file.path(plotdir, "FigX_hcr_types_by_council_n.png"),
-       width=6.5, height=2.5, units="in", dpi=600)
+       width=6.5, height=3, units="in", dpi=600)
 
 
 
