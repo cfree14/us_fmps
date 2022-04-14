@@ -110,7 +110,7 @@ g1 <-ggplot() +
   geom_hline(yintercept=ofl_30, lwd=0.2, linetype="dotted") +
   geom_hline(yintercept=ofl_20, lwd=0.2, linetype="dotted", color="grey60") +
   # Axis labels
-  labs(y="Catch limit", x="") +
+  labs(y="Catch limit", x="", tag="A") +
   # Label reference points
   scale_y_continuous(breaks=c(ofl_50, ofl_40, ofl_30, ofl_20), labels=c("OFL", "ABC", "ACL", "ACT"), limits=c(ofl_01, ofl_99*0.8)) +
   # Theme
@@ -125,7 +125,7 @@ g2 <- ggplot(ofl_posterior, aes(x=ofl, y=density)) +
   geom_line(lwd=0.4) +
   coord_flip() +
   # Axis labels
-  labs(x="OFL estimate", y="Density") +
+  labs(x="OFL estimate", y="Density", tag="B") +
   # Mark reference points
   geom_segment(x=ofl_50, xend=ofl_50, y=0, yend=ofl_50_dens, lwd=0.2) +
   geom_segment(x=ofl_40, xend=ofl_40, y=0, yend=ofl_40_dens, lwd=0.2, linetype="dashed") +
@@ -145,7 +145,7 @@ g <- gridExtra::grid.arrange(g1, g2, widths=c(0.3, 0.7))
 g
 
 # Export
-ggsave(g, filename=file.path(plotdir, "figure_ofl_posterior.png"),
+ggsave(g, filename=file.path(plotdir, "Fig3_ofl_posterior.png"),
        width=4.5, height=4.5, units="in", dpi=600)
 
 

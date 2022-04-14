@@ -118,34 +118,47 @@ data <- bind_rows(catch_based, constant_c, constant_e, constant_f, stepped_f, ra
   # Order
   mutate(hcr=factor(hcr,
                     levels=c("Catch-based", "Constant catch", "Constant\nescapement", "Constant F",
-                             "Stepped F", "Ramped F", "Stepped/\nramped F")))
+                             "Stepped F", "Ramped F", "Stepped/\nramped F"))) %>%
+  # Add type
+  mutate(hcr_type=recode_factor(hcr,
+                                "Catch-based"="Constant catch",
+                                "Constant catch"="Constant catch",
+                                "Constant\nescapement"="Constant escapement",
+                                "Constant F"="Constant F",
+                                "Stepped F"="Threshold F",
+                                "Ramped F"="Threshold F",
+                                "Stepped/\nramped F"="Threshold F"))
 
 
 # Plot data
 ################################################################################
 
 # Theme
-my_theme <-  theme(axis.text=element_text(size=5),
-                   axis.title=element_text(size=6),
-                   strip.text=element_text(size=6),
+my_theme <-  theme(axis.text=element_text(size=7),
+                   axis.title=element_text(size=8),
+                   strip.text=element_text(size=7.5),
                    axis.text.y = element_text(angle = 90, hjust = 0.5),
+                   plot.title=element_text(size=9),
                    # Gridlines
                    panel.grid.major = element_blank(),
                    panel.grid.minor = element_blank(),
                    panel.background = element_blank(),
                    axis.line = element_line(colour = "black"),
                    # Legend
+                   legend.margin=margin(0,0,0,0),
                    legend.background = element_rect(fill=alpha('blue', 0)))
 
 # Plot F
-g1 <- ggplot(data, aes(x=biomass, y=f)) +
+g1 <- ggplot(data, aes(x=biomass, y=f, color=hcr_type)) +
   facet_wrap(~hcr, nrow=1) +
   # Reference line
   geom_hline(yintercept = fmsy, linetype="dotted", color="grey80", lwd=0.5) +
   # Data
-  geom_line() +
+  geom_line(lwd=1.2, show.legend = F) +
   # Labels
-  labs(x="Biomass", y="Fishing mortality rate") +
+  labs(x="Biomass", y="Fishing mortality rate",
+       title="Data-limited rules                      Data-rich rules") +
+  scale_color_manual(name="", values=c("darkorange2", "#AF7AC5", "#138D75", "#1B4F72")) +
   # Axes
   scale_x_continuous(breaks=c(0, bmsy, k), labels=c("0", expression("B"["MSY"]), expression("B"["0"]))) +
   scale_y_continuous(breaks=c(0, fmsy), labels=c("0", expression("F"["MSY"])), lim=c(0, NA)) +
@@ -155,29 +168,31 @@ g1 <- ggplot(data, aes(x=biomass, y=f)) +
 g1
 
 # Plot catch
-g2 <- ggplot(data, aes(x=biomass, y=catch)) +
+g2 <- ggplot(data, aes(x=biomass, y=catch, color=hcr_type)) +
   facet_wrap(~hcr, nrow=1) +
   # Reference line
   geom_hline(yintercept = msy, linetype="dotted", color="grey80", lwd=0.5) +
   # Data
-  geom_line() +
+  geom_line(lwd=1.2) +
   # Labels
   labs(x="Biomass", y="Annual catch limit") +
+  scale_color_manual(name="", values=c("darkorange2", "#AF7AC5", "#138D75", "#1B4F72")) +
   # Axes
   scale_x_continuous(breaks=c(0, bmsy, k), labels=c("0", expression("B"["MSY"]), expression("B"["0"]))) +
   scale_y_continuous(breaks=c(0, msy), labels=c("0", "MSY"), lim=c(0, NA)) +
   # Theme
   theme_bw() + my_theme +
-  theme(strip.text.x = element_blank())
+  theme(strip.text.x = element_blank(),
+        legend.position = "bottom")
 g2
 
 # Merge
-g <- gridExtra::grid.arrange(g1, g2, nrow=2)
+g <- gridExtra::grid.arrange(g1, g2, nrow=2, heights=c(0.47, 0.53))
 g
 
 # Export
-ggsave(g, filename=file.path(plotdir, "Fig2_hcr_typologies.png"),
-       width=6.5, height=3, units="in", dpi=600)
+ggsave(g, filename=file.path(plotdir, "Fig1_hcr_typologies.png"),
+       width=6.5, height=3.5, units="in", dpi=600)
 
 
 

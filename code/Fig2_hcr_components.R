@@ -124,7 +124,7 @@ g <- ggplot(data, aes(x=biomass, y=f, color=limit)) +
 g
 
 # Export
-ggsave(g, filename=file.path(plotdir, "Fig3_hcr_components.png"),
+ggsave(g, filename=file.path(plotdir, "Fig2_hcr_components.png"),
        width=4.5, height=3, units="in", dpi=600)
 
 
