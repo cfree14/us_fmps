@@ -8,6 +8,7 @@ options(dplyr.summarise.inform=F)
 
 # Packages
 library(tidyverse)
+library(cowplot)
 
 # Directories
 plotdir <- "figures"
@@ -183,30 +184,35 @@ ggsave(g_n, filename=file.path(plotdir, "FigX_hcr_types_by_council_n.png"),
 ## v2 - remove unknown, exempt, catch prohibited & break down threshold type
 ## --------------------------------------------------------------------------
 
+
 # Build data
 thresh_data <- data_orig %>%
   # filter out Fish Resource of the Arctic FMP
   filter(FMP_FEP != 'Fish Resource of the Arctic FMP') %>%
-  # select unique council-stock combo
-  select(council_short, FMP_FEP, stock, type) %>%
-  unique() %>%
   # Recode HCR type
   mutate(type=ifelse(is.na(type), "Unknown", type),
          type=stringr::str_to_sentence(type),
          type=recode(type,
-                     "Ramped f with cutoff"="Threshold F",
-                     "Ramped f with biomass cutoff and environmental-link"="Threshold F/envt. link",
-                     "Constant f"="Constant F",
-                     "Downward sloping"="Exempt",
-                     "International exception"="Exempt",
-                     "Stepped f"="Stepped F",
-                     "Ramped/stepped f"="Threshold/stepped F")) %>%
+                     "Ramped f with cutoff" = "Threshold F",
+                     "Ramped f with biomass cutoff and environmental-link" = "Threshold F w/ envt. link",
+                     "Constant f" = "Constant F",
+                     "Downward sloping" = "Exempt",
+                     "International exception" = "Exempt",
+                     "Stepped f" = "Stepped F",
+                     "Ramped/stepped f" = "Threshold and stepped F")) %>%
+  # change to Catch prohibited
+  mutate(type = ifelse(council_short == "SAFMC" & stock == "Goliath grouper", "Catch prohibited",
+                       ifelse(council_short == "SAFMC" & stock == "Nassau Grouper", "Catch prohibited", type))) %>%
+  # fix typo
+  mutate(council_short = ifelse(council_short == "GMFMC/MAFMC", "GMFMC/SAFMC", council_short)) %>%
   # filter out except, unknown, catch prohibited, none
-  filter(!type %in% c('Catch prohibited', 'Exempt', 'Unknown', 'None')) %>%
+  filter(!type %in% c('Catch-based', 'Constant catch', 'Catch prohibited', 'Exempt', 'Unknown', 'None')) %>%
   # Order HCR types
-  mutate(type=factor(type, levels=c("Threshold F", "Threshold F/envt. link", "Threshold/stepped F",
-                                    "Stepped F", "Constant F", "Constant escapement",
-                                    "Catch-based", "Constant catch") %>% rev())) %>%
+  mutate(type=factor(type, levels=c("Threshold F", "Threshold F w/ envt. link", "Threshold and stepped F",
+                                    "Stepped F", "Constant F", "Constant escapement") %>% rev())) %>%
+  # select unique council-stock combo
+  select(council_short, FMP_FEP, stock, type) %>%
+  unique() %>%
   # Count HCR type by council
   count(council_short, type) %>%
   # Calculate proportion
@@ -215,6 +221,15 @@ thresh_data <- data_orig %>%
   ungroup() %>%
   # Order councils
   rename(council=council_short)
+
+
+## df of CFMC and PFMC/WPFMC
+zero_df <- tibble(council = c("CFMC", "PFMC/WPFMC"),
+                  type = c("Constant F", "Constant F"),
+                  n = c(0, 0),
+                  prop = c(0, 0),
+                  total_n = c(0, 0),
+                  council_n = c("CFMC (n = 0)", "PFMC/WPFMC (n = 0)"))
 
 ## create version of all councils combined
 thresh_data_all <- thresh_data %>%
@@ -227,19 +242,30 @@ thresh_data_all <- thresh_data %>%
   rbind(thresh_data)  %>%
   mutate(council=factor(council,
                         levels=c("All councils", "NEFMC", "MAFMC", "SAFMC", "GMFMC", "CFMC", "PFMC", "NPFMC", "WPFMC",
-                                 "NOAA", "NEFMC/MAFMC", "GMFMC/MAFMC", "PFMC/WPFMC") %>% rev()))
+                                 "NOAA", "NEFMC/MAFMC", "GMFMC/SAFMC", "PFMC/WPFMC") %>% rev())) %>%
+  group_by(council) %>%
+  mutate(total_n = sum(n)) %>%
+  ungroup() %>%
+  mutate(council_n = paste0(council, " (n = ", total_n, ")")) %>%
+  rbind(zero_df) %>%
+  mutate(council_n=factor(council_n,
+                          levels=c("All councils (n = 288)", "NEFMC (n = 27)", "MAFMC (n = 9)", "SAFMC (n = 14)", "GMFMC (n = 11)",
+                                   "CFMC (n = 0)", "PFMC (n = 136)", "NPFMC (n = 54)", "WPFMC (n = 9)",
+                                   "NOAA (n = 20)", "NEFMC/MAFMC (n = 3)", "GMFMC/SAFMC (n = 5)", "PFMC/WPFMC (n = 0)") %>% rev()))
+
+
 
 ## -----------------------------------------------------------------------
 ## plot v2
 
 # Plot data
-g2 <- ggplot(thresh_data_all, aes(x=prop, y=council, fill=type)) +
-  geom_bar(stat="identity", col="grey30", lwd=0.1) +
+g2 <- ggplot(thresh_data_all, aes(x = prop, y = council_n, fill = type)) +
+  geom_bar(stat = "identity", col = "grey30", lwd = 0.1) +
   # Labels
   labs(x="Proportion of stocks", y="") +
   # Legend
   scale_fill_manual(name="HCR type",
-                    values=c("orange", "darkorange2", "#AF7AC5", "#138D75", "#85C1E9", "#3498DB", "#2874A6", "#1B4F72"),
+                    values=c("#AF7AC5", "#138D75", "#85C1E9", "#3498DB", "#2874A6", "#1B4F72"),
                     guide = guide_legend(reverse = TRUE)) +
   # Theme
   theme_bw() + my_theme
@@ -248,4 +274,25 @@ g2
 # Export
 ggsave(g2, filename=file.path(plotdir, "FigX_select_hcr_types_by_council.png"),
        width=6.5, height=2.5, units="in", dpi=600)
+
+## plot togther
+####################################
+
+g_combine <- plot_grid(
+  g_n,
+  g2,
+  align = 'h',
+  labels = c("A", "B"),
+  # # labels = 'AUTO',
+  label_size = 10,
+  hjust = -1,
+  nrow = 2,
+  rel_widths = c(1, 1)
+)
+
+# Export
+ggsave(g_combine, filename=file.path(plotdir, "FigX_hcr_types_by_council_panel.png"),
+       width=6.5, height=5.5, units="in", dpi=600)
+
+
 
