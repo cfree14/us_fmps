@@ -1,0 +1,879 @@
+council_short,FMP_FEP,stock,common_name,sci_name,type,p_star,abc_buffer,acl_buffer,act_buffer,notes,ref
+CFMC,Caribbean Queen Conch FMP,Queen conch,Queen conch,Strombus gigas,constant catch,NA,0.9024805059,0,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Angelfish,Queen angelfish,Holacanthus ciliaris,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Angelfish,gray angelfish,Pomacanthus arcuatus,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Angelfish,French angelfish,Pomacanthus paru,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Angelfish,Queen angelfish,Holacanthus ciliaris,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Angelfish,gray angelfish,Pomacanthus arcuatus,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Angelfish,French angelfish,Pomacanthus paru,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Angelfish,Queen angelfish,Holacanthus ciliaris,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Angelfish,gray angelfish,Pomacanthus arcuatus,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Angelfish,French angelfish,Pomacanthus paru,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Boxfish,Honeycomb cowfish,Lactophrys polygonia,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Boxfish,scrawled cowfish,Lactophrys guadricornis,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Boxfish,trunkfish,Lactophrys trigonus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Boxfish,spotted trunkfish,Lactophrys bicaudalis,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Boxfish,smooth trunkfish,Lactophrys trigueter,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Boxfish,Honeycomb cowfish,Lactophrys polygonia,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Boxfish,scrawled cowfish,Lactophrys guadricornis,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Boxfish,trunkfish,Lactophrys trigonus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Boxfish,spotted trunkfish,Lactophrys bicaudalis,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Boxfish,smooth trunkfish,Lactophrys trigueter,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Boxfish,Honeycomb cowfish,Lactophrys polygonia,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Boxfish,scrawled cowfish,Lactophrys guadricornis,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Boxfish,trunkfish,Lactophrys trigonus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Boxfish,spotted trunkfish,Lactophrys bicaudalis,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Boxfish,smooth trunkfish,Lactophrys trigueter,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Goatfish,Spotted goatfish,Pseudupeneus maculatus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Goatfish,yellow goatfish,Mulloidichthys martinicus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Goatfish,Spotted goatfish,Pseudupeneus maculatus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Goatfish,yellow goatfish,Mulloidichthys martinicus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Goatfish,Spotted goatfish,Pseudupeneus maculatus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Goatfish,yellow goatfish,Mulloidichthys martinicus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,Nassau grouper,Epinephelus striatus,catch prohibited,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,goliath grouper,Epinephelus itajara,catch prohibited,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,coney,Epinephelus fulvus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,graysby,Epinephelus cruentatus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,red hind,Epinephelus guttatus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,rock hind,Epinephelus adscensionis,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,black grouper,Mycteroperca bonaci,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,red grouper,Epinephelus morio,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,tiger grouper,Mycteroperca tigris,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,yellowfin grouper,Mycteroperca venenosa,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,misty grouper,Epinephelus mystacinus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,yellowedge grouper,Epinephelus flavolimbatus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,Nassau grouper,Epinephelus striatus,catch prohibited,NA,0,NA,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,goliath grouper,Epinephelus itajara,catch prohibited,NA,0,NA,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,coney,Epinephelus fulvus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,graysby,Epinephelus cruentatus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,red hind,Epinephelus guttatus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,rock hind,Epinephelus adscensionis,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,black grouper,Mycteroperca bonaci,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,red grouper,Epinephelus morio,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,tiger grouper,Mycteroperca tigris,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,yellowfin grouper,Mycteroperca venenosa,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,misty grouper,Epinephelus mystacinus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,yellowedge grouper,Epinephelus flavolimbatus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,Nassau grouper,Epinephelus striatus,catch prohibited,NA,0,NA,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,goliath grouper,Epinephelus itajara,catch prohibited,NA,0,NA,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,coney,Epinephelus fulvus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,graysby,Epinephelus cruentatus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,red hind,Epinephelus guttatus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,rock hind,Epinephelus adscensionis,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,black grouper,Mycteroperca bonaci,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,red grouper,Epinephelus morio,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,tiger grouper,Mycteroperca tigris,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,yellowfin grouper,Mycteroperca venenosa,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,misty grouper,Epinephelus mystacinus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,yellowedge grouper,Epinephelus flavolimbatus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Grunts,White grunt,Haemulon plumieri,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Grunts,margate,Haemulon album,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Grunts,tomtate,Haemulon aurolineatum,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Grunts,bluestriped grunt,Haemulon sciurus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Grunts,French grunt,Haemulon flavolineatum,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Grunts,porkfish,Anisotremus virginicus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Grunts,White grunt,Haemulon plumieri,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Grunts,margate,Haemulon album,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Grunts,tomtate,Haemulon aurolineatum,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Grunts,bluestriped grunt,Haemulon sciurus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Grunts,French grunt,Haemulon flavolineatum,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Grunts,porkfish,Anisotremus virginicus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Grunts,White grunt,Haemulon plumieri,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Grunts,margate,Haemulon album,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Grunts,tomtate,Haemulon aurolineatum,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Grunts,bluestriped grunt,Haemulon sciurus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Grunts,French grunt,Haemulon flavolineatum,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Grunts,porkfish,Anisotremus virginicus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Jacks,Blue runner,Caranx crysos,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Jacks,horse-eye jack,Caranx latus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Jacks,black jack,Caranx lugubris,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Jacks,almaco jack,Seriola rivoliana,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Jacks,bar jack,Caranx ruber,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Jacks,greater amberjack,Seriola dumerili,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Jacks,yellow jack,Caranx bartholornaei,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Jacks,Blue runner,Caranx crysos,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Jacks,horse-eye jack,Caranx latus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Jacks,black jack,Caranx lugubris,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Jacks,almaco jack,Seriola rivoliana,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Jacks,bar jack,Caranx ruber,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Jacks,greater amberjack,Seriola dumerili,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Jacks,yellow jack,Caranx bartholornaei,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Jacks,Blue runner,Caranx crysos,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Jacks,horse-eye jack,Caranx latus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Jacks,black jack,Caranx lugubris,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Jacks,almaco jack,Seriola rivoliana,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Jacks,bar jack,Caranx ruber,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Jacks,greater amberjack,Seriola dumerili,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Jacks,yellow jack,Caranx bartholornaei,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,Blue parrotfish,Scarus coeruleus,catch prohibited,NA,0,NA,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,midnight parrotfish,Scarus coelestinus,catch prohibited,NA,0,NA,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,rainbow parrotfish,Scarus guacamaia,catch prohibited,NA,0,NA,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,queen parrotfish,Scarus vetula,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,redfin parrotfish,Sparisoma rubripinne,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,redtail parrotfish,Sparisoma chrysopterum,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,stoplight parrotfish,Sparisoma viride,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,redband parrotfish,Sparisoma aurofrenatum,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,striped parrotfish,Scarus croicensis,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,Blue parrotfish,Scarus coeruleus,catch prohibited,NA,0,NA,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,midnight parrotfish,Scarus coelestinus,catch prohibited,NA,0,NA,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,rainbow parrotfish,Scarus guacamaia,catch prohibited,NA,0,NA,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,queen parrotfish,Scarus vetula,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,redfin parrotfish,Sparisoma rubripinne,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,redtail parrotfish,Sparisoma chrysopterum,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,stoplight parrotfish,Sparisoma viride,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,redband parrotfish,Sparisoma aurofrenatum,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,striped parrotfish,Scarus croicensis,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,Blue parrotfish,Scarus coeruleus,catch prohibited,NA,0,NA,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,midnight parrotfish,Scarus coelestinus,catch prohibited,NA,0,NA,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,rainbow parrotfish,Scarus guacamaia,catch prohibited,NA,0,NA,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,queen parrotfish,Scarus vetula,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,redfin parrotfish,Sparisoma rubripinne,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,redtail parrotfish,Sparisoma chrysopterum,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,stoplight parrotfish,Sparisoma viride,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,redband parrotfish,Sparisoma aurofrenatum,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,striped parrotfish,Scarus croicensis,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Scups & Porgies,Jolthead porgy,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Scups & Porgies,sea bream,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Scups & Porgies,sheepshead porgy,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Scups & Porgies,pluma,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Scups & Porgies,Jolthead porgy,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Scups & Porgies,sea bream,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Scups & Porgies,sheepshead porgy,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Scups & Porgies,pluma,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Scups & Porgies,Jolthead porgy,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Scups & Porgies,sea bream,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Scups & Porgies,sheepshead porgy,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Scups & Porgies,pluma,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 1,Black snapper,Apsilus dentatus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 1,blackfin snapper,Lutjanus buccanella,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 1,silk snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 1,vermilion snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 1,wenchman,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 2,Cardinal snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 2,queen snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 3,Gray snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 3,lane snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 3,mutton snapper,Lutjanus analis,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 3,dog snapper,Lutjanus jocu,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 3,schoolmaster,Lutjanus apodus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 3,mahogany snapper,Lutjanus mahogani,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 4,Yellowtail snapper,Ocyurus chrysurus,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,Black snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,blackfin snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,silk snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,vermilion snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,wenchman,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,Cardinal snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,queen snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,Gray snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,lane snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,mutton snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,dog snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,schoolmaster,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,mahogany snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,Yellowtail snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,Black snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,blackfin snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,silk snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,vermilion snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,wenchman,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,Cardinal snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,queen snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,Gray snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,lane snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,mutton snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,dog snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,schoolmaster,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,mahogany snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,Yellowtail snapper,,constant catch,NA,0,0.15,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Squirrelfish,Blackbar soldierfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Squirrelfish,bigeye,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Squirrelfish,longspine squirrelfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Squirrelfish,squirrelfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Squirrelfish,Blackbar soldierfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Squirrelfish,bigeye,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Squirrelfish,longspine squirrelfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Squirrelfish,squirrelfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Squirrelfish,Blackbar soldierfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Squirrelfish,bigeye,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Squirrelfish,longspine squirrelfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Squirrelfish,squirrelfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Surgeonfish,Blue tang,,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Surgeonfish,ocean surgeonfish,,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Surgeonfish,doctorfish,,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Surgeonfish,Blue tang,,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Surgeonfish,ocean surgeonfish,,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Surgeonfish,doctorfish,,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Surgeonfish,Blue tang,,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Surgeonfish,ocean surgeonfish,,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Surgeonfish,doctorfish,,constant catch,NA,0,0.25,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Triggerfish & Filefish,Ocean triggerfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Triggerfish & Filefish,queen triggerfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Triggerfish & Filefish,sargassum triggerfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Triggerfish & Filefish,scrawled filefish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Triggerfish & Filefish,whitespotted filefish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Triggerfish & Filefish,black durgon,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Triggerfish & Filefish,Ocean triggerfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Triggerfish & Filefish,queen triggerfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Triggerfish & Filefish,sargassum triggerfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Triggerfish & Filefish,scrawled filefish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Triggerfish & Filefish,whitespotted filefish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Triggerfish & Filefish,black durgon,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Triggerfish & Filefish,Ocean triggerfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Triggerfish & Filefish,queen triggerfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Triggerfish & Filefish,sargassum triggerfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Triggerfish & Filefish,scrawled filefish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Triggerfish & Filefish,whitespotted filefish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Triggerfish & Filefish,black durgon,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Wrasses,Hogfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Wrasses,puddingwife,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Wrasses,Spanish hogfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Wrasses,Hogfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Wrasses,puddingwife,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Wrasses,Spanish hogfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Wrasses,Hogfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Wrasses,puddingwife,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Reef Fish FMP,St. Croix-Wrasses,Spanish hogfish,,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Spiny Lobster FMP,Puerto Rico-spiny lobster,spiny lobster,Panulirus argus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Spiny Lobster FMP,St. Croix-spiny lobster,spiny lobster,Panulirus argus,constant catch,NA,0,0.1,0,,
+CFMC,Caribbean Spiny Lobster FMP,St. Thomas and St. John-spiny lobster,spiny lobster,Panulirus argus,constant catch,NA,0,0.1,0,,
+GMFMC/SAFMC,Coastal Migratory Pelagic FMP,Gulf of Mexico-King mackerel,King mackerel,Scomberomorus cavalla,constant F,,,,,,
+GMFMC/SAFMC,Coastal Migratory Pelagic FMP,South Atlantic coast-King mackerel,King mackerel,Scomberomorus cavalla,constant F,,,,,,
+GMFMC/SAFMC,Coastal Migratory Pelagic FMP,Gulf of Mexico-Spanish mackerel,Spanish mackerel,Scomberomorus maculatus,constant F,,,,,,
+GMFMC/SAFMC,Coastal Migratory Pelagic FMP,South Atlantic coast-Spanish mackerel,Spanish mackerel,Scomberomorus maculatus,constant F,,,,,,
+GMFMC/SAFMC,Coastal Migratory Pelagic FMP,Gulf of Mexico-Cobia,Cobia,Rachycentron canadum,constant F,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Goliath grouper,Goliath grouper,Epinephelus itajara,catch prohibited,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Mutton snapper,Mutton snapper,Lutjanus analis,constant F,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Red snapper,Red snapper,Lutjanus campechanus,constant F,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Gray snapper,Gray snapper,Lutjanus griseus,constant F,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Yellowtail snapper,Yellowtail snapper,Ocyurus chrysurus,constant F,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Vermilion snapper,Vermilion snapper,,constant F,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Shallow water grouper,Red grouper,,constant F,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Gag,Gag,,constant F,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Greater amberjack,Greater amberjack,,constant F,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Gray triggerfish,Gray triggerfish,,constant F,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Hogfish,Hogfish,,constant F,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Lane Snapper,Lane Snapper,,constant F,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Mid-water snapper,Queen Snapper,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Mid-water snapper,Blackfin Snapper,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Cubera snapper,Cubera snapper,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Mid-water snapper,Silk Snapper,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Mid-water snapper,Wenchman,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Deep water grouper,Speckled hind,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Deep water grouper,Yellowedge grouper,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Deep water grouper,Warsaw grouper,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Deep water grouper,Snowy grouper,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Shallow water grouper,Black grouper,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Shallow water grouper,Yellowmouth grouper,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Shallow water grouper,Yellowfin grouper,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Tilefishes,Goldface tilefish,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Tilefishes,Blueline tilefish,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Tilefishes,Golden tilefish,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Jacks Complex,Lesser amberjack,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Jacks Complex,Almaco jack,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Jacks Complex,Banded rudderfish,,catch-based,,,,,,
+GMFMC,Gulf of Mexico Reef Fish FMP,Shallow water grouper,Scamp,,catch-based,,,,,,
+GMFMC,Red Drum FMP,Red drum,Red drum,Sciaenops ocellatus,catch prohibited,,,,,,
+GMFMC,Shrimp FMP,Royal red shrimp,Royal red shrimp,Pleoticus robustus,constant catch,,,,,,
+GMFMC,Shrimp FMP,Pink shrimp,Pink shrimp,Farfantepenaeus duorarum,none,,,,,,
+GMFMC,Shrimp FMP,White shrimp,White shrimp,Litopenaeus setiferus,none,,,,,,
+GMFMC,Shrimp FMP,Brown shrimp,Brown shrimp,Farfantepenaeus aztecus,none,,,,,,
+GMFMC/SAFMC,Spiny Lobster FMP,Spiny lobster,Spiny lobster,Panulirus argus,catch-based,,0.07341772152,0,0.1,,
+MAFMC,Bluefish FMP,Bluefish,Bluefish,Pomatomus saltatrix,ramped F with cutoff,,0.3772189,0,0,,https://www.fisheries.noaa.gov/species/bluefish#management; https://static1.squarespace.com/static/511cdc7fe4b00307a2628ac6/t/5fa03892d11409336dab8013/1604335763479/Bluefish_2020-2021_specs_EA_signed.pdf
+MAFMC,Golden and Blueline Tilefish FMP,Golden tilefish,Golden tilefish,Lopholatilus chamaelonticeps,ramped F with cutoff,,0.2859014,0,0,,https://www.fisheries.noaa.gov/species/golden-tilefish#management
+MAFMC,Golden and Blueline Tilefish FMP,Blueline tilefish,Blueline tilefish,Caulolatilus microps,catch-based,NA,NA,0,0,,https://www.fisheries.noaa.gov/species/blueline-tilefish#management
+MAFMC,"Mackerel, Squid, Butterfish FMP",Atlantic mackerel,Atlantic mackerel,Scomber scrombus,ramped F with cutoff,,,0,,,
+MAFMC,"Mackerel, Squid, Butterfish FMP",Chub mackerel,Chub mackerel,Scomber colias,catch-based,NA,0.2399207,0,0.04,,https://www.fisheries.noaa.gov//species/atlantic-chub-mackerel#management
+MAFMC,"Mackerel, Squid, Butterfish FMP",Illex squid,Illex squid,Illex illecebrosus,catch-based,NA,,0.0461,0,,https://www.fisheries.noaa.gov//species/shortfin-squid#commercial
+MAFMC,"Mackerel, Squid, Butterfish FMP",Longfin squid,Longfin squid,Doryteuthis (Amerigo) pealeii,catch-based,NA,NA,0.02,0,,https://www.fisheries.noaa.gov/species/longfin-squid#commercial
+MAFMC,"Mackerel, Squid, Butterfish FMP",Butterfish,Butterfish,Peprilus triacanthus,ramped F with cutoff,,,0,0.0500168,,https://www.fisheries.noaa.gov//species/butterfish#commercial
+MAFMC,"Mid-Atlantic summer flounder, scup, black sea bass FMP",Summer flounder,Summer flounder,Paralichthys dentatus,ramped F with cutoff,,0.1910149,0.4594487,0,,https://www.fisheries.noaa.gov//species/summer-flounder#management
+MAFMC,"Mid-Atlantic summer flounder, scup, black sea bass FMP",Scup,Scup,Stenotomus chrysops,ramped F with cutoff,,0.01382064,0.2198692,0,,https://www.fisheries.noaa.gov//species/scup#management
+MAFMC,"Mid-Atlantic summer flounder, scup, black sea bass FMP",Sea bass,Black sea bass,Centropristis striata,ramped F with cutoff,,0.2227953,0.536828,0,,https://www.fisheries.noaa.gov//species/black-sea-bass#management
+NEFMC,Atlantic Salmon FMP,Atlantic salmon,Atlantic salmon,Salmo salar,catch prohibited,,,,,,
+NEFMC,Northeast Multispecies FMP,Gulf of Maine-Atlantic cod,Atlantic cod,Gadus morhua,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Georges Bank-Atlantic cod,Atlantic cod,Gadus morhua,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Acadian redfish,Acadian redfish,Sebastes fasciatus,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Atlantic wolffish,Atlantic wolffish,Anarhichas lupus,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Witch flounder,Witch flounder,Glyptocephalus cynoglossus,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Gulf of Maine-Haddock,Haddock,Melanogrammus aeglefinus,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Georges Bank-Haddock,Haddock,Melanogrammus aeglefinus,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Gulf of Maine-Winter flounder,Winter flounder,Pseudopleuronectes americanus,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Georges Bank-Winter flounder,Winter flounder,Pseudopleuronectes americanus,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Southern New England/Mid-Atlantic-Winter flounder,Winter flounder,Pseudopleuronectes americanus,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,White hake,White hake,Urophycis tenuis,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Northern-Windowpane flounder,Windowpane flounder,Scophthalmus aquosus,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Southern-Windowpane flounder,Windowpane flounder,Scophthalmus aquosus,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Atlantic pollock,Atlantic pollock,Pollachius virens,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Georges Bank-Yellowtail flounder,Yellowtail flounder,Limanda ferruginea,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Southern New England/Mid-AtlanticYellowtail flounder,Yellowtail flounder,Limanda ferruginea,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Cape Cod/Gulf of Maine-Yellowtail flounder,Yellowtail flounder,Limanda ferruginea,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Atlantic halibut,Atlantic halibut,Hippoglossus hippoglossus,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,American plaice,American plaice,Hippoglossoides platessoides,constant F,,,,,,
+NEFMC,Northeast Multispecies FMP,Ocean pout,Ocean pout,Zoarces americanus,constant F,,,,,,
+NEFMC,Red Crab FMP,Red crab,Red crab,Chaceon quinquedens,constant catch,,,,,,
+NEFMC,Sea Scallop FMP,Sea scallop,Sea scallop,Placopecten magellanicus,constant F,,,,,,
+NEFMC,Skate Complex FMP,Skate complex,Barndoor skate,Dipturis laevis,catch-based,,,,,,
+NEFMC,Skate Complex FMP,Skate complex,Clearnose skate,Raja eglanteria,catch-based,,,,,,
+NEFMC,Skate Complex FMP,Skate complex,Little skate,Leucoraja erinacea,catch-based,,,,,,
+NEFMC,Skate Complex FMP,Skate complex,Rosette skate,Leucoraja garmani,catch-based,,,,,,
+NEFMC,Skate Complex FMP,Skate complex,Smooth skate,Malacoraja senta,catch-based,,,,,,
+NEFMC,Skate Complex FMP,Skate complex,Thorny skate,Amblyraja radiata,catch-based,,,,,,
+NEFMC,Skate Complex FMP,Skate complex,Winter skate,Leucoraja ocellata,catch-based,,,,,,
+NEFMC,Small-Mesh Multispecies FMP,Gulf of Maine-Red hake,Red hake,Urophycis chuss,constant F,,,,,,
+NEFMC,Small-Mesh Multispecies FMP,Southern Georges Bank-Red hake,Red hake,Urophycis chuss,constant F,,,,,,
+NEFMC,Small-Mesh Multispecies FMP,Gulf of Maine-Silver hake,Silver hake,Merluccius bilinearis,constant F,,,,,,
+NEFMC,Small-Mesh Multispecies FMP,Southern Georges Bank-Silver hake,Silver hake,Merluccius bilinearis,constant F,,,,,,
+NEFMC,Small-Mesh Multispecies FMP,Offshore hake,Offshore hake,Merluccius albidus,constant F,,,,,,
+NEFMC,Atlantic Herring FMP,Atlantic herring,Atlantic herring,Clupea harengus,ramped F with cutoff,,,,,,
+NEFMC/MAFMC,Monkfish FMP,Gulf of Maine/Northern Georges Bank-Monkfish,Monkfish,Lophius americanus,constant F,,,,,,
+NEFMC/MAFMC,Monkfish FMP,Southern Georges Bank/Mid-Atlantic-Monkfish,Monkfish,Lophius americanus,constant F,,,,,,
+NEFMC/MAFMC,Spiny Dogfish FMP,Spiny dogfish,Spiny dogfish,Squalus acanthias,ramped F with cutoff,,,,,,
+MAFMC,Surfclams and Ocean Quahogs FMP,Surfclam,Surfclam,Spisula solidissima,ramped F with cutoff,,,,,,
+MAFMC,Surfclams and Ocean Quahogs FMP,Ocean quahog,Ocean quahog,Arctica islandica,ramped F with cutoff,,,,,,
+NPFMC,Alaska Salmon FMP,Mixed sp. salmon,Coho salmon,Oncorhynchus kisutch,constant escapement,,,0,,,
+NPFMC,Alaska Salmon FMP,Mixed sp. salmon,Pink salmon,Oncorhynchus gorbuscha,constant escapement,,,0,,,
+NPFMC,Alaska Salmon FMP,Eastern North Pacific Far North Migrating-Chinook salmon,Chinook salmon,Oncorhynchus tshawytscha,downward sloping,,,0,,"No stock assesment, internationally managed.",
+NPFMC,Alaska Salmon FMP,Coho salmon,Coho salmon,Oncorhynchus kisutch,constant escapement,,,0,,No stock assesment. ,
+NPFMC,Alaska Salmon FMP,Mixed sp. salmon,Chum salmon,Oncorhynchus keta,constant escapement,,,0,,,
+NPFMC,Alaska Salmon FMP,Mixed sp. salmon,sockeye salmon,Oncorhynchus nerka,constant escapement,,,0,,,
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,EBS snow crab,EBS snow crab,,ramped F with cutoff,0.25,0.25,0,0.71,TAC reduced by 71%,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Snow%20crab%20-%20Bering%20Sea&stockid=10820
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,Bristol Bay red king crab,Bristol Bay red king crab,,ramped F with cutoff,,0.1,0,,No assessment. mentioned in wider assesment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Red%20king%20crab%20-%20Western%20Aleutian%20Islands&stockid=10933
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,EBS Tanner crab,EBS Tanner crab,,ramped F with cutoff,,0.2,0,0.94,TAC seems really low based on assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Southern%20Tanner%20crab%20-%20Bering%20Sea&stockid=10821
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,Aleutian Island golden king crab,Aleutian Island golden king crab,,ramped F with cutoff,,0.25,0,0.17,"Calculated from assessment. P* of 0.49 also used, doesn't seem like that's what they use.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Golden%20king%20crab%20-%20Eastern%20Aleutian%20Islands&stockid=14842
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,St. Matthew blue king crab,St. Matthew blue king crab,,ramped F with cutoff,,0.2,0,1,"Threshold calculated from stock assesment, no P* mentioned. Fishery closed I believe.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20king%20crab%20-%20Saint%20Matthew%20Island&stockid=10814
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,Pribilof Islands blue king crab,Pribilof Islands blue king crab,,ramped F with cutoff,0.25,,0,,P* referenced directly in stock assesment,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20king%20crab%20-%20Pribilof%20Islands&stockid=10813
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,Pribilof Islands red king crab,Pribilof Islands red king crab,,ramped F with cutoff,0.25,,0,,0.25 is the buffer here also.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Red%20king%20crab%20-%20Pribilof%20Islands&stockid=10811
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,Norton Sound red king crab,Norton Sound red king crab,,ramped F with cutoff,0.25,,0,,Seems like another 75% buffer.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Red%20king%20crab%20-%20Norton%20Sound&stockid=10810
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,Pribilof Islands golden king crab,Pribilof Islands golden king crab,,catch-based,NA,0.25,0,,No assessment. mentioned in wider assesment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Red%20king%20crab%20-%20Western%20Aleutian%20Islands&stockid=10933
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,Western Aleutian Islands red king crab,Western Aleutian Islands red king crab,,catch-based,NA,0.25,0,1,From assessment. Fishery closed.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Red%20king%20crab%20-%20Western%20Aleutian%20Islands&stockid=10933
+NPFMC,Fish Resource of the Arctic FMP,NA,NA,NA,NA,NA,NA,NA,NA,No fishing allowed,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Red%20king%20crab%20-%20Western%20Aleutian%20Islands&stockid=109333
+NPFMC,GOA groundfish FMP,Arrowtooth flounder,Arrowtooth flounder,,ramped F with cutoff,,0.16,0,0.22,ACL=ABC for all in this FMP. Calcualted ABC buffer from stock assesment. TAC in 2020 was 22% lower than ABC.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Arrowtooth%20flounder%20-%20Gulf%20of%20Alaska&stockid=10004
+NPFMC,GOA groundfish FMP,Dusky rockfish,Dusky rockfish,,ramped F with cutoff,,0.18,0,0,Calculated from stock assesment,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Dusky%20rockfish%20-%20Gulf%20of%20Alaska&stockid=109255
+NPFMC,GOA groundfish FMP,Flathead sole,Flathead sole,,ramped F with cutoff,,0.18,0,0,TAC not mentioned in assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Flathead%20sole%20-%20Gulf%20of%20Alaska&stockid=10016
+NPFMC,GOA groundfish FMP,Northern rockfish,Northern rockfish,,ramped F with cutoff,,0.16,0,0,From assessment,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Northern%20rockfish%20-%20Western%20/%20Central%20Gulf%20of%20Alaska&stockid=10417
+NPFMC,GOA groundfish FMP,Pacific cod,Pacific cod,,ramped F with cutoff,,0.18,0,0.56,TAC from 2020.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Pacific%20cod%20-%20Gulf%20of%20Alaska&stockid=10506
+NPFMC,GOA groundfish FMP,Pacific ocean perch,Pacific ocean perch,,ramped F with cutoff,,0.16,0,0,From assessment,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Pacific%20ocean%20perch%20-%20Gulf%20of%20Alaska&stockid=11056
+NPFMC,GOA groundfish FMP,Pollock,Pollock,,ramped F with cutoff,,0.14,0,,TAC not specified,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Walleye%20pollock%20-%20Southeast%20Gulf%20of%20Alaska&stockid=10514
+NPFMC,GOA groundfish FMP,Rex sole,Rex sole,,ramped F with cutoff,,0.18,0,,TAC not mentioned,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Rex%20sole%20-%20Gulf%20of%20Alaska&stockid=10058
+NPFMC,GOA groundfish FMP,Rougheye & blackspotted rockfish,Rougheye rockfish,,ramped F with cutoff,,0.17,0,0,Assumed same for both species.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Blackspotted%20and%20Rougheye%20Rockfish%20Complex&stockid=11443
+NPFMC,GOA groundfish FMP,Rougheye & blackspotted rockfish,blackspotted rockfish,,ramped F with cutoff,,0.17,0,0,Assumed same for both species.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Blackspotted%20and%20Rougheye%20Rockfish%20Complex&stockid=114433
+NPFMC,GOA groundfish FMP,Sablefish,Sablefish,,ramped F with cutoff,,0.63,0,0.17,ABC and TAC buffer from total region in 2020. ,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Sablefish%20-%20Eastern%20Bering%20Sea%20/%20Aleutian%20Islands%20/%20Gulf%20of%20Alaska&stockid=10956
+NPFMC,GOA groundfish FMP,Northern rock sole,Northern rock sole,Lepidopsetta polyxystra,ramped F with cutoff,,0.15,0,,TAC not mentioned,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Northern%20rock%20sole%20-%20Gulf%20of%20Alaska&stockid=10836
+NPFMC,GOA groundfish FMP,Southern rock sole,Southern rock sole,Pleuronectes bilineata,ramped F with cutoff,,0.15,0,,TAC not mentioned,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Northern%20rock%20sole%20-%20Gulf%20of%20Alaska&stockid=108366
+NPFMC,GOA groundfish FMP,Demersal shelf rockfish,yelloweye rockfish,,constant F,NA,0.37,0,0,TAC basically equal to ABC,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Yelloweye%20rockfish%20-%20Gulf%20of%20Alaska&stockid=10425
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,sharpchin rockfish,S. zacentrus,constant F,NA,0.18,0,0.59,"Only species singled out in this group, the rest are averaged.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11804
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,yellowtail rockfish,S. flavidus,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11805
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,yellowmouth rockfish,S. reedi ,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11806
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,widow rockfish,S. entomelas,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11807
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,vermilion rockfish,S. miniatus ,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11808
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,stripetail rockfish,S. saxicola,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11809
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,splitnose rockfish,S. diploproa,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11810
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,silvergray rockfish,S. brevispinis ,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11811
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,redstripe rockfish,S. proriger,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11812
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,redbanded rockfish,S. babcocki,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11813
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,pygmy rockfish ,S. wilsoni ,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11814
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,harlequin rockfish ,S. variegatus,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11815
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,greenstriped rockfish,S. elongates,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11816
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,darkblotched rockfish,S. crameri,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11817
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,Chilipepper,S. goodie ,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11818
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,bocaccio ,S. paucispinis ,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11819
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,blackgill rockfish,S. melanostomus,constant F,NA,0.25,0,0.59,Average ABC reduction fo entire stock,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11820
+NPFMC,GOA groundfish FMP,Shallow water flatfish,Yellowfin sole ,Pleuronectes asper,constant F,NA,0.18,0,0.22,Average thresholds for this complex,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Shallow%20Water%20Flatfish%20Complex&stockid=11803
+NPFMC,GOA groundfish FMP,Shallow water flatfish,Starry flounder ,Platichthys stellatus,constant F,NA,0.18,0,0.22,Average thresholds for this complex,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Shallow%20Water%20Flatfish%20Complex&stockid=11804
+NPFMC,GOA groundfish FMP,Shallow water flatfish,Butter sole,Pleuronectes isolepis,constant F,NA,0.18,0,0.22,Average thresholds for this complex,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Shallow%20Water%20Flatfish%20Complex&stockid=11805
+NPFMC,GOA groundfish FMP,Shallow water flatfish,English sole ,Pleuronectes vetulus,constant F,NA,0.18,0,0.22,Average thresholds for this complex,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Shallow%20Water%20Flatfish%20Complex&stockid=11806
+NPFMC,GOA groundfish FMP,Shallow water flatfish,Alaska plaice ,Pleuronectes quadrituberculatus,constant F,NA,0.18,0,0.22,Average thresholds for this complex,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Shallow%20Water%20Flatfish%20Complex&stockid=11807
+NPFMC,GOA groundfish FMP,Shallow water flatfish,Sand sole ,Psettichthys melanostictus,constant F,NA,0.18,0,0.22,Average thresholds for this complex,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Shallow%20Water%20Flatfish%20Complex&stockid=11808
+NPFMC,GOA groundfish FMP,Sharks-Spiny dogfish,Spiny dogfish,,constant F,NA,0.25,0,0,All sharks seem to have 0 TAC buffer.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Shark%20Complex&stockid=114500
+NPFMC,GOA groundfish FMP,Shortraker rockfish,Shortraker rockfish,,constant F,NA,0.25,0,0,Calculated from assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Shortraker%20rockfish%20-%20Gulf%20of%20Alaska&stockid=10554
+NPFMC,GOA groundfish FMP,Skates,Big skate,Beringraja binoculata,constant F,NA,0.25,0,0,Calculated from stock assesment. TAC reduction not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Big%20skate%20-%20Gulf%20of%20Alaska&stockid=10727
+NPFMC,GOA groundfish FMP,Skates,longnose skates,Raja rhina,constant F,NA,0.25,0,0,Calculated from stock assesment. TAC reduction not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Big%20skate%20-%20Gulf%20of%20Alaska&stockid=107277
+NPFMC,GOA groundfish FMP,Skates,other skates,,constant F,NA,0.25,0,0,Calculated from stock assesment. TAC reduction not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Big%20skate%20-%20Gulf%20of%20Alaska&stockid=10727
+NPFMC,GOA groundfish FMP,Thornyhead rockfish,Thornyhead rockfish,,constant F,NA,0.25,0,0,Calculated from assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Shortspine%20thornyhead%20-%20Gulf%20of%20Alaska&stockid=10457
+NPFMC,GOA groundfish FMP,Atka mackerel,Atka mackerel,,catch-based,NA,0.24,0,0.57,Calculated from stock assesment. TAC was 57% lower than ABC.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Atka%20mackerel%20-%20Gulf%20of%20Alaska&stockid=10465
+NPFMC,GOA groundfish FMP,Deepwater flatfish,Greenland turbot,,catch-based,NA,0.25,0,0,General reduction from OFL is 15% for deepwater complex.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Dover%20sole%20-%20Gulf%20of%20Alaska&stockid=10021
+NPFMC,GOA groundfish FMP,Deepwater flatfish,Kamchatka flounder,,catch-based,NA,0.15,0,0,General reduction from OFL is 15% for deepwater complex.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Dover%20sole%20-%20Gulf%20of%20Alaska&stockid=10021
+NPFMC,GOA groundfish FMP,Deepwater flatfish,deepsea sole,,catch-based,NA,0.15,0,0,Calculated from stock assesment,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Dover%20sole%20-%20Gulf%20of%20Alaska&stockid=10021
+NPFMC,GOA groundfish FMP,Demersal shelf rockfish,quillback rockfish,,catch-based,NA,0.23,0,0,All non-yelloweye in this stock have low ABC.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Yelloweye%20rockfish%20-%20Gulf%20of%20Alaska&stockid=10425
+NPFMC,GOA groundfish FMP,Demersal shelf rockfish,copper rockfish,,catch-based,NA,0.23,0,0,All non-yelloweye in this stock have low ABC.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Yelloweye%20rockfish%20-%20Gulf%20of%20Alaska&stockid=10426
+NPFMC,GOA groundfish FMP,Demersal shelf rockfish,rosethorn rockfish,,catch-based,NA,0.23,0,0,All non-yelloweye in this stock have low ABC.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Yelloweye%20rockfish%20-%20Gulf%20of%20Alaska&stockid=10427
+NPFMC,GOA groundfish FMP,Demersal shelf rockfish,China rockfish,,catch-based,NA,0.23,0,0,All non-yelloweye in this stock have low ABC.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Yelloweye%20rockfish%20-%20Gulf%20of%20Alaska&stockid=10428
+NPFMC,GOA groundfish FMP,Demersal shelf rockfish,canary rockfish,,catch-based,NA,0.23,0,0,All non-yelloweye in this stock have low ABC.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Yelloweye%20rockfish%20-%20Gulf%20of%20Alaska&stockid=10429
+NPFMC,GOA groundfish FMP,Demersal shelf rockfish,tiger rockfish,,catch-based,NA,0.23,0,0,All non-yelloweye in this stock have low ABC.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Yelloweye%20rockfish%20-%20Gulf%20of%20Alaska&stockid=10430
+NPFMC,GOA groundfish FMP,Octopus,Octopus,,catch-based,NA,NA,0,NA,Bycatch only,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Giant%20octopus%20-%20Gulf%20of%20Alaska&stockid=10088
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,canary rockfish,S. pinniger,catch-based,NA,0.25,0,0.59,Average for this group ABC reduction.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11804
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,China rockfish,S. nebulosus,catch-based,NA,0.25,0,0.59,Average for this group ABC reduction.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11805
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,copper rockfish,S. caurinus,catch-based,NA,0.25,0,0.59,Average for this group ABC reduction.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11806
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,quillback rockfish,S. maliger,catch-based,NA,0.25,0,0.59,Average for this group ABC reduction.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11807
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,rosethorn rockfish,S. helvomaculatus,catch-based,NA,0.25,0,0.59,Average for this group ABC reduction.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11808
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,tiger rockfish,S. nigrocinctus,catch-based,NA,0.25,0,0.59,Average for this group ABC reduction.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11809
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,yelloweye rockfish,S. ruberrimus,catch-based,NA,0.25,0,0.59,Average for this group ABC reduction.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11810
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,shortbelly rockfish,S. jordani,catch-based,NA,0.25,0,0.59,Average for this group ABC reduction.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11811
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,aurora rockfish,S. aurora,catch-based,NA,0.25,0,0.59,Average for this group ABC reduction.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11812
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,northern rockfish,S. polyspinis,catch-based,NA,0.25,0,0.59,Average for this group ABC reduction.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Other%20Rockfish%20Complex&stockid=11813
+NPFMC,GOA groundfish FMP,Sharks,pacific sleeper shark,,catch-based,NA,0.25,0,0,Average for this complex.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Shark%20Complex&stockid=11450
+NPFMC,GOA groundfish FMP,Sharks,salmon shark,,catch-based,NA,0.25,0,0,Average for this complex.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Shark%20Complex&stockid=11451
+NPFMC,GOA groundfish FMP,Sharks,other/unidentifed sharks,,catch-based,NA,0.25,0,0,Average for this complex.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gulf%20of%20Alaska%20Shark%20Complex&stockid=11452
+NPFMC,GOA groundfish FMP,Deepwater flatfish,Dover sole,,ramped F with cutoff,,0.15,0,0,Included in wider assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Dover%20sole%20-%20Gulf%20of%20Alaska&stockid=100211
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Alaska plaice,Alaska plaice,,ramped F with cutoff,,0.16,0,0,They allude to all of these having P* but I couldn't find,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Alaska%20plaice%20-%20Bering%20Sea%20/%20Aleutian%20Islands&stockid=10026
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Aleutian Islands Pacific cod,Aleutian Islands Pacific cod,,constant F,NA,0.25,0,0.33,TAC from 2020.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Pacific%20cod%20-%20Aleutian%20Islands&stockid=12745
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Aleutian Islands pollock,Aleutian Islands pollock,,ramped F with cutoff,,0.17,0,0.66,TAC reduced by 66%.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Walleye%20pollock%20-%20Aleutian%20Islands&stockid=10511
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Arrowtooth flounder,Arrowtooth flounder,,ramped F with cutoff,,0.15,0,0.86,Calculated from stock assesment. TAC set far lower than ABC and was 14% of ABC in 2020.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Arrowtooth%20flounder%20-%20Bering%20Sea%20/%20Aleutian%20Islands&stockid=10003
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Atka mackerel,Atka mackerel,,ramped F with cutoff,,0.14,0,0.14,Calculated from stock assesment. TAC seems to be 14% lower than ABC based on first line of summary doc.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Atka%20mackerel%20-%20Bering%20Sea%20/%20Aleutian%20Islands&stockid=11662
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Bogoslof Island Pollock,Bogoslof Island Pollock,,constant F,NA,0.25,0,0.99,TAC seems almost 0 according to assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Walleye%20pollock%20-%20Bogoslof&stockid=10512
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Eastern Bering Sea Pacific Cod,Eastern Bering Sea Pacific Cod,,ramped F with cutoff,,0.16,0,0.09,Calculated from assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Pacific%20cod%20-%20Bering%20Sea&stockid=12746
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Eastern Bering Sea pollock,Eastern Bering Sea pollock,,ramped F with cutoff,,0.37,0,0.3,All from assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Walleye%20pollock%20-%20Eastern%20Bering%20Sea&stockid=10510
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Flathead sole,Flathead sole,,ramped F with cutoff,,0.18,0,0.71,Calculated from assessment. TAC reduced by 71%.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Flathead%20sole%20-%20Bering%20Sea%20/%20Aleutian%20Islands&stockid=10015
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Greenland Turbot,Greenland Turbot,,ramped F with cutoff,,0.15,0,0.45,TAC from 2019 level in stock assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Greenland%20halibut%20-%20Bering%20Sea%20/%20Aleutian%20Islands&stockid=10054
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Kamchatka flounder,Kamchatka flounder,,ramped F with cutoff,,0.15,0,0.3,TAC from 2019 level in stock assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Kamchatka%20flounder%20-%20Bering%20Sea%20/%20Aleutian%20Islands&stockid=10002
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Northern Rock sole,Northern Rock sole,,ramped F with cutoff,,0.03,0,0.71,Calculated from assessment. TAC reduced by 71%.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Northern%20rock%20sole%20-%20Bering%20Sea%20/%20Aleutian%20Islands&stockid=11050
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Northern rockfish,Northern rockfish,,ramped F with cutoff,,0.18,0,0.38,Calculated from assessment. TAC reduced by 38%.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Northern%20rockfish%20-%20Bering%20Sea%20/%20Aleutian%20Islands&stockid=10416
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Octopus,Octopus,,catch-based,NA,0.25,0,,TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Giant%20octopus%20-%20Bering%20Sea%20/%20Aleutian%20Islands&stockid=10087
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,Arctic flounder,Liopsetta glacialis,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10973
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,butter sole,Isopsetta isolepis,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10974
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,curlfin sole,Pleuronectes decurrens,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10975
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,deepsea sole ,Embassichths bathybius,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10976
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,Dover sole ,Microstomus pacificus,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10977
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,English sole,Parophrys vetulus,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10978
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,longhead dab,Limanda proboscidea,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10979
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,Pacific sanddab,Citharichthys sordidus,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10980
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,petrale sole,Eopsetta jordani,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10981
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,rex sole,Glyptocephalus zachirus,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10982
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,roughscale sole,Clidodoerma asperrimum,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10983
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,sand sole,Psettichthys melanostictus,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10984
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,slender sole,Lyopsetta exilis,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10985
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,starry flounder,Platichthys stellatus,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10986
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,Sakhalin sole,Limanda sakhalinensis,constant F,NA,0.25,0,,Average across stock. TAC not specified.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10987
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other rockfish,Other rockfish,"24 species, including unidentified",constant F,NA,0.25,0,0.2,"TAC from 2020, calculated from stock assesment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Rockfish%20Complex&stockid=10974
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Pacific ocean perch,Pacific ocean perch,,ramped F with cutoff,,0.16,0,0.12,"TAC from 2020, calculated from stock assesment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Pacific%20ocean%20perch%20-%20Bering%20Sea%20/%20Aleutian%20Islands&stockid=11055
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Rougheye & blackspotted rockfish,Rougheye rockfish,Sebastes aleutianus,ramped F with cutoff,,0.15,0,0.5,Assuming blackspotted and roughey are same thresholds  being in the same complecx.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=10973
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Rougheye & blackspotted rockfish,blackspotted rockfish,Sebastes melanostictus,ramped F with cutoff,,0.15,0,0.5,Assuming blackspotted and roughey are same thresholds  being in the same complecx.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Other%20Flatfish%20Complex&stockid=109733
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Sablefish,Sablefish,,ramped F with cutoff,,0.63,0,0.17,ABC and TAC from whole region in 2020.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Sablefish%20-%20Eastern%20Bering%20Sea%20/%20Aleutian%20Islands%20/%20Gulf%20of%20Alaska&stockid=10956
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Sharks,spiny dogfish,,constant F,NA,0.25,0,0.88,ABC generally 0.75*OFL.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Shark%20Complex&stockid=11403
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Sharks,Pacific sleeper shark,,constant F,NA,0.25,0,0.88,ABC generally 0.75*OFL.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Shark%20Complex&stockid=11404
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Sharks,salmon shark,,constant F,NA,0.25,0,0.88,ABC generally 0.75*OFL.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Shark%20Complex&stockid=11405
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Sharks,other/unidentified sharks,,constant F,NA,0.25,0,0.88,Cited directly in stock assesment. TAC in 2016 was 88% lower than ABC.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bering%20Sea%20/%20Aleutian%20Islands%20Shark%20Complex&stockid=11403
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Shortraker rockfish,Shortraker rockfish,,constant F,NA,0.25,0,0.31,Calculated from assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Shortraker%20rockfish%20-%20Bering%20Sea%20/%20Aleutian%20Islands&stockid=10553
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Skates,Other skates,,constant F,NA,0.25,0,0.61,Calculated difference in OFL and ABC from stock assesment,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Alaska%20skate%20-%20Bering%20Sea%20/%20Aleutian%20Islands&stockid=10736
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Skates,Alaska skate,,ramped F with cutoff,,0.14,0,0.61,Calculated difference in OFL and ABC from stock assesment,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Alaska%20skate%20-%20Bering%20Sea%20/%20Aleutian%20Islands&stockid=10736
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Yellowfin sole,Yellowfin sole,,ramped F with cutoff,,0.08,0,0.41,Calculated from assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Yellowfin%20sole%20-%20Bering%20Sea%20/%20Aleutian%20Islands&stockid=10031
+PFMC,Pacific coastal pelagics FMP,Pacific sardine,Pacific sardine,Sardinops sagax caerulea,ramped F with biomass cutoff and environmental-link,,,,,,
+PFMC,Pacific coastal pelagics FMP,Pacific chub mackerel,Pacific chub mackerel,Scomber colias,ramped F with cutoff,,,0,,Document contains OFL and ABC values but not P* or buffer; ACT = HG - 1000,https://www.pcouncil.org/documents/2019/06/june-2019-decision-document.pdf/
+PFMC,Pacific coastal pelagics FMP,Northern anchovy,Northern anchovy,Engraulis mordax,catch-based,NA,0.75,0,,,https://www.pcouncil.org/current-season-management/
+PFMC,Pacific coastal pelagics FMP,Market squid,Market squid,Doryteuthis opalescens,exempt,,,,,,
+PFMC,Pacific coastal pelagics FMP,Jack mackerel,Jack mackerel,Trachurus symmetricus,catch-based,NA,0.75,0,,,
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,Euphausia pacifica,catch prohibited,NA,NA,NA,NA,No take.,
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,Thysanoessa spinifera,catch prohibited,NA,NA,NA,NA,No take.,
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,Nyctiphanes simplex,catch prohibited,NA,NA,NA,NA,No take.,
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,Nematocelis difficilis,catch prohibited,NA,NA,NA,NA,No take.,
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,T. gregaria,catch prohibited,NA,NA,NA,NA,No take.,
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,E. recurva,catch prohibited,NA,NA,NA,NA,No take.,
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,E. gibboides,catch prohibited,NA,NA,NA,NA,No take.,
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,E. eximia,catch prohibited,NA,NA,NA,NA,No take.,
+PFMC,Pacific Coast Groundfish FMP,OR-Black Rockfish,Black Rockfish,,ramped F with cutoff,0.45,0.17,0,,"Calculated from assessment. P* directly from council. Also includes an additional ""uncertainty buffer"" that I can't place.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Black%20rockfish%20-%20Oregon&stockid=14407
+PFMC,Pacific Coast Groundfish FMP,OR-Blue,Blue,,ramped F with cutoff,0.45,,0,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,3427 - 42-Cabezon,Cabezon,,ramped F with cutoff,0.45,0.06,,,Seems to be a constant buffer across all cabezon stocks.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Cabezon%20-%20Washington&stockid=14803
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Cabezon,Cabezon,,ramped F with cutoff,0.45,0.06,,,Seems to be a constant buffer across all cabezon stocks.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Cabezon%20-%20Washington&stockid=14803
+PFMC,Pacific Coast Groundfish FMP,OR-Cabezon,Cabezon,,ramped F with cutoff,0.45,0.06,,,Seems to be a constant buffer across all cabezon stocks.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Cabezon%20-%20Washington&stockid=14803
+PFMC,Pacific Coast Groundfish FMP,OR-Kelp Greenling,Kelp Greenling,,ramped F with cutoff,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,WA-Cabezon,Cabezon,,catch-based,,,,,WA stock not assessed.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Cabezon%20-%20Washington&stockid=14803
+PFMC,Pacific Coast Groundfish FMP,WA-Kelp Greenling,Kelp Greenling,,catch-based,,,,,No Assessment.,
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Cowcod,Cowcod,,ramped F with cutoff,,0.1,0.84,0.6,Heavy reductions across thresholds here.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Cowcod%20-%20Southern%20California&stockid=10443
+PFMC,Pacific Coast Groundfish FMP,4010 - 3427-Cowcod,Cowcod,,catch-based,,0.1,0.84,0.6,Assume same as CA stock.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Cowcod%20-%20Southern%20California&stockid=10443
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Longspine Thornyhead,Longspine Thornyhead,,ramped F with cutoff,0.4,0.17,,,From assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Longspine%20thornyhead%20-%20Pacific%20Coast&stockid=10460
+PFMC,Pacific Coast Groundfish FMP,N of 3427-Longspine Thornyhead,Longspine Thornyhead,,ramped F with cutoff,0.4,0.17,,,From assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Longspine%20thornyhead%20-%20Pacific%20Coast&stockid=10461
+PFMC,Pacific Coast Groundfish FMP,42 - 4010-Blue,Blue,,ramped F with cutoff,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Brown,Brown,,ramped F with cutoff,,,,,"Data moderate, catch based on the P* OFL buffer and the “40-10” ABC control rule",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Brown%20rockfish%20-%20Pacific%20Coast&stockid=10546
+PFMC,Pacific Coast Groundfish FMP,4010 - 4616-China,China,,ramped F with cutoff,,,0.15,,"Data moderate, catch based on the P* OFL buffer and the “40-10” ABC control rule. ABC 12% lower than 2020 OFL pg 39.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=China%20rockfish%20-%20Central%20Pacific%20Coast&stockid=14430
+PFMC,Pacific Coast Groundfish FMP,WA-China,China,,ramped F with cutoff,,,0.22,,"Data moderate, catch based on the P* OFL buffer and the “40-10” ABC control rule. OY reduced 22% from ABC, will consider that the ACL reduction.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=China%20rockfish%20-%20Central%20Pacific%20Coast&stockid=14430
+PFMC,Pacific Coast Groundfish FMP,WA-Copper,Copper,,ramped F with cutoff,0.45,0.13,,,From assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Copper%20rockfish%20-%20Washington&stockid=15330
+PFMC,Pacific Coast Groundfish FMP,OR-Copper,Copper,,ramped F with cutoff,0.45,0.13,,,From assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Copper%20rockfish%20-%20Oregon&stockid=15331
+PFMC,Pacific Coast Groundfish FMP,42 - 4010-Copper,Copper,,ramped F with cutoff,0.45,0.14,,,From assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Copper%20rockfish%20-%20Northern%20California&stockid=15332
+PFMC,Pacific Coast Groundfish FMP,OR-Quillback,Quillback,,ramped F with cutoff,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Black and Yellow,Black and Yellow,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,WA-Blue,Blue,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Calico,Calico,,catch-based,,,,,No assessment.,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Gopher,Gopher,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Grass,Grass,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Kelp,Kelp,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Olive,Olive,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,WA-Quillback,Quillback,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Treefish,Treefish,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,4010 - 3427-Blue,Blue,,ramped F with cutoff,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Brown,Brown,,ramped F with cutoff,,,,,"Data moderate, catch based on the P* OFL buffer and the “40-10” ABC control rule",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Brown%20rockfish%20-%20Pacific%20Coast&stockid=10546
+PFMC,Pacific Coast Groundfish FMP,S of 4010-China,China,,ramped F with cutoff,,0.09,,,"Data moderate, catch based on the P* OFL buffer and the “40-10” ABC control rule. ABC reduced 9% from OFL in 2019, pg 34",https://www.st.nmfs.noaa.gov/stocksmart?stockname=China%20rockfish%20-%20Central%20Pacific%20Coast&stockid=14430
+PFMC,Pacific Coast Groundfish FMP,4010 - 3427-Copper,Copper,,ramped F with cutoff,0.45,0.14,,,From assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Copper%20rockfish%20-%20Northern%20California&stockid=15332
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Copper,Copper,,ramped F with cutoff,0.45,0.14,,,From assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Copper%20rockfish%20-%20Southern%20California&stockid=15333
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Gopher,Gopher,,ramped F with cutoff,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Blue,Blue,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Calico,Calico,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Grass,Grass,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Kelp,Kelp,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Olive,Olive,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Treefish,Treefish,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,CA-Kelp Greenling,Kelp Greenling,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,CW-Leopard Shark,Leopard Shark,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,CW-Rex Sole,Rex Sole,,ramped F with cutoff,,,,,"Data moderate, catch based on the P* OFL buffer and the “40-10” ABC control rule",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Brown%20rockfish%20-%20Pacific%20Coast&stockid=10546
+PFMC,Pacific Coast Groundfish FMP,CW-Butter Sole,Butter Sole,,catch-based,,,,,No Assessment.,
+PFMC,Pacific Coast Groundfish FMP,CW-Curlfin Sole,Curlfin Sole,,catch-based,,,,,No Assessment.,
+PFMC,Pacific Coast Groundfish FMP,CW-Flathead Sole,Flathead Sole,,catch-based,,,,,No Assessment.,
+PFMC,Pacific Coast Groundfish FMP,CW-Pacific Sanddab,Pacific Sanddab,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,CW-Rock Sole,Rock Sole,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,CW-Sand Sole,Sand Sole,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 36-Sablefish,Sablefish,,ramped F with cutoff,,,,,No assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Sablefish%20-%20Pacific%20Coast&stockid=10466
+PFMC,Pacific Coast Groundfish FMP,N of 36-Sablefish,Sablefish,,ramped F with cutoff,,,,,No assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Sablefish%20-%20Pacific%20Coast&stockid=10466
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Chilipepper,Chilipepper,,ramped F with cutoff,0.45,,0.04,,0.45 P* seems to result in 4% reduction of ACL from OFL. Some mixed numbers across this group.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Chilipepper%20-%20Southern%20Pacific%20Coast&stockid=10395
+PFMC,Pacific Coast Groundfish FMP,42 - 4010-Vermilion,Vermilion,,ramped F with cutoff,0.45,0.13,0,,Common P* approach and assesment indicated ABC.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Vermilion%20and%20Sunset%20rockfish%20Complex%20-%20Northern%20California&stockid=15335
+PFMC,Pacific Coast Groundfish FMP,OR-Vermilion,Vermilion,,ramped F with cutoff,0.45,0.16,0,,Common P* approach and assesment indicated ABC.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Vermilion%20rockfish%20-%20Oregon&stockid=15338
+PFMC,Pacific Coast Groundfish FMP,42 - 4010-Greenspotted,Greenspotted,,ramped F with cutoff,,,,,No buffers in assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Greenspotted%20rockfish%20-%20Pacific%20Coast&stockid=10437
+PFMC,Pacific Coast Groundfish FMP,42 - 4010-Squarespot,Squarespot,,ramped F with cutoff,0.45,,0.17,,ACL buffered from OFL,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Squarespot%20rockfish%20-%20Pacific%20Coast&stockid=10442
+PFMC,Pacific Coast Groundfish FMP,WA-Vermilion,Vermilion,,ramped F with cutoff,0.45,0.16,0,,Common P* approach and assesment indicated ABC.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Vermilion%20rockfish%20-%20Oregon&stockid=15338
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Bocaccio,Bocaccio,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Bronzespotted,Bronzespotted,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Chameleon,Chameleon,,catch-based,,,,,No Assessment.,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Cowcod,Cowcod,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Flag,Flag,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Freckled,Freckled,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Greenblotched,Greenblotched,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,WA - OR-Greenspotted,Greenspotted,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Greenstriped,Greenstriped,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Halfbanded,Halfbanded,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Harlequin,Harlequin,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Honeycomb,Honeycomb,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Mexican,Mexican,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Pink,Pink,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Pinkrose,Pinkrose,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Puget Sound,Puget Sound,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Pygmy,Pygmy,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Redstripe,Redstripe,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Rosethorn,Rosethorn,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Rosy,Rosy,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Silvergray,Silvergray,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Speckled,Speckled,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Starry,Starry,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Stripetail,Stripetail,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Swordspine,Swordspine,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Tiger,Tiger,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,4010 - 3427-Vermilion,Vermilion,,ramped F with cutoff,0.45,0.16,0,,Common P* approach and assesment indicated ABC.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Vermilion%20rockfish%20-%20Oregon&stockid=15338
+PFMC,Pacific Coast Groundfish FMP,4010 - 3427-Greenspotted,Greenspotted,,ramped F with cutoff,,,,,No buffers in assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Greenspotted%20rockfish%20-%20Pacific%20Coast&stockid=10437
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Greenspotted,Greenspotted,,ramped F with cutoff,,,,,No buffers in assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Greenspotted%20rockfish%20-%20Pacific%20Coast&stockid=10437
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Squarespot,Squarespot,,ramped F with cutoff,0.45,,0.17,,ACL buffered from OFL,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Squarespot%20rockfish%20-%20Pacific%20Coast&stockid=10442
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Vermilion,Vermilion,,ramped F with cutoff,0.45,0.16,0,,Common P* approach and assesment indicated ABC.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Vermilion%20rockfish%20-%20Oregon&stockid=15338
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Bronzespotted,Bronzespotted,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Chameleon,Chameleon,,catch-based,,,,,No Assessment.,
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Flag,Flag,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Freckled,Freckled,,catch-based,,,,,No Assessment.,
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Greenblotched,Greenblotched,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Greenstriped,Greenstriped,,catch-based,,0,,,No reduction.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Greenstriped%20rockfish%20-%20Pacific%20Coast&stockid=10566
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Halfbanded,Halfbanded,,catch-based,,,,,No Assessment.,
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Harlequin,Harlequin,,catch-based,,,,,No Assessment.,
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Honeycomb,Honeycomb,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Mexican,Mexican,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Pink,Pink,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Pinkrose,Pinkrose,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Pygmy,Pygmy,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Redstripe,Redstripe,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Rosethorn,Rosethorn,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Rosy,Rosy,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Silvergray,Silvergray,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Speckled,Speckled,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Starry,Starry,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Stripetail,Stripetail,,catch-based,,,,,"Data moderate, catch based on the P* OFL buffer and the “40-10” ABC control rule",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Sharpchin%20rockfish%20-%20Pacific%20Coast&stockid=10435
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Swordspine,Swordspine,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Tiger,Tiger,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Yellowtail Rockfish,Yellowtail Rockfish,,catch-based,,0.17,0,,Calculated from assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Yellowtail%20rockfish%20-%20Northern%20Pacific%20Coast&stockid=10393
+PFMC,Pacific Coast Groundfish FMP,N of 3427-Shortspine Thornyhead,Shortspine Thornyhead,,ramped F with cutoff,0.45,,0.17,,Reduced from OFL.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Shortspine%20thornyhead%20-%20Pacific%20Coast&stockid=10458
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Shortspine Thornyhead,Shortspine Thornyhead,,ramped F with cutoff,0.45,,0.17,,Reduced from OFL.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Shortspine%20thornyhead%20-%20Pacific%20Coast&stockid=10458
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Aurora,Aurora,,ramped F with cutoff,0.45,0.05,0,0,Pg. 16 in assessment. ,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Aurora%20rockfish%20-%20Pacific%20Coast&stockid=10547
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Splitnose,Splitnose,,ramped F with cutoff,,,0.25,,"25% reduction in OY from ABC, I guess we could call this the ACL reduction.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Splitnose%20rockfish%20-%20Pacific%20Coast&stockid=10564
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Rougheye/Blackspotted,Rougheye/Blackspotted,,ramped F with cutoff,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Sharpchin,Sharpchin,,ramped F with cutoff,,,,,"Data moderate, catch based on the P* OFL buffer and the “40-10” ABC control rule",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Sharpchin%20rockfish%20-%20Pacific%20Coast&stockid=10435
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Bank,Bank,,catch-based,NA,,,,"OFL but nothing else in assessment. Assume not overfished based on estimate, then control is 0.75*(catch)",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bank%20rockfish%20-%20California&stockid=10448
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Blackgill Rockfish,Blackgill Rockfish,,catch-based,,0.14,,,ABC in assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blackgill%20rockfish%20-%20Southern%20California&stockid=10404
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Redbanded,Redbanded,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Shortraker,Shortraker,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Yellowmouth,Yellowmouth,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Aurora,Aurora,,ramped F with cutoff,0.45,0.05,0,0,Pg. 16 in assessment. ,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Aurora%20rockfish%20-%20Pacific%20Coast&stockid=10547
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Blackgill Rockfish,Blackgill Rockfish,,ramped F with cutoff,,0.14,0,0,Calculated from assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blackgill%20rockfish%20-%20Southern%20California&stockid=10404
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Rougheye/Blackspotted,Rougheye/Blackspotted,,ramped F with cutoff,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Sharpchin,Sharpchin,,ramped F with cutoff,,,,,"Data moderate, catch based on the P* OFL buffer and the “40-10” ABC control rule",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Sharpchin%20rockfish%20-%20Pacific%20Coast&stockid=10435
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Bank,Bank,,catch-based,NA,,,,"OFL but nothing else in assessment. Assume not overfished based on estimate, then control is 0.75*(catch)",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bank%20rockfish%20-%20California&stockid=10448
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Pacific Ocean Perch,Pacific Ocean Perch,,catch-based,,,,,,
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Redbanded,Redbanded,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Shortraker,Shortraker,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Yellowmouth,Yellowmouth,,catch-based,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,CW-Yelloweye Rockfish,Yelloweye Rockfish,,ramped F with cutoff,,0.18,0.57,0,Calculated from assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Yelloweye%20rockfish%20-%20Pacific%20Coast&stockid=10426
+PFMC,Pacific Coast Groundfish FMP,WA-Black Rockfish,Black Rockfish,,ramped F with cutoff,0.45,,0.04,0,"P* common for all black rockfish, calculated ABC buffer from assessment pg 43.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Black%20rockfish%20-%20Washington&stockid=14409
+PFMC,Pacific Coast Groundfish FMP,CA-Black Rockfish,Black Rockfish,,ramped F with cutoff,0.45,0.3,0,0,"P* common for all black rockfish, calculated ABC buffer from assessment pg 43.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Black%20rockfish%20-%20Washington&stockid=14409
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Bocaccio,Bocaccio,,ramped F with cutoff,0.45,,0.66,,Calculated from 2018 year in assessment. Confused on how they are using P* here pg 19.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Bocaccio%20-%20Southern%20Pacific%20Coast&stockid=10413
+PFMC,Pacific Coast Groundfish FMP,CW-Canary Rockfish,Canary Rockfish,,ramped F with cutoff,,0.09,0,0,Calculated from assesment using 2023 projection.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Canary%20rockfish%20-%20Pacific%20Coast&stockid=10415
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Chilipepper,Chilipepper,,ramped F with cutoff,0.45,,0.04,,0.45 P* seems to result in 4% reduction of ACL from OFL. Some mixed numbers across this group.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Chilipepper%20-%20Southern%20Pacific%20Coast&stockid=10395
+PFMC,Pacific Coast Groundfish FMP,CW-Darkblotched Rockfish,Darkblotched Rockfish,,ramped F with cutoff,0.45,0.08,,,From assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Darkblotched%20rockfish%20-%20Pacific%20Coast&stockid=10562
+PFMC,Pacific Coast Groundfish FMP,CW-Dover Sole,Dover Sole,,ramped F with cutoff,,,,,No Assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Dover%20sole%20-%20Pacific%20Coast&stockid=10022
+PFMC,Pacific Coast Groundfish FMP,CW-Petrale Sole,Petrale Sole,,ramped F with cutoff,0.45,0.07,,,"Again, following the common trend for this group of 0.45 P* and small ABC buffer.\",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Petrale%20sole%20-%20Pacific%20Coast&stockid=10011
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Splitnose,Splitnose,,ramped F with cutoff,,,0.25,,"25% reduction in OY from ABC, I guess we could call this the ACL reduction.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Splitnose%20rockfish%20-%20Pacific%20Coast&stockid=10564
+PFMC,Pacific Coast Groundfish FMP,CW-Widow Rockfish,Widow Rockfish,,ramped F with cutoff,,0.04,0,,Calculated from assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Widow%20rockfish%20-%20Pacific%20Coast&stockid=10568
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Yellowtail Rockfish,Yellowtail Rockfish,,ramped F with cutoff,,0.09,0,,Calculated from assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Yellowtail%20rockfish%20-%20Northern%20Pacific%20Coast&stockid=10393
+PFMC,Pacific Coast Groundfish FMP,CA-Quillback,Quillback,,ramped F with cutoff,,,,,"Data poor, not specified in assessment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blue%20rockfish%20-%20Southern%20California&stockid=15351
+PFMC,Pacific Coast Groundfish FMP,CW-Arrowtooth Flounder,Arrowtooth Flounder,,ramped F with cutoff,,0.29,0,0,"Also indicate a ""scientific uncertainty buffer"" ot 0.7, that is too high for P* but may correspod to the ABC reduction from OFL. ",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Arrowtooth%20flounder%20-%20Pacific%20Coast&stockid=10005
+PFMC,Pacific Coast Groundfish FMP,CW-Big Skate,Big Skate,,ramped F with cutoff,,0.09,0,0,Calculated from assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Big%20skate%20-%20Pacific%20Coast&stockid=10728
+PFMC,Pacific Coast Groundfish FMP,CW-English Sole,English Sole,,ramped F with cutoff,,,,,catch based on the P* OFL buffer and the “40-10” ABC control rule. Not specified in assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=English%20sole%20-%20Pacific%20Coast&stockid=10046
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Lingcod,Lingcod,,ramped F with cutoff,0.45,0.04,0,0,ACL buffer near 0.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Lingcod%20-%20Northern%20Pacific%20Coast&stockid=12194
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Lingcod,Lingcod,,ramped F with cutoff,0.45,0.04,0,0,ACL buffer near 0.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Lingcod%20-%20Southern%20Pacific%20Coast&stockid=12195
+PFMC,Pacific Coast Groundfish FMP,CW-Longnose Skate,Longnose Skate,,ramped F with cutoff,0.45,0.04,0.16,0,Calculated from assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Longnose%20skate%20-%20Pacific%20Coast&stockid=10731
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Pacific Ocean Perch,Pacific Ocean Perch,,ramped F with cutoff,,0.04,0.8,,From assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Pacific%20ocean%20perch%20-%20Pacific%20Coast&stockid=10545
+PFMC,Pacific Coast Groundfish FMP,CW-Spiny Dogfish,Spiny Dogfish,,ramped F with cutoff,,,,,No Assessment.,
+PFMC,Pacific Coast Groundfish FMP,CW-Pacific Cod,Pacific Cod,,catch-based,,,,,No Assessment.,
+PFMC,Pacific Coast Groundfish FMP,CW-Starry Flounder,Starry Flounder,,catch-based,,,,,catch based on the P* OFL buffer and the “40-10” ABC control rule. Not specified in assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Starry%20flounder%20-%20Pacific%20Coast&stockid=10025
+PFMC,Pacific Coast Groundfish FMP,CW-California Scorpionfish,California Scorpionfish,,unknown,,0.08,0.41,0.26,Calculated from assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=California%20scorpionfish%20-%20Southern%20California&stockid=10461
+PFMC,Pacific Coast Groundfish FMP,CW-Pacific Whiting,Pacific Whiting,,ramped F with cutoff,,,,,No Assessment.,
+PFMC,Salmon FMP,Chinook salmon - California Central Valley: Sacramento River Fall,Chinook salmon,Oncorhynchus tshawytscha,ramped/stepped F ,,0.1,,,This one still really confuses me. Tier 2 uncertainty reduces by 10%,
+PFMC,Salmon FMP,Chinook salmon - California Central Valley: Sacramento River Spring,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - California Central Valley: Sacramento River Winter,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Lower River Hatchery Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Lower River Hatchery Spring,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Mid-River Bright Hatchery Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: North Lewis River Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Snake River Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Snake River Spring/Summer,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Spring Creek Hatchery Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Upper River Bright Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Upper River Spring,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Upper River Summer,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Upper Willamette Spring,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Northern California Coast: California Coastal,Chinook salmon,Oncorhynchus tshawytscha,constant F,,NA,,,Undefined,
+PFMC,Salmon FMP,Chinook salmon - Northern California Coast: Klamath River Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,0.05,,,Tier 1 uncertainty,
+PFMC,Salmon FMP,Chinook salmon - Northern California Coast: Klamath River Spring,Chinook salmon,Oncorhynchus tshawytscha,constant F,,NA,,,Undefined,
+PFMC,Salmon FMP,Chinook salmon - Oregon Coast: Central and Northern Oregon,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Oregon Coast: Southern Oregon,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Cedar River Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Eastern Strait of Juan de Fuca Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Green River Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Mid Hood Canal Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Nisqually River Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Nooksack Spring Early,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Puyallup Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Skagit Spring,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Skagit Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Snohomish Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Stillaguamish Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: White River Spring,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Grays Harbor Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Grays Harbor Spring,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Hoh Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Hoh Spring/Summer,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Hoko Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Queets Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Queets Spring/Summer,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Quillayute Fall,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Quillayute Spring/Summer,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Quinault Fall Hatchery,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Willapa Bay Fall Hatchery,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Willapa Bay Fall Natural,Chinook salmon,Oncorhynchus tshawytscha,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Oregon Production Index Area: Central California Coast,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Oregon Production Index Area: Columbia River Early Hatchery,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Oregon Production Index Area: Columbia River Late Hatchery,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Oregon Production Index Area: Lower Columbia Natural,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Oregon Production Index Area: Oregon Coast Hatchery,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Oregon Production Index Area: Oregon Coast Natural,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Oregon Production Index Area: Southern Oregon/Northern California Coast,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Puget Sound: Hood Canal,coho salmon,Oncorhynchus kisutch,stepped F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Puget Sound: Skagit,coho salmon,Oncorhynchus kisutch,stepped F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Puget Sound: Snohomish,coho salmon,Oncorhynchus kisutch,stepped F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Puget Sound: South Puget Sound Hatchery,coho salmon,Oncorhynchus kisutch,stepped F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Puget Sound: Stillaguamish,coho salmon,Oncorhynchus kisutch,stepped F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Grays Harbor,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Hoh,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Queets,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Quillayute Fall,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Quillayute Summer Hatchery,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Quinault Hatchery,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Strait of Juan de Fuca,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Willapa Bay Hatchery,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Willapa Bay Natural,coho salmon,Oncorhynchus kisutch,constant F,,,,,,
+PFMC,Salmon FMP,Pink salmon - Puget Sound,pink salmon,Oncorhynchus gorbuscha,constant F,,,,,,
+SAFMC,Golden Crab FMP,Golden Crab,Golden Crab,,constant catch,,,0,NA,ACL=ABC,
+SAFMC,Shrimp FMP,Brown shrimp,Brown shrimp,,unknown,,,,,No assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Brown%20shrimp%20-%20Southern%20Atlantic%20Coast&stockid=10080
+SAFMC,Shrimp FMP,Pink shrimp,Pink shrimp,,catch-based,,,,,No assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Pink%20shrimp%20-%20Southern%20Atlantic%20Coast&stockid=10082
+SAFMC,Shrimp FMP,Rock shrimp,Rock shrimp,,catch-based,,,,,No assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Brown%20rock%20shrimp%20-%20Southern%20Atlantic%20Coast&stockid=10803
+SAFMC,Shrimp FMP,White shrimp,White shrimp,,catch-based,,,,,No assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=White%20shrimp%20-%20Southern%20Atlantic%20Coast&stockid=10084
+SAFMC,South Atlantic dolphin/wahoo FMP,Dolphin,Dolphin,,catch-based,,,0,,ACL=ABC,
+SAFMC,South Atlantic dolphin/wahoo FMP,Wahoo,Wahoo,,catch-based,,,0,,ACL=ABC,
+SAFMC,South Atlantic snapper grouper FMP,Deepwater Complex ,Yellowedge Grouper,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Deepwater Complex ,Silk Snapper,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Deepwater Complex ,Misty Grouper,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Deepwater Complex ,Sand Tilefish,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Deepwater Complex ,Queen Snapper,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Deepwater Complex ,Blackfin Snapper,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Grunts Complex,White Grunt,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Grunts Complex,Tomtate,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Grunts Complex,Margate,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Grunts Complex,Sailor's Choice,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Jacks Complex,Almaco Jack,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Jacks Complex,Banded Rudderfish,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Jacks Complex,Lesser Amberjack,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Black sea bass,Black sea bass,,constant F,0.4,0.25,0.03,0,Unclear from stock assessment. Pretty sure ABC is reduced 25% from OFL and calculated the reduction for ACL and TAC separately. See pg 12.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Black%20sea%20bass%20-%20Southern%20Atlantic%20Coast&stockid=10310
+SAFMC,South Atlantic snapper grouper FMP,Blueline Tilefish,Blueline Tilefish,,constant F,0.3,,0.02,0,Both P* and ABC buffer ? See pg 25 of assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Blueline%20tilefish%20-%20Southern%20Atlantic%20Coast&stockid=10381
+SAFMC,South Atlantic snapper grouper FMP,Gag,Gag,,constant F,0.3,,0.05,,ACL = 0.95ABC. No assessment.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gag%20-%20Southern%20Atlantic%20Coast&stockid=10349
+SAFMC,South Atlantic snapper grouper FMP,Golden tilefish,Golden tilefish,,constant F,,0.25,0,0,No assessment. 75% Fmsy indicated in ammendment 28.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Tilefish%20-%20Southern%20Atlantic%20Coast&stockid=10384
+SAFMC,South Atlantic snapper grouper FMP,Greater amberjack,Greater amberjack,,constant F,,0.25,0,0,Quota system where ABC is based on 75% Fmsy I believe.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Greater%20amberjack%20-%20Southern%20Atlantic%20Coast&stockid=10208
+SAFMC,South Atlantic snapper grouper FMP,FLK/EFL Hogfish,FLK/EFL Hogfish,,constant F,0.275,0.3,0.05,,"ACL=ABC, OFL Unknown (pg 46). P* indicated in comprehensive ammendment. 22% ABC reduction based on ammendment 37.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Hogfish%20-%20Carolinas&stockid=12810
+SAFMC,South Atlantic snapper grouper FMP,Mutton Snapper,Mutton Snapper,,constant F,0.3,0.06,0,0,"ACL=ABC. 30% P* in ammendment 41, but only 6% reduction in recommended ABC from recommended OFL.",https://safmc.net/download/SGAm41_022817_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Red grouper,Red grouper,,constant F,,0.25,0,0,"ABC=ACL=OY. ABC is 25% Fmsy in assessment,",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Red%20grouper%20-%20Southern%20Atlantic%20Coast&stockid=10332
+SAFMC,South Atlantic snapper grouper FMP,Red porgy,Red porgy,,constant F,,0.25,0,0,"ABC=ACL=OY. ABC is 25% Fmsy in assessment,",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Red%20porgy%20-%20Southern%20Atlantic%20Coast&stockid=10100
+SAFMC,South Atlantic snapper grouper FMP,Red snapper,Red snapper,,constant F,0.5,,,,"Currently in rebuilding plan.  Rebuilding is based 
+on fixed exploitation at F=98% of F30%SPR. Not sure how this translates into buffers.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Red%20snapper%20-%20Southern%20Atlantic%20Coast&stockid=10231
+SAFMC,South Atlantic snapper grouper FMP,Snowy grouper,Snowy grouper,,constant F,0.5,0.25,,,Currently overfished. pretty sure OFL is reduced by 25% but not sure here.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Snowy%20grouper%20-%20Southern%20Atlantic%20Coast&stockid=10339
+SAFMC,South Atlantic snapper grouper FMP,Vermilion snapper,Vermilion snapper,,constant F,0.275,,0,0,P* mentioned pg 10.,https://www.st.nmfs.noaa.gov/stocksmart?stockname=Vermilion%20snapper%20-%20Southern%20Atlantic%20Coast&stockid=10257
+SAFMC,South Atlantic snapper grouper FMP,Wreckfish,Wreckfish,,constant F,,,0,,"ACL=ABC, OFL Unknown, nothing clear to me in this assessment.",https://safmc.net/download/CompACLAm_101411_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Yellowtail Snapper,Yellowtail Snapper,,constant F,0.375,,0,,ACL=ABC,
+SAFMC,South Atlantic snapper grouper FMP,Atlantic Spadefish,Atlantic Spadefish,,catch-based,,,0,,"ACL=ABC, OFL Unknown",https://safmc.net/download/CompACLAm_101411_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Bar Jack,Bar Jack,,catch-based,,,0,,"ACL=ABC, OFL Unknown (pg 46)",https://safmc.net/download/CompACLAm_101411_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Black grouper,Black grouper,,catch-based,,,0,,ACL=ABC,
+SAFMC,South Atlantic snapper grouper FMP,Gray Triggerfish,Gray Triggerfish,,catch-based,,,0,,"ACL=ABC, OFL Unknown (pg 46)",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Gray%20triggerfish%20-%20Southern%20Atlantic%20Coast&stockid=10063
+SAFMC,South Atlantic snapper grouper FMP,GA-NC Hogfish,GA-NC Hogfish,,catch-based,0.275,,0.05,0,"ACL=ABC, OFL Unknown (pg 46). P* indicated in comprehensive ammendment.",https://www.st.nmfs.noaa.gov/stocksmart?stockname=Hogfish%20-%20Carolinas&stockid=12810
+SAFMC,South Atlantic snapper grouper FMP,Scamp,Scamp,,catch-based,,,0.1,,ACL=0.9ABC,https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Speckled hind,Speckled hind,,catch prohibited,NA,NA,NA,NA,No catch,
+SAFMC,South Atlantic snapper grouper FMP,Warsaw grouper,Warsaw grouper,,catch prohibited,NA,NA,NA,NA,No catch,
+SAFMC,South Atlantic snapper grouper FMP,Goliath Grouper,Goliath Grouper,,catch prohibited,NA,NA,NA,NA,No catch,
+SAFMC,South Atlantic snapper grouper FMP,Nassau Grouper,Nassau Grouper,,catch prohibited,NA,NA,NA,NA,No catch,
+SAFMC,South Atlantic snapper grouper FMP,Porgy Complex,Jolthead Porgy,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Porgy Complex,Knobbed Porgy,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Porgy Complex,Saucereye Porgy,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Porgy Complex,Scup,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Porgy Complex,Whitebone Porgy,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Shallow-Water Groupers Complex,Red Hind,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Shallow-Water Groupers Complex,Rock Hind,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Shallow-Water Groupers Complex,Yellowmouth Grouper,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Shallow-Water Groupers Complex,Yellowfin Grouper,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Shallow-Water Groupers Complex,Coney,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Shallow-Water Groupers Complex,Graysby,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Snappers Complex,Gray Snapper,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Snappers Complex,Lane Snapper,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+SAFMC,South Atlantic snapper grouper FMP,Snappers Complex,Cubera Snapper,,catch-based,,,0,,"ACL=ABC for complexes. Confused on P* based on the council's use of ""risk tolerance scalars"".",https://safmc.net/wp-content/uploads/2016/06/SGAmend29_October14_FINAL.pdf
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,red snapper/silvermouth,Aphareus rutilans,constant F,,,,,,
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,gray snapper/jobfish,Aprion virescens,constant F,,,,,,
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,black trevally/jack,Caranx lugubris,constant F,,,,,,
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,lunartail grouper,Variola louti,constant F,,,,,,
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,red snapper ,Etelis carbunculus,constant F,,,,,,
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,red snapper ,Etelis coruscans,constant F,,,,,,
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,redgill emperor,Lethrinus rubrioperculatus,constant F,,,,,,
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,blueline snapper,Lutjanus kasmira,constant F,,,,,,
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,pink snapper,Pristipomoides filamentosus,constant F,,,,,,
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,yelloweye snapper,Pristipomoides flavipinnis,constant F,,,,,,
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,snapper,Pristipomoides zonatus,constant F,,,,,,
+WPFMC,American Samoa FEP,Guam Bottomfish,,,constant F,,,,,,
+WPFMC,American Samoa FEP,CNMI Bottomfish,,,constant F,,,,,,
+WPFMC,Hawaii Archipelago FEP,Uku,Uku,Aprion virescens,constant F,NA,0.03834378,0,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deep 7 bottomfish complex,Ehu (squirrelfish snapper),Etelis carbunculus,constant F,NA,0.08960573,0.03149606,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deep 7 bottomfish complex,Gindai (Brigham's snapper),Pristipomoides zonatus,constant F,NA,0.08960573,0.03149606,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deep 7 bottomfish complex,"Hapuʻupuʻu (Seale's grouper, Hawaiian grouper)",Hyporthodus quernus,constant F,NA,0.08960573,0.03149606,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deep 7 bottomfish complex,Kalekale (Von Siebold's snapper),Pristipomoides sieboldii,constant F,NA,0.08960573,0.03149606,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deep 7 bottomfish complex,Lehi (silverjaw snapper),Aphareus rutilans,constant F,NA,0.08960573,0.03149606,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deep 7 bottomfish complex,Onaga (longtail snapper),Etelis coruscans,constant F,NA,0.08960573,0.03149606,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deep 7 bottomfish complex,Ōpakapaka (pink snapper),Pristipomoides filamentosus,constant F,NA,0.08960573,0.03149606,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,,Heterocarpus ensifer,constant F,NA,NA,0,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,,Heterocarpus laevigatus,constant F,NA,NA,0,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,,Heterocarpus sibogae,constant F,NA,NA,0,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,,Heterocarpus gibbosus,constant F,NA,NA,0,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,,Heterocarpus Lepidus,constant F,NA,NA,0,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,,Heterocarpus dorsalis,constant F,NA,NA,0,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,,Heterocarpus tricarinatus,constant F,NA,NA,0,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,,Heterocarpus longirostris,constant F,NA,NA,0,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,pink coral (red coral) ,Corallium secundum ,constant F,NA,NA,,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,pink coral (red coral) ,Corallium regale,constant F,NA,NA,,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,pink coral (red coral) ,Corallium laauense ,constant F,NA,NA,,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,gold coral,Gerardia spp.,constant F,NA,NA,,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,gold coral,Narella spp. ,constant F,NA,NA,,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,gold coral,Calyptrophora spp.,constant F,NA,NA,,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,bamboo coral,Lepidisis olapa,constant F,NA,NA,,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,bamboo coral,Acanella spp. ,constant F,NA,NA,,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,black coral,Antipathes dichotoma,constant F,NA,NA,,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,black coral,Antipathes grandis,constant F,NA,NA,,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,black coral ,Antipathes ulex,constant F,NA,NA,,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Hawaii Archipelago FEP,Kona Crab (spanner crab),Kona Crab (spanner crab),Ranina ranina,constant F,NA,NA,0,NA,,https://www.wpcouncil.org/wp-content/uploads/2021/10/Hawaii-FEP-SAFE-Report-2020_v4.pdf
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,"red snapper, silvermouth",Aphareus rutilans,constant F,,,,,,
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,"giant trevally, jack",Caranx ignobilis,constant F,,,,,,
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,"black trevally, jack",Caranx lugubris,constant F,,,,,,
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,lunartail grouper,Variola louti,constant F,,,,,,
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,red snapper,Etelis carbunculus,constant F,,,,,,
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,red snapper,Etelis coruscans,constant F,,,,,,
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,redgill emperor,Lethrinus rubrioperculatus,constant F,,,,,,
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,blueline snapper,Lutjanus kasmira,constant F,,,,,,
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,yellowtail snapper,Pristipomoides auricilla,constant F,,,,,,
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,pink snapper,Pristipomoides filamentosus,constant F,,,,,,
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,yelloweye snapper,Pristipomoides flavipinnis,constant F,,,,,,
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,pink snapper,Pristipomoides seiboldii,constant F,,,,,,
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,flower snapper,Pristipomoides zonatus,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Albacore tuna,Albacore tuna,Thunnus alalunga,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Atlantic Small Coastal Sharks,Blacknose shark,Carcharhinus acronotu,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Atlantic Small Coastal Sharks,Finetooth shark,Carcharhinus isodon,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Atlantic Small Coastal Sharks,Atlantic sharpnose shark,Rhizoprionodon terraenovae,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Atlantic Small Coastal Sharks,Bonnethead,Sphyrna tiburo,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Bigeye thresher shark,Bigeye thresher shark,Alopias superciliosus,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Bigeye tuna,Bigeye tuna,Thunnus obesus,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Blue marlin ,Blue marlin ,Makaira nigricans,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Blue shark,Blue shark,Prionace glauca,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Bluefin tuna,Bluefin tuna,Thunnus thynnus,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Gulf of Mexico-Blacknose shark,Blacknose shark,Carcharhinus acronotu,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Gulf of Mexico-Blacktip shark,Blacktip shark,Carcharhinus limbatus,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Hammerhead,Scalloped hammerhead,Sphyrna lewini,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Hammerhead,Great hammerhead,Sphyrna mokarran,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Hammerhead,Smooth hammerhead,Sphyrna zygaena,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Spinner shark,Carcharhinus brevipinna,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Silky shark,Carcharhinus falciformis,catch prohibited,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Bull shark,Carcharhinus leucas,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Blacktip shark,Carcharhinus limbatus,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Sandbar shark,Carcharhinus plumbeus,catch prohibited,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Tiger shark,Galeocerdo cuvier,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Nurse shark,Ginglymostoma cirratum,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Lemon shark,Negaprion brevirostris,constant F,NA,,0,,,https://media.fisheries.noaa.gov/2022-03/SAFE%20Report%202021%20Final.pdf
+NOAA,Atlantic/Gulf HMS FMP,Longbill spearfish,Longbill spearfish,Tetrapturus pfluegeri,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Pelagic Sharks,Thresher shark,Alopias vulpinus,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Pelagic Sharks,Oceanic whitetip shark,Carcharhinus longimanus,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Pelagic Sharks,Shortfin mako,Isurus oxyrinchus,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Porbeagle,Porbeagle,Lamna nasus,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Bignose shark,Carcharhinus altimus,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Narrowtooth shark,Carcharhinus brachyurus,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Galapagos shark,Carcharhinus galapagensis,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Dusky shark,Carcharhinus obscurus,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Caribbean reef shark,Carcharhinus perezii,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Smalltail shark,Carcharhinus porosus,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Night shark,Carcharhinus signatus,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Sand tiger,Carcharias taurus,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,White shark,Carcharodon carcharias,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Basking shark,Cetorhinus maximus,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Sevengill shark,Heptranchias perlo,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Sixgill shark,Hexanchus griseus,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Bigeye sixgill shark,Hexanchus nakamurai,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Longfin mako,Isurus paucus,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Bigeye sand tiger,Odontaspis noronhai,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Whale shark,Rhincodon typus,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Caribbean sharpnose shark,Rhizoprionodon porosus,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Atlantic angel shark,Squatina dumerili,catch prohibited,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Roundscale spearfish,Roundscale spearfish,Tetrapturus georgii,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Sailfish,Sailfish,Istiophorus platypterus,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Skipjack tuna,Skipjack tuna,Katsuwonus pelamis,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Smoothhound Sharks,Smooth dogfish,Mustelus canis,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Smoothhound Sharks,Florida smoothhound,Mustelus norrisi,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Smoothhound Sharks,Gulf smoothhound,Mustelus sinusmexicanus,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Swordfish,Swordfish,Xiphias gladius,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,White marlin,White marlin,Kajikia albida,constant F,,,,,,
+NOAA,Atlantic/Gulf HMS FMP,Yellowfin tuna,Yellowfin tuna,Thunnus albacares,constant F,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Eastern Pacific-Swordfish,Swordfish,Xiphias gladius,international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Western and Central North Pacific-Swordfish,Swordfish,Xiphias gladius,international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Common thresher shark,Common thresher shark,Alopias vulpinus,international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Shortfin mako shark,Shortfin mako shark,Isurus oxyrinchus,international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Blue shark,Blue shark,Prionace glauca,international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Eastern Pacific-Yellowfin tuna,Yellowfin tuna,Thunnus albacares,international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Western and Central Pacific-Yellowfin tuna,Yellowfin tuna,Thunnus albacares,international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Eastern Pacific-Skipjack tuna,Skipjack tuna,Katsuwonus pelamis,international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Western and Central Pacific-Skipjack tuna,Skipjack tuna,Katsuwonus pelamis,international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Eastern Pacific-Bigeye tuna,Bigeye tuna,Thunnus obesus,international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Western and Central Pacific-Bigeye tuna,Bigeye tuna,Thunnus obesus,international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Eastern Pacific-Striped marlin,Striped marlin,Tetrapturus audax,international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Western and Central North Pacific-Striped marlin,Striped marlin,Tetrapturus audax,international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Dorado (Dolphinfish),Dorado (Dolphinfish),Coryphaena hippurus),international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Pacific bluefin tuna,Bluefin tuna,Thunnus orientalis,international exception,,,,,,
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,North Pacific Albacore,North Pacific Albacore,Thunnus alalunga,international exception,,,,,,
