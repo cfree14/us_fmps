@@ -193,13 +193,13 @@ thresh_data <- data_orig %>%
   mutate(type=ifelse(is.na(type), "Unknown", type),
          type=stringr::str_to_sentence(type),
          type=recode(type,
-                     "Ramped f with cutoff" = "Threshold F",
-                     "Ramped f with biomass cutoff and environmental-link" = "Threshold F w/ envt. link",
+                     "Ramped f with cutoff" = "Ramped F",
+                     "Ramped f with biomass cutoff and environmental-link" = "Ramped F w/ envt. link",
                      "Constant f" = "Constant F",
                      "Downward sloping" = "Exempt",
                      "International exception" = "Exempt",
                      "Stepped f" = "Stepped F",
-                     "Ramped/stepped f" = "Threshold and stepped F")) %>%
+                     "Ramped/stepped f" = "Ramped/stepped F")) %>%
   # change to Catch prohibited
   mutate(type = ifelse(council_short == "SAFMC" & stock == "Goliath grouper", "Catch prohibited",
                        ifelse(council_short == "SAFMC" & stock == "Nassau Grouper", "Catch prohibited", type))) %>%
@@ -208,7 +208,7 @@ thresh_data <- data_orig %>%
   # filter out except, unknown, catch prohibited, none
   filter(!type %in% c('Catch-based', 'Constant catch', 'Catch prohibited', 'Exempt', 'Unknown', 'None')) %>%
   # Order HCR types
-  mutate(type=factor(type, levels=c("Threshold F", "Threshold F w/ envt. link", "Threshold and stepped F",
+  mutate(type=factor(type, levels=c("Ramped F", "Ramped F w/ envt. link", "Ramped/stepped F",
                                     "Stepped F", "Constant F", "Constant escapement") %>% rev())) %>%
   # select unique council-stock combo
   select(council_short, FMP_FEP, stock, type) %>%
