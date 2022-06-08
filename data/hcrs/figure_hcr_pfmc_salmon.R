@@ -230,7 +230,7 @@ my_theme <- theme(axis.text=element_text(size=6),
 g1 <- ggplot(data_default, aes(x=biomass, y=f, color=value)) +
   geom_line() +
   # Labels
-  labs(x="Spawner abundance", y="Fishing mortality rate", title="Default salmon rule") +
+  labs(x="Spawner abundance", y="Fishing mortality rate", title=" \nDefault salmon rule") +
   # X-axis
   scale_x_continuous(breaks=c(0, s_msy, k),
                      labels=c("0", expression("S"["MSY"]), expression("B"["0"]))) +
@@ -262,7 +262,7 @@ g2
 g3 <- ggplot(data_klamath, aes(x=biomass, y=f, color=value)) +
   geom_line() +
   # Labels
-  labs(x="Spawner abundance", y="Fishing mortality rate", title="Klamath/Sacramento River Fall Chinook") +
+  labs(x="Spawner abundance", y="Fishing mortality rate", title="Klamath/Sacramento River\nFall Chinook salmon") +
   # Y-axis
   scale_x_continuous(breaks=c(a, b, c, d, msst, s_msy, k),
                      labels=c("A", "B", "C", "D", "MSST", expression("S"["MSY"]), expression("B"["0"]))) +
@@ -294,7 +294,7 @@ g4
 g5 <- ggplot(data_puget_coho, aes(x=biomass, y=f, color=value)) +
   geom_line() +
   # Labels
-  labs(x="Spawner abundance", y="Fishing mortality rate", title="Puget Sound Coho") +
+  labs(x="Spawner abundance", y="Fishing mortality rate", title=" \nPuget Sound Coho salmon") +
   # X-axis
   scale_x_continuous(breaks=c(0, msst, s_msy, a1, b1, k*1.5),
                      labels=c("0", "MSST", expression("S"["MSY"]), "A", "B", "B0")) +
@@ -329,7 +329,7 @@ g <- gridExtra::grid.arrange(g1, g2, g5, g6, g3, g4, layout_matrix=layout_matrix
 
 # Export plot
 ggsave(g, filename=file.path(plotdir, "figure_hcr_pfmc_salmon.png"),
-       width=6.5, height=4, units="in", dpi=600)
+       width=6.5, height=4.5, units="in", dpi=600)
 
 
 

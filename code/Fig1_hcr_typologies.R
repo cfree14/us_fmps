@@ -152,9 +152,9 @@ my_theme <-  theme(axis.text=element_text(size=7),
 g1 <- ggplot(data, aes(x=biomass, y=f, color=hcr_type)) +
   facet_wrap(~hcr, nrow=1) +
   # Reference line
-  geom_hline(yintercept = fmsy, linetype="dotted", color="grey80", lwd=0.5) +
+  geom_hline(yintercept = fmsy, linetype="dotted", color="grey80", lwd=0.7) +
   # Data
-  geom_line(lwd=1.2, show.legend = F) +
+  geom_line(lwd=1.1, show.legend = F) +
   # Labels
   labs(x="Biomass", y="Fishing mortality rate",
        title="Data-limited rules                      Data-rich rules") +
@@ -171,9 +171,9 @@ g1
 g2 <- ggplot(data, aes(x=biomass, y=catch, color=hcr_type)) +
   facet_wrap(~hcr, nrow=1) +
   # Reference line
-  geom_hline(yintercept = msy, linetype="dotted", color="grey80", lwd=0.5) +
+  geom_hline(yintercept = msy, linetype="dotted", color="grey80", lwd=0.7) +
   # Data
-  geom_line(lwd=1.2) +
+  geom_line(lwd=1.1) +
   # Labels
   labs(x="Biomass", y="Annual catch limit") +
   scale_color_manual(name="", values=c("darkorange2", "#AF7AC5", "#138D75", "#1B4F72")) +
