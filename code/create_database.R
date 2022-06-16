@@ -10,6 +10,7 @@ library(tidyverse)
 library(googlesheets4)
 
 ## directories
+save_path <- "data/data_base"
 
 ## google sheet path
 db_gsheet <- "https://docs.google.com/spreadsheets/d/1F_7i9cX2ComJtWUdXo8CoSR9Uj40VrGvCLFNCUzfKgs/edit#gid=1308093643"
@@ -70,11 +71,58 @@ buffer_df_adj <- buffer_df2 %>%
 full_db <- db_df2 %>%
   left_join(buffer_df_adj)
 
-## format database
 
+# Format data
+################################################################################
 
+# Build data
+data <- full_db %>%
+  # filter out Fish Resource of the Arctic FMP
+  filter(FMP_FEP != 'Fish Resource of the Arctic FMP') %>%
+  # make separate entries for Other rockfish-slope sub-group, NPFMC, North Pacific Fishery Management Council
+  mutate(stock = ifelse(id == "NPFMC-GOA groundfish FMP-Other rockfish-slope sub-group-sharpchin rockfish-S. zacentrus",
+                        'Other rockfish-slope sub-group (sharpchin rockfish)', stock)) %>%
+  # Recode HCR type
+  mutate(type_adj = ifelse(is.na(type), "Unknown", type),
+         type_adj = stringr::str_to_sentence(type_adj),
+         type_adj = ifelse(grepl("Ramped", type_adj), "Threshold F", type_adj),
+         type_adj = recode(type_adj,
+                     # "None"="Unknown",
+                     "Constant f"="Constant F",
+                     "Downward sloping"="Exempt",
+                     "International exception"="Exempt",
+                     "Stepped f"="Threshold F")) %>%
+  # change to Catch prohibited
+  mutate(type = ifelse(council_short == "SAFMC" & stock == "Nassau Grouper", "Catch prohibited", type)) %>%
+  select(id, council, council_short, FMP_FEP, stock, common_name, sci_name, tier_level, type, type_adj, biomass_limit,
+         ramped_shape, env_linked, notes, p_star, abc_buffer, acl_buffer, act_buffer, buffer_notes, buffer_ref)
 
+# ## do individual sp. have different buffers?
+# buffer_check <- data %>%
+#   group_by(council_short, FMP_FEP, stock, type_adj) %>%
+#   summarise(n_buffers = length(unique(abc_buffer))) %>%
+#   ungroup()
+#
+# ## make separate entries for Other rockfish-slope sub-group, NPFMC, North Pacific Fishery Management Council
 
+## db to share, v1
+data_share1 <- data %>%
+  select(council_short, FMP_FEP, stock, common_name, sci_name, hcr_type = type_adj, biomass_limit, p_star, abc_buffer, acl_buffer, act_buffer)
+
+## save
+write_csv(data_share1, file.path(save_path, "hcr_database_v1.csv"))
+
+## database by stock
+stock_data <- data %>%
+  # select unique council-stock combo
+  select(council, council_short, FMP_FEP, stock, type, type_adj, biomass_limit, p_star, abc_buffer, acl_buffer, act_buffer) %>%
+  unique()
+
+data_share2 <- stock_data %>%
+  select(council_short, FMP_FEP, stock, hcr_type = type_adj, biomass_limit, p_star, abc_buffer, acl_buffer, act_buffer)
+
+## save
+write_csv(data_share2, file.path(save_path, "hcr_database_v2.csv"))
 
 
 

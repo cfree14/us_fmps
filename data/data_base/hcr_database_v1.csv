@@ -1,0 +1,877 @@
+council_short,FMP_FEP,stock,common_name,sci_name,hcr_type,biomass_limit,p_star,abc_buffer,acl_buffer,act_buffer
+CFMC,Caribbean Queen Conch FMP,Queen conch,Queen conch,Strombus gigas,Constant catch,0,NA,0.90248050585312,0,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Angelfish,Queen angelfish,Holacanthus ciliaris,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Angelfish,gray angelfish,Pomacanthus arcuatus,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Angelfish,French angelfish,Pomacanthus paru,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Angelfish,Queen angelfish,Holacanthus ciliaris,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Angelfish,gray angelfish,Pomacanthus arcuatus,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Angelfish,French angelfish,Pomacanthus paru,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Angelfish,Queen angelfish,Holacanthus ciliaris,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Angelfish,gray angelfish,Pomacanthus arcuatus,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Angelfish,French angelfish,Pomacanthus paru,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Boxfish,Honeycomb cowfish,Lactophrys polygonia,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Boxfish,scrawled cowfish,Lactophrys guadricornis,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Boxfish,trunkfish,Lactophrys trigonus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Boxfish,spotted trunkfish,Lactophrys bicaudalis,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Boxfish,smooth trunkfish,Lactophrys trigueter,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Boxfish,Honeycomb cowfish,Lactophrys polygonia,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Boxfish,scrawled cowfish,Lactophrys guadricornis,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Boxfish,trunkfish,Lactophrys trigonus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Boxfish,spotted trunkfish,Lactophrys bicaudalis,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Boxfish,smooth trunkfish,Lactophrys trigueter,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Boxfish,Honeycomb cowfish,Lactophrys polygonia,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Boxfish,scrawled cowfish,Lactophrys guadricornis,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Boxfish,trunkfish,Lactophrys trigonus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Boxfish,spotted trunkfish,Lactophrys bicaudalis,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Boxfish,smooth trunkfish,Lactophrys trigueter,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Goatfish,Spotted goatfish,Pseudupeneus maculatus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Goatfish,yellow goatfish,Mulloidichthys martinicus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Goatfish,Spotted goatfish,Pseudupeneus maculatus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Goatfish,yellow goatfish,Mulloidichthys martinicus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Goatfish,Spotted goatfish,Pseudupeneus maculatus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Goatfish,yellow goatfish,Mulloidichthys martinicus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,Nassau grouper,Epinephelus striatus,Catch prohibited,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,goliath grouper,Epinephelus itajara,Catch prohibited,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,coney,Epinephelus fulvus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,graysby,Epinephelus cruentatus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,red hind,Epinephelus guttatus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,rock hind,Epinephelus adscensionis,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,black grouper,Mycteroperca bonaci,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,red grouper,Epinephelus morio,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,tiger grouper,Mycteroperca tigris,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,yellowfin grouper,Mycteroperca venenosa,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,misty grouper,Epinephelus mystacinus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Groupers,yellowedge grouper,Epinephelus flavolimbatus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,Nassau grouper,Epinephelus striatus,Catch prohibited,0,NA,0,NA,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,goliath grouper,Epinephelus itajara,Catch prohibited,0,NA,0,NA,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,coney,Epinephelus fulvus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,graysby,Epinephelus cruentatus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,red hind,Epinephelus guttatus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,rock hind,Epinephelus adscensionis,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,black grouper,Mycteroperca bonaci,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,red grouper,Epinephelus morio,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,tiger grouper,Mycteroperca tigris,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,yellowfin grouper,Mycteroperca venenosa,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,misty grouper,Epinephelus mystacinus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Groupers,yellowedge grouper,Epinephelus flavolimbatus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,Nassau grouper,Epinephelus striatus,Catch prohibited,0,NA,0,NA,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,goliath grouper,Epinephelus itajara,Catch prohibited,0,NA,0,NA,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,coney,Epinephelus fulvus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,graysby,Epinephelus cruentatus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,red hind,Epinephelus guttatus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,rock hind,Epinephelus adscensionis,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,black grouper,Mycteroperca bonaci,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,red grouper,Epinephelus morio,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,tiger grouper,Mycteroperca tigris,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,yellowfin grouper,Mycteroperca venenosa,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,misty grouper,Epinephelus mystacinus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Groupers,yellowedge grouper,Epinephelus flavolimbatus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Grunts,White grunt,Haemulon plumieri,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Grunts,margate,Haemulon album,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Grunts,tomtate,Haemulon aurolineatum,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Grunts,bluestriped grunt,Haemulon sciurus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Grunts,French grunt,Haemulon flavolineatum,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Grunts,porkfish,Anisotremus virginicus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Grunts,White grunt,Haemulon plumieri,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Grunts,margate,Haemulon album,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Grunts,tomtate,Haemulon aurolineatum,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Grunts,bluestriped grunt,Haemulon sciurus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Grunts,French grunt,Haemulon flavolineatum,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Grunts,porkfish,Anisotremus virginicus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Grunts,White grunt,Haemulon plumieri,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Grunts,margate,Haemulon album,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Grunts,tomtate,Haemulon aurolineatum,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Grunts,bluestriped grunt,Haemulon sciurus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Grunts,French grunt,Haemulon flavolineatum,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Grunts,porkfish,Anisotremus virginicus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Jacks,Blue runner,Caranx crysos,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Jacks,horse-eye jack,Caranx latus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Jacks,black jack,Caranx lugubris,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Jacks,almaco jack,Seriola rivoliana,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Jacks,bar jack,Caranx ruber,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Jacks,greater amberjack,Seriola dumerili,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Jacks,yellow jack,Caranx bartholornaei,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Jacks,Blue runner,Caranx crysos,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Jacks,horse-eye jack,Caranx latus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Jacks,black jack,Caranx lugubris,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Jacks,almaco jack,Seriola rivoliana,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Jacks,bar jack,Caranx ruber,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Jacks,greater amberjack,Seriola dumerili,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Jacks,yellow jack,Caranx bartholornaei,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Jacks,Blue runner,Caranx crysos,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Jacks,horse-eye jack,Caranx latus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Jacks,black jack,Caranx lugubris,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Jacks,almaco jack,Seriola rivoliana,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Jacks,bar jack,Caranx ruber,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Jacks,greater amberjack,Seriola dumerili,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Jacks,yellow jack,Caranx bartholornaei,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,Blue parrotfish,Scarus coeruleus,Catch prohibited,0,NA,0,NA,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,midnight parrotfish,Scarus coelestinus,Catch prohibited,0,NA,0,NA,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,rainbow parrotfish,Scarus guacamaia,Catch prohibited,0,NA,0,NA,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,queen parrotfish,Scarus vetula,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,redfin parrotfish,Sparisoma rubripinne,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,redtail parrotfish,Sparisoma chrysopterum,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,stoplight parrotfish,Sparisoma viride,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,redband parrotfish,Sparisoma aurofrenatum,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Parrotfish,striped parrotfish,Scarus croicensis,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,Blue parrotfish,Scarus coeruleus,Catch prohibited,0,NA,0,NA,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,midnight parrotfish,Scarus coelestinus,Catch prohibited,0,NA,0,NA,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,rainbow parrotfish,Scarus guacamaia,Catch prohibited,0,NA,0,NA,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,queen parrotfish,Scarus vetula,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,redfin parrotfish,Sparisoma rubripinne,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,redtail parrotfish,Sparisoma chrysopterum,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,stoplight parrotfish,Sparisoma viride,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,redband parrotfish,Sparisoma aurofrenatum,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Parrotfish,striped parrotfish,Scarus croicensis,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,Blue parrotfish,Scarus coeruleus,Catch prohibited,0,NA,0,NA,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,midnight parrotfish,Scarus coelestinus,Catch prohibited,0,NA,0,NA,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,rainbow parrotfish,Scarus guacamaia,Catch prohibited,0,NA,0,NA,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,queen parrotfish,Scarus vetula,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,redfin parrotfish,Sparisoma rubripinne,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,redtail parrotfish,Sparisoma chrysopterum,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,stoplight parrotfish,Sparisoma viride,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,redband parrotfish,Sparisoma aurofrenatum,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Parrotfish,striped parrotfish,Scarus croicensis,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Scups & Porgies,Jolthead porgy,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Scups & Porgies,sea bream,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Scups & Porgies,sheepshead porgy,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Scups & Porgies,pluma,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Scups & Porgies,Jolthead porgy,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Scups & Porgies,sea bream,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Scups & Porgies,sheepshead porgy,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Scups & Porgies,pluma,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Scups & Porgies,Jolthead porgy,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Scups & Porgies,sea bream,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Scups & Porgies,sheepshead porgy,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Scups & Porgies,pluma,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 1,Black snapper,Apsilus dentatus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 1,blackfin snapper,Lutjanus buccanella,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 1,silk snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 1,vermilion snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 1,wenchman,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 2,Cardinal snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 2,queen snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 3,Gray snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 3,lane snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 3,mutton snapper,Lutjanus analis,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 3,dog snapper,Lutjanus jocu,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 3,schoolmaster,Lutjanus apodus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 3,mahogany snapper,Lutjanus mahogani,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Snapper Unit 4,Yellowtail snapper,Ocyurus chrysurus,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,Black snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,blackfin snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,silk snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,vermilion snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,wenchman,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,Cardinal snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,queen snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,Gray snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,lane snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,mutton snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,dog snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,schoolmaster,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,mahogany snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Snappers,Yellowtail snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,Black snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,blackfin snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,silk snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,vermilion snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,wenchman,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,Cardinal snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,queen snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,Gray snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,lane snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,mutton snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,dog snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,schoolmaster,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,mahogany snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Snappers,Yellowtail snapper,NA,Constant catch,0,NA,0,0.15000000000000002,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Squirrelfish,Blackbar soldierfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Squirrelfish,bigeye,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Squirrelfish,longspine squirrelfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Squirrelfish,squirrelfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Squirrelfish,Blackbar soldierfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Squirrelfish,bigeye,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Squirrelfish,longspine squirrelfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Squirrelfish,squirrelfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Squirrelfish,Blackbar soldierfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Squirrelfish,bigeye,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Squirrelfish,longspine squirrelfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Squirrelfish,squirrelfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Surgeonfish,Blue tang,NA,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Surgeonfish,ocean surgeonfish,NA,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Surgeonfish,doctorfish,NA,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Surgeonfish,Blue tang,NA,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Surgeonfish,ocean surgeonfish,NA,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Surgeonfish,doctorfish,NA,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Surgeonfish,Blue tang,NA,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Surgeonfish,ocean surgeonfish,NA,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Surgeonfish,doctorfish,NA,Constant catch,0,NA,0,0.25,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Triggerfish & Filefish,Ocean triggerfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Triggerfish & Filefish,queen triggerfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Triggerfish & Filefish,sargassum triggerfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Triggerfish & Filefish,scrawled filefish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Triggerfish & Filefish,whitespotted filefish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Triggerfish & Filefish,black durgon,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Triggerfish & Filefish,Ocean triggerfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Triggerfish & Filefish,queen triggerfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Triggerfish & Filefish,sargassum triggerfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Triggerfish & Filefish,scrawled filefish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Triggerfish & Filefish,whitespotted filefish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Triggerfish & Filefish,black durgon,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Triggerfish & Filefish,Ocean triggerfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Triggerfish & Filefish,queen triggerfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Triggerfish & Filefish,sargassum triggerfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Triggerfish & Filefish,scrawled filefish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Triggerfish & Filefish,whitespotted filefish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Triggerfish & Filefish,black durgon,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Wrasses,Hogfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Wrasses,puddingwife,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,Puerto Rico-Wrasses,Spanish hogfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Wrasses,Hogfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Wrasses,puddingwife,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Thomas and St. John-Wrasses,Spanish hogfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Wrasses,Hogfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Wrasses,puddingwife,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Reef Fish FMP,St. Croix-Wrasses,Spanish hogfish,NA,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Spiny Lobster FMP,Puerto Rico-spiny lobster,spiny lobster,Panulirus argus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Spiny Lobster FMP,St. Croix-spiny lobster,spiny lobster,Panulirus argus,Constant catch,0,NA,0,0.09999999999999998,0
+CFMC,Caribbean Spiny Lobster FMP,St. Thomas and St. John-spiny lobster,spiny lobster,Panulirus argus,Constant catch,0,NA,0,0.09999999999999998,0
+GMFMC/SAFMC,Coastal Migratory Pelagic FMP,Gulf of Mexico-King mackerel,King mackerel,Scomberomorus cavalla,Constant F,0,0.43,0.039,NA,NA
+GMFMC/SAFMC,Coastal Migratory Pelagic FMP,South Atlantic coast-King mackerel,King mackerel,Scomberomorus cavalla,Constant F,0,0.4,NA,NA,NA
+GMFMC/SAFMC,Coastal Migratory Pelagic FMP,Gulf of Mexico-Spanish mackerel,Spanish mackerel,Scomberomorus maculatus,Constant F,0,NA,0.25,NA,NA
+GMFMC/SAFMC,Coastal Migratory Pelagic FMP,South Atlantic coast-Spanish mackerel,Spanish mackerel,Scomberomorus maculatus,Constant F,0,0.4,NA,NA,NA
+GMFMC/SAFMC,Coastal Migratory Pelagic FMP,Gulf of Mexico-Cobia,Cobia,Rachycentron canadum,Constant F,0,0.434,0.046,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Goliath grouper,Goliath grouper,Epinephelus itajara,Catch prohibited,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Mutton snapper,Mutton snapper,Lutjanus analis,Constant F,0,NA,0.04,0,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Red snapper,Red snapper,Lutjanus campechanus,Constant F,0,NA,0.025,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Gray snapper,Gray snapper,Lutjanus griseus,Constant F,0,NA,0.25,0,0.14
+GMFMC,Gulf of Mexico Reef Fish FMP,Yellowtail snapper,Yellowtail snapper,Ocyurus chrysurus,Constant F,0,0.4,NA,0,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Vermilion snapper,Vermilion snapper,NA,Constant F,0,0.398,0.25,0,0.14
+GMFMC,Gulf of Mexico Reef Fish FMP,Shallow water grouper,Red grouper,NA,Constant F,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Gag,Gag,NA,Constant F,0,NA,0.25,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Greater amberjack,Greater amberjack,NA,Constant F,0,NA,0.25,0,0.16
+GMFMC,Gulf of Mexico Reef Fish FMP,Gray triggerfish,Gray triggerfish,NA,Constant F,0,0.4,0.24,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Hogfish,Hogfish,NA,Constant F,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Lane Snapper,Lane Snapper,NA,Constant F,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Mid-water snapper,Queen Snapper,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Mid-water snapper,Blackfin Snapper,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Cubera snapper,Cubera snapper,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Mid-water snapper,Silk Snapper,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Mid-water snapper,Wenchman,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Deep water grouper,Speckled hind,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Deep water grouper,Yellowedge grouper,NA,Catch-based,0,NA,0.25,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Deep water grouper,Warsaw grouper,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Deep water grouper,Snowy grouper,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Shallow water grouper,Black grouper,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Shallow water grouper,Yellowmouth grouper,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Shallow water grouper,Yellowfin grouper,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Tilefishes,Goldface tilefish,NA,Catch-based,0,NA,0.25,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Tilefishes,Blueline tilefish,NA,Catch-based,0,NA,0.25,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Tilefishes,Golden tilefish,NA,Catch-based,0,NA,0.25,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Jacks Complex,Lesser amberjack,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Jacks Complex,Almaco jack,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Jacks Complex,Banded rudderfish,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Gulf of Mexico Reef Fish FMP,Shallow water grouper,Scamp,NA,Catch-based,0,NA,NA,NA,NA
+GMFMC,Red Drum FMP,Red drum,Red drum,Sciaenops ocellatus,Catch prohibited,0,NA,NA,NA,NA
+GMFMC,Shrimp FMP,Royal red shrimp,Royal red shrimp,Pleoticus robustus,Constant catch,0,NA,NA,NA,NA
+GMFMC,Shrimp FMP,Pink shrimp,Pink shrimp,Farfantepenaeus duorarum,None,0,NA,NA,NA,NA
+GMFMC,Shrimp FMP,White shrimp,White shrimp,Litopenaeus setiferus,None,0,NA,NA,NA,NA
+GMFMC,Shrimp FMP,Brown shrimp,Brown shrimp,Farfantepenaeus aztecus,None,0,NA,NA,NA,NA
+GMFMC/SAFMC,Spiny Lobster FMP,Spiny lobster,Spiny lobster,Panulirus argus,Catch-based,0,NA,0.0734177215189874,0,0.09999999999999998
+MAFMC,Bluefish FMP,Bluefish,Bluefish,Pomatomus saltatrix,Threshold F,1,NA,0.3772189,0,0
+MAFMC,Golden and Blueline Tilefish FMP,Golden tilefish,Golden tilefish,Lopholatilus chamaelonticeps,Threshold F,1,NA,0.28590140000000003,0,0
+MAFMC,Golden and Blueline Tilefish FMP,Blueline tilefish,Blueline tilefish,Caulolatilus microps,Catch-based,0,NA,NA,0,0
+MAFMC,"Mackerel, Squid, Butterfish FMP",Atlantic mackerel,Atlantic mackerel,Scomber scrombus,Threshold F,1,NA,NA,0,NA
+MAFMC,"Mackerel, Squid, Butterfish FMP",Chub mackerel,Chub mackerel,Scomber colias,Catch-based,0,NA,0.2399207,0,0.04
+MAFMC,"Mackerel, Squid, Butterfish FMP",Illex squid,Illex squid,Illex illecebrosus,Catch-based,0,NA,NA,0.0461,0
+MAFMC,"Mackerel, Squid, Butterfish FMP",Longfin squid,Longfin squid,Doryteuthis (Amerigo) pealeii,Catch-based,0,NA,NA,0.02,0
+MAFMC,"Mackerel, Squid, Butterfish FMP",Butterfish,Butterfish,Peprilus triacanthus,Threshold F,1,NA,NA,0,0.0500168
+MAFMC,"Mid-Atlantic summer flounder, scup, black sea bass FMP",Summer flounder,Summer flounder,Paralichthys dentatus,Threshold F,1,NA,0.1910149,0.4594487,0
+MAFMC,"Mid-Atlantic summer flounder, scup, black sea bass FMP",Scup,Scup,Stenotomus chrysops,Threshold F,1,NA,0.01382064,0.2198692,0
+MAFMC,"Mid-Atlantic summer flounder, scup, black sea bass FMP",Sea bass,Black sea bass,Centropristis striata,Threshold F,1,NA,0.2227953,0.536828,0
+NEFMC,Atlantic Salmon FMP,Atlantic salmon,Atlantic salmon,Salmo salar,Catch prohibited,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Gulf of Maine-Atlantic cod,Atlantic cod,Gadus morhua,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Georges Bank-Atlantic cod,Atlantic cod,Gadus morhua,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Acadian redfish,Acadian redfish,Sebastes fasciatus,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Atlantic wolffish,Atlantic wolffish,Anarhichas lupus,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Witch flounder,Witch flounder,Glyptocephalus cynoglossus,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Gulf of Maine-Haddock,Haddock,Melanogrammus aeglefinus,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Georges Bank-Haddock,Haddock,Melanogrammus aeglefinus,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Gulf of Maine-Winter flounder,Winter flounder,Pseudopleuronectes americanus,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Georges Bank-Winter flounder,Winter flounder,Pseudopleuronectes americanus,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Southern New England/Mid-Atlantic-Winter flounder,Winter flounder,Pseudopleuronectes americanus,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,White hake,White hake,Urophycis tenuis,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Northern-Windowpane flounder,Windowpane flounder,Scophthalmus aquosus,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Southern-Windowpane flounder,Windowpane flounder,Scophthalmus aquosus,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Atlantic pollock,Atlantic pollock,Pollachius virens,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Georges Bank-Yellowtail flounder,Yellowtail flounder,Limanda ferruginea,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Southern New England/Mid-AtlanticYellowtail flounder,Yellowtail flounder,Limanda ferruginea,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Cape Cod/Gulf of Maine-Yellowtail flounder,Yellowtail flounder,Limanda ferruginea,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Atlantic halibut,Atlantic halibut,Hippoglossus hippoglossus,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,American plaice,American plaice,Hippoglossoides platessoides,Constant F,0,NA,NA,NA,NA
+NEFMC,Northeast Multispecies FMP,Ocean pout,Ocean pout,Zoarces americanus,Constant F,0,NA,NA,NA,NA
+NEFMC,Red Crab FMP,Red crab,Red crab,Chaceon quinquedens,Constant catch,0,NA,NA,NA,NA
+NEFMC,Sea Scallop FMP,Sea scallop,Sea scallop,Placopecten magellanicus,Constant F,0,NA,NA,0.2,NA
+NEFMC,Skate Complex FMP,Skate complex,Barndoor skate,Dipturis laevis,Catch-based,0,NA,NA,NA,NA
+NEFMC,Skate Complex FMP,Skate complex,Clearnose skate,Raja eglanteria,Catch-based,0,NA,NA,NA,NA
+NEFMC,Skate Complex FMP,Skate complex,Little skate,Leucoraja erinacea,Catch-based,0,NA,NA,NA,NA
+NEFMC,Skate Complex FMP,Skate complex,Rosette skate,Leucoraja garmani,Catch-based,0,NA,NA,NA,NA
+NEFMC,Skate Complex FMP,Skate complex,Smooth skate,Malacoraja senta,Catch-based,0,NA,NA,NA,NA
+NEFMC,Skate Complex FMP,Skate complex,Thorny skate,Amblyraja radiata,Catch-based,0,NA,NA,NA,NA
+NEFMC,Skate Complex FMP,Skate complex,Winter skate,Leucoraja ocellata,Catch-based,0,NA,NA,NA,NA
+NEFMC,Small-Mesh Multispecies FMP,Gulf of Maine-Red hake,Red hake,Urophycis chuss,Constant F,0,NA,NA,NA,NA
+NEFMC,Small-Mesh Multispecies FMP,Southern Georges Bank-Red hake,Red hake,Urophycis chuss,Constant F,0,NA,NA,NA,NA
+NEFMC,Small-Mesh Multispecies FMP,Gulf of Maine-Silver hake,Silver hake,Merluccius bilinearis,Constant F,0,NA,NA,NA,NA
+NEFMC,Small-Mesh Multispecies FMP,Southern Georges Bank-Silver hake,Silver hake,Merluccius bilinearis,Constant F,0,NA,NA,NA,NA
+NEFMC,Small-Mesh Multispecies FMP,Offshore hake,Offshore hake,Merluccius albidus,Constant F,0,NA,NA,NA,NA
+NEFMC,Atlantic Herring FMP,Atlantic herring,Atlantic herring,Clupea harengus,Threshold F,1,NA,NA,NA,NA
+NEFMC/MAFMC,Monkfish FMP,Gulf of Maine/Northern Georges Bank-Monkfish,Monkfish,Lophius americanus,Constant F,0,NA,NA,NA,NA
+NEFMC/MAFMC,Monkfish FMP,Southern Georges Bank/Mid-Atlantic-Monkfish,Monkfish,Lophius americanus,Constant F,0,NA,NA,NA,NA
+NEFMC/MAFMC,Spiny Dogfish FMP,Spiny dogfish,Spiny dogfish,Squalus acanthias,Threshold F,1,0.4,0.19,NA,NA
+MAFMC,Surfclams and Ocean Quahogs FMP,Surfclam,Surfclam,Spisula solidissima,Threshold F,1,NA,NA,NA,NA
+MAFMC,Surfclams and Ocean Quahogs FMP,Ocean quahog,Ocean quahog,Arctica islandica,Threshold F,1,NA,NA,NA,NA
+NPFMC,Alaska Salmon FMP,Mixed sp. salmon,Coho salmon,Oncorhynchus kisutch,Constant escapement,0,NA,NA,0,NA
+NPFMC,Alaska Salmon FMP,Mixed sp. salmon,Pink salmon,Oncorhynchus gorbuscha,Constant escapement,0,NA,NA,0,NA
+NPFMC,Alaska Salmon FMP,Eastern North Pacific Far North Migrating-Chinook salmon,Chinook salmon,Oncorhynchus tshawytscha,Exempt,0,NA,NA,0,NA
+NPFMC,Alaska Salmon FMP,Coho salmon,Coho salmon,Oncorhynchus kisutch,Constant escapement,0,NA,NA,0,NA
+NPFMC,Alaska Scallop FMP,Mixed sp. salmon,Chum salmon,Oncorhynchus keta,Constant escapement,0,NA,NA,NA,NA
+NPFMC,Alaska Scallop FMP,Mixed sp. salmon,sockeye salmon,Oncorhynchus nerka,Constant escapement,0,NA,NA,NA,NA
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,EBS snow crab,EBS snow crab,NA,Threshold F,1,0.25,0.25,0,0.71
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,Bristol Bay red king crab,Bristol Bay red king crab,NA,Threshold F,1,NA,0.1,0,NA
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,EBS Tanner crab,EBS Tanner crab,NA,Threshold F,1,NA,0.2,0,0.94
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,Aleutian Island golden king crab,Aleutian Island golden king crab,NA,Threshold F,1,NA,0.25,0,0.17
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,St. Matthew blue king crab,St. Matthew blue king crab,NA,Threshold F,1,NA,0.2,0,1
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,Pribilof Islands blue king crab,Pribilof Islands blue king crab,NA,Threshold F,1,0.25,NA,0,NA
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,Pribilof Islands red king crab,Pribilof Islands red king crab,NA,Threshold F,1,0.25,NA,0,NA
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,Norton Sound red king crab,Norton Sound red king crab,NA,Threshold F,1,0.25,NA,0,NA
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,Pribilof Islands golden king crab,Pribilof Islands golden king crab,NA,Catch-based,0,NA,0.25,0,NA
+NPFMC,Bering Sea/Aleutian Islands King and Tanner Crabs FMP,Western Aleutian Islands red king crab,Western Aleutian Islands red king crab,NA,Catch-based,0,NA,0.25,0,1
+NPFMC,GOA groundfish FMP,Arrowtooth flounder,Arrowtooth flounder,NA,Threshold F,1,NA,0.16,0,0.22
+NPFMC,GOA groundfish FMP,Dusky rockfish,Dusky rockfish,NA,Threshold F,1,NA,0.18,0,0
+NPFMC,GOA groundfish FMP,Flathead sole,Flathead sole,NA,Threshold F,1,NA,0.18,0,0
+NPFMC,GOA groundfish FMP,Northern rockfish,Northern rockfish,NA,Threshold F,1,NA,0.16,0,0
+NPFMC,GOA groundfish FMP,Pacific cod,Pacific cod,NA,Threshold F,1,NA,0.18,0,0.56
+NPFMC,GOA groundfish FMP,Pacific ocean perch,Pacific ocean perch,NA,Threshold F,1,NA,0.16,0,0
+NPFMC,GOA groundfish FMP,Pollock,Pollock,NA,Threshold F,1,NA,0.14,0,NA
+NPFMC,GOA groundfish FMP,Rex sole,Rex sole,NA,Threshold F,1,NA,0.18,0,NA
+NPFMC,GOA groundfish FMP,Rougheye & blackspotted rockfish,Rougheye rockfish,NA,Threshold F,1,NA,0.17,0,0
+NPFMC,GOA groundfish FMP,Rougheye & blackspotted rockfish,blackspotted rockfish,NA,Threshold F,1,NA,0.17,0,0
+NPFMC,GOA groundfish FMP,Sablefish,Sablefish,NA,Threshold F,1,NA,0.63,0,0.17
+NPFMC,GOA groundfish FMP,Northern rock sole,Northern rock sole,Lepidopsetta polyxystra,Threshold F,1,NA,0.15,0,NA
+NPFMC,GOA groundfish FMP,Southern rock sole,Southern rock sole,Pleuronectes bilineata,Threshold F,1,NA,0.15,0,NA
+NPFMC,GOA groundfish FMP,Demersal shelf rockfish,yelloweye rockfish,NA,Constant F,0,NA,0.37,0,0
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group (sharpchin rockfish),sharpchin rockfish,S. zacentrus,Constant F,0,NA,0.18,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,yellowtail rockfish,S. flavidus,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,yellowmouth rockfish,S. reedi,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,widow rockfish,S. entomelas,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,vermilion rockfish,S. miniatus,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,stripetail rockfish,S. saxicola,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,splitnose rockfish,S. diploproa,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,silvergray rockfish,S. brevispinis,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,redstripe rockfish,S. proriger,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,redbanded rockfish,S. babcocki,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,pygmy rockfish,S. wilsoni,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,harlequin rockfish,S. variegatus,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,greenstriped rockfish,S. elongates,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,darkblotched rockfish,S. crameri,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,Chilipepper,S. goodie,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,bocaccio,S. paucispinis,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-slope sub-group,blackgill rockfish,S. melanostomus,Constant F,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Shallow water flatfish,Yellowfin sole,Pleuronectes asper,Constant F,0,NA,0.18,0,0.22
+NPFMC,GOA groundfish FMP,Shallow water flatfish,Starry flounder,Platichthys stellatus,Constant F,0,NA,0.18,0,0.22
+NPFMC,GOA groundfish FMP,Shallow water flatfish,Butter sole,Pleuronectes isolepis,Constant F,0,NA,0.18,0,0.22
+NPFMC,GOA groundfish FMP,Shallow water flatfish,English sole,Pleuronectes vetulus,Constant F,0,NA,0.18,0,0.22
+NPFMC,GOA groundfish FMP,Shallow water flatfish,Alaska plaice,Pleuronectes quadrituberculatus,Constant F,0,NA,0.18,0,0.22
+NPFMC,GOA groundfish FMP,Shallow water flatfish,Sand sole,Psettichthys melanostictus,Constant F,0,NA,0.18,0,0.22
+NPFMC,GOA groundfish FMP,Sharks-Spiny dogfish,Spiny dogfish,NA,Constant F,0,NA,0.25,0,0
+NPFMC,GOA groundfish FMP,Shortraker rockfish,Shortraker rockfish,NA,Constant F,0,NA,0.25,0,0
+NPFMC,GOA groundfish FMP,Skates,Big skate,Beringraja binoculata,Constant F,0,NA,0.25,0,0
+NPFMC,GOA groundfish FMP,Skates,longnose skates,Raja rhina,Constant F,0,NA,0.25,0,0
+NPFMC,GOA groundfish FMP,Skates,other skates,NA,Constant F,0,NA,0.25,0,0
+NPFMC,GOA groundfish FMP,Thornyhead rockfish,Thornyhead rockfish,NA,Constant F,0,NA,0.25,0,0
+NPFMC,GOA groundfish FMP,Atka mackerel,Atka mackerel,NA,Catch-based,0,NA,0.24,0,0.57
+NPFMC,GOA groundfish FMP,Deepwater flatfish,Greenland turbot,NA,Catch-based,0,NA,0.15,0,0
+NPFMC,GOA groundfish FMP,Deepwater flatfish,Kamchatka flounder,NA,Catch-based,0,NA,0.15,0,0
+NPFMC,GOA groundfish FMP,Deepwater flatfish,deepsea sole,NA,Catch-based,0,NA,0.15,0,0
+NPFMC,GOA groundfish FMP,Demersal shelf rockfish,quillback rockfish,NA,Catch-based,0,NA,0.23,0,0
+NPFMC,GOA groundfish FMP,Demersal shelf rockfish,copper rockfish,NA,Catch-based,0,NA,0.23,0,0
+NPFMC,GOA groundfish FMP,Demersal shelf rockfish,rosethorn rockfish,NA,Catch-based,0,NA,0.23,0,0
+NPFMC,GOA groundfish FMP,Demersal shelf rockfish,China rockfish,NA,Catch-based,0,NA,0.23,0,0
+NPFMC,GOA groundfish FMP,Demersal shelf rockfish,canary rockfish,NA,Catch-based,0,NA,0.23,0,0
+NPFMC,GOA groundfish FMP,Demersal shelf rockfish,tiger rockfish,NA,Catch-based,0,NA,0.23,0,0
+NPFMC,GOA groundfish FMP,Octopus,Octopus,NA,Catch-based,0,NA,NA,0,NA
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,canary rockfish,S. pinniger,Catch-based,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,China rockfish,S. nebulosus,Catch-based,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,copper rockfish,S. caurinus,Catch-based,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,quillback rockfish,S. maliger,Catch-based,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,rosethorn rockfish,S. helvomaculatus,Catch-based,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,tiger rockfish,S. nigrocinctus,Catch-based,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,yelloweye rockfish,S. ruberrimus,Catch-based,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,shortbelly rockfish,S. jordani,Catch-based,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,aurora rockfish,S. aurora,Catch-based,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Other rockfish-demersal sub-group,northern rockfish,S. polyspinis,Catch-based,0,NA,0.25,0,0.59
+NPFMC,GOA groundfish FMP,Sharks,pacific sleeper shark,NA,Catch-based,0,NA,0.25,0,0
+NPFMC,GOA groundfish FMP,Sharks,salmon shark,NA,Catch-based,0,NA,0.25,0,0
+NPFMC,GOA groundfish FMP,Sharks,other/unidentifed sharks,NA,Catch-based,0,NA,0.25,0,0
+NPFMC,GOA groundfish FMP,Deepwater flatfish,Dover sole,NA,Threshold F,1,NA,0.15,0,0
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Alaska plaice,Alaska plaice,NA,Threshold F,1,NA,0.16,0,0
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Aleutian Islands Pacific cod,Aleutian Islands Pacific cod,NA,Constant F,0,NA,0.25,0,0.33
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Aleutian Islands pollock,Aleutian Islands pollock,NA,Threshold F,1,NA,0.17,0,0.66
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Arrowtooth flounder,Arrowtooth flounder,NA,Threshold F,1,NA,0.15,0,0.86
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Atka mackerel,Atka mackerel,NA,Threshold F,1,NA,0.14,0,0.14
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Bogoslof Island Pollock,Bogoslof Island Pollock,NA,Constant F,0,NA,0.25,0,0.99
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Eastern Bering Sea Pacific Cod,Eastern Bering Sea Pacific Cod,NA,Threshold F,1,NA,0.16,0,0.09
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Eastern Bering Sea pollock,Eastern Bering Sea pollock,NA,Threshold F,1,NA,0.37,0,0.3
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Flathead sole,Flathead sole,NA,Threshold F,1,NA,0.18,0,0.71
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Greenland Turbot,Greenland Turbot,NA,Threshold F,1,NA,0.15,0,0.45
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Kamchatka flounder,Kamchatka flounder,NA,Threshold F,1,NA,0.15,0,0.3
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Northern Rock sole,Northern Rock sole,NA,Threshold F,1,NA,0.03,0,0.71
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Northern rockfish,Northern rockfish,NA,Threshold F,1,NA,0.18,0,0.38
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Octopus,Octopus,NA,Catch-based,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,Arctic flounder,Liopsetta glacialis,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,butter sole,Isopsetta isolepis,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,curlfin sole,Pleuronectes decurrens,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,deepsea sole,Embassichths bathybius,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,Dover sole,Microstomus pacificus,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,English sole,Parophrys vetulus,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,longhead dab,Limanda proboscidea,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,Pacific sanddab,Citharichthys sordidus,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,petrale sole,Eopsetta jordani,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,rex sole,Glyptocephalus zachirus,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,roughscale sole,Clidodoerma asperrimum,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,sand sole,Psettichthys melanostictus,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,slender sole,Lyopsetta exilis,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,starry flounder,Platichthys stellatus,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other flatfish,Sakhalin sole,Limanda sakhalinensis,Constant F,0,NA,0.25,0,NA
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Other rockfish,Other rockfish,"24 species, including unidentified",Constant F,0,NA,0.25,0,0.2
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Pacific ocean perch,Pacific ocean perch,NA,Threshold F,1,NA,0.16,0,0.12
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Rougheye & blackspotted rockfish,Rougheye rockfish,Sebastes aleutianus,Threshold F,1,NA,0.15,0,0.5
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Rougheye & blackspotted rockfish,blackspotted rockfish,Sebastes melanostictus,Threshold F,1,NA,0.15,0,0.5
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Sablefish,Sablefish,NA,Threshold F,1,NA,0.63,0,0.17
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Sharks,spiny dogfish,NA,Constant F,0,NA,0.25,0,0.88
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Sharks,Pacific sleeper shark,NA,Constant F,0,NA,0.25,0,0.88
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Sharks,salmon shark,NA,Constant F,0,NA,0.25,0,0.88
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Sharks,other/unidentified sharks,NA,Constant F,0,NA,0.25,0,0.88
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Shortraker rockfish,Shortraker rockfish,NA,Constant F,0,NA,0.25,0,0.31
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Skates,Other skates,NA,Constant F,0,NA,0.25,0,0.61
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Skates,Alaska skate,NA,Threshold F,1,NA,0.14,0,0.61
+NPFMC,Groundfish of the Bering Sea and Aleutian Islands FMP,Yellowfin sole,Yellowfin sole,NA,Threshold F,1,NA,0.08,0,0.41
+PFMC,Pacific coastal pelagics FMP,Pacific sardine,Pacific sardine,Sardinops sagax caerulea,Threshold F,0,NA,0.12,0,NA
+PFMC,Pacific coastal pelagics FMP,Pacific chub mackerel,Pacific chub mackerel,Scomber colias,Threshold F,1,NA,0.06,0,NA
+PFMC,Pacific coastal pelagics FMP,Northern anchovy,Northern anchovy,Engraulis mordax,Catch-based,0,NA,0.75,0,NA
+PFMC,Pacific coastal pelagics FMP,Market squid,Market squid,Doryteuthis opalescens,Exempt,0,NA,NA,NA,NA
+PFMC,Pacific coastal pelagics FMP,Jack mackerel,Jack mackerel,Trachurus symmetricus,Catch-based,0,NA,0.75,0,NA
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,Euphausia pacifica,Catch prohibited,0,NA,NA,NA,NA
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,Thysanoessa spinifera,Catch prohibited,0,NA,NA,NA,NA
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,Nyctiphanes simplex,Catch prohibited,0,NA,NA,NA,NA
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,Nematocelis difficilis,Catch prohibited,0,NA,NA,NA,NA
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,T. gregaria,Catch prohibited,0,NA,NA,NA,NA
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,E. recurva,Catch prohibited,0,NA,NA,NA,NA
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,E. gibboides,Catch prohibited,0,NA,NA,NA,NA
+PFMC,Pacific coastal pelagics FMP,Krill,Krill,E. eximia,Catch prohibited,0,NA,NA,NA,NA
+PFMC,Pacific Coast Groundfish FMP,OR-Black Rockfish,Black Rockfish,NA,Threshold F,1,0.45,0.174,NA,NA
+PFMC,Pacific Coast Groundfish FMP,OR-Blue,Blue,NA,Threshold F,1,0.45,0.159,NA,NA
+PFMC,Pacific Coast Groundfish FMP,3427 - 42-Cabezon,Cabezon,NA,Threshold F,1,0.45,0.074,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Cabezon,Cabezon,NA,Threshold F,1,0.45,0.074,NA,NA
+PFMC,Pacific Coast Groundfish FMP,OR-Cabezon,Cabezon,NA,Threshold F,1,0.45,0.074,NA,NA
+PFMC,Pacific Coast Groundfish FMP,OR-Kelp Greenling,Kelp Greenling,NA,Threshold F,1,0.45,0.091,NA,NA
+PFMC,Pacific Coast Groundfish FMP,WA-Cabezon,Cabezon,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,WA-Kelp Greenling,Kelp Greenling,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Cowcod,Cowcod,NA,Threshold F,1,0.4,0.267,NA,NA
+PFMC,Pacific Coast Groundfish FMP,4010 - 3427-Cowcod,Cowcod,NA,Catch-based,0,0.4,0.398,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Longspine Thornyhead,Longspine Thornyhead,NA,Threshold F,1,0.4,0.346,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 3427-Longspine Thornyhead,Longspine Thornyhead,NA,Threshold F,1,0.4,0.346,NA,NA
+PFMC,Pacific Coast Groundfish FMP,42 - 4010-Blue,Blue,NA,Threshold F,1,0.45,0.159,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Brown,Brown,NA,Threshold F,1,0.45,0.19,NA,NA
+PFMC,Pacific Coast Groundfish FMP,4010 - 4616-China,China,NA,Threshold F,1,0.45,0.174,NA,NA
+PFMC,Pacific Coast Groundfish FMP,WA-China,China,NA,Threshold F,1,0.45,0.174,NA,NA
+PFMC,Pacific Coast Groundfish FMP,WA-Copper,Copper,NA,Threshold F,1,0.45,0.126,NA,NA
+PFMC,Pacific Coast Groundfish FMP,OR-Copper,Copper,NA,Threshold F,1,0.45,0.126,NA,NA
+PFMC,Pacific Coast Groundfish FMP,42 - 4010-Copper,Copper,NA,Threshold F,1,0.45,0.126,NA,NA
+PFMC,Pacific Coast Groundfish FMP,OR-Quillback,Quillback,NA,Threshold F,1,0.45,0.126,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Black and Yellow,Black and Yellow,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,WA-Blue,Blue,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Calico,Calico,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Gopher,Gopher,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Grass,Grass,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Kelp,Kelp,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Olive,Olive,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,WA-Quillback,Quillback,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Treefish,Treefish,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,4010 - 3427-Blue,Blue,NA,Threshold F,1,0.45,0.159,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Brown,Brown,NA,Threshold F,1,0.45,0.19,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-China,China,NA,Threshold F,1,0.45,0.174,NA,NA
+PFMC,Pacific Coast Groundfish FMP,4010 - 3427-Copper,Copper,NA,Threshold F,1,0.45,0.126,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Copper,Copper,NA,Threshold F,1,0.45,0.126,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Gopher,Gopher,NA,Threshold F,1,0.45,0.143,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Blue,Blue,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Calico,Calico,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Grass,Grass,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Kelp,Kelp,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Olive,Olive,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Treefish,Treefish,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CA-Kelp Greenling,Kelp Greenling,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Leopard Shark,Leopard Shark,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Rex Sole,Rex Sole,NA,Threshold F,1,0.4,0.346,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Butter Sole,Butter Sole,NA,Catch-based,0,0.4,0.398,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Curlfin Sole,Curlfin Sole,NA,Catch-based,0,0.4,0.398,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Flathead Sole,Flathead Sole,NA,Catch-based,0,0.4,0.398,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Pacific Sanddab,Pacific Sanddab,NA,Catch-based,0,0.4,0.398,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Rock Sole,Rock Sole,NA,Catch-based,0,0.4,0.398,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Sand Sole,Sand Sole,NA,Catch-based,0,0.4,0.398,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 36-Sablefish,Sablefish,NA,Threshold F,1,0.35,0.187,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 36-Sablefish,Sablefish,NA,Threshold F,1,0.35,0.187,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Chilipepper,Chilipepper,NA,Threshold F,1,0.45,0.091,NA,NA
+PFMC,Pacific Coast Groundfish FMP,42 - 4010-Vermilion,Vermilion,NA,Threshold F,1,0.45,0.065,NA,NA
+PFMC,Pacific Coast Groundfish FMP,OR-Vermilion,Vermilion,NA,Threshold F,1,0.45,0.065,NA,NA
+PFMC,Pacific Coast Groundfish FMP,42 - 4010-Greenspotted,Greenspotted,NA,Threshold F,1,0.45,0.205,NA,NA
+PFMC,Pacific Coast Groundfish FMP,42 - 4010-Squarespot,Squarespot,NA,Threshold F,1,0.45,0.126,NA,NA
+PFMC,Pacific Coast Groundfish FMP,WA-Vermilion,Vermilion,NA,Threshold F,1,0.45,0.126,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Bocaccio,Bocaccio,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Bronzespotted,Bronzespotted,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Chameleon,Chameleon,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Cowcod,Cowcod,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Flag,Flag,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Freckled,Freckled,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Greenblotched,Greenblotched,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,WA - OR-Greenspotted,Greenspotted,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Greenstriped,Greenstriped,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Halfbanded,Halfbanded,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Harlequin,Harlequin,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Honeycomb,Honeycomb,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Mexican,Mexican,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Pink,Pink,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Pinkrose,Pinkrose,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Puget Sound,Puget Sound,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Pygmy,Pygmy,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Redstripe,Redstripe,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Rosethorn,Rosethorn,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Rosy,Rosy,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Silvergray,Silvergray,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Speckled,Speckled,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Starry,Starry,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Stripetail,Stripetail,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Swordspine,Swordspine,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Tiger,Tiger,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,4010 - 3427-Vermilion,Vermilion,NA,Threshold F,1,0.45,0.065,NA,NA
+PFMC,Pacific Coast Groundfish FMP,4010 - 3427-Greenspotted,Greenspotted,NA,Threshold F,1,0.45,0.205,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Greenspotted,Greenspotted,NA,Threshold F,1,0.45,0.205,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Squarespot,Squarespot,NA,Threshold F,1,0.45,0.126,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Vermilion,Vermilion,NA,Threshold F,1,0.45,0.126,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Bronzespotted,Bronzespotted,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Chameleon,Chameleon,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Flag,Flag,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Freckled,Freckled,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Greenblotched,Greenblotched,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Greenstriped,Greenstriped,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Halfbanded,Halfbanded,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Harlequin,Harlequin,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Honeycomb,Honeycomb,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Mexican,Mexican,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Pink,Pink,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Pinkrose,Pinkrose,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Pygmy,Pygmy,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Redstripe,Redstripe,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Rosethorn,Rosethorn,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Rosy,Rosy,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Silvergray,Silvergray,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Speckled,Speckled,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Starry,Starry,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Stripetail,Stripetail,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Swordspine,Swordspine,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Tiger,Tiger,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Yellowtail Rockfish,Yellowtail Rockfish,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 3427-Shortspine Thornyhead,Shortspine Thornyhead,NA,Threshold F,1,0.4,0.346,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 3427-Shortspine Thornyhead,Shortspine Thornyhead,NA,Threshold F,1,0.4,0.346,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Aurora,Aurora,NA,Threshold F,1,0.45,0.1,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Splitnose,Splitnose,NA,Threshold F,1,0.45,0.117,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Rougheye/Blackspotted,Rougheye/Blackspotted,NA,Threshold F,1,0.45,0.19,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Sharpchin,Sharpchin,NA,Threshold F,1,0.45,0.19,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Bank,Bank,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Blackgill Rockfish,Blackgill Rockfish,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Redbanded,Redbanded,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Shortraker,Shortraker,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Yellowmouth,Yellowmouth,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Aurora,Aurora,NA,Threshold F,1,0.45,0.1,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Blackgill Rockfish,Blackgill Rockfish,NA,Threshold F,1,0.45,0.159,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Rougheye/Blackspotted,Rougheye/Blackspotted,NA,Threshold F,1,0.45,0.19,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Sharpchin,Sharpchin,NA,Threshold F,1,0.45,0.19,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Bank,Bank,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Pacific Ocean Perch,Pacific Ocean Perch,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Redbanded,Redbanded,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Shortraker,Shortraker,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Yellowmouth,Yellowmouth,NA,Catch-based,0,0.45,0.222,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Yelloweye Rockfish,Yelloweye Rockfish,NA,Threshold F,1,0.4,0.16,NA,NA
+PFMC,Pacific Coast Groundfish FMP,WA-Black Rockfish,Black Rockfish,NA,Threshold F,1,0.45,0.091,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CA-Black Rockfish,Black Rockfish,NA,Threshold F,1,0.45,0.091,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Bocaccio,Bocaccio,NA,Threshold F,1,0.45,0.083,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Canary Rockfish,Canary Rockfish,NA,Threshold F,1,0.45,0.091,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Chilipepper,Chilipepper,NA,Threshold F,1,0.45,0.091,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Darkblotched Rockfish,Darkblotched Rockfish,NA,Threshold F,1,0.45,0.083,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Dover Sole,Dover Sole,NA,Threshold F,1,0.45,0.065,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Petrale Sole,Petrale Sole,NA,Threshold F,1,0.45,0.074,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Splitnose,Splitnose,NA,Threshold F,1,0.45,0.117,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Widow Rockfish,Widow Rockfish,NA,Threshold F,1,0.45,0.074,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Yellowtail Rockfish,Yellowtail Rockfish,NA,Threshold F,1,0.45,0.083,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CA-Quillback,Quillback,NA,Threshold F,1,0.45,0.126,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Arrowtooth Flounder,Arrowtooth Flounder,NA,Threshold F,1,0.4,0.294,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Big Skate,Big Skate,NA,Threshold F,1,0.45,0.143,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-English Sole,English Sole,NA,Threshold F,1,0.45,0.19,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Lingcod,Lingcod,NA,Threshold F,1,0.45,0.126,NA,NA
+PFMC,Pacific Coast Groundfish FMP,S of 4010-Lingcod,Lingcod,NA,Threshold F,1,0.45,0.126,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Longnose Skate,Longnose Skate,NA,Threshold F,1,0.45,0.143,NA,NA
+PFMC,Pacific Coast Groundfish FMP,N of 4010-Pacific Ocean Perch,Pacific Ocean Perch,NA,Threshold F,1,0.45,0.159,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Spiny Dogfish,Spiny Dogfish,NA,Threshold F,1,0.4,0.238,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Pacific Cod,Pacific Cod,NA,Catch-based,0,0.4,0.398,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Starry Flounder,Starry Flounder,NA,Catch-based,0,0.4,0.398,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-California Scorpionfish,California Scorpionfish,NA,Unknown,NA,0.45,0.096,NA,NA
+PFMC,Pacific Coast Groundfish FMP,CW-Pacific Whiting,Pacific Whiting,NA,Threshold F,1,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - California Central Valley: Sacramento River Fall,Chinook salmon,Oncorhynchus tshawytscha,Threshold F,0,NA,0.1,NA,NA
+PFMC,Salmon FMP,Chinook salmon - California Central Valley: Sacramento River Spring,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - California Central Valley: Sacramento River Winter,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Lower River Hatchery Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Lower River Hatchery Spring,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Mid-River Bright Hatchery Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: North Lewis River Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Snake River Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Snake River Spring/Summer,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Spring Creek Hatchery Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Upper River Bright Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Upper River Spring,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Upper River Summer,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Columbia River Basin: Upper Willamette Spring,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Northern California Coast: California Coastal,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Northern California Coast: Klamath River Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,0.05,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Northern California Coast: Klamath River Spring,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Oregon Coast: Central and Northern Oregon,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Oregon Coast: Southern Oregon,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Cedar River Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Eastern Strait of Juan de Fuca Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Green River Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Mid Hood Canal Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Nisqually River Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Nooksack Spring Early,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Puyallup Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Skagit Spring,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Skagit Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Snohomish Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: Stillaguamish Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Puget Sound: White River Spring,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Grays Harbor Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Grays Harbor Spring,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Hoh Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Hoh Spring/Summer,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Hoko Summer/Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Queets Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Queets Spring/Summer,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Quillayute Fall,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Quillayute Spring/Summer,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Quinault Fall Hatchery,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Willapa Bay Fall Hatchery,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Chinook salmon - Washington Coast: Willapa Bay Fall Natural,Chinook salmon,Oncorhynchus tshawytscha,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Oregon Production Index Area: Central California Coast,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Oregon Production Index Area: Columbia River Early Hatchery,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Oregon Production Index Area: Columbia River Late Hatchery,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Oregon Production Index Area: Lower Columbia Natural,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Oregon Production Index Area: Oregon Coast Hatchery,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Oregon Production Index Area: Oregon Coast Natural,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Oregon Production Index Area: Southern Oregon/Northern California Coast,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Puget Sound: Hood Canal,coho salmon,Oncorhynchus kisutch,Threshold F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Puget Sound: Skagit,coho salmon,Oncorhynchus kisutch,Threshold F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Puget Sound: Snohomish,coho salmon,Oncorhynchus kisutch,Threshold F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Puget Sound: South Puget Sound Hatchery,coho salmon,Oncorhynchus kisutch,Threshold F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Puget Sound: Stillaguamish,coho salmon,Oncorhynchus kisutch,Threshold F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Grays Harbor,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Hoh,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Queets,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Quillayute Fall,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Quillayute Summer Hatchery,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Quinault Hatchery,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Strait of Juan de Fuca,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Willapa Bay Hatchery,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Coho salmon - Washington Coast: Willapa Bay Natural,coho salmon,Oncorhynchus kisutch,Constant F,0,NA,NA,NA,NA
+PFMC,Salmon FMP,Pink salmon - Puget Sound,pink salmon,Oncorhynchus gorbuscha,Constant F,0,NA,NA,NA,NA
+SAFMC,Golden Crab FMP,Golden Crab,Golden Crab,NA,Constant catch,0,NA,NA,0,NA
+SAFMC,Shrimp FMP,Brown shrimp,Brown shrimp,NA,Unknown,NA,NA,NA,NA,NA
+SAFMC,Shrimp FMP,Pink shrimp,Pink shrimp,NA,Catch-based,0,NA,NA,NA,NA
+SAFMC,Shrimp FMP,Rock shrimp,Rock shrimp,NA,Catch-based,0,NA,NA,NA,NA
+SAFMC,Shrimp FMP,White shrimp,White shrimp,NA,Catch-based,0,NA,NA,NA,NA
+SAFMC,South Atlantic dolphin/wahoo FMP,Dolphin,Dolphin,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic dolphin/wahoo FMP,Wahoo,Wahoo,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Deepwater Complex,Yellowedge Grouper,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Deepwater Complex,Silk Snapper,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Deepwater Complex,Misty Grouper,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Deepwater Complex,Sand Tilefish,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Deepwater Complex,Queen Snapper,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Deepwater Complex,Blackfin Snapper,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Grunts Complex,White Grunt,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Grunts Complex,Tomtate,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Grunts Complex,Margate,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Grunts Complex,Sailor's Choice,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Jacks Complex,Almaco Jack,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Jacks Complex,Banded Rudderfish,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Jacks Complex,Lesser Amberjack,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Black sea bass,Black sea bass,NA,Constant F,0,0.4,0.25,0.03,0
+SAFMC,South Atlantic snapper grouper FMP,Blueline Tilefish,Blueline Tilefish,NA,Constant F,0,0.3,NA,0.02,0
+SAFMC,South Atlantic snapper grouper FMP,Gag,Gag,NA,Constant F,0,0.3,NA,0.05,NA
+SAFMC,South Atlantic snapper grouper FMP,Golden tilefish,Golden tilefish,NA,Constant F,0,NA,0.25,0,0
+SAFMC,South Atlantic snapper grouper FMP,Greater amberjack,Greater amberjack,NA,Constant F,0,NA,0.25,0,0
+SAFMC,South Atlantic snapper grouper FMP,FLK/EFL Hogfish,FLK/EFL Hogfish,NA,Constant F,0,0.275,0.3,0.05,NA
+SAFMC,South Atlantic snapper grouper FMP,Mutton Snapper,Mutton Snapper,NA,Constant F,0,0.3,0.06,0,0
+SAFMC,South Atlantic snapper grouper FMP,Red grouper,Red grouper,NA,Constant F,0,NA,0.25,0,0
+SAFMC,South Atlantic snapper grouper FMP,Red porgy,Red porgy,NA,Constant F,0,NA,0.25,0,0
+SAFMC,South Atlantic snapper grouper FMP,Red snapper,Red snapper,NA,Constant F,0,0.5,NA,NA,NA
+SAFMC,South Atlantic snapper grouper FMP,Snowy grouper,Snowy grouper,NA,Constant F,0,0.5,0.25,NA,NA
+SAFMC,South Atlantic snapper grouper FMP,Vermilion snapper,Vermilion snapper,NA,Constant F,0,0.275,NA,0,0
+SAFMC,South Atlantic snapper grouper FMP,Wreckfish,Wreckfish,NA,Constant F,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Yellowtail Snapper,Yellowtail Snapper,NA,Constant F,0,0.375,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Atlantic Spadefish,Atlantic Spadefish,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Bar Jack,Bar Jack,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Black grouper,Black grouper,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Gray Triggerfish,Gray Triggerfish,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,GA-NC Hogfish,GA-NC Hogfish,NA,Catch-based,0,0.275,NA,0.05,0
+SAFMC,South Atlantic snapper grouper FMP,Scamp,Scamp,NA,Catch-based,0,NA,NA,0.1,NA
+SAFMC,South Atlantic snapper grouper FMP,Speckled hind,Speckled hind,NA,Catch-based,0,NA,NA,NA,NA
+SAFMC,South Atlantic snapper grouper FMP,Warsaw grouper,Warsaw grouper,NA,Catch-based,0,NA,NA,NA,NA
+SAFMC,South Atlantic snapper grouper FMP,Goliath Grouper,Goliath Grouper,NA,Catch prohibited,0,NA,NA,NA,NA
+SAFMC,South Atlantic snapper grouper FMP,Nassau Grouper,Nassau Grouper,NA,Catch-based,0,NA,NA,NA,NA
+SAFMC,South Atlantic snapper grouper FMP,Porgy Complex,Jolthead Porgy,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Porgy Complex,Knobbed Porgy,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Porgy Complex,Saucereye Porgy,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Porgy Complex,Scup,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Porgy Complex,Whitebone Porgy,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Shallow-Water Groupers Complex,Red Hind,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Shallow-Water Groupers Complex,Rock Hind,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Shallow-Water Groupers Complex,Yellowmouth Grouper,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Shallow-Water Groupers Complex,Yellowfin Grouper,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Shallow-Water Groupers Complex,Coney,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Shallow-Water Groupers Complex,Graysby,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Snappers Complex,Gray Snapper,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Snappers Complex,Lane Snapper,NA,Catch-based,0,NA,NA,0,NA
+SAFMC,South Atlantic snapper grouper FMP,Snappers Complex,Cubera Snapper,NA,Catch-based,0,NA,NA,0,NA
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,red snapper/silvermouth,Aphareus rutilans,Constant F,0,NA,NA,NA,NA
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,gray snapper/jobfish,Aprion virescens,Constant F,0,NA,NA,NA,NA
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,black trevally/jack,Caranx lugubris,Constant F,0,NA,NA,NA,NA
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,lunartail grouper,Variola louti,Constant F,0,NA,NA,NA,NA
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,red snapper,Etelis carbunculus,Constant F,0,NA,NA,NA,NA
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,red snapper,Etelis coruscans,Constant F,0,NA,NA,NA,NA
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,redgill emperor,Lethrinus rubrioperculatus,Constant F,0,NA,NA,NA,NA
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,blueline snapper,Lutjanus kasmira,Constant F,0,NA,NA,NA,NA
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,pink snapper,Pristipomoides filamentosus,Constant F,0,NA,NA,NA,NA
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,yelloweye snapper,Pristipomoides flavipinnis,Constant F,0,NA,NA,NA,NA
+WPFMC,American Samoa FEP,American Samoa Archipelago Bottomfish Complex,snapper,Pristipomoides zonatus,Constant F,0,NA,NA,NA,NA
+WPFMC,American Samoa FEP,Guam Bottomfish,NA,NA,Constant F,0,NA,NA,NA,NA
+WPFMC,American Samoa FEP,CNMI Bottomfish,NA,NA,Constant F,0,NA,NA,NA,NA
+WPFMC,Hawaii Archipelago FEP,Uku,Uku,Aprion virescens,Constant F,0,NA,0.03834378,0,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deep 7 bottomfish complex,Ehu (squirrelfish snapper),Etelis carbunculus,Constant F,0,NA,0.08960573,0.03149606,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deep 7 bottomfish complex,Gindai (Brigham's snapper),Pristipomoides zonatus,Constant F,0,NA,0.08960573,0.03149606,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deep 7 bottomfish complex,"Hapuʻupuʻu (Seale's grouper, Hawaiian grouper)",Hyporthodus quernus,Constant F,0,NA,0.08960573,0.03149606,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deep 7 bottomfish complex,Kalekale (Von Siebold's snapper),Pristipomoides sieboldii,Constant F,0,NA,0.08960573,0.03149606,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deep 7 bottomfish complex,Lehi (silverjaw snapper),Aphareus rutilans,Constant F,0,NA,0.08960573,0.03149606,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deep 7 bottomfish complex,Onaga (longtail snapper),Etelis coruscans,Constant F,0,NA,0.08960573,0.03149606,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deep 7 bottomfish complex,Ōpakapaka (pink snapper),Pristipomoides filamentosus,Constant F,0,NA,0.08960573,0.03149606,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,NA,Heterocarpus ensifer,Constant F,0,NA,NA,0,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,NA,Heterocarpus laevigatus,Constant F,0,NA,NA,0,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,NA,Heterocarpus sibogae,Constant F,0,NA,NA,0,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,NA,Heterocarpus gibbosus,Constant F,0,NA,NA,0,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,NA,Heterocarpus Lepidus,Constant F,0,NA,NA,0,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,NA,Heterocarpus dorsalis,Constant F,0,NA,NA,0,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,NA,Heterocarpus tricarinatus,Constant F,0,NA,NA,0,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Deepwater Shrimp,NA,Heterocarpus longirostris,Constant F,0,NA,NA,0,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,pink coral (red coral),Corallium secundum,Constant F,0,NA,NA,NA,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,pink coral (red coral),Corallium regale,Constant F,0,NA,NA,NA,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,pink coral (red coral),Corallium laauense,Constant F,0,NA,NA,NA,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,gold coral,Gerardia spp.,Constant F,0,NA,NA,NA,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,gold coral,Narella spp.,Constant F,0,NA,NA,NA,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,gold coral,Calyptrophora spp.,Constant F,0,NA,NA,NA,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,bamboo coral,Lepidisis olapa,Constant F,0,NA,NA,NA,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,bamboo coral,Acanella spp.,Constant F,0,NA,NA,NA,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,black coral,Antipathes dichotoma,Constant F,0,NA,NA,NA,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,black coral,Antipathes grandis,Constant F,0,NA,NA,NA,NA
+WPFMC,Hawaii Archipelago FEP,Hawaii Precious Coral Management Unit Species,black coral,Antipathes ulex,Constant F,0,NA,NA,NA,NA
+WPFMC,Hawaii Archipelago FEP,Kona Crab (spanner crab),Kona Crab (spanner crab),Ranina ranina,Constant F,0,NA,NA,0,NA
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,"red snapper, silvermouth",Aphareus rutilans,Constant F,0,NA,NA,NA,NA
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,"giant trevally, jack",Caranx ignobilis,Constant F,0,NA,NA,NA,NA
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,"black trevally, jack",Caranx lugubris,Constant F,0,NA,NA,NA,NA
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,lunartail grouper,Variola louti,Constant F,0,NA,NA,NA,NA
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,red snapper,Etelis carbunculus,Constant F,0,NA,NA,NA,NA
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,red snapper,Etelis coruscans,Constant F,0,NA,NA,NA,NA
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,redgill emperor,Lethrinus rubrioperculatus,Constant F,0,NA,NA,NA,NA
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,blueline snapper,Lutjanus kasmira,Constant F,0,NA,NA,NA,NA
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,yellowtail snapper,Pristipomoides auricilla,Constant F,0,NA,NA,NA,NA
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,pink snapper,Pristipomoides filamentosus,Constant F,0,NA,NA,NA,NA
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,yelloweye snapper,Pristipomoides flavipinnis,Constant F,0,NA,NA,NA,NA
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,pink snapper,Pristipomoides seiboldii,Constant F,0,NA,NA,NA,NA
+WPFMC,Mariana Archipelago FEP,Mariana Bottomfish Complex,flower snapper,Pristipomoides zonatus,Constant F,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Albacore tuna,Albacore tuna,Thunnus alalunga,Exempt,0,NA,NA,NA,0.25
+NOAA,Atlantic/Gulf HMS FMP,Atlantic Small Coastal Sharks,Blacknose shark,Carcharhinus acronotu,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Atlantic Small Coastal Sharks,Finetooth shark,Carcharhinus isodon,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Atlantic Small Coastal Sharks,Atlantic sharpnose shark,Rhizoprionodon terraenovae,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Atlantic Small Coastal Sharks,Bonnethead,Sphyrna tiburo,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Bigeye thresher shark,Bigeye thresher shark,Alopias superciliosus,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Bigeye tuna,Bigeye tuna,Thunnus obesus,Exempt,0,NA,NA,NA,0.18
+NOAA,Atlantic/Gulf HMS FMP,Blue marlin,Blue marlin,Makaira nigricans,Exempt,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Blue shark,Blue shark,Prionace glauca,Constant F,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Bluefin tuna,Bluefin tuna,Thunnus thynnus,Exempt,0,NA,NA,NA,0.34
+NOAA,Atlantic/Gulf HMS FMP,Gulf of Mexico-Blacknose shark,Blacknose shark,Carcharhinus acronotu,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Gulf of Mexico-Blacktip shark,Blacktip shark,Carcharhinus limbatus,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Hammerhead,Scalloped hammerhead,Sphyrna lewini,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Hammerhead,Great hammerhead,Sphyrna mokarran,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Hammerhead,Smooth hammerhead,Sphyrna zygaena,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Spinner shark,Carcharhinus brevipinna,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Silky shark,Carcharhinus falciformis,Catch prohibited,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Bull shark,Carcharhinus leucas,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Blacktip shark,Carcharhinus limbatus,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Sandbar shark,Carcharhinus plumbeus,Catch prohibited,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Tiger shark,Galeocerdo cuvier,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Nurse shark,Ginglymostoma cirratum,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Large Coastal Sharks,Lemon shark,Negaprion brevirostris,Constant F,0,NA,NA,0,NA
+NOAA,Atlantic/Gulf HMS FMP,Longbill spearfish,Longbill spearfish,Tetrapturus pfluegeri,Exempt,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Pelagic Sharks,Thresher shark,Alopias vulpinus,Constant F,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Pelagic Sharks,Oceanic whitetip shark,Carcharhinus longimanus,Constant F,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Pelagic Sharks,Shortfin mako,Isurus oxyrinchus,Constant F,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Porbeagle,Porbeagle,Lamna nasus,Constant F,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Bignose shark,Carcharhinus altimus,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Narrowtooth shark,Carcharhinus brachyurus,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Galapagos shark,Carcharhinus galapagensis,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Dusky shark,Carcharhinus obscurus,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Caribbean reef shark,Carcharhinus perezii,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Smalltail shark,Carcharhinus porosus,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Night shark,Carcharhinus signatus,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Sand tiger,Carcharias taurus,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,White shark,Carcharodon carcharias,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Basking shark,Cetorhinus maximus,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Sevengill shark,Heptranchias perlo,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Sixgill shark,Hexanchus griseus,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Bigeye sixgill shark,Hexanchus nakamurai,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Longfin mako,Isurus paucus,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Bigeye sand tiger,Odontaspis noronhai,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Whale shark,Rhincodon typus,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Caribbean sharpnose shark,Rhizoprionodon porosus,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Prohibited Shark Complex,Atlantic angel shark,Squatina dumerili,Catch prohibited,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Roundscale spearfish,Roundscale spearfish,Tetrapturus georgii,Exempt,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Sailfish,Sailfish,Istiophorus platypterus,Constant F,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Skipjack tuna,Skipjack tuna,Katsuwonus pelamis,Exempt,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Smoothhound Sharks,Smooth dogfish,Mustelus canis,Constant F,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Smoothhound Sharks,Florida smoothhound,Mustelus norrisi,Constant F,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Smoothhound Sharks,Gulf smoothhound,Mustelus sinusmexicanus,Constant F,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Swordfish,Swordfish,Xiphias gladius,Exempt,0,NA,NA,NA,0
+NOAA,Atlantic/Gulf HMS FMP,White marlin,White marlin,Kajikia albida,Exempt,0,NA,NA,NA,NA
+NOAA,Atlantic/Gulf HMS FMP,Yellowfin tuna,Yellowfin tuna,Thunnus albacares,Exempt,0,NA,NA,NA,0.13
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Eastern Pacific-Swordfish,Swordfish,Xiphias gladius,Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Western and Central North Pacific-Swordfish,Swordfish,Xiphias gladius,Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Common thresher shark,Common thresher shark,Alopias vulpinus,Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Shortfin mako shark,Shortfin mako shark,Isurus oxyrinchus,Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Blue shark,Blue shark,Prionace glauca,Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Eastern Pacific-Yellowfin tuna,Yellowfin tuna,Thunnus albacares,Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Western and Central Pacific-Yellowfin tuna,Yellowfin tuna,Thunnus albacares,Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Eastern Pacific-Skipjack tuna,Skipjack tuna,Katsuwonus pelamis,Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Western and Central Pacific-Skipjack tuna,Skipjack tuna,Katsuwonus pelamis,Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Eastern Pacific-Bigeye tuna,Bigeye tuna,Thunnus obesus,Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Western and Central Pacific-Bigeye tuna,Bigeye tuna,Thunnus obesus,Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Eastern Pacific-Striped marlin,Striped marlin,Tetrapturus audax,Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Western and Central North Pacific-Striped marlin,Striped marlin,Tetrapturus audax,Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Dorado (Dolphinfish),Dorado (Dolphinfish),Coryphaena hippurus),Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,Pacific bluefin tuna,Bluefin tuna,Thunnus orientalis,Exempt,NA,NA,NA,NA,NA
+PFMC/WPFMC,West Coast Highly Migratory Species FMP,North Pacific Albacore,North Pacific Albacore,Thunnus alalunga,Exempt,NA,NA,NA,NA,NA
