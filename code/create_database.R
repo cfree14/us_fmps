@@ -50,3 +50,31 @@ pgf_df2 <- pgf_df %>%
 pg_comp <- pgf_df2 %>%
   left_join(buffer_df2)
 
+## for now, go with pgf_df2
+pgf_df3 <- pgf_df2 %>%
+  rename(p_star = PROBABILITY,
+         abc_buffer = ABC_BUFFER_FRACTION) %>%
+  mutate(acl_buffer = NA,
+         act_buffer = NA,
+         buffer_notes = NA,
+         buffer_ref = "GMT008 - Draft Annual Groundfish Harvest Specifications")
+
+buffer_df_adj <- buffer_df2 %>%
+  mutate(pgf = str_extract(id, "PFMC-Pacific Coast Groundfish FMP"),
+         pgf = ifelse(is.na(pgf), "other", pgf)) %>%
+  filter(pgf != "PFMC-Pacific Coast Groundfish FMP") %>%
+  select(-pgf) %>%
+  rbind(pgf_df3)
+
+## join buffers with other information
+full_db <- db_df2 %>%
+  left_join(buffer_df_adj)
+
+## format database
+
+
+
+
+
+
+
