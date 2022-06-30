@@ -17,8 +17,10 @@ db_gsheet <- "https://docs.google.com/spreadsheets/d/1F_7i9cX2ComJtWUdXo8CoSR9Uj
 
 ## files
 db_df     <- read_sheet(db_gsheet)
-buffer_df <- read_sheet(db_gsheet, sheet = 2, col_types = "ccccccddddcc")
+buffer_df <- read_sheet(db_gsheet, sheet = 2, col_types = "ccccccdddddccc")
 pgf_df    <- read_sheet(db_gsheet, sheet = 3)
+gao_gf_df <- read_sheet(db_gsheet, sheet = 4, col_types = "ccdddddc")
+bsai_gf_df <- read_sheet(db_gsheet, sheet = 5, col_types = "ccdddddc")
 
 ## main database
 db_df2 <- db_df %>%
