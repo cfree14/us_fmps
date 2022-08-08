@@ -10,14 +10,14 @@ library(tidyverse)
 library(googlesheets4)
 
 ## directories
-save_path <- "data/data_base"
+save_path <- "data/database"
 
 ## google sheet path
 db_gsheet <- "https://docs.google.com/spreadsheets/d/1F_7i9cX2ComJtWUdXo8CoSR9Uj40VrGvCLFNCUzfKgs/edit#gid=1308093643"
 
 ## files
 db_df     <- read_sheet(db_gsheet)
-buffer_df <- read_sheet(db_gsheet, sheet = 2, col_types = "ccccccdddddccc")
+buffer_df <- read_sheet(db_gsheet, sheet = 2, col_types = "ccccccdddddcccd")
 pgf_df    <- read_sheet(db_gsheet, sheet = 3)
 goa_gf_df <- read_sheet(db_gsheet, sheet = 4, col_types = "ccdddddc")
 bsai_gf_df <- read_sheet(db_gsheet, sheet = 5, col_types = "ccdddddc")
@@ -35,7 +35,7 @@ db_df2 <- db_df %>%
 buffer_df2 <- buffer_df %>%
   ## create id
   mutate(id = paste(council_short, FMP_FEP, stock, common_name, sci_name, sep = '-')) %>%
-  select(id, p_star:update_schedule, buffer_notes = notes, buffer_ref = ref)
+  select(id, p_star:act_buffer, year, buffer_notes = notes, buffer_ref = ref)
 
 ## pacific groundfish
 pgf_df2 <- pgf_df %>%
@@ -47,20 +47,19 @@ pgf_df2 <- pgf_df %>%
   # rename(p_star = PROBABILITY,
   #        abc_buffer = ABC_BUFFER_FRACTION) %>%
   mutate(id = paste(council_short, FMP_FEP, stock, common_name, sci_name, sep = '-')) %>%
-  select(id, PROBABILITY, ABC_BUFFER_FRACTION)
+  select(id, PROBABILITY, ABC_BUFFER_FRACTION, year)
 
 ## compare PFMC groundfish
 pg_comp <- pgf_df2 %>%
   left_join(buffer_df2)
 
-## for now, go with pgf_df2
+## go with pgf_df2
 pgf_df3 <- pgf_df2 %>%
   rename(p_star = PROBABILITY,
          abc_buffer = ABC_BUFFER_FRACTION) %>%
   mutate(acl_buffer = NA,
          act_buffer = NA,
          year = 2023,
-         update_schedule = "annual",
          buffer_notes = NA,
          buffer_ref = "GMT008 - Draft Annual Groundfish Harvest Specifications")
 
@@ -119,7 +118,7 @@ buffer_df_adj2 <- buffer_df_adj %>%
          goagf = ifelse(is.na(goagf), "other", goagf)) %>%
   filter(goagf != "NPFMC-GOA groundfish FMP") %>%
   select(-goagf) %>%
-  rbind(goa_gf_b_adj %>% select(id, p_star, abc_buffer, acl_buffer, act_buffer, year, update_schedule, buffer_notes, buffer_ref))
+  rbind(goa_gf_b_adj %>% select(id, p_star, abc_buffer, acl_buffer, act_buffer, year, buffer_notes, buffer_ref))
 
 
 ## repeat for bsai
@@ -171,7 +170,7 @@ buffer_df_adj3 <- buffer_df_adj2 %>%
          bsaigf = ifelse(is.na(bsaigf), "other", bsaigf)) %>%
   filter(bsaigf != "NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP") %>%
   select(-bsaigf) %>%
-  rbind(bsai_gf_b_adj %>% select(id, p_star, abc_buffer, acl_buffer, act_buffer, year, update_schedule, buffer_notes, buffer_ref))
+  rbind(bsai_gf_b_adj %>% select(id, p_star, abc_buffer, acl_buffer, act_buffer, year, buffer_notes, buffer_ref))
 
 
 
@@ -211,34 +210,90 @@ data <- full_db %>%
   # change to Catch prohibited
   mutate(type = ifelse(council_short == "SAFMC" & stock == "Nassau Grouper", "Catch prohibited", type)) %>%
   select(id, council, council_short, FMP_FEP, stock, common_name, sci_name, tier_level, type, type_adj, biomass_limit,
-         ramped_shape, env_linked, notes, p_star, abc_buffer, acl_buffer, act_buffer, buffer_notes, buffer_ref)
+         ramped_shape, env_linked, notes, p_star, abc_buffer, acl_buffer, act_buffer, buffer_year = year, buffer_notes, buffer_ref)
 
 # ## do individual sp. have different buffers?
-# buffer_check <- data %>%
-#   group_by(council_short, FMP_FEP, stock, type_adj) %>%
-#   summarise(n_buffers = length(unique(abc_buffer))) %>%
-#   ungroup()
-#
-# ## make separate entries for Other rockfish-slope sub-group, NPFMC, North Pacific Fishery Management Council
+buffer_check <- data %>%
+  group_by(council_short, FMP_FEP, stock, type_adj) %>%
+  summarise(n_buffers = length(unique(abc_buffer))) %>%
+  ungroup()
 
-## db to share, v1
-data_share1 <- data %>%
-  select(council_short, FMP_FEP, stock, common_name, sci_name, hcr_type = type_adj, biomass_limit, p_star, abc_buffer, acl_buffer, act_buffer)
-
-## save
-write_csv(data_share1, file.path(save_path, "hcr_database_v1.csv"))
-
-## database by stock
-stock_data <- data %>%
+## stock combos
+stocks_n <- data %>%
   # select unique council-stock combo
-  select(council, council_short, FMP_FEP, stock, type, type_adj, biomass_limit, p_star, abc_buffer, acl_buffer, act_buffer) %>%
+  select(council_short, FMP_FEP, stock, type) %>%
+  unique() %>%
+  mutate(id2 = paste(council_short, FMP_FEP, stock, sep = "-")) %>%
+  group_by(id2) %>%
+  mutate(n = n()) %>%
+  ungroup()
+
+# make changes to correct duplicates
+data_adj <- data %>%
+  mutate(id2 = paste(council_short, FMP_FEP, stock, sep = "-")) %>%
+  left_join(stocks_n) %>%
+  mutate(adj_stock = ifelse(n == 2 & council_short %in% c("CFMC") & type == "catch prohibited", paste0(stock, " - prohibited_sp"),
+                            ifelse(n == 2 & council_short %in% c("NOAA") & type == "catch prohibited", paste0(stock, " - prohibited_sp"), stock)),
+         adj_stock = ifelse(id2 == "NPFMC-GOA groundfish FMP-Deepwater flatfish" & common_name == "Dover sole", paste(stock, common_name, sep = "-"),
+                            ifelse(id2 == "NPFMC-GOA groundfish FMP-Deepwater flatfish" & common_name != "Dover sole", paste0(stock, "- except Dover sole"),
+                                   ifelse(id2 == "NPFMC-GOA groundfish FMP-Demersal shelf rockfish" & common_name == "yelloweye rockfish", paste(stock, common_name, sep = "-"),
+                                          ifelse(id2 == "NPFMC-GOA groundfish FMP-Demersal shelf rockfish" & common_name != "yelloweye rockfish", paste(stock, "- except yelloweye rockfish"),
+                                                 ifelse(id2 == "NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Skates", common_name,
+                                                        ifelse(id2 == "GMFMC-Gulf of Mexico Reef Fish FMP-Shallow water grouper" & common_name == "Red grouper", paste(stock, common_name, sep = "-"),
+                                                               ifelse(id2 == "GMFMC-Gulf of Mexico Reef Fish FMP-Shallow water grouper" & common_name != "Red grouper", paste(stock, "- except Red grouper"), adj_stock))))))))
+
+## check again
+stocks_n_adj <- data_adj %>%
+  # filter out Fish Resource of the Arctic FMP
+  filter(FMP_FEP != 'Fish Resource of the Arctic FMP') %>%
+  # select unique council-stock combo
+  select(council_short, FMP_FEP, adj_stock, type_adj) %>%
+  unique() %>%
+  mutate(id = paste(council_short, FMP_FEP, adj_stock, sep = "-")) %>%
+  group_by(id) %>%
+  mutate(n = n()) %>%
+  ungroup()
+
+
+## create "stock level" data base
+stock_data <- data_adj %>%
+  mutate(adj_stock = ifelse(FMP_FEP == "GOA groundfish FMP" & stock == "Skates", common_name, adj_stock)) %>%
+  select(council, council_short, FMP_FEP, stock = adj_stock, type = type_adj, biomass_limit, ramped_shape, env_linked, p_star:buffer_year) %>%
   unique()
 
-data_share2 <- stock_data %>%
-  select(council_short, FMP_FEP, stock, hcr_type = type_adj, biomass_limit, p_star, abc_buffer, acl_buffer, act_buffer)
+stocks_n_all <- stock_data %>%
+  mutate(id = paste(council_short, FMP_FEP, stock, sep = "-")) %>%
+  group_by(id) %>%
+  mutate(n = n()) %>%
+  ungroup()
 
-## save
-write_csv(data_share2, file.path(save_path, "hcr_database_v2.csv"))
+## save stock-level database
+write_csv(stock_data, file.path(save_path, "hcr_stock_db.csv"))
+
+
+
+
+## for review documents
+## -----------------------
+
+# ## db to share, v1
+# data_share1 <- data %>%
+#   select(council_short, FMP_FEP, stock, common_name, sci_name, hcr_type = type_adj, biomass_limit, p_star, abc_buffer, acl_buffer, act_buffer)
+#
+# ## save
+# write_csv(data_share1, file.path(save_path, "hcr_database_v1.csv"))
+#
+# ## database by stock
+# stock_data <- data %>%
+#   # select unique council-stock combo
+#   select(council, council_short, FMP_FEP, stock, type, type_adj, biomass_limit, p_star, abc_buffer, acl_buffer, act_buffer) %>%
+#   unique()
+#
+# data_share2 <- stock_data %>%
+#   select(council_short, FMP_FEP, stock, hcr_type = type_adj, biomass_limit, p_star, abc_buffer, acl_buffer, act_buffer)
+#
+# ## save
+# write_csv(data_share2, file.path(save_path, "hcr_database_v2.csv"))
 
 
 
