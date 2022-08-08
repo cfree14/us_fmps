@@ -201,12 +201,6 @@ thresh_data <- data_orig %>%
                      "International exception"="Exempt",
                      "Stepped f"="Stepped F",
                      "Ramped/stepped f"="Threshold/stepped F")) %>%
-  # filter out except, unknown, catch prohibited, none
-  filter(!type %in% c('Catch prohibited', 'Exempt', 'Unknown', 'None')) %>%
-  # Order HCR types
-  mutate(type=factor(type, levels=c("Threshold F", "Threshold F/envt. link", "Threshold/stepped F",
-                                    "Stepped F", "Constant F", "Constant escapement",
-                                    "Catch-based", "Constant catch") %>% rev())) %>%
   # Count HCR type by council
   count(council_short, type) %>%
   # Calculate proportion
