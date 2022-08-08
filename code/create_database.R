@@ -10,7 +10,7 @@ library(tidyverse)
 library(googlesheets4)
 
 ## directories
-save_path <- "data/database"
+save_path <- "database"
 
 ## google sheet path
 db_gsheet <- "https://docs.google.com/spreadsheets/d/1F_7i9cX2ComJtWUdXo8CoSR9Uj40VrGvCLFNCUzfKgs/edit#gid=1308093643"
