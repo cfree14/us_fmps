@@ -98,6 +98,8 @@ stock_db <- hcr_buffer_data %>%
   mutate(n = n()) %>%
   ungroup()
 
+write.csv(stock_db, file="data/stock_hcr/data_for_buffer_figure.csv", row.names=F)
+
 
 
 

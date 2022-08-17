@@ -1,0 +1,507 @@
+"stock_id","type","biomass_limit","ramped_shape","env_linked","p_star","abc_buffer","acl_buffer","act_buffer","n"
+"CFMC-Caribbean Queen Conch FMP-Queen conch-Constant catch","Constant catch",0,NA,0,NA,0.9024805059,0,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Angelfish-Constant catch","Constant catch",0,NA,0,NA,0,0.25,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Angelfish-Constant catch","Constant catch",0,NA,0,NA,0,0.25,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Angelfish-Constant catch","Constant catch",0,NA,0,NA,0,0.25,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Boxfish-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Boxfish-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Boxfish-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Goatfish-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Goatfish-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Goatfish-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Groupers-Catch prohibited","Catch prohibited",0,NA,0,NA,0,0.15,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Groupers-Constant catch","Constant catch",0,NA,0,NA,0,0.15,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Groupers-Catch prohibited","Catch prohibited",0,NA,0,NA,0,NA,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Groupers-Constant catch","Constant catch",0,NA,0,NA,0,0.15,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Groupers-Catch prohibited","Catch prohibited",0,NA,0,NA,0,NA,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Groupers-Constant catch","Constant catch",0,NA,0,NA,0,0.15,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Grunts-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Grunts-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Grunts-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Jacks-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Jacks-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Jacks-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Parrotfish-Catch prohibited","Catch prohibited",0,NA,0,NA,0,NA,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Parrotfish-Constant catch","Constant catch",0,NA,0,NA,0,0.15,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Parrotfish-Catch prohibited","Catch prohibited",0,NA,0,NA,0,NA,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Parrotfish-Constant catch","Constant catch",0,NA,0,NA,0,0.15,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Parrotfish-Catch prohibited","Catch prohibited",0,NA,0,NA,0,NA,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Parrotfish-Constant catch","Constant catch",0,NA,0,NA,0,0.15,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Scups & Porgies-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Scups & Porgies-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Scups & Porgies-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Snapper Unit 1-Constant catch","Constant catch",0,NA,0,NA,0,0.15,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Snapper Unit 2-Constant catch","Constant catch",0,NA,0,NA,0,0.15,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Snapper Unit 3-Constant catch","Constant catch",0,NA,0,NA,0,0.15,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Snapper Unit 4-Constant catch","Constant catch",0,NA,0,NA,0,0.15,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Snappers-Constant catch","Constant catch",0,NA,0,NA,0,0.15,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Snappers-Constant catch","Constant catch",0,NA,0,NA,0,0.15,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Squirrelfish-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Squirrelfish-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Squirrelfish-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Surgeonfish-Constant catch","Constant catch",0,NA,0,NA,0,0.25,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Surgeonfish-Constant catch","Constant catch",0,NA,0,NA,0,0.25,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Surgeonfish-Constant catch","Constant catch",0,NA,0,NA,0,0.25,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Triggerfish & Filefish-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Triggerfish & Filefish-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Triggerfish & Filefish-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-Puerto Rico-Wrasses-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Thomas and St. John-Wrasses-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Reef Fish FMP-St. Croix-Wrasses-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Spiny Lobster FMP-Puerto Rico-spiny lobster-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Spiny Lobster FMP-St. Croix-spiny lobster-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"CFMC-Caribbean Spiny Lobster FMP-St. Thomas and St. John-spiny lobster-Constant catch","Constant catch",0,NA,0,NA,0,0.1,0,1
+"GMFMC/SAFMC-Coastal Migratory Pelagic FMP-Gulf of Mexico-King mackerel-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC/SAFMC-Coastal Migratory Pelagic FMP-South Atlantic coast-King mackerel-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC/SAFMC-Coastal Migratory Pelagic FMP-Gulf of Mexico-Spanish mackerel-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC/SAFMC-Coastal Migratory Pelagic FMP-South Atlantic coast-Spanish mackerel-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC/SAFMC-Coastal Migratory Pelagic FMP-Gulf of Mexico-Cobia-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Goliath grouper-Catch prohibited","Catch prohibited",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Mutton snapper-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Red snapper-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Gray snapper-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Yellowtail snapper-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Vermilion snapper-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Shallow water grouper-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Gag-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Greater amberjack-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Gray triggerfish-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Hogfish-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Lane Snapper-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Mid-water snapper-Catch-based","Catch-based",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Cubera snapper-Catch-based","Catch-based",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Deep water grouper-Catch-based","Catch-based",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Shallow water grouper-Catch-based","Catch-based",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Tilefishes-Catch-based","Catch-based",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Gulf of Mexico Reef Fish FMP-Jacks Complex-Catch-based","Catch-based",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Red Drum FMP-Red drum-Catch prohibited","Catch prohibited",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Shrimp FMP-Royal red shrimp-Constant catch","Constant catch",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Shrimp FMP-Pink shrimp-None","None",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Shrimp FMP-White shrimp-None","None",0,NA,0,NA,NA,NA,NA,1
+"GMFMC-Shrimp FMP-Brown shrimp-None","None",0,NA,0,NA,NA,NA,NA,1
+"GMFMC/SAFMC-Spiny Lobster FMP-Spiny lobster-Catch-based","Catch-based",0,NA,0,NA,0.07341772152,0,0.1,1
+"MAFMC-Bluefish FMP-Bluefish-Threshold F","Threshold F",1,"curved",0,NA,0.3772189,0,0,1
+"MAFMC-Golden and Blueline Tilefish FMP-Golden tilefish-Threshold F","Threshold F",1,"curved",0,NA,0.2859014,0,0,1
+"MAFMC-Golden and Blueline Tilefish FMP-Blueline tilefish-Catch-based","Catch-based",0,NA,0,NA,NA,0,0,1
+"MAFMC-Mackerel, Squid, Butterfish FMP-Atlantic mackerel-Threshold F","Threshold F",1,"curved",0,NA,NA,0,NA,1
+"MAFMC-Mackerel, Squid, Butterfish FMP-Chub mackerel-Catch-based","Catch-based",0,NA,0,NA,0.2399207,0,0.04,1
+"MAFMC-Mackerel, Squid, Butterfish FMP-Illex squid-Catch-based","Catch-based",0,NA,0,NA,NA,0.0461,0,1
+"MAFMC-Mackerel, Squid, Butterfish FMP-Longfin squid-Catch-based","Catch-based",0,NA,0,NA,NA,0.02,0,1
+"MAFMC-Mackerel, Squid, Butterfish FMP-Butterfish-Threshold F","Threshold F",1,"curved",0,NA,NA,0,0.0500168,1
+"MAFMC-Mid-Atlantic summer flounder, scup, black sea bass FMP-Summer flounder-Threshold F","Threshold F",1,"curved",0,NA,0.1910149,0.4594487,0,1
+"MAFMC-Mid-Atlantic summer flounder, scup, black sea bass FMP-Scup-Threshold F","Threshold F",1,"curved",0,NA,0.01382064,0.2198692,0,1
+"MAFMC-Mid-Atlantic summer flounder, scup, black sea bass FMP-Sea bass-Threshold F","Threshold F",1,"curved",0,NA,0.2227953,0.536828,0,1
+"NEFMC-Atlantic Salmon FMP-Atlantic salmon-Catch prohibited","Catch prohibited",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Gulf of Maine-Atlantic cod-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Georges Bank-Atlantic cod-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Acadian redfish-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Atlantic wolffish-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Witch flounder-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Gulf of Maine-Haddock-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Georges Bank-Haddock-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Gulf of Maine-Winter flounder-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Georges Bank-Winter flounder-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Southern New England/Mid-Atlantic-Winter flounder-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-White hake-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Northern-Windowpane flounder-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Southern-Windowpane flounder-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Atlantic pollock-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Georges Bank-Yellowtail flounder-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Southern New England/Mid-AtlanticYellowtail flounder-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Cape Cod/Gulf of Maine-Yellowtail flounder-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Atlantic halibut-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-American plaice-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Northeast Multispecies FMP-Ocean pout-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Red Crab FMP-Red crab-Constant catch","Constant catch",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Sea Scallop FMP-Sea scallop-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Skate Complex FMP-Skate complex-Catch-based","Catch-based",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Small-Mesh Multispecies FMP-Gulf of Maine-Red hake-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Small-Mesh Multispecies FMP-Southern Georges Bank-Red hake-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Small-Mesh Multispecies FMP-Gulf of Maine-Silver hake-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Small-Mesh Multispecies FMP-Southern Georges Bank-Silver hake-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Small-Mesh Multispecies FMP-Offshore hake-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC-Atlantic Herring FMP-Atlantic herring-Threshold F","Threshold F",1,"linear",0,NA,NA,NA,NA,1
+"NEFMC/MAFMC-Monkfish FMP-Gulf of Maine/Northern Georges Bank-Monkfish-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC/MAFMC-Monkfish FMP-Southern Georges Bank/Mid-Atlantic-Monkfish-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NEFMC/MAFMC-Spiny Dogfish FMP-Spiny dogfish-Threshold F","Threshold F",1,"curved",0,NA,NA,NA,NA,1
+"MAFMC-Surfclams and Ocean Quahogs FMP-Surfclam-Threshold F","Threshold F",1,"curved",0,NA,NA,NA,NA,1
+"MAFMC-Surfclams and Ocean Quahogs FMP-Ocean quahog-Threshold F","Threshold F",1,"curved",0,NA,NA,NA,NA,1
+"NPFMC-Alaska Salmon FMP-Mixed sp. salmon-Constant escapement","Constant escapement",0,NA,0,NA,NA,0,NA,1
+"NPFMC-Alaska Salmon FMP-Eastern North Pacific Far North Migrating-Chinook salmon-Exempt","Exempt",0,NA,0,NA,NA,0,NA,1
+"NPFMC-Alaska Salmon FMP-Coho salmon-Constant escapement","Constant escapement",0,NA,0,NA,NA,0,NA,1
+"NPFMC-Alaska Scallop FMP-Mixed sp. salmon-Constant escapement","Constant escapement",0,NA,0,NA,NA,NA,NA,1
+"NPFMC-Bering Sea/Aleutian Islands King and Tanner Crabs FMP-EBS snow crab-Threshold F","Threshold F",1,"linear",0,0.25,0.25,0,0.71,1
+"NPFMC-Bering Sea/Aleutian Islands King and Tanner Crabs FMP-Bristol Bay red king crab-Threshold F","Threshold F",1,"linear",0,NA,0.1,0,NA,1
+"NPFMC-Bering Sea/Aleutian Islands King and Tanner Crabs FMP-EBS Tanner crab-Threshold F","Threshold F",1,"linear",0,NA,0.2,0,0.94,1
+"NPFMC-Bering Sea/Aleutian Islands King and Tanner Crabs FMP-Aleutian Island golden king crab-Threshold F","Threshold F",1,"linear",0,NA,0.25,0,0.17,1
+"NPFMC-Bering Sea/Aleutian Islands King and Tanner Crabs FMP-St. Matthew blue king crab-Threshold F","Threshold F",1,"linear",0,NA,0.2,0,1,1
+"NPFMC-Bering Sea/Aleutian Islands King and Tanner Crabs FMP-Pribilof Islands blue king crab-Threshold F","Threshold F",1,"linear",0,0.25,NA,0,NA,1
+"NPFMC-Bering Sea/Aleutian Islands King and Tanner Crabs FMP-Pribilof Islands red king crab-Threshold F","Threshold F",1,"linear",0,0.25,NA,0,NA,1
+"NPFMC-Bering Sea/Aleutian Islands King and Tanner Crabs FMP-Norton Sound red king crab-Threshold F","Threshold F",1,"linear",0,0.25,NA,0,NA,1
+"NPFMC-Bering Sea/Aleutian Islands King and Tanner Crabs FMP-Pribilof Islands golden king crab-Catch-based","Catch-based",0,NA,0,NA,0.25,0,NA,1
+"NPFMC-Bering Sea/Aleutian Islands King and Tanner Crabs FMP-Western Aleutian Islands red king crab-Catch-based","Catch-based",0,NA,0,NA,0.25,0,1,1
+"NPFMC-GOA groundfish FMP-Arrowtooth flounder-Threshold F","Threshold F",1,"linear",0,NA,0.16,0,0.22,1
+"NPFMC-GOA groundfish FMP-Dusky rockfish-Threshold F","Threshold F",1,"linear",0,NA,0.18,0,0,1
+"NPFMC-GOA groundfish FMP-Flathead sole-Threshold F","Threshold F",1,"linear",0,NA,0.18,0,0,1
+"NPFMC-GOA groundfish FMP-Northern rockfish-Threshold F","Threshold F",1,"linear",0,NA,0.16,0,0,1
+"NPFMC-GOA groundfish FMP-Pacific cod-Threshold F","Threshold F",1,"linear",0,NA,0.18,0,0.56,1
+"NPFMC-GOA groundfish FMP-Pacific ocean perch-Threshold F","Threshold F",1,"linear",0,NA,0.16,0,0,1
+"NPFMC-GOA groundfish FMP-Pollock-Threshold F","Threshold F",1,"linear",0,NA,0.14,0,NA,1
+"NPFMC-GOA groundfish FMP-Rex sole-Threshold F","Threshold F",1,"linear",0,NA,0.18,0,NA,1
+"NPFMC-GOA groundfish FMP-Rougheye & blackspotted rockfish-Threshold F","Threshold F",1,"linear",0,NA,0.17,0,0,1
+"NPFMC-GOA groundfish FMP-Sablefish-Threshold F","Threshold F",1,"linear",0,NA,0.63,0,0.17,1
+"NPFMC-GOA groundfish FMP-Northern rock sole-Threshold F","Threshold F",1,"linear",0,NA,0.15,0,NA,1
+"NPFMC-GOA groundfish FMP-Southern rock sole-Threshold F","Threshold F",1,"linear",0,NA,0.15,0,NA,1
+"NPFMC-GOA groundfish FMP-Demersal shelf rockfish-Constant F","Constant F",0,NA,0,NA,0.37,0,0,1
+"NPFMC-GOA groundfish FMP-Other rockfish-slope sub-group-Constant F","Constant F",0,NA,0,NA,0.18,0,0.59,2
+"NPFMC-GOA groundfish FMP-Other rockfish-slope sub-group-Constant F","Constant F",0,NA,0,NA,0.25,0,0.59,2
+"NPFMC-GOA groundfish FMP-Shallow water flatfish-Constant F","Constant F",0,NA,0,NA,0.18,0,0.22,1
+"NPFMC-GOA groundfish FMP-Sharks-Spiny dogfish-Constant F","Constant F",0,NA,0,NA,0.25,0,0,1
+"NPFMC-GOA groundfish FMP-Shortraker rockfish-Constant F","Constant F",0,NA,0,NA,0.25,0,0,1
+"NPFMC-GOA groundfish FMP-Skates-Constant F","Constant F",0,NA,0,NA,0.25,0,0,1
+"NPFMC-GOA groundfish FMP-Thornyhead rockfish-Constant F","Constant F",0,NA,0,NA,0.25,0,0,1
+"NPFMC-GOA groundfish FMP-Atka mackerel-Catch-based","Catch-based",0,NA,0,NA,0.24,0,0.57,1
+"NPFMC-GOA groundfish FMP-Deepwater flatfish-Catch-based","Catch-based",0,NA,0,NA,0.25,0,0,2
+"NPFMC-GOA groundfish FMP-Deepwater flatfish-Catch-based","Catch-based",0,NA,0,NA,0.15,0,0,2
+"NPFMC-GOA groundfish FMP-Demersal shelf rockfish-Catch-based","Catch-based",0,NA,0,NA,0.23,0,0,1
+"NPFMC-GOA groundfish FMP-Octopus-Catch-based","Catch-based",0,NA,0,NA,NA,0,NA,1
+"NPFMC-GOA groundfish FMP-Other rockfish-demersal sub-group-Catch-based","Catch-based",0,NA,0,NA,0.25,0,0.59,1
+"NPFMC-GOA groundfish FMP-Sharks-Catch-based","Catch-based",0,NA,0,NA,0.25,0,0,1
+"NPFMC-GOA groundfish FMP-Deepwater flatfish-Threshold F","Threshold F",1,"linear",0,NA,0.15,0,0,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Alaska plaice-Threshold F","Threshold F",1,"linear",0,NA,0.16,0,0,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Aleutian Islands Pacific cod-Constant F","Constant F",0,NA,0,NA,0.25,0,0.33,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Aleutian Islands pollock-Threshold F","Threshold F",1,"linear",0,NA,0.17,0,0.66,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Arrowtooth flounder-Threshold F","Threshold F",1,"linear",0,NA,0.15,0,0.86,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Atka mackerel-Threshold F","Threshold F",1,"linear",0,NA,0.14,0,0.14,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Bogoslof Island Pollock-Constant F","Constant F",0,NA,0,NA,0.25,0,0.99,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Eastern Bering Sea Pacific Cod-Threshold F","Threshold F",1,"linear",0,NA,0.16,0,0.09,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Eastern Bering Sea pollock-Threshold F","Threshold F",1,"linear",0,NA,0.37,0,0.3,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Flathead sole-Threshold F","Threshold F",1,"linear",0,NA,0.18,0,0.71,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Greenland Turbot-Threshold F","Threshold F",1,"linear",0,NA,0.15,0,0.45,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Kamchatka flounder-Threshold F","Threshold F",1,"linear",0,NA,0.15,0,0.3,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Northern Rock sole-Threshold F","Threshold F",1,"linear",0,NA,0.03,0,0.71,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Northern rockfish-Threshold F","Threshold F",1,"linear",0,NA,0.18,0,0.38,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Octopus-Catch-based","Catch-based",0,NA,0,NA,0.25,0,NA,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Other flatfish-Constant F","Constant F",0,NA,0,NA,0.25,0,NA,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Other rockfish-Constant F","Constant F",0,NA,0,NA,0.25,0,0.2,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Pacific ocean perch-Threshold F","Threshold F",1,"linear",0,NA,0.16,0,0.12,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Rougheye & blackspotted rockfish-Threshold F","Threshold F",1,"linear",0,NA,0.15,0,0.5,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Sablefish-Threshold F","Threshold F",1,"linear",0,NA,0.63,0,0.17,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Sharks-Constant F","Constant F",0,NA,0,NA,0.25,0,0.88,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Shortraker rockfish-Constant F","Constant F",0,NA,0,NA,0.25,0,0.31,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Skates-Constant F","Constant F",0,NA,0,NA,0.25,0,0.61,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Skates-Threshold F","Threshold F",1,"linear",0,NA,0.14,0,0.61,1
+"NPFMC-Groundfish of the Bering Sea and Aleutian Islands FMP-Yellowfin sole-Threshold F","Threshold F",1,"linear",0,NA,0.08,0,0.41,1
+"PFMC-Pacific coastal pelagics FMP-Pacific sardine-Threshold F","Threshold F",0,"curved",1,NA,NA,NA,NA,1
+"PFMC-Pacific coastal pelagics FMP-Pacific chub mackerel-Threshold F","Threshold F",1,"linear",0,NA,NA,0,NA,1
+"PFMC-Pacific coastal pelagics FMP-Northern anchovy-Catch-based","Catch-based",0,NA,0,NA,0.75,0,NA,1
+"PFMC-Pacific coastal pelagics FMP-Market squid-Exempt","Exempt",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Pacific coastal pelagics FMP-Jack mackerel-Catch-based","Catch-based",0,NA,0,NA,0.75,0,NA,1
+"PFMC-Pacific coastal pelagics FMP-Krill-Catch prohibited","Catch prohibited",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-OR-Black Rockfish-Threshold F","Threshold F",1,"linear",0,0.45,0.174,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-OR-Blue-Threshold F","Threshold F",1,"linear",0,0.45,0.159,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-3427 - 42-Cabezon-Threshold F","Threshold F",1,"linear",0,0.45,0.074,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 3427-Cabezon-Threshold F","Threshold F",1,"linear",0,0.45,0.074,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-OR-Cabezon-Threshold F","Threshold F",1,"linear",0,0.45,0.074,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-OR-Kelp Greenling-Threshold F","Threshold F",1,"linear",0,0.45,0.091,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-WA-Cabezon-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-WA-Kelp Greenling-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 3427-Cowcod-Threshold F","Threshold F",1,"linear",0,0.4,0.267,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-4010 - 3427-Cowcod-Catch-based","Catch-based",0,NA,0,0.4,0.398,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 3427-Longspine Thornyhead-Threshold F","Threshold F",1,"linear",0,0.4,0.346,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 3427-Longspine Thornyhead-Threshold F","Threshold F",1,"linear",0,0.4,0.346,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-42 - 4010-Blue-Threshold F","Threshold F",1,"linear",0,0.45,0.159,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Brown-Threshold F","Threshold F",1,"linear",0,0.45,0.19,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-4010 - 4616-China-Threshold F","Threshold F",1,"linear",0,0.45,0.174,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-WA-China-Threshold F","Threshold F",1,"linear",0,0.45,0.174,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-WA-Copper-Threshold F","Threshold F",1,"linear",0,0.45,0.126,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-OR-Copper-Threshold F","Threshold F",1,"linear",0,0.45,0.126,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-42 - 4010-Copper-Threshold F","Threshold F",1,"linear",0,0.45,0.126,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-OR-Quillback-Threshold F","Threshold F",1,"linear",0,0.45,0.126,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Black and Yellow-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-WA-Blue-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Calico-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Gopher-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Grass-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Kelp-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Olive-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-WA-Quillback-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Treefish-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-4010 - 3427-Blue-Threshold F","Threshold F",1,"linear",0,0.45,0.159,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Brown-Threshold F","Threshold F",1,"linear",0,0.45,0.19,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-China-Threshold F","Threshold F",1,"linear",0,0.45,0.174,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-4010 - 3427-Copper-Threshold F","Threshold F",1,"linear",0,0.45,0.126,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 3427-Copper-Threshold F","Threshold F",1,"linear",0,0.45,0.126,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Gopher-Threshold F","Threshold F",1,"linear",0,0.45,0.143,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 3427-Blue-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Calico-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Grass-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Kelp-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Olive-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Treefish-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CA-Kelp Greenling-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Leopard Shark-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Rex Sole-Threshold F","Threshold F",1,"linear",0,0.4,0.346,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Butter Sole-Catch-based","Catch-based",0,NA,0,0.4,0.398,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Curlfin Sole-Catch-based","Catch-based",0,NA,0,0.4,0.398,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Flathead Sole-Catch-based","Catch-based",0,NA,0,0.4,0.398,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Pacific Sanddab-Catch-based","Catch-based",0,NA,0,0.4,0.398,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Rock Sole-Catch-based","Catch-based",0,NA,0,0.4,0.398,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Sand Sole-Catch-based","Catch-based",0,NA,0,0.4,0.398,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 36-Sablefish-Threshold F","Threshold F",1,"linear",0,0.35,0.187,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 36-Sablefish-Threshold F","Threshold F",1,"linear",0,0.35,0.187,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Chilipepper-Threshold F","Threshold F",1,"linear",0,0.45,0.091,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-42 - 4010-Vermilion-Threshold F","Threshold F",1,"linear",0,0.45,0.065,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-OR-Vermilion-Threshold F","Threshold F",1,"linear",0,0.45,0.065,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-42 - 4010-Greenspotted-Threshold F","Threshold F",1,"linear",0,0.45,0.205,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-42 - 4010-Squarespot-Threshold F","Threshold F",1,"linear",0,0.45,0.126,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-WA-Vermilion-Threshold F","Threshold F",1,"linear",0,0.45,0.126,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Bocaccio-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Bronzespotted-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Chameleon-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Cowcod-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Flag-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Freckled-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Greenblotched-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-WA - OR-Greenspotted-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Greenstriped-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Halfbanded-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Harlequin-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Honeycomb-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Mexican-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Pink-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Pinkrose-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Puget Sound-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Pygmy-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Redstripe-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Rosethorn-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Rosy-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Silvergray-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Speckled-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Starry-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Stripetail-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Swordspine-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Tiger-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-4010 - 3427-Vermilion-Threshold F","Threshold F",1,"linear",0,0.45,0.065,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-4010 - 3427-Greenspotted-Threshold F","Threshold F",1,"linear",0,0.45,0.205,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 3427-Greenspotted-Threshold F","Threshold F",1,"linear",0,0.45,0.205,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Squarespot-Threshold F","Threshold F",1,"linear",0,0.45,0.126,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 3427-Vermilion-Threshold F","Threshold F",1,"linear",0,0.45,0.126,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Bronzespotted-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Chameleon-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Flag-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Freckled-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Greenblotched-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Greenstriped-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Halfbanded-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Harlequin-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Honeycomb-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Mexican-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Pink-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Pinkrose-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Pygmy-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Redstripe-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Rosethorn-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Rosy-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Silvergray-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Speckled-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Starry-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Stripetail-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Swordspine-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Tiger-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Yellowtail Rockfish-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 3427-Shortspine Thornyhead-Threshold F","Threshold F",1,"linear",0,0.4,0.346,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 3427-Shortspine Thornyhead-Threshold F","Threshold F",1,"linear",0,0.4,0.346,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Aurora-Threshold F","Threshold F",1,"linear",0,0.45,0.1,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Splitnose-Threshold F","Threshold F",1,"linear",0,0.45,0.117,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Rougheye/Blackspotted-Threshold F","Threshold F",1,"linear",0,0.45,0.19,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Sharpchin-Threshold F","Threshold F",1,"linear",0,0.45,0.19,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Bank-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Blackgill Rockfish-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Redbanded-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Shortraker-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Yellowmouth-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Aurora-Threshold F","Threshold F",1,"linear",0,0.45,0.1,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Blackgill Rockfish-Threshold F","Threshold F",1,"linear",0,0.45,0.159,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Rougheye/Blackspotted-Threshold F","Threshold F",1,"linear",0,0.45,0.19,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Sharpchin-Threshold F","Threshold F",1,"linear",0,0.45,0.19,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Bank-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Pacific Ocean Perch-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Redbanded-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Shortraker-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Yellowmouth-Catch-based","Catch-based",0,NA,0,0.45,0.222,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Yelloweye Rockfish-Threshold F","Threshold F",1,"linear",0,0.4,0.16,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-WA-Black Rockfish-Threshold F","Threshold F",1,"linear",0,0.45,0.091,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CA-Black Rockfish-Threshold F","Threshold F",1,"linear",0,0.45,0.091,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Bocaccio-Threshold F","Threshold F",1,"linear",0,0.45,0.083,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Canary Rockfish-Threshold F","Threshold F",1,"linear",0,0.45,0.091,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Chilipepper-Threshold F","Threshold F",1,"linear",0,0.45,0.091,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Darkblotched Rockfish-Threshold F","Threshold F",1,"linear",0,0.45,0.083,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Dover Sole-Threshold F","Threshold F",1,"linear",0,0.45,0.065,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Petrale Sole-Threshold F","Threshold F",1,"linear",0,0.45,0.074,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Splitnose-Threshold F","Threshold F",1,"linear",0,0.45,0.117,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Widow Rockfish-Threshold F","Threshold F",1,"linear",0,0.45,0.074,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Yellowtail Rockfish-Threshold F","Threshold F",1,"linear",0,0.45,0.083,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CA-Quillback-Threshold F","Threshold F",1,"linear",0,0.45,0.126,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Arrowtooth Flounder-Threshold F","Threshold F",1,"linear",0,0.4,0.294,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Big Skate-Threshold F","Threshold F",1,"linear",0,0.45,0.143,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-English Sole-Threshold F","Threshold F",1,"linear",0,0.45,0.19,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Lingcod-Threshold F","Threshold F",1,"linear",0,0.45,0.126,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-S of 4010-Lingcod-Threshold F","Threshold F",1,"linear",0,0.45,0.126,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Longnose Skate-Threshold F","Threshold F",1,"linear",0,0.45,0.143,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-N of 4010-Pacific Ocean Perch-Threshold F","Threshold F",1,"linear",0,0.45,0.159,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Spiny Dogfish-Threshold F","Threshold F",1,"linear",0,0.4,0.238,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Pacific Cod-Catch-based","Catch-based",0,NA,0,0.4,0.398,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Starry Flounder-Catch-based","Catch-based",0,NA,0,0.4,0.398,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-California Scorpionfish-Unknown","Unknown",NA,NA,0,0.45,0.096,NA,NA,1
+"PFMC-Pacific Coast Groundfish FMP-CW-Pacific Whiting-Threshold F","Threshold F",1,"linear",0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - California Central Valley: Sacramento River Fall-Threshold F","Threshold F",0,"linear",0,NA,0.1,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - California Central Valley: Sacramento River Spring-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - California Central Valley: Sacramento River Winter-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Columbia River Basin: Lower River Hatchery Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Columbia River Basin: Lower River Hatchery Spring-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Columbia River Basin: Mid-River Bright Hatchery Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Columbia River Basin: North Lewis River Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Columbia River Basin: Snake River Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Columbia River Basin: Snake River Spring/Summer-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Columbia River Basin: Spring Creek Hatchery Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Columbia River Basin: Upper River Bright Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Columbia River Basin: Upper River Spring-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Columbia River Basin: Upper River Summer-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Columbia River Basin: Upper Willamette Spring-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Northern California Coast: California Coastal-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Northern California Coast: Klamath River Fall-Constant F","Constant F",0,NA,0,NA,0.05,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Northern California Coast: Klamath River Spring-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Oregon Coast: Central and Northern Oregon-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Oregon Coast: Southern Oregon-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Puget Sound: Cedar River Summer/Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Puget Sound: Eastern Strait of Juan de Fuca Summer/Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Puget Sound: Green River Summer/Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Puget Sound: Mid Hood Canal Summer/Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Puget Sound: Nisqually River Summer/Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Puget Sound: Nooksack Spring Early-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Puget Sound: Puyallup Summer/Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Puget Sound: Skagit Spring-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Puget Sound: Skagit Summer/Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Puget Sound: Snohomish Summer/Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Puget Sound: Stillaguamish Summer/Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Puget Sound: White River Spring-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Washington Coast: Grays Harbor Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Washington Coast: Grays Harbor Spring-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Washington Coast: Hoh Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Washington Coast: Hoh Spring/Summer-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Washington Coast: Hoko Summer/Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Washington Coast: Queets Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Washington Coast: Queets Spring/Summer-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Washington Coast: Quillayute Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Washington Coast: Quillayute Spring/Summer-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Washington Coast: Quinault Fall Hatchery-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Washington Coast: Willapa Bay Fall Hatchery-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Chinook salmon - Washington Coast: Willapa Bay Fall Natural-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Oregon Production Index Area: Central California Coast-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Oregon Production Index Area: Columbia River Early Hatchery-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Oregon Production Index Area: Columbia River Late Hatchery-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Oregon Production Index Area: Lower Columbia Natural-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Oregon Production Index Area: Oregon Coast Hatchery-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Oregon Production Index Area: Oregon Coast Natural-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Oregon Production Index Area: Southern Oregon/Northern California Coast-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Puget Sound: Hood Canal-Threshold F","Threshold F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Puget Sound: Skagit-Threshold F","Threshold F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Puget Sound: Snohomish-Threshold F","Threshold F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Puget Sound: South Puget Sound Hatchery-Threshold F","Threshold F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Puget Sound: Stillaguamish-Threshold F","Threshold F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Washington Coast: Grays Harbor-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Washington Coast: Hoh-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Washington Coast: Queets-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Washington Coast: Quillayute Fall-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Washington Coast: Quillayute Summer Hatchery-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Washington Coast: Quinault Hatchery-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Washington Coast: Strait of Juan de Fuca-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Washington Coast: Willapa Bay Hatchery-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Coho salmon - Washington Coast: Willapa Bay Natural-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC-Salmon FMP-Pink salmon - Puget Sound-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"SAFMC-Golden Crab FMP-Golden Crab-Constant catch","Constant catch",0,NA,0,NA,NA,0,NA,1
+"SAFMC-Shrimp FMP-Brown shrimp-Unknown","Unknown",NA,NA,0,NA,NA,NA,NA,1
+"SAFMC-Shrimp FMP-Pink shrimp-Catch-based","Catch-based",0,NA,0,NA,NA,NA,NA,1
+"SAFMC-Shrimp FMP-Rock shrimp-Catch-based","Catch-based",0,NA,0,NA,NA,NA,NA,1
+"SAFMC-Shrimp FMP-White shrimp-Catch-based","Catch-based",0,NA,0,NA,NA,NA,NA,1
+"SAFMC-South Atlantic dolphin/wahoo FMP-Dolphin-Catch-based","Catch-based",0,NA,0,NA,NA,0,NA,1
+"SAFMC-South Atlantic dolphin/wahoo FMP-Wahoo-Catch-based","Catch-based",0,NA,0,NA,NA,0,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Deepwater Complex-Catch-based","Catch-based",0,NA,0,NA,NA,0,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Grunts Complex-Catch-based","Catch-based",0,NA,0,NA,NA,0,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Jacks Complex-Catch-based","Catch-based",0,NA,0,NA,NA,0,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Black sea bass-Constant F","Constant F",0,NA,0,0.4,0.25,0.03,0,1
+"SAFMC-South Atlantic snapper grouper FMP-Blueline Tilefish-Constant F","Constant F",0,NA,0,0.3,NA,0.02,0,1
+"SAFMC-South Atlantic snapper grouper FMP-Gag-Constant F","Constant F",0,NA,0,0.3,NA,0.05,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Golden tilefish-Constant F","Constant F",0,NA,0,NA,0.25,0,0,1
+"SAFMC-South Atlantic snapper grouper FMP-Greater amberjack-Constant F","Constant F",0,NA,0,NA,0.25,0,0,1
+"SAFMC-South Atlantic snapper grouper FMP-FLK/EFL Hogfish-Constant F","Constant F",0,NA,0,0.275,0.3,0.05,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Mutton Snapper-Constant F","Constant F",0,NA,0,0.3,0.06,0,0,1
+"SAFMC-South Atlantic snapper grouper FMP-Red grouper-Constant F","Constant F",0,NA,0,NA,0.25,0,0,1
+"SAFMC-South Atlantic snapper grouper FMP-Red porgy-Constant F","Constant F",0,NA,0,NA,0.25,0,0,1
+"SAFMC-South Atlantic snapper grouper FMP-Red snapper-Constant F","Constant F",0,NA,0,0.5,NA,NA,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Snowy grouper-Constant F","Constant F",0,NA,0,0.5,0.25,NA,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Vermilion snapper-Constant F","Constant F",0,NA,0,0.275,NA,0,0,1
+"SAFMC-South Atlantic snapper grouper FMP-Wreckfish-Constant F","Constant F",0,NA,0,NA,NA,0,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Yellowtail Snapper-Constant F","Constant F",0,NA,0,0.375,NA,0,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Atlantic Spadefish-Catch-based","Catch-based",0,NA,0,NA,NA,0,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Bar Jack-Catch-based","Catch-based",0,NA,0,NA,NA,0,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Black grouper-Catch-based","Catch-based",0,NA,0,NA,NA,0,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Gray Triggerfish-Catch-based","Catch-based",0,NA,0,NA,NA,0,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-GA-NC Hogfish-Catch-based","Catch-based",0,NA,0,0.275,NA,0.05,0,1
+"SAFMC-South Atlantic snapper grouper FMP-Scamp-Catch-based","Catch-based",0,NA,0,NA,NA,0.1,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Speckled hind-Catch-based","Catch-based",0,NA,0,NA,NA,NA,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Warsaw grouper-Catch-based","Catch-based",0,NA,0,NA,NA,NA,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Goliath Grouper-Catch prohibited","Catch prohibited",0,NA,0,NA,NA,NA,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Nassau Grouper-Catch prohibited","Catch prohibited",0,NA,0,NA,NA,NA,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Porgy Complex-Catch-based","Catch-based",0,NA,0,NA,NA,0,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Shallow-Water Groupers Complex-Catch-based","Catch-based",0,NA,0,NA,NA,0,NA,1
+"SAFMC-South Atlantic snapper grouper FMP-Snappers Complex-Catch-based","Catch-based",0,NA,0,NA,NA,0,NA,1
+"WPFMC-American Samoa FEP-American Samoa Archipelago Bottomfish Complex-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"WPFMC-American Samoa FEP-Guam Bottomfish-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"WPFMC-American Samoa FEP-CNMI Bottomfish-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"WPFMC-Hawaii Archipelago FEP-Uku-Constant F","Constant F",0,NA,0,NA,0.03834378,0,NA,1
+"WPFMC-Hawaii Archipelago FEP-Hawaii Deep 7 bottomfish complex-Constant F","Constant F",0,NA,0,NA,0.08960573,0.03149606,NA,1
+"WPFMC-Hawaii Archipelago FEP-Hawaii Deepwater Shrimp-Constant F","Constant F",0,NA,0,NA,NA,0,NA,1
+"WPFMC-Hawaii Archipelago FEP-Hawaii Precious Coral Management Unit Species-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"WPFMC-Hawaii Archipelago FEP-Kona Crab (spanner crab)-Constant F","Constant F",0,NA,0,NA,NA,0,NA,1
+"WPFMC-Mariana Archipelago FEP-Mariana Bottomfish Complex-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Albacore tuna-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Atlantic Small Coastal Sharks-Constant F","Constant F",0,NA,0,NA,NA,0,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Bigeye thresher shark-Catch prohibited","Catch prohibited",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Bigeye tuna-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Blue marlin-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Blue shark-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Bluefin tuna-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Gulf of Mexico-Blacknose shark-Constant F","Constant F",0,NA,0,NA,NA,0,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Gulf of Mexico-Blacktip shark-Constant F","Constant F",0,NA,0,NA,NA,0,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Hammerhead-Constant F","Constant F",0,NA,0,NA,NA,0,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Large Coastal Sharks-Constant F","Constant F",0,NA,0,NA,NA,0,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Large Coastal Sharks-Catch prohibited","Catch prohibited",0,NA,0,NA,NA,0,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Longbill spearfish-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Pelagic Sharks-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Porbeagle-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Prohibited Shark Complex-Catch prohibited","Catch prohibited",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Roundscale spearfish-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Sailfish-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Skipjack tuna-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Smoothhound Sharks-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Swordfish-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-White marlin-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"NOAA-Atlantic/Gulf HMS FMP-Yellowfin tuna-Constant F","Constant F",0,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Eastern Pacific-Swordfish-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Western and Central North Pacific-Swordfish-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Common thresher shark-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Shortfin mako shark-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Blue shark-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Eastern Pacific-Yellowfin tuna-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Western and Central Pacific-Yellowfin tuna-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Eastern Pacific-Skipjack tuna-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Western and Central Pacific-Skipjack tuna-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Eastern Pacific-Bigeye tuna-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Western and Central Pacific-Bigeye tuna-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Eastern Pacific-Striped marlin-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Western and Central North Pacific-Striped marlin-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Dorado (Dolphinfish)-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-Pacific bluefin tuna-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
+"PFMC/WPFMC-West Coast Highly Migratory Species FMP-North Pacific Albacore-Exempt","Exempt",NA,NA,0,NA,NA,NA,NA,1
