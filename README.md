@@ -1,6 +1,8 @@
 # Harvest control rules used in U.S. federal fisheries and implications for climate resilience
 
-This is the GitHub repository for a project seeking to synthesize the harvest control rules (HCRs) used in U.S. federal fisheries management and the implications of harvest control rule choice for resilience to climate change.
+This is the GitHub repository for the following paper, which synthesize the harvest control rules (HCRs) used in U.S. federal fisheries management and the implications of harvest control rule choice for the resilience of fisheries to climate change:
+
+* Free CM, Mangin T, Wiedenmann J, McVeigh H, Smith C, Gaines SD. Harvest control rules used in U.S. federal fisheries management and implications for climate resilience. Submitted to Fish & Fisheries.
 
 #### Repository structure
 
