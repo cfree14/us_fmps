@@ -11,7 +11,7 @@ library(tidyverse)
 
 # Directories
 plotdir <- "figures"
-outputdir <- "data/data_base"
+outputdir <- "database"
 
 # Read data
 data_orig <- read_csv(file.path(outputdir, "hcr_stock_db.csv"))
@@ -51,7 +51,22 @@ hcr_type_council <- data_orig %>%
   mutate(prop=n/sum(n)) %>%
   ungroup() %>%
   # Order councils
-  rename(council=council_short)
+  rename(council=council_short) %>%
+  # Recoe councils
+  mutate(council=recode(council,
+                        "NEFMC"="New England",
+                        "MAFMC"="Mid-Atlantic",
+                        "SAFMC"="South Atlantic",
+                        "GMFMC"="Gulf of Mexico",
+                        "CFMC"="Caribbean",
+                        "PFMC"="Pacific",
+                        "NPFMC"="North Pacific",
+                        "WPFMC"="Western Pacific",
+                        "NOAA"="Highly Migratory Species",
+                        "NEFMC/MAFMC"="New England & Mid-Atlantic",
+                        "GMFMC/SAFMC"="Gulf of Mexico & South Atlantic",
+                        "PFMC/WPFMC"="Pacific & Western Pacific"))
+
 
 ## create version of all councils combined
 data_all <- hcr_type_council %>%
@@ -63,16 +78,29 @@ data_all <- hcr_type_council %>%
   select(council, type, n, prop) %>%
   rbind(hcr_type_council)  %>%
   mutate(council=factor(council,
-                        levels=c("All councils", "NEFMC", "MAFMC", "SAFMC", "GMFMC", "CFMC", "PFMC", "NPFMC", "WPFMC",
-                                 "NOAA", "NEFMC/MAFMC", "GMFMC/SAFMC", "PFMC/WPFMC") %>% rev())) %>%
+                        levels=c("All councils",
+                                 "New England", "Mid-Atlantic", "South Atlantic", "Gulf of Mexico", "Caribbean",
+                                 "Pacific", "North Pacific", "Western Pacific",
+                                 "Highly Migratory Species", "New England & Mid-Atlantic",
+                                 "Gulf of Mexico & South Atlantic", "Pacific & Western Pacific") %>% rev())) %>%
   group_by(council) %>%
   mutate(total_n = sum(n)) %>%
   ungroup() %>%
   mutate(council_n = paste0(council, " (n = ", total_n, ")")) %>%
   mutate(council_n=factor(council_n,
-                          levels=c("All councils (n = 507)", "NEFMC (n = 30)", "MAFMC (n = 13)", "SAFMC (n = 37)", "GMFMC (n = 23)",
-                                   "CFMC (n = 52)", "PFMC (n = 228)", "NPFMC (n = 67)", "WPFMC (n = 9)",
-                                   "NOAA (n = 23)", "NEFMC/MAFMC (n = 3)", "GMFMC/SAFMC (n = 6)", "PFMC/WPFMC (n = 16)") %>% rev()))
+                          levels=c("All councils (n = 507)",
+                                   "New England (n = 30)",
+                                   "Mid-Atlantic (n = 13)",
+                                   "South Atlantic (n = 37)",
+                                   "Gulf of Mexico (n = 23)",
+                                   "Caribbean (n = 52)",
+                                   "Pacific (n = 228)",
+                                   "North Pacific (n = 67)",
+                                   "Western Pacific (n = 9)",
+                                   "Highly Migratory Species (n = 23)",
+                                   "New England & Mid-Atlantic (n = 3)",
+                                   "Gulf of Mexico & South Atlantic (n = 6)",
+                                   "Pacific & Western Pacific (n = 16)") %>% rev()))
 
 # Plot data
 ################################################################################
@@ -81,7 +109,8 @@ data_all <- hcr_type_council %>%
 g <- ggplot(data_all, aes(x=prop, y=council, fill=type)) +
   geom_bar(stat="identity", col="grey30", lwd=0.1) +
   # Labels
-  labs(x="Proportion of stocks", y="") +
+  labs(x="Percent of stocks", y="") +
+  scale_x_continuous(labels=scales::percent) +
   # Legend
   scale_fill_manual(name="HCR type",
                     values=c("grey90", "grey60", "grey30", "black", "darkorange2", "orange", "#AF7AC5", "#138D75", "#1B4F72"),
@@ -98,7 +127,8 @@ ggsave(g, filename=file.path(plotdir, "FigX_hcr_types_by_council.png"),
 g_n <- ggplot(data_all, aes(x=prop, y=council_n, fill=type)) +
   geom_bar(stat="identity", col="grey30", lwd=0.1) +
   # Labels
-  labs(x="Proportion of stocks", y="") +
+  labs(x="Percent of stocks", y="") +
+  scale_x_continuous(labels=scales::percent) +
   # Legend
   scale_fill_manual(name="HCR type",
                     values=c("grey90", "grey60", "grey30", "black", "darkorange2", "orange", "#AF7AC5", "#138D75", "#1B4F72"),

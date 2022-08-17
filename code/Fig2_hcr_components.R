@@ -101,10 +101,10 @@ g <- ggplot(data, aes(x=biomass, y=f, color=limit)) +
   # Point
   geom_point(data=ref_pts) +
   geom_text(data=ref_pts, mapping=aes(label=type),
-            color="black", hjust=-0.15, size=1.5, vjust=c(0.5, 1.2)) +
+            color="black", hjust=-0.15, size=1.7, vjust=c(0.5, 1.5)) +
   annotate(geom="text",
            x=bmsy, y=mean(c(fofl, fabc)), label="Buffer for\nscientific uncertainty",
-           fontface="italic", size=1.5) +
+           fontface="italic", size=1.7) +
   # Labels
   labs(x="Biomass", y="Fishing mortality rate") +
   # Axes
