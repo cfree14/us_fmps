@@ -136,5 +136,7 @@ g
 # Export plot
 ggsave(g, filename=file.path(plotdir, "Fig5_abc_buffers_by_council.png"),
        width=6.5, height=2.5, units="in", dpi=600)
+ggsave(g, filename=file.path(plotdir, "Fig5_abc_buffers_by_council.pdf"),
+       width=6.5, height=2.5, units="in", dpi=600)
 
 

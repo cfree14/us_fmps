@@ -159,5 +159,6 @@ g
 # Export plot
 ggsave(g, filename=file.path(plotdir, "Fig6_hcr_tradeoffs.png"),
        width=6, height=2, units="in", dpi=600)
-
+ggsave(g, filename=file.path(plotdir, "Fig6_hcr_tradeoffs.pdf"),
+       width=6, height=2, units="in", dpi=600)
 

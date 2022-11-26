@@ -126,6 +126,7 @@ g
 # Export
 ggsave(g, filename=file.path(plotdir, "Fig2_hcr_components.png"),
        width=4.5, height=3, units="in", dpi=600)
-
+ggsave(g, filename=file.path(plotdir, "Fig2_hcr_components.pdf"),
+       width=4.5, height=3, units="in", dpi=600)
 
 

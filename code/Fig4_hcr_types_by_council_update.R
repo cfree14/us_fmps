@@ -120,8 +120,10 @@ g <- ggplot(data_all, aes(x=prop, y=council, fill=type)) +
 g
 
 # Export
-ggsave(g, filename=file.path(plotdir, "FigX_hcr_types_by_council.png"),
+ggsave(g, filename=file.path(plotdir, "Fig4_hcr_types_by_council.png"),
        width=6.5, height=3, units="in", dpi=600)
+ggsave(g, filename=file.path(plotdir, "Fig4_hcr_types_by_council.pdf"),
+       width=6.5, height=3, units="in")
 
 ## version with n
 g_n <- ggplot(data_all, aes(x=prop, y=council_n, fill=type)) +
@@ -138,9 +140,10 @@ g_n <- ggplot(data_all, aes(x=prop, y=council_n, fill=type)) +
 g_n
 
 # Export
-ggsave(g_n, filename=file.path(plotdir, "FigX_hcr_types_by_council_n.png"),
+ggsave(g_n, filename=file.path(plotdir, "Fig4_hcr_types_by_council_n.png"),
        width=6.5, height=3, units="in", dpi=600)
-
+ggsave(g_n, filename=file.path(plotdir, "Fig4_hcr_types_by_council_n.pdf"),
+       width=6.5, height=3, units="in")
 
 
 
@@ -205,5 +208,7 @@ g2 <- ggplot(thresh_data_all, aes(x=prop, y=council, fill=type)) +
 g2
 
 # Export
-ggsave(g2, filename=file.path(plotdir, "FigX_select_hcr_types_by_council.png"),
+ggsave(g2, filename=file.path(plotdir, "Fig4_select_hcr_types_by_council.png"),
+       width=6.5, height=2.5, units="in", dpi=600)
+ggsave(g2, filename=file.path(plotdir, "Fig4_select_hcr_types_by_council.pdf"),
        width=6.5, height=2.5, units="in", dpi=600)

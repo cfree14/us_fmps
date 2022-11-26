@@ -147,7 +147,8 @@ g
 # Export
 ggsave(g, filename=file.path(plotdir, "Fig3_ofl_posterior.png"),
        width=4.5, height=4.5, units="in", dpi=600)
-
+ggsave(g, filename=file.path(plotdir, "Fig3_ofl_posterior.pdf"),
+       width=4.5, height=4.5, units="in", dpi=600)
 
 
 # Figure 3
